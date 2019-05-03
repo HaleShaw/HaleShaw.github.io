@@ -7,7 +7,7 @@
 
 # Site settings
 title: Hale
-brief-intro: Front-end Dev Engineer
+brief-intro: Java Dev Engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://haleshaw.github.io" # the base hostname & protocol for your site
 
@@ -16,14 +16,14 @@ permalink: /:year/:month/:day/:title/
 # other links
 twitter_username: gaohaoyang126
 facebook_username: gaohaoyang.water
-github_username:  Gaohaoyang
-email: gaohaoyang126@126.com
+github_username:  HaleShaw
+email: HaleShaw@163.com
 weibo_username: 3115521wh
 zhihu_username: gaohaoyang
 linkedIn_username: gaohaoyang
 dribbble_username:
 
-description_footer: footer文本
+description_footer: 他山之石
 
 # comments
 # two ways to comment, only choose one, and use your own short name
