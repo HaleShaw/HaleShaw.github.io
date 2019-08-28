@@ -925,7 +925,7 @@
 <!-- fancybox -->
 <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script>
-  let LAZY_LOAD_IMAGE = "";
+  let LAZY_LOAD_IMAGE = "[object Object]";
   $(".article-entry").find("fancybox").find("img").each(function () {
       var element = document.createElement("a");
       $(element).attr("data-fancybox", "gallery");
@@ -947,5 +947,5 @@
 
 
   <script>setLoadingBarProgress(100);</script>
-</body>
+<script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script></body>
 </html>
