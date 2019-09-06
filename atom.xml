@@ -67,11 +67,11 @@
       <category term="GitHub" scheme="http://www.jianwudao.cn/categories/Soft/GitHub/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
       <category term="GitHub" scheme="http://www.jianwudao.cn/tags/GitHub/"/>
     
       <category term="Command" scheme="http://www.jianwudao.cn/tags/Command/"/>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
   </entry>
   
@@ -150,9 +150,9 @@
       <category term="IDE" scheme="http://www.jianwudao.cn/categories/Tools/Develop/IDE/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
       <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
   </entry>
   
