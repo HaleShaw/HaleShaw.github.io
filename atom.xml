@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>JianWudao</title>
+  <title>剑无道</title>
   
   <subtitle>无极之道</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -49,16 +49,15 @@
     <link href="http://www.jianwudao.cn/2019/09/05/GitHub%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>http://www.jianwudao.cn/2019/09/05/GitHub常用命令/</id>
     <published>2019-09-05T08:17:36.000Z</published>
-    <updated>2019-09-05T08:20:49.733Z</updated>
+    <updated>2019-09-06T01:53:18.708Z</updated>
     
-    <content type="html"><![CDATA[<p>回滚到某一提交，并删除后续的提交记录</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure><p>回退到上一次commit的状态<br><code>git reset --hard HEAD^</code></p><p>回退到任意版本<br><code>git reset --hard &lt;commitid&gt;</code></p><p>将分支A的提交，推送到分支B</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure><p>[如果有冲突，解决冲突之后</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure><p>]<br><code>git push</code></p><p>合并分支时忽略指定文件<br>.gitattributes中写入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;filename merge=ours&quot;:</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure><p>在根目录下运行命令行<br><code>git config merge.ours.driver true</code></p><p>更新本地分支与远程分支保持一致<br><code>git remote update origin --prune</code></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1.回滚到某一提交，并删除后续的提交记录"></a>1.回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure><h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2.回退到上一次commit的状态"></a>2.回退到上一次commit的状态</h3><p><code>git reset --hard HEAD^</code></p><h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3.回退到任意版本"></a>3.回退到任意版本</h3><p><code>git reset --hard &lt;commitid&gt;</code></p><h3 id="4-将分支A的提交，推送到分支B"><a href="#4-将分支A的提交，推送到分支B" class="headerlink" title="4.将分支A的提交，推送到分支B"></a>4.将分支A的提交，推送到分支B</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure><p>[如果有冲突，解决冲突之后</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure><p>]</p><p><code>git push</code></p><h3 id="5-合并分支时忽略指定文件"><a href="#5-合并分支时忽略指定文件" class="headerlink" title="5.合并分支时忽略指定文件"></a>5.合并分支时忽略指定文件</h3><p>.gitattributes中写入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;filename merge=ours&quot;:</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure><p>在根目录下运行命令行</p><p><code>git config merge.ours.driver true</code></p><p>更新本地分支与远程分支保持一致</p><p><code>git remote update origin --prune</code></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;回滚到某一提交，并删除后续的提交记录&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;lin
+        &lt;h3 id=&quot;1-回滚到某一提交，并删除后续的提交记录&quot;&gt;&lt;a href=&quot;#1-回滚到某一提交，并删除后续的提交记录&quot; class=&quot;headerlink&quot; title=&quot;1.回滚到某一提交，并删除后续的提交记录&quot;&gt;&lt;/a&gt;1.回滚到某一提交，并删除后续的提交记录&lt;/h3&gt;&lt;
       
     
     </summary>
@@ -68,11 +67,11 @@
       <category term="GitHub" scheme="http://www.jianwudao.cn/categories/Soft/GitHub/"/>
     
     
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
       <category term="GitHub" scheme="http://www.jianwudao.cn/tags/GitHub/"/>
     
       <category term="Command" scheme="http://www.jianwudao.cn/tags/Command/"/>
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
   </entry>
   
@@ -102,16 +101,16 @@
     <link href="http://www.jianwudao.cn/2019/08/28/test2/"/>
     <id>http://www.jianwudao.cn/2019/08/28/test2/</id>
     <published>2019-08-28T13:18:42.000Z</published>
-    <updated>2019-08-28T13:53:03.041Z</updated>
+    <updated>2019-09-06T02:29:08.681Z</updated>
     
-    <content type="html"><![CDATA[<p>第2个测试页面</p>]]></content>
+    <content type="html"><![CDATA[<p>第2个测试页面</p><p>您可能需要回到[原点][yuandian]<br>[yuandian]: <a href="http://wwww.jianwudao.cn" target="_blank" rel="noopener">http://wwww.jianwudao.cn</a> “首页”</p>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;第2个测试页面&lt;/p&gt;
-
+&lt;p&gt;您可能需要回到[原点][yuandian]&lt;br&gt;[yuandian]: &lt;a href=&quot;http://wwww.jianwudao.cn&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://wwww.jianwud
       
     
     </summary>
@@ -185,9 +184,9 @@
     
       <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
     
-      <category term="Java" scheme="http://www.jianwudao.cn/tags/Java/"/>
-    
       <category term="IDEA" scheme="http://www.jianwudao.cn/tags/IDEA/"/>
+    
+      <category term="Java" scheme="http://www.jianwudao.cn/tags/Java/"/>
     
   </entry>
   
@@ -219,9 +218,9 @@
     
       <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
     
-      <category term="Eclipse" scheme="http://www.jianwudao.cn/tags/Eclipse/"/>
-    
       <category term="Java" scheme="http://www.jianwudao.cn/tags/Java/"/>
+    
+      <category term="Eclipse" scheme="http://www.jianwudao.cn/tags/Eclipse/"/>
     
   </entry>
   
