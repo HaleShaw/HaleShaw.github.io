@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>XDown</title>
+      <link href="/2019/09/05/XDown/"/>
+      <url>/2019/09/05/XDown/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> Download </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>GitHub常用命令</title>
+      <link href="/2019/09/05/GitHub%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2019/09/05/GitHub%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1.回滚到某一提交，并删除后续的提交记录"></a>1.回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure><h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2.回退到上一次commit的状态"></a>2.回退到上一次commit的状态</h3><p><code>git reset --hard HEAD^</code></p><h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3.回退到任意版本"></a>3.回退到任意版本</h3><p><code>git reset --hard &lt;commitid&gt;</code></p><h3 id="4-将分支A的提交，推送到分支B"><a href="#4-将分支A的提交，推送到分支B" class="headerlink" title="4.将分支A的提交，推送到分支B"></a>4.将分支A的提交，推送到分支B</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure><p>[如果有冲突，解决冲突之后</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure><p>]</p><p><code>git push</code></p><h3 id="5-合并分支时忽略指定文件"><a href="#5-合并分支时忽略指定文件" class="headerlink" title="5.合并分支时忽略指定文件"></a>5.合并分支时忽略指定文件</h3><p>.gitattributes中写入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;filename merge=ours&quot;:</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure><p>在根目录下运行命令行</p><p><code>git config merge.ours.driver true</code></p><p>更新本地分支与远程分支保持一致</p><p><code>git remote update origin --prune</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Soft </category>
+          
+          <category> GitHub </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GitHub </tag>
+            
+            <tag> Command </tag>
+            
+            <tag> Soft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/08/29/hello-world/"/>
+      <url>/2019/08/29/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test2</title>
+      <link href="/2019/08/28/test2/"/>
+      <url>/2019/08/28/test2/</url>
+      
+        <content type="html"><![CDATA[<p>第2个测试页面</p><p>您可能需要回到[原点][yuandian]<br>[yuandian]: <a href="http://wwww.jianwudao.cn" target="_blank" rel="noopener">http://wwww.jianwudao.cn</a> “首页”</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+            <tag> md </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDEA</title>
+      <link href="/2019/08/28/IDEA/"/>
+      <url>/2019/08/28/IDEA/</url>
+      
+        <content type="html"><![CDATA[<p>my test.<br>0828</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> Develop </category>
+          
+          <category> IDE </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> IDE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDEA常用配置</title>
+      <link href="/2018/01/03/IDEA%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+      <url>/2018/01/03/IDEA%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p>Java开发的IDEA常用配置，此教程对应的IDEA版本为 <strong>v 2019.2.1 Ultimate Edition</strong>。</p><h2 id="1-代码自动提示设置"><a href="#1-代码自动提示设置" class="headerlink" title="1.代码自动提示设置"></a>1.代码自动提示设置</h2><ul><li><h3 id="1-1-Java代码自动提示"><a href="#1-1-Java代码自动提示" class="headerlink" title="1.1 Java代码自动提示"></a>1.1 Java代码自动提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Auto Activation→Auto activation triggers for java:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;</code></p></li><li><h3 id="1-2-Java代码自动提示-关闭联机提示"><a href="#1-2-Java代码自动提示-关闭联机提示" class="headerlink" title="1.2 Java代码自动提示 关闭联机提示"></a>1.2 Java代码自动提示 关闭联机提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Advanced</p><p>勾选Java Proposals</p><p>取消勾选Java Proposals(Code Recommenders)</p></li><li><h3 id="1-3-HTML代码自动提示"><a href="#1-3-HTML代码自动提示" class="headerlink" title="1.3 HTML代码自动提示"></a>1.3 HTML代码自动提示</h3><p>Window→Preferences→Web→Editor→Content Assist→Auto Activation→Prompt when these characters are inserted:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p></li><li><h3 id="1-4-JavaScript代码自动提示"><a href="#1-4-JavaScript代码自动提示" class="headerlink" title="1.4 JavaScript代码自动提示"></a>1.4 JavaScript代码自动提示</h3><p>Window→Preferences→JavaScript→Editor→Content Assist→Auto Activation→Auto activation triggers for JavaScript:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p></li></ul><h2 id="2-编码设置"><a href="#2-编码设置" class="headerlink" title="2. 编码设置"></a>2. 编码设置</h2><ul><li><h3 id="2-1-设置workspace编码"><a href="#2-1-设置workspace编码" class="headerlink" title="2.1 设置workspace编码"></a>2.1 设置workspace编码</h3><p>Window→Preferences→Workspace→Text file encoding→Other:</p><p>改成UTF-8</p></li><li><h3 id="2-2-设置JSP文件编码"><a href="#2-2-设置JSP文件编码" class="headerlink" title="2.2 设置JSP文件编码"></a>2.2 设置JSP文件编码</h3><p>Window→Preferences→Web→JSP File→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p></li><li><h3 id="2-3-设置Properties文件编码"><a href="#2-3-设置Properties文件编码" class="headerlink" title="2.3 设置Properties文件编码"></a>2.3 设置Properties文件编码</h3><p>Window→Preferences→General→Content Types→Content types:→Text→Java Properties File→Default encoding:</p><p>改成UTF-8</p></li><li><h3 id="2-4-设置JSON文件编码"><a href="#2-4-设置JSON文件编码" class="headerlink" title="2.4 设置JSON文件编码"></a>2.4 设置JSON文件编码</h3><p>Window→Preferences→JSON→JSON Files→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p></li></ul><h2 id="3-基本代码设置"><a href="#3-基本代码设置" class="headerlink" title="3. 基本代码设置"></a>3. 基本代码设置</h2><ul><li><h3 id="3-1-设置字体样式"><a href="#3-1-设置字体样式" class="headerlink" title="3.1 设置字体样式"></a>3.1 设置字体样式</h3><p>Window→Preferences→General→Appearance→Colors and Fonts→Basic→Text Font→Edit:</p></li><li><h3 id="3-2-设置编辑窗口背景色"><a href="#3-2-设置编辑窗口背景色" class="headerlink" title="3.2 设置编辑窗口背景色"></a>3.2 设置编辑窗口背景色</h3><p>Window→Preferences→General→Editors→Text Editors→Appearance color options:→Background color→Color:</p></li><li><h3 id="3-3-设置大括号高亮颜色"><a href="#3-3-设置大括号高亮颜色" class="headerlink" title="3.3 设置大括号高亮颜色"></a>3.3 设置大括号高亮颜色</h3><p>Window→Preferences→Java→Editor→Appearance color options:→Matching brackets highlight→Color:</p></li><li><h3 id="3-4-设置大括号成对显示"><a href="#3-4-设置大括号成对显示" class="headerlink" title="3.4 设置大括号成对显示"></a>3.4 设置大括号成对显示</h3><p>Window→Preferences→Java→Editor→Bracket highlighting→Matching bracket and caret location</p></li><li><h3 id="3-5-设置保存时的自动操作"><a href="#3-5-设置保存时的自动操作" class="headerlink" title="3.5 设置保存时的自动操作"></a>3.5 设置保存时的自动操作</h3><p>Window→Preferences→Java→Editor→Save Actions→Perform the selected actions on save→Additional actions→Configure…</p><ul><li><h4 id="3-5-1-清空行尾空格，调整缩进"><a href="#3-5-1-清空行尾空格，调整缩进" class="headerlink" title="3.5.1 清空行尾空格，调整缩进"></a>3.5.1 清空行尾空格，调整缩进</h4><p>Code Oraganizing→Formatter:</p><p>Remove trailing whitespace→All lines;</p><p>Correct indentation</p></li><li><h4 id="3-5-2-清除未使用的引用"><a href="#3-5-2-清除未使用的引用" class="headerlink" title="3.5.2 清除未使用的引用"></a>3.5.2 清除未使用的引用</h4><p>Unnecessary Code→Unused code→Remove unused imports</p></li></ul></li></ul><ul><li><h3 id="3-6-添加代码模板"><a href="#3-6-添加代码模板" class="headerlink" title="3.6 添加代码模板"></a>3.6 添加代码模板</h3><p>Window→Preferences→Java→Editor→Templates</p></li><li><h3 id="3-7-添加本地限定文件"><a href="#3-7-添加本地限定文件" class="headerlink" title="3.7 添加本地限定文件"></a>3.7 添加本地限定文件</h3><p>Window→Preferences→XML→XML Catalog→Add…→Catalog Entry</p><p>Location:→File System…<br>选择对应的限定文件（dtd/xsd）</p><p>Key type:<br>若为dtd文件：选择URI；<br>若为xsd文件：选择Schema location</p><p>Key:<br>粘贴xml中的限定文件路径</p></li><li><h3 id="3-8-设置新建列表"><a href="#3-8-设置新建列表" class="headerlink" title="3.8 设置新建列表"></a>3.8 设置新建列表</h3><p>Window→Preferences→Perspective→Customize Perspective…→Shortcuts→Submenus:→New</p></li></ul><h2 id="4-服务器设置"><a href="#4-服务器设置" class="headerlink" title="4. 服务器设置"></a>4. 服务器设置</h2><ul><li><h3 id="4-1-Tomcat设置"><a href="#4-1-Tomcat设置" class="headerlink" title="4.1 Tomcat设置"></a>4.1 Tomcat设置</h3><p>Window→Preferences→Tomcat</p><p>Tomcat version：<br>选择相应Tomcat版本</p><p>Tomcat home：<br>选择相应Tomcat文件目录</p></li><li><h3 id="4-2-Server设置"><a href="#4-2-Server设置" class="headerlink" title="4.2 Server设置"></a>4.2 Server设置</h3><p>Window→Preferences→Server→Runtime Environments→Add…→Apache</p></li></ul><h2 id="5-链式安装插件"><a href="#5-链式安装插件" class="headerlink" title="5. 链式安装插件"></a>5. 链式安装插件</h2><p>1.将插件置于单独文件夹内（tomcat）：<br><code>E:\SoftStore\Java\eclipseplugin\tomcat\eclipse\plugins\net.sf.eclipse.tomcat_9.0.1.jar</code></p><p>2.在eclipse\dropins文件夹内新建link文件：<br>tomcat.link</p><p>3.写入插件目录路径：<br><code>path=E:/SoftStore/Java/eclipseplugin/tomcat</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Soft </category>
+          
+          <category> IDE </category>
+          
+          <category> IDEA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDE </tag>
+            
+            <tag> Java </tag>
+            
+            <tag> IDEA </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Eclipse常用配置</title>
+      <link href="/2018/01/03/Eclipse%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+      <url>/2018/01/03/Eclipse%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p>Java开发的Eclipse常用配置，此教程对应的Eclipse版本为 <strong>v Oxygen.1a</strong>。</p><h2 id="1-代码自动提示设置"><a href="#1-代码自动提示设置" class="headerlink" title="1.代码自动提示设置"></a>1.代码自动提示设置</h2><ul><li><h3 id="1-1-Java代码自动提示"><a href="#1-1-Java代码自动提示" class="headerlink" title="1.1 Java代码自动提示"></a>1.1 Java代码自动提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Auto Activation→Auto activation triggers for java:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;</code></p></li><li><h3 id="1-2-Java代码自动提示-关闭联机提示"><a href="#1-2-Java代码自动提示-关闭联机提示" class="headerlink" title="1.2 Java代码自动提示 关闭联机提示"></a>1.2 Java代码自动提示 关闭联机提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Advanced</p><p>勾选Java Proposals</p><p>取消勾选Java Proposals(Code Recommenders)</p></li><li><h3 id="1-3-HTML代码自动提示"><a href="#1-3-HTML代码自动提示" class="headerlink" title="1.3 HTML代码自动提示"></a>1.3 HTML代码自动提示</h3><p>Window→Preferences→Web→Editor→Content Assist→Auto Activation→Prompt when these characters are inserted:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p></li><li><h3 id="1-4-JavaScript代码自动提示"><a href="#1-4-JavaScript代码自动提示" class="headerlink" title="1.4 JavaScript代码自动提示"></a>1.4 JavaScript代码自动提示</h3><p>Window→Preferences→JavaScript→Editor→Content Assist→Auto Activation→Auto activation triggers for JavaScript:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p></li></ul><h2 id="2-编码设置"><a href="#2-编码设置" class="headerlink" title="2. 编码设置"></a>2. 编码设置</h2><ul><li><h3 id="2-1-设置workspace编码"><a href="#2-1-设置workspace编码" class="headerlink" title="2.1 设置workspace编码"></a>2.1 设置workspace编码</h3><p>Window→Preferences→Workspace→Text file encoding→Other:</p><p>改成UTF-8</p></li><li><h3 id="2-2-设置JSP文件编码"><a href="#2-2-设置JSP文件编码" class="headerlink" title="2.2 设置JSP文件编码"></a>2.2 设置JSP文件编码</h3><p>Window→Preferences→Web→JSP File→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p></li><li><h3 id="2-3-设置Properties文件编码"><a href="#2-3-设置Properties文件编码" class="headerlink" title="2.3 设置Properties文件编码"></a>2.3 设置Properties文件编码</h3><p>Window→Preferences→General→Content Types→Content types:→Text→Java Properties File→Default encoding:</p><p>改成UTF-8</p></li><li><h3 id="2-4-设置JSON文件编码"><a href="#2-4-设置JSON文件编码" class="headerlink" title="2.4 设置JSON文件编码"></a>2.4 设置JSON文件编码</h3><p>Window→Preferences→JSON→JSON Files→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p></li></ul><h2 id="3-基本代码设置"><a href="#3-基本代码设置" class="headerlink" title="3. 基本代码设置"></a>3. 基本代码设置</h2><ul><li><h3 id="3-1-设置字体样式"><a href="#3-1-设置字体样式" class="headerlink" title="3.1 设置字体样式"></a>3.1 设置字体样式</h3><p>Window→Preferences→General→Appearance→Colors and Fonts→Basic→Text Font→Edit:</p></li><li><h3 id="3-2-设置编辑窗口背景色"><a href="#3-2-设置编辑窗口背景色" class="headerlink" title="3.2 设置编辑窗口背景色"></a>3.2 设置编辑窗口背景色</h3><p>Window→Preferences→General→Editors→Text Editors→Appearance color options:→Background color→Color:</p></li><li><h3 id="3-3-设置大括号高亮颜色"><a href="#3-3-设置大括号高亮颜色" class="headerlink" title="3.3 设置大括号高亮颜色"></a>3.3 设置大括号高亮颜色</h3><p>Window→Preferences→Java→Editor→Appearance color options:→Matching brackets highlight→Color:</p></li><li><h3 id="3-4-设置大括号成对显示"><a href="#3-4-设置大括号成对显示" class="headerlink" title="3.4 设置大括号成对显示"></a>3.4 设置大括号成对显示</h3><p>Window→Preferences→Java→Editor→Bracket highlighting→Matching bracket and caret location</p></li><li><h3 id="3-5-设置保存时的自动操作"><a href="#3-5-设置保存时的自动操作" class="headerlink" title="3.5 设置保存时的自动操作"></a>3.5 设置保存时的自动操作</h3><p>Window→Preferences→Java→Editor→Save Actions→Perform the selected actions on save→Additional actions→Configure…</p><ul><li><h4 id="3-5-1-清空行尾空格，调整缩进"><a href="#3-5-1-清空行尾空格，调整缩进" class="headerlink" title="3.5.1 清空行尾空格，调整缩进"></a>3.5.1 清空行尾空格，调整缩进</h4><p>Code Oraganizing→Formatter:</p><p>Remove trailing whitespace→All lines;</p><p>Correct indentation</p></li><li><h4 id="3-5-2-清除未使用的引用"><a href="#3-5-2-清除未使用的引用" class="headerlink" title="3.5.2 清除未使用的引用"></a>3.5.2 清除未使用的引用</h4><p>Unnecessary Code→Unused code→Remove unused imports</p></li></ul></li></ul><ul><li><h3 id="3-6-添加代码模板"><a href="#3-6-添加代码模板" class="headerlink" title="3.6 添加代码模板"></a>3.6 添加代码模板</h3><p>Window→Preferences→Java→Editor→Templates</p></li><li><h3 id="3-7-添加本地限定文件"><a href="#3-7-添加本地限定文件" class="headerlink" title="3.7 添加本地限定文件"></a>3.7 添加本地限定文件</h3><p>Window→Preferences→XML→XML Catalog→Add…→Catalog Entry</p><p>Location:→File System…<br>选择对应的限定文件（dtd/xsd）</p><p>Key type:<br>若为dtd文件：选择URI；<br>若为xsd文件：选择Schema location</p><p>Key:<br>粘贴xml中的限定文件路径</p></li><li><h3 id="3-8-设置新建列表"><a href="#3-8-设置新建列表" class="headerlink" title="3.8 设置新建列表"></a>3.8 设置新建列表</h3><p>Window→Preferences→Perspective→Customize Perspective…→Shortcuts→Submenus:→New</p></li></ul><h2 id="4-服务器设置"><a href="#4-服务器设置" class="headerlink" title="4. 服务器设置"></a>4. 服务器设置</h2><ul><li><h3 id="4-1-Tomcat设置"><a href="#4-1-Tomcat设置" class="headerlink" title="4.1 Tomcat设置"></a>4.1 Tomcat设置</h3><p>Window→Preferences→Tomcat</p><p>Tomcat version：<br>选择相应Tomcat版本</p><p>Tomcat home：<br>选择相应Tomcat文件目录</p></li><li><h3 id="4-2-Server设置"><a href="#4-2-Server设置" class="headerlink" title="4.2 Server设置"></a>4.2 Server设置</h3><p>Window→Preferences→Server→Runtime Environments→Add…→Apache</p></li></ul><h2 id="5-链式安装插件"><a href="#5-链式安装插件" class="headerlink" title="5. 链式安装插件"></a>5. 链式安装插件</h2><p>1.将插件置于单独文件夹内（tomcat）：<br><code>E:\SoftStore\Java\eclipseplugin\tomcat\eclipse\plugins\net.sf.eclipse.tomcat_9.0.1.jar</code></p><p>2.在eclipse\dropins文件夹内新建link文件：<br>tomcat.link</p><p>3.写入插件目录路径：<br><code>path=E:/SoftStore/Java/eclipseplugin/tomcat</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Soft </category>
+          
+          <category> IDE </category>
+          
+          <category> Eclipse </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDE </tag>
+            
+            <tag> Eclipse </tag>
+            
+            <tag> Java </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
