@@ -284,7 +284,7 @@
         
   
     <h1 class="title">
-      <a href="/2019/09/05/GitHub常用命令/">
+      <a href="/2019/10/23/GitHub常用命令/">
         GitHub常用命令
       </a>
     </h1>
@@ -316,7 +316,7 @@
             <div class="new-meta-item date">
   <a class='notlink'>
     <i class="fas fa-calendar-alt" aria-hidden="true"></i>
-    <p>2019-09-05</p>
+    <p>2019-10-23</p>
   </a>
 </div>
 
@@ -368,24 +368,46 @@
 
     <section class="article typo">
       <div class="article-entry" itemprop="articleBody">
-        <h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1.回滚到某一提交，并删除后续的提交记录"></a>1.回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
+        <h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1. 回滚到某一提交，并删除后续的提交记录"></a>1. 回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
 
-<h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2.回退到上一次commit的状态"></a>2.回退到上一次commit的状态</h3><p><code>git reset --hard HEAD^</code></p>
-<h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3.回退到任意版本"></a>3.回退到任意版本</h3><p><code>git reset --hard &lt;commitid&gt;</code></p>
-<h3 id="4-将分支A的提交，推送到分支B"><a href="#4-将分支A的提交，推送到分支B" class="headerlink" title="4.将分支A的提交，推送到分支B"></a>4.将分支A的提交，推送到分支B</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure>
+<h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2. 回退到上一次commit的状态"></a>2. 回退到上一次commit的状态</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3. 回退到任意版本"></a>3. 回退到任意版本</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard &lt;commitid&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-放弃提交，不推送"><a href="#4-放弃提交，不推送" class="headerlink" title="4. 放弃提交，不推送"></a>4. 放弃提交，不推送</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD^</span><br></pre></td></tr></table></figure>
+
+<p>仅仅是撤回commit操作，写的代码仍然保留</p>
+<p>HEAD^的意思是上一个版本，也可以写成<code>HEAD~1</code><br>撤回2次提交，可以使用<code>HEAD~2</code></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--mixed</span><br></pre></td></tr></table></figure>
+
+<p>不删除工作空间改动代码，撤销commit，并且撤销git add<br>这个为默认参数，<code>git reset --mixed HEAD^</code> 和 <code>git reset HEAD^</code> 效果是一样的。</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--soft</span><br></pre></td></tr></table></figure>
+
+<p>不删除工作空间改动代码，撤销commit，不撤销git add</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--hard</span><br></pre></td></tr></table></figure>
+
+<p>删除工作空间改动代码，撤销commit，撤销git add<br>完成这个操作后，就恢复到了上一次的commit状态。</p>
+<h3 id="5-将分支A的提交，推送到分支B"><a href="#5-将分支A的提交，推送到分支B" class="headerlink" title="5. 将分支A的提交，推送到分支B"></a>5. 将分支A的提交，推送到分支B</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure>
 
 <p>[如果有冲突，解决冲突之后</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure>
 
 <p>]</p>
-<p><code>git push</code></p>
-<h3 id="5-合并分支时忽略指定文件"><a href="#5-合并分支时忽略指定文件" class="headerlink" title="5.合并分支时忽略指定文件"></a>5.合并分支时忽略指定文件</h3><p>.gitattributes中写入</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&quot;filename merge=ours&quot;:</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></table></figure>
+
+<h3 id="6-合并分支时忽略指定文件"><a href="#6-合并分支时忽略指定文件" class="headerlink" title="6. 合并分支时忽略指定文件"></a>6. 合并分支时忽略指定文件</h3><p>.gitattributes中写入</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">"filename merge=ours":</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure>
 
 <p>在根目录下运行命令行</p>
-<p><code>git config merge.ours.driver true</code></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config merge.ours.driver true</span><br></pre></td></tr></table></figure>
+
 <p>更新本地分支与远程分支保持一致</p>
-<p><code>git remote update origin --prune</code></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote update origin --prune</span><br></pre></td></tr></table></figure>
+
+<h3 id="7-合并部分文件"><a href="#7-合并部分文件" class="headerlink" title="7. 合并部分文件"></a>7. 合并部分文件</h3><p>合并分支B中srv目录下的所有文件和view目录下的index.html文件到A分支</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout A</span><br><span class="line">git checkout B srv/** view/index.html</span><br></pre></td></tr></table></figure>
+
+<p>srv下有多层目录，故不能用<code>srv/*</code></p>
 
       </div>
       
@@ -397,10 +419,10 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-09-06T09:53:18+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-10-23T22:39:03+08:00">
   <a class='notlink'>
     <i class="fas fa-clock" aria-hidden="true"></i>
-    <p>更新于 2019年9月6日</p>
+    <p>更新于 2019年10月23日</p>
   </a>
 </div>
 
@@ -422,7 +444,7 @@
       
         <a class="-mob-share-qq" title="QQ好友" rel="external nofollow noopener noreferrer"
           
-          href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.jianwudao.cn/2019/09/05/GitHub常用命令/&title=GitHub常用命令 | 剑无道&pics=https://s2.ax1x.com/2019/10/15/KPQuUf.jpg&summary="
+          href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.jianwudao.cn/2019/10/23/GitHub常用命令/&title=GitHub常用命令 | 剑无道&pics=https://s2.ax1x.com/2019/10/15/KPQuUf.jpg&summary="
           
           >
           
@@ -434,7 +456,7 @@
       
         <a class="-mob-share-qzone" title="QQ空间" rel="external nofollow noopener noreferrer"
           
-          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.jianwudao.cn/2019/09/05/GitHub常用命令/&title=GitHub常用命令 | 剑无道&pics=https://s2.ax1x.com/2019/10/15/KPQuUf.jpg&summary="
+          href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.jianwudao.cn/2019/10/23/GitHub常用命令/&title=GitHub常用命令 | 剑无道&pics=https://s2.ax1x.com/2019/10/15/KPQuUf.jpg&summary="
           
           >
           
@@ -446,7 +468,7 @@
       
         <a class="-mob-share-weibo" title="微博" rel="external nofollow noopener noreferrer"
           
-          href="http://service.weibo.com/share/share.php?url=http://www.jianwudao.cn/2019/09/05/GitHub常用命令/&title=GitHub常用命令 | 剑无道&pics=https://s2.ax1x.com/2019/10/15/KPQuUf.jpg&summary="
+          href="http://service.weibo.com/share/share.php?url=http://www.jianwudao.cn/2019/10/23/GitHub常用命令/&title=GitHub常用命令 | 剑无道&pics=https://s2.ax1x.com/2019/10/15/KPQuUf.jpg&summary="
           
           >
           
@@ -470,36 +492,22 @@
       
           <div class="prev-next">
               
-                  <section class="prev">
-                      <span class="art-item-left">
-                          <h6><i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页</h6>
-                          <h4>
-                              <a href="/2019/09/05/XDown/" rel="prev" title="XDown">
-                                
-                                    XDown
-                                
-                              </a>
-                          </h4>
-                          
-                              
-                              <h6 class="tags">
-                                  <a class="tag" href="/tags/Soft/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Soft</a> <a class="tag" href="/tags/Download/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Download</a>
-                              </h6>
-                          
-                      </span>
-                  </section>
-              
               
                   <section class="next">
                       <span class="art-item-right" aria-hidden="true">
                           <h6>下一页&nbsp;<i class="fas fa-chevron-right" aria-hidden="true"></i></h6>
                           <h4>
-                              <a href="/2019/08/29/hello-world/" rel="prev" title="Hello World">
+                              <a href="/2019/09/26/IDEA-Crack/" rel="prev" title="IDEA Crack">
                                   
-                                      Hello World
+                                      IDEA Crack
                                   
                               </a>
                           </h4>
+                          
+                              
+                              <h6 class="tags">
+                                  <a class="tag" href="/tags/IDE/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> IDE</a> <a class="tag" href="/tags/IDEA/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> IDEA</a> <a class="tag" href="/tags/Crack/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> Crack</a> <a class="tag" href="/tags/破解/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 破解</a> <a class="tag" href="/tags/注册码/"><i class="fas fa-tag fa-fw" aria-hidden="true"></i> 注册码</a>
+                              </h6>
                           
                       </span>
                   </section>
@@ -647,7 +655,7 @@
 </header>
 
     <div class='content pure'>
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-回滚到某一提交，并删除后续的提交记录"><span class="toc-text">1.回滚到某一提交，并删除后续的提交记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-回退到上一次commit的状态"><span class="toc-text">2.回退到上一次commit的状态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-回退到任意版本"><span class="toc-text">3.回退到任意版本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-将分支A的提交，推送到分支B"><span class="toc-text">4.将分支A的提交，推送到分支B</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-合并分支时忽略指定文件"><span class="toc-text">5.合并分支时忽略指定文件</span></a></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-回滚到某一提交，并删除后续的提交记录"><span class="toc-text">1. 回滚到某一提交，并删除后续的提交记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-回退到上一次commit的状态"><span class="toc-text">2. 回退到上一次commit的状态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-回退到任意版本"><span class="toc-text">3. 回退到任意版本</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-放弃提交，不推送"><span class="toc-text">4. 放弃提交，不推送</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-将分支A的提交，推送到分支B"><span class="toc-text">5. 将分支A的提交，推送到分支B</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-合并分支时忽略指定文件"><span class="toc-text">6. 合并分支时忽略指定文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-合并部分文件"><span class="toc-text">7. 合并部分文件</span></a></li></ol>
     </div>
   </section>
 
