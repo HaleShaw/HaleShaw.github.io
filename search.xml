@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>NotePad++</title>
+      <link href="/tools/develop/NotePad++/"/>
+      <url>/tools/develop/NotePad++/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://notepad-plus-plus.org/images/logo.svg" width="232" height="201" alt="NotePad++" align="center"></p><h3 id="官方主页："><a href="#官方主页：" class="headerlink" title="官方主页："></a>官方主页：</h3><p><a href="https://notepad-plus-plus.org" target="_blank" rel="noopener">https://notepad-plus-plus.org</a></p><p><strong>下载地址：</strong><br><a href="https://notepad-plus-plus.org/downloads" target="_blank" rel="noopener">https://notepad-plus-plus.org/downloads</a></p><h3 id="What-is-Notepad"><a href="#What-is-Notepad" class="headerlink" title="What is Notepad++"></a>What is Notepad++</h3><p>Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL</a> License.</p><p>Based on the powerful editing component <a href="https://www.scintilla.org" target="_blank" rel="noopener">Scintilla</a>, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions. When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment.</p><p><img src="https://i.loli.net/2019/06/27/5d14a4e68f76d10696.gif" data-original="https://notepad-plus-plus.org/assets/images/notepad4ever.gif" alt="notepad4ever"></p><p>I hope you enjoy Notepad++ as much as I enjoy coding it.</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> develop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> develop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PanDownload</title>
       <link href="/tools/download/PanDownload/"/>
       <url>/tools/download/PanDownload/</url>
@@ -101,9 +130,9 @@
     
     
     <entry>
-      <title>NotePad++</title>
-      <link href="/tools/develop/NotePad++/"/>
-      <url>/tools/develop/NotePad++/</url>
+      <title>Photoshop</title>
+      <link href="/tools/av/Photoshop/"/>
+      <url>/tools/av/Photoshop/</url>
       
         <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
       
@@ -112,7 +141,7 @@
           
           <category> Tools </category>
           
-          <category> develop </category>
+          <category> av </category>
           
       </categories>
       
@@ -121,36 +150,7 @@
             
             <tag> Soft </tag>
             
-            <tag> develop </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>XDown</title>
-      <link href="/tools/download/XDown/"/>
-      <url>/tools/download/XDown/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Tools </category>
-          
-          <category> Download </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Soft </tag>
-            
-            <tag> Download </tag>
+            <tag> av </tag>
             
         </tags>
       
@@ -219,9 +219,9 @@
     
     
     <entry>
-      <title>Photoshop</title>
-      <link href="/tools/av/Photoshop/"/>
-      <url>/tools/av/Photoshop/</url>
+      <title>XDown</title>
+      <link href="/tools/download/XDown/"/>
+      <url>/tools/download/XDown/</url>
       
         <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
       
@@ -230,7 +230,7 @@
           
           <category> Tools </category>
           
-          <category> av </category>
+          <category> Download </category>
           
       </categories>
       
@@ -239,7 +239,7 @@
             
             <tag> Soft </tag>
             
-            <tag> av </tag>
+            <tag> Download </tag>
             
         </tags>
       
