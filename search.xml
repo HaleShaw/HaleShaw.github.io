@@ -130,9 +130,9 @@
     
     
     <entry>
-      <title>Photoshop</title>
-      <link href="/tools/av/Photoshop/"/>
-      <url>/tools/av/Photoshop/</url>
+      <title>XDown</title>
+      <link href="/tools/download/XDown/"/>
+      <url>/tools/download/XDown/</url>
       
         <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
       
@@ -141,7 +141,7 @@
           
           <category> Tools </category>
           
-          <category> av </category>
+          <category> Download </category>
           
       </categories>
       
@@ -150,7 +150,7 @@
             
             <tag> Soft </tag>
             
-            <tag> av </tag>
+            <tag> Download </tag>
             
         </tags>
       
@@ -219,9 +219,9 @@
     
     
     <entry>
-      <title>XDown</title>
-      <link href="/tools/download/XDown/"/>
-      <url>/tools/download/XDown/</url>
+      <title>Photoshop</title>
+      <link href="/tools/av/Photoshop/"/>
+      <url>/tools/av/Photoshop/</url>
       
         <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
       
@@ -230,7 +230,7 @@
           
           <category> Tools </category>
           
-          <category> Download </category>
+          <category> av </category>
           
       </categories>
       
@@ -239,7 +239,7 @@
             
             <tag> Soft </tag>
             
-            <tag> Download </tag>
+            <tag> av </tag>
             
         </tags>
       
