@@ -161,9 +161,9 @@
     
     
     <entry>
-      <title>Win10</title>
-      <link href="/tools/system/Win10/"/>
-      <url>/tools/system/Win10/</url>
+      <title>XDown</title>
+      <link href="/tools/download/XDown/"/>
+      <url>/tools/download/XDown/</url>
       
         <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
       
@@ -172,7 +172,7 @@
           
           <category> Tools </category>
           
-          <category> system </category>
+          <category> Download </category>
           
       </categories>
       
@@ -181,7 +181,7 @@
             
             <tag> Soft </tag>
             
-            <tag> system </tag>
+            <tag> Download </tag>
             
         </tags>
       
@@ -219,9 +219,9 @@
     
     
     <entry>
-      <title>XDown</title>
-      <link href="/tools/download/XDown/"/>
-      <url>/tools/download/XDown/</url>
+      <title>Win10</title>
+      <link href="/tools/system/Win10/"/>
+      <url>/tools/system/Win10/</url>
       
         <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
       
@@ -230,7 +230,7 @@
           
           <category> Tools </category>
           
-          <category> Download </category>
+          <category> system </category>
           
       </categories>
       
@@ -239,7 +239,7 @@
             
             <tag> Soft </tag>
             
-            <tag> Download </tag>
+            <tag> system </tag>
             
         </tags>
       
@@ -283,9 +283,9 @@
             
             <tag> IDE </tag>
             
-            <tag> Java </tag>
-            
             <tag> IDEA </tag>
+            
+            <tag> Java </tag>
             
         </tags>
       
@@ -316,9 +316,9 @@
             
             <tag> IDE </tag>
             
-            <tag> Eclipse </tag>
-            
             <tag> Java </tag>
+            
+            <tag> Eclipse </tag>
             
         </tags>
       
