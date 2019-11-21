@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Chrome常用配置</title>
+      <link href="/Chrome%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+      <url>/Chrome%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1-开启多线程下载"><a href="#1-开启多线程下载" class="headerlink" title="1. 开启多线程下载"></a>1. 开启多线程下载</h3><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">chrome:</span>//flags/<span class="meta">#enable-parallel-downloading</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Soft </category>
+          
+          <category> Chrome </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Chrome </tag>
+            
+            <tag> config </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Adobe赢政天下</title>
       <link href="/tools/av/Adobe/"/>
       <url>/tools/av/Adobe/</url>
@@ -283,6 +312,35 @@
     
     
     <entry>
+      <title>Win10</title>
+      <link href="/tools/system/Win10/"/>
+      <url>/tools/system/Win10/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> system </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> system </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Everything</title>
       <link href="/tools/efficient/Everything/"/>
       <url>/tools/efficient/Everything/</url>
@@ -335,35 +393,6 @@
             <tag> Soft </tag>
             
             <tag> Download </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Win10</title>
-      <link href="/tools/system/Win10/"/>
-      <url>/tools/system/Win10/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Tools </category>
-          
-          <category> system </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Soft </tag>
-            
-            <tag> system </tag>
             
         </tags>
       
