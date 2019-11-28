@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>剑无道</title>
+  
+  <subtitle>无极之道</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.jianwudao.cn/"/>
+  <updated>2019-11-25T14:53:06.220Z</updated>
+  <id>http://www.jianwudao.cn/</id>
+  
+  <author>
+    <name>Hale</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Everything</title>
+    <link href="http://www.jianwudao.cn/tools/efficient/Everything/"/>
+    <id>http://www.jianwudao.cn/tools/efficient/Everything/</id>
+    <published>2019-11-25T14:50:58.000Z</published>
+    <updated>2019-11-25T14:53:06.220Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://www.voidtools.com/zh-cn" target="_blank" rel="noopener">https://www.voidtools.com/zh-cn</a></p><p><strong>下载地址：</strong><br><a href="https://www.voidtools.com/zh-cn/downloads" target="_blank" rel="noopener">https://www.voidtools.com/zh-cn/downloads</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官网&quot;&gt;&lt;a href=&quot;#官网&quot; class=&quot;headerlink&quot; title=&quot;官网&quot;&gt;&lt;/a&gt;官网&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.voidtools.com/zh-cn&quot; target=&quot;_blank&quot; rel=&quot;noopene
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/categories/Tools/effcient/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/tags/effcient/"/>
+    
+      <category term="search" scheme="http://www.jianwudao.cn/tags/search/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cmder|ConEmu</title>
+    <link href="http://www.jianwudao.cn/tools/efficient/Cmder/"/>
+    <id>http://www.jianwudao.cn/tools/efficient/Cmder/</id>
+    <published>2019-11-25T14:27:25.000Z</published>
+    <updated>2019-11-25T14:48:59.428Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Cmder是基于<a href="https://conemu.github.io" target="_blank" rel="noopener">ConEmu</a>、<a href="https://mridgers.github.io/clink" target="_blank" rel="noopener">Clink</a>和<a href="https://gitforwindows.org" target="_blank" rel="noopener">Git</a>等封装而成。</strong></p><h3 id="Cmder"><a href="#Cmder" class="headerlink" title="Cmder"></a>Cmder</h3><p><span><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cmder.net/favicon.ico" width="64" height="64" alt="Cmder"></span></p><p><strong>官网</strong><br><a href="https://cmder.net" target="_blank" rel="noopener">https://cmder.net</a></p><p><strong>GitHub</strong><br><a href="https://github.com/cmderdev/cmder" target="_blank" rel="noopener">https://github.com/cmderdev/cmder</a></p><p><strong>下载地址</strong><br><a href="https://github.com/cmderdev/cmder/releases" target="_blank" rel="noopener">https://github.com/cmderdev/cmder/releases</a></p><h3 id="ConEmu"><a href="#ConEmu" class="headerlink" title="ConEmu"></a>ConEmu</h3><p><span><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://conemu.github.io/img/logo-114.png" width="64" height="64" alt="ConEmu"></span></p><p><strong>官网</strong><br><a href="https://conemu.github.io" target="_blank" rel="noopener">https://conemu.github.io</a></p><p><strong>GitHub</strong><br><a href="https://github.com/Maximus5/ConEmu" target="_blank" rel="noopener">https://github.com/Maximus5/ConEmu</a></p><p><strong>下载地址</strong><br><a href="https://github.com/Maximus5/ConEmu/releases" target="_blank" rel="noopener">https://github.com/Maximus5/ConEmu/releases</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;Cmder是基于&lt;a href=&quot;https://conemu.github.io&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ConEmu&lt;/a&gt;、&lt;a href=&quot;https://mridgers.github.io/clink&quot; t
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/categories/Tools/effcient/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/tags/effcient/"/>
+    
+      <category term="cmd" scheme="http://www.jianwudao.cn/tags/cmd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Chrome常用配置</title>
+    <link href="http://www.jianwudao.cn/Chrome%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+    <id>http://www.jianwudao.cn/Chrome常用配置/</id>
+    <published>2019-11-21T13:41:35.000Z</published>
+    <updated>2019-11-21T13:44:58.711Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-开启多线程下载"><a href="#1-开启多线程下载" class="headerlink" title="1. 开启多线程下载"></a>1. 开启多线程下载</h3><figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">chrome:</span>//flags/<span class="meta">#enable-parallel-downloading</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;1-开启多线程下载&quot;&gt;&lt;a href=&quot;#1-开启多线程下载&quot; class=&quot;headerlink&quot; title=&quot;1. 开启多线程下载&quot;&gt;&lt;/a&gt;1. 开启多线程下载&lt;/h3&gt;&lt;figure class=&quot;highlight avrasm&quot;&gt;&lt;table&gt;&lt;tr
+      
+    
+    </summary>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
+    
+      <category term="Chrome" scheme="http://www.jianwudao.cn/categories/Soft/Chrome/"/>
+    
+    
+      <category term="Chrome" scheme="http://www.jianwudao.cn/tags/Chrome/"/>
+    
+      <category term="config" scheme="http://www.jianwudao.cn/tags/config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Adobe赢政天下</title>
+    <link href="http://www.jianwudao.cn/tools/av/Adobe/"/>
+    <id>http://www.jianwudao.cn/tools/av/Adobe/</id>
+    <published>2019-11-20T05:23:58.000Z</published>
+    <updated>2019-11-20T05:45:43.026Z</updated>
+    
+    <content type="html"><![CDATA[<img alt="Photoshop" src="https://www.photoshop.com/static/images/apps/photoshop-mobile.svg" width="128" height="128" align="center"><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><p>作者微博</p><img alt="Photoshop" src="https://tvax3.sinaimg.cn/crop.0.0.100.100.180/42546c69ly8fz2ulipvjrj202s02sjrq.jpg" width="64" height="64" align="left"><br><p><a href="https://www.weibo.com/vposy" target="_blank" rel="noopener">https://www.weibo.com/vposy</a></p><p>百度云<br><a href="https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q" target="_blank" rel="noopener">https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q</a></p><p>OneDrive<br><a href="http://t.cn/AiBsGngl" target="_blank" rel="noopener">http://t.cn/AiBsGngl</a></p><p>解压密码：<code>@vposy</code></p><h3 id="赢政天下-Adobe-2020-大师版"><a href="#赢政天下-Adobe-2020-大师版" class="headerlink" title="赢政天下 Adobe 2020 大师版"></a>赢政天下 Adobe 2020 大师版</h3><p><strong>2019.11.9 v10.2#5</strong></p><h4 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h4><p>更新 Adobe 2020 全系列<br>更新 Adobe Acrobat DC 2019.012.20049<br>更新 官方清理工具版本<br>更新 主页屏幕修复<br>修正2020 全系列离线闪退问题<br>大量其他的修正和调整</p><p><strong>注意：</strong> 新版Photoshop 2020，当前尚未修复未登录状态使用主页屏幕，将会在未来版本修正。</p><h4 id="版本语言"><a href="#版本语言" class="headerlink" title="版本语言"></a>版本语言</h4><p>多国语言</p><h4 id="集成的版本"><a href="#集成的版本" class="headerlink" title="集成的版本"></a>集成的版本</h4><p>Adobe Acrobat DC 2019            2019.012.20049<br>Adobe After Effects 2020            17.0.0.557<br>Adobe Animate 2020            20.0.0.17400<br>Adobe Audition 2020            13.0.0.519<br>Adobe Bridge 2020                10.0.0.124<br>Adobe Character Animator 2020        3.0.0.276<br>Adobe Dimension                3.0.0.1082<br>Adobe Dreamweaver 2020            20.0.0.15196<br>Adobe Illustrator 2020            24.0.0.330<br>Adobe InCopy 2020                15.0.0.155<br>Adobe InDesign 2020            15.0.0.155<br>Adobe Lightroom Classic            9.0.0.201910151439<br>Adobe Media Encoder 2020            14.0.0.556<br>Adobe Photoshop 2020            21.0.0.37<br>Adobe Prelude 2020                9.0.0.415<br>Adobe Premiere Pro 2020            14.0.0.572<br>Adobe XD                    24.1.22</p><p>Adobe Creative Cloud Core            5.0.0.354<br>Adobe CoreSync                4.3.14.8<br>Adobe CCX Process                3.3.0.39<br>Adobe CC Library                3.6.1.5<br>Adobe Camera Raw                12.0.0.68</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;img alt=&quot;Photoshop&quot; src=&quot;https://www.photoshop.com/static/images/apps/photoshop-mobile.svg&quot; width=&quot;128&quot; height=&quot;128&quot; align=&quot;center&quot;&gt;
+
+&lt;h3 i
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
+    
+      <category term="Adobe" scheme="http://www.jianwudao.cn/tags/Adobe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub+JsDelivr搭建图床</title>
+    <link href="http://www.jianwudao.cn/GitHub-JsDelivr%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/"/>
+    <id>http://www.jianwudao.cn/GitHub-JsDelivr搭建图床/</id>
+    <published>2019-11-15T06:54:24.000Z</published>
+    <updated>2019-11-15T08:53:44.540Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>之前因为VPS没续费，域名备案也被注销了，紧跟着七牛云的CDN也被注销了，简直是让人忧伤！<br>在网上找了好多图床，想代替掉七牛云。</p><p>最终选中了<a href="https://imgchr.com/" target="_blank" rel="noopener">路过图床(imgchr)</a>，上传图片不压缩，图片大小支持也很大，操作也方便，比较满意。</p><p>不过用了几天，发现绝大部分（目前还没发现有支持的）图床，似乎都不支持ico文件。<br>后面看到了<a href="https://www.jsdelivr.com/" target="_blank" rel="noopener">JsDelivr</a>，于是想着不如直接弄个所有文件仓库的CDN了。</p><h3 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h3><h4 id="新建GitHub仓库"><a href="#新建GitHub仓库" class="headerlink" title="新建GitHub仓库"></a>新建GitHub仓库</h4><p>登录/注册<a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>，新建一个仓库。</p><h4 id="生成Token"><a href="#生成Token" class="headerlink" title="生成Token"></a>生成Token</h4><p>点击头像→Settings→Developer settings→Personal access tokens→Generate new token</p><p>填写“Note”，勾选“repo”，点击“Generate token”，生成Token。</p><p><strong>注意：</strong><br>Token只会显示一次，一定要记录下来，后面会用到。</p><h4 id="配置GipGo"><a href="#配置GipGo" class="headerlink" title="配置GipGo"></a>配置GipGo</h4><p>下载<a href="https://github.com/Molunerfinn/picgo/releases" target="_blank" rel="noopener">PicGo</a>，安装完成后开始配置图床。</p><p>仓库名：<code>用户名/仓库名</code><br>分支名：<code>master</code><br>Token：<code>之前生成的Token</code><br>存储路径：<code>如“img/”，则会在仓库中创建名为img的文件夹，图片会储存在此文件夹中</code><br>自定义域名：</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在图片上传后，PicGo会按照“自定义域名+上传的图片名”的方式生成访问链接，放到粘贴板上。</span><br><span class="line">为了通过JsDelivr给GitHub仓库中的资源做CDN，所以自定义域名可以设置为：“https:<span class="regexp">//</span>cdn.jsdelivr.net<span class="regexp">/gh/</span>用户名<span class="regexp">/仓库名”</span></span><br></pre></td></tr></table></figure><p>至此，配置完成！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h3&gt;&lt;p&gt;之前因为VPS没续费，域名备案也被注销了，紧跟着七牛云的CDN也被注销了，简直是让人忧伤！&lt;br&gt;在网上找了好多图床，想代替掉七牛云。&lt;/p
+      
+    
+    </summary>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
+    
+      <category term="GitHub" scheme="http://www.jianwudao.cn/categories/Soft/GitHub/"/>
+    
+    
+      <category term="GitHub" scheme="http://www.jianwudao.cn/tags/GitHub/"/>
+    
+      <category term="图床" scheme="http://www.jianwudao.cn/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+      <category term="JsDelivr" scheme="http://www.jianwudao.cn/tags/JsDelivr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows-ISO-Downloader</title>
+    <link href="http://www.jianwudao.cn/tools/download/WindowsISODownloader/"/>
+    <id>http://www.jianwudao.cn/tools/download/WindowsISODownloader/</id>
+    <published>2019-11-13T11:26:02.000Z</published>
+    <updated>2019-11-13T11:37:09.839Z</updated>
+    
+    <content type="html"><![CDATA[<img alt="Windows-ISO-Downloader" src="https://www.heidoc.net/joomla/images/microsoft/win-downloader.png" align="center"><p><strong>Microsoft Windows and Office ISO Download Tool</strong></p><h3 id="官方主页："><a href="#官方主页：" class="headerlink" title="官方主页："></a>官方主页：</h3><p><a href="https://www.heidoc.net/" target="_blank" rel="noopener">https://www.heidoc.net/</a></p><p><strong>下载页面：</strong><br><a href="https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool" target="_blank" rel="noopener">https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool</a></p><p><strong>下载链接：</strong><br><a href="https://www.heidoc.net/php/Windows-ISO-Downloader.exe" target="_blank" rel="noopener">https://www.heidoc.net/php/Windows-ISO-Downloader.exe</a></p><p><strong>注意：</strong><br><strong>Requirements:</strong> Windows 7 or newer, .NET Framework 4.x, Internet Explorer 8 or newer.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;img alt=&quot;Windows-ISO-Downloader&quot; src=&quot;https://www.heidoc.net/joomla/images/microsoft/win-downloader.png&quot; align=&quot;center&quot;&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Micro
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/categories/Tools/Download/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/tags/Download/"/>
+    
+      <category term="Windows" scheme="http://www.jianwudao.cn/tags/Windows/"/>
+    
+      <category term="Office" scheme="http://www.jianwudao.cn/tags/Office/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Paint.net</title>
+    <link href="http://www.jianwudao.cn/tools/av/Paint-net/"/>
+    <id>http://www.jianwudao.cn/tools/av/Paint-net/</id>
+    <published>2019-11-12T13:33:31.000Z</published>
+    <updated>2019-11-12T13:46:56.672Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官方主页："><a href="#官方主页：" class="headerlink" title="官方主页："></a>官方主页：</h3><p><a href="https://www.getpaint.net/index.html" target="_blank" rel="noopener">https://www.getpaint.net/index.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官方主页：&quot;&gt;&lt;a href=&quot;#官方主页：&quot; class=&quot;headerlink&quot; title=&quot;官方主页：&quot;&gt;&lt;/a&gt;官方主页：&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.getpaint.net/index.html&quot; target=&quot;_bla
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ScreenToGif</title>
+    <link href="http://www.jianwudao.cn/tools/av/ScreenToGif/"/>
+    <id>http://www.jianwudao.cn/tools/av/ScreenToGif/</id>
+    <published>2019-11-12T13:19:26.000Z</published>
+    <updated>2019-11-12T13:59:17.875Z</updated>
+    
+    <content type="html"><![CDATA[<img alt="ScreenToGif" src="https://www.screentogif.com/screenshots/Recorder.png" align="center"><h3 id="官方主页："><a href="#官方主页：" class="headerlink" title="官方主页："></a>官方主页：</h3><p><a href="https://www.screentogif.com/" target="_blank" rel="noopener">https://www.screentogif.com/</a></p><p><strong>GitHub：</strong><br><a href="https://github.com/NickeManarin/ScreenToGif" target="_blank" rel="noopener">https://github.com/NickeManarin/ScreenToGif</a></p><p><strong>下载地址：</strong><br><a href="https://github.com/NickeManarin/ScreenToGif/releases" target="_blank" rel="noopener">https://github.com/NickeManarin/ScreenToGif/releases</a></p><p><strong>注意：</strong><br>It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=49982" target="_blank" rel="noopener">.Net Framework 4.6.1</a> (or above).</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;img alt=&quot;ScreenToGif&quot; src=&quot;https://www.screentogif.com/screenshots/Recorder.png&quot; align=&quot;center&quot;&gt;
+
+&lt;h3 id=&quot;官方主页：&quot;&gt;&lt;a href=&quot;#官方主页：&quot; class=&quot;he
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA Crack</title>
+    <link href="http://www.jianwudao.cn/IDEA-Crack/"/>
+    <id>http://www.jianwudao.cn/IDEA-Crack/</id>
+    <published>2019-11-01T11:28:21.000Z</published>
+    <updated>2019-11-13T11:41:20.990Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>IDEA 最新破解方法，支持2019.2.4，2019-11-01更新</strong></p><a id="more"></a><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>请有能力的尽量支持正版！</p><h3 id="1-下载安装"><a href="#1-下载安装" class="headerlink" title="1. 下载安装"></a>1. 下载安装</h3><p>下载地址：<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download/#section=windows</a></p><p>选择适合本机的版本安装。<br>个人喜欢绿色解压版。</p><h3 id="2-破解"><a href="#2-破解" class="headerlink" title="2. 破解"></a>2. 破解</h3><h4 id="2-1-下载JetbrainsCrack-jar"><a href="#2-1-下载JetbrainsCrack-jar" class="headerlink" title="2.1. 下载JetbrainsCrack.jar"></a>2.1. 下载JetbrainsCrack.jar</h4><p>JetbrainsCrack.jar下载地址：</p><p>网盘链接: <a href="https://pan.baidu.com/s/17YMmZW2Cl3f_oRi45OjezQ" target="_blank" rel="noopener">https://pan.baidu.com/s/17YMmZW2Cl3f_oRi45OjezQ</a> 提取码: <code>qr2g</code></p><p>把它放到你认为合适的文件夹内，如：</p><p><code>C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin</code></p><h4 id="2-2-修改vmoptions文件"><a href="#2-2-修改vmoptions文件" class="headerlink" title="2.2. 修改vmoptions文件"></a>2.2. 修改vmoptions文件</h4><p><strong>不能直接在bin目录下直接修改！</strong></p><p>先打开idea试用30天，然后点击你要注册的IDE菜单：</p><p>“Help” -&gt; “Edit Custom VM Options …”，</p><p>如果提示是否要创建文件，请点”是|Yes”。</p><p>在打开的vmoptions编辑窗口末行添加：</p><p><code>-javaagent:JetbrainsCrack.jar文件的绝对路径</code></p><p>如: <code>-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin\JetbrainsCrack.jar</code></p><h4 id="2-3-注册"><a href="#2-3-注册" class="headerlink" title="2.3. 注册"></a>2.3. 注册</h4><p>启动IDEA，注册”Help” -&gt; “Register”，选择License server方式，地址填入：<code>http://jetbrains-license-server</code>（应该会自动填上）</p><p>看到<code>Licensed to &lt;用户名&gt;</code>，即激活成功！</p><h3 id="3-声明"><a href="#3-声明" class="headerlink" title="3. 声明"></a>3. 声明</h3><p>此文章仅用于学习研究使用，如有侵权，请联系我删除该文章。</p><p>原文地址：<a href="https://www.algerfan.cn/articles/2019/03/06/1551868940012.html" target="_blank" rel="noopener">https://www.algerfan.cn/articles/2019/03/06/1551868940012.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;IDEA 最新破解方法，支持2019.2.4，2019-11-01更新&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/categories/Soft/IDE/"/>
+    
+      <category term="IDEA" scheme="http://www.jianwudao.cn/categories/Soft/IDE/IDEA/"/>
+    
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+    
+      <category term="IDEA" scheme="http://www.jianwudao.cn/tags/IDEA/"/>
+    
+      <category term="Crack" scheme="http://www.jianwudao.cn/tags/Crack/"/>
+    
+      <category term="破解" scheme="http://www.jianwudao.cn/tags/%E7%A0%B4%E8%A7%A3/"/>
+    
+      <category term="注册码" scheme="http://www.jianwudao.cn/tags/%E6%B3%A8%E5%86%8C%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NotePad++</title>
+    <link href="http://www.jianwudao.cn/tools/develop/NotePad++/"/>
+    <id>http://www.jianwudao.cn/tools/develop/NotePad++/</id>
+    <published>2019-10-29T04:52:58.000Z</published>
+    <updated>2019-10-29T05:17:10.712Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://notepad-plus-plus.org/images/logo.svg" width="232" height="201" alt="NotePad++" align="center"></p><h3 id="官方主页："><a href="#官方主页：" class="headerlink" title="官方主页："></a>官方主页：</h3><p><a href="https://notepad-plus-plus.org" target="_blank" rel="noopener">https://notepad-plus-plus.org</a></p><p><strong>下载地址：</strong><br><a href="https://notepad-plus-plus.org/downloads" target="_blank" rel="noopener">https://notepad-plus-plus.org/downloads</a></p><h3 id="What-is-Notepad"><a href="#What-is-Notepad" class="headerlink" title="What is Notepad++"></a>What is Notepad++</h3><p>Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="noopener">GPL</a> License.</p><p>Based on the powerful editing component <a href="https://www.scintilla.org" target="_blank" rel="noopener">Scintilla</a>, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions. When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment.</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://notepad-plus-plus.org/assets/images/notepad4ever.gif" alt="notepad4ever"></p><p>I hope you enjoy Notepad++ as much as I enjoy coding it.</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://notepad-plus-plus.org/images/logo.svg&quot; width=&quot;232&quot; height=&quot;201&quot; alt=&quot;NotePad++&quot; align=&quot;center&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;官方主页：&quot;&gt;&lt;a h
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PanDownload</title>
+    <link href="http://www.jianwudao.cn/tools/download/PanDownload/"/>
+    <id>http://www.jianwudao.cn/tools/download/PanDownload/</id>
+    <published>2019-10-28T13:05:47.000Z</published>
+    <updated>2019-10-28T14:18:48.225Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://pandownload.com/" target="_blank" rel="noopener">http://pandownload.com/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;http://pandownload.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://pandownload.com/&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/categories/Tools/Download/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/tags/Download/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub常用命令</title>
+    <link href="http://www.jianwudao.cn/GitHub%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://www.jianwudao.cn/GitHub常用命令/</id>
+    <published>2019-10-23T12:38:36.000Z</published>
+    <updated>2019-10-23T14:39:03.498Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1. 回滚到某一提交，并删除后续的提交记录"></a>1. 回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure><h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2. 回退到上一次commit的状态"></a>2. 回退到上一次commit的状态</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br></pre></td></tr></table></figure><h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3. 回退到任意版本"></a>3. 回退到任意版本</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard &lt;commitid&gt;</span><br></pre></td></tr></table></figure><h3 id="4-放弃提交，不推送"><a href="#4-放弃提交，不推送" class="headerlink" title="4. 放弃提交，不推送"></a>4. 放弃提交，不推送</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD^</span><br></pre></td></tr></table></figure><p>仅仅是撤回commit操作，写的代码仍然保留</p><p>HEAD^的意思是上一个版本，也可以写成<code>HEAD~1</code><br>撤回2次提交，可以使用<code>HEAD~2</code></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--mixed</span><br></pre></td></tr></table></figure><p>不删除工作空间改动代码，撤销commit，并且撤销git add<br>这个为默认参数，<code>git reset --mixed HEAD^</code> 和 <code>git reset HEAD^</code> 效果是一样的。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--soft</span><br></pre></td></tr></table></figure><p>不删除工作空间改动代码，撤销commit，不撤销git add</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--hard</span><br></pre></td></tr></table></figure><p>删除工作空间改动代码，撤销commit，撤销git add<br>完成这个操作后，就恢复到了上一次的commit状态。</p><h3 id="5-将分支A的提交，推送到分支B"><a href="#5-将分支A的提交，推送到分支B" class="headerlink" title="5. 将分支A的提交，推送到分支B"></a>5. 将分支A的提交，推送到分支B</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure><p>[如果有冲突，解决冲突之后</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure><p>]</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></table></figure><h3 id="6-合并分支时忽略指定文件"><a href="#6-合并分支时忽略指定文件" class="headerlink" title="6. 合并分支时忽略指定文件"></a>6. 合并分支时忽略指定文件</h3><p>.gitattributes中写入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">"filename merge=ours":</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure><p>在根目录下运行命令行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config merge.ours.driver true</span><br></pre></td></tr></table></figure><p>更新本地分支与远程分支保持一致</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote update origin --prune</span><br></pre></td></tr></table></figure><h3 id="7-合并部分文件"><a href="#7-合并部分文件" class="headerlink" title="7. 合并部分文件"></a>7. 合并部分文件</h3><p>合并分支B中srv目录下的所有文件和view目录下的index.html文件到A分支</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout A</span><br><span class="line">git checkout B srv/** view/index.html</span><br></pre></td></tr></table></figure><p>srv下有多层目录，故不能用<code>srv/*</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;1-回滚到某一提交，并删除后续的提交记录&quot;&gt;&lt;a href=&quot;#1-回滚到某一提交，并删除后续的提交记录&quot; class=&quot;headerlink&quot; title=&quot;1. 回滚到某一提交，并删除后续的提交记录&quot;&gt;&lt;/a&gt;1. 回滚到某一提交，并删除后续的提交记录&lt;/h3
+      
+    
+    </summary>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
+    
+      <category term="GitHub" scheme="http://www.jianwudao.cn/categories/Soft/GitHub/"/>
+    
+    
+      <category term="GitHub" scheme="http://www.jianwudao.cn/tags/GitHub/"/>
+    
+      <category term="Command" scheme="http://www.jianwudao.cn/tags/Command/"/>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XDown</title>
+    <link href="http://www.jianwudao.cn/tools/download/XDown/"/>
+    <id>http://www.jianwudao.cn/tools/download/XDown/</id>
+    <published>2019-09-05T08:23:58.000Z</published>
+    <updated>2019-10-28T14:18:56.670Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://xdown.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://xdown.org&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/categories/Tools/Download/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/tags/Download/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Win10</title>
+    <link href="http://www.jianwudao.cn/tools/system/Win10/"/>
+    <id>http://www.jianwudao.cn/tools/system/Win10/</id>
+    <published>2019-09-05T08:23:58.000Z</published>
+    <updated>2019-10-28T14:34:17.954Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://xdown.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://xdown.org&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="system" scheme="http://www.jianwudao.cn/tags/system/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.jianwudao.cn/hello-world/"/>
+    <id>http://www.jianwudao.cn/hello-world/</id>
+    <published>2019-08-29T02:09:56.805Z</published>
+    <updated>2019-08-28T01:19:30.691Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>IDEA常用配置</title>
+    <link href="http://www.jianwudao.cn/IDEA%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+    <id>http://www.jianwudao.cn/IDEA常用配置/</id>
+    <published>2018-01-03T06:30:00.000Z</published>
+    <updated>2019-10-23T14:46:01.968Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java开发的IDEA常用配置，此教程对应的IDEA版本为 <strong>v 2019.2.1 Ultimate Edition</strong>。</p><h2 id="1-代码自动提示设置"><a href="#1-代码自动提示设置" class="headerlink" title="1. 代码自动提示设置"></a>1. 代码自动提示设置</h2><h3 id="1-1-Java代码自动提示"><a href="#1-1-Java代码自动提示" class="headerlink" title="1.1. Java代码自动提示"></a>1.1. Java代码自动提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Auto Activation→Auto activation triggers for java:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;</code></p><h3 id="1-2-Java代码自动提示-关闭联机提示"><a href="#1-2-Java代码自动提示-关闭联机提示" class="headerlink" title="1.2. Java代码自动提示 关闭联机提示"></a>1.2. Java代码自动提示 关闭联机提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Advanced</p><p>勾选Java Proposals</p><p>取消勾选Java Proposals(Code Recommenders)</p><h3 id="1-3-HTML代码自动提示"><a href="#1-3-HTML代码自动提示" class="headerlink" title="1.3. HTML代码自动提示"></a>1.3. HTML代码自动提示</h3><p>Window→Preferences→Web→Editor→Content Assist→Auto Activation→Prompt when these characters are inserted:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p><h3 id="1-4-JavaScript代码自动提示"><a href="#1-4-JavaScript代码自动提示" class="headerlink" title="1.4. JavaScript代码自动提示"></a>1.4. JavaScript代码自动提示</h3><p>Window→Preferences→JavaScript→Editor→Content Assist→Auto Activation→Auto activation triggers for JavaScript:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p><h2 id="2-编码设置"><a href="#2-编码设置" class="headerlink" title="2. 编码设置"></a>2. 编码设置</h2><h3 id="2-1-设置workspace编码"><a href="#2-1-设置workspace编码" class="headerlink" title="2.1. 设置workspace编码"></a>2.1. 设置workspace编码</h3><p>Window→Preferences→Workspace→Text file encoding→Other:</p><p>改成UTF-8</p><h3 id="2-2-设置JSP文件编码"><a href="#2-2-设置JSP文件编码" class="headerlink" title="2.2. 设置JSP文件编码"></a>2.2. 设置JSP文件编码</h3><p>Window→Preferences→Web→JSP File→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p><h3 id="2-3-设置Properties文件编码"><a href="#2-3-设置Properties文件编码" class="headerlink" title="2.3. 设置Properties文件编码"></a>2.3. 设置Properties文件编码</h3><p>Window→Preferences→General→Content Types→Content types:→Text→Java Properties File→Default encoding:</p><p>改成UTF-8</p><h3 id="2-4-设置JSON文件编码"><a href="#2-4-设置JSON文件编码" class="headerlink" title="2.4. 设置JSON文件编码"></a>2.4. 设置JSON文件编码</h3><p>Window→Preferences→JSON→JSON Files→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p><h2 id="3-基本代码设置"><a href="#3-基本代码设置" class="headerlink" title="3. 基本代码设置"></a>3. 基本代码设置</h2><h3 id="3-1-设置字体样式"><a href="#3-1-设置字体样式" class="headerlink" title="3.1. 设置字体样式"></a>3.1. 设置字体样式</h3><p>Window→Preferences→General→Appearance→Colors and Fonts→Basic→Text Font→Edit:</p><h3 id="3-2-设置编辑窗口背景色"><a href="#3-2-设置编辑窗口背景色" class="headerlink" title="3.2. 设置编辑窗口背景色"></a>3.2. 设置编辑窗口背景色</h3><p>Window→Preferences→General→Editors→Text Editors→Appearance color options:→Background color→Color:</p><h3 id="3-3-设置大括号高亮颜色"><a href="#3-3-设置大括号高亮颜色" class="headerlink" title="3.3. 设置大括号高亮颜色"></a>3.3. 设置大括号高亮颜色</h3><p>Window→Preferences→Java→Editor→Appearance color options:→Matching brackets highlight→Color:</p><h3 id="3-4-设置大括号成对显示"><a href="#3-4-设置大括号成对显示" class="headerlink" title="3.4. 设置大括号成对显示"></a>3.4. 设置大括号成对显示</h3><p>Window→Preferences→Java→Editor→Bracket highlighting→Matching bracket and caret location</p><h3 id="3-5-设置保存时的自动操作"><a href="#3-5-设置保存时的自动操作" class="headerlink" title="3.5. 设置保存时的自动操作"></a>3.5. 设置保存时的自动操作</h3><p>Window→Preferences→Java→Editor→Save Actions→Perform the selected actions on save→Additional actions→Configure…</p><h4 id="3-5-1-清空行尾空格，调整缩进"><a href="#3-5-1-清空行尾空格，调整缩进" class="headerlink" title="3.5.1. 清空行尾空格，调整缩进"></a>3.5.1. 清空行尾空格，调整缩进</h4><p>Code Oraganizing→Formatter:</p><p>Remove trailing whitespace→All lines;</p><p>Correct indentation</p><h4 id="3-5-2-清除未使用的引用"><a href="#3-5-2-清除未使用的引用" class="headerlink" title="3.5.2. 清除未使用的引用"></a>3.5.2. 清除未使用的引用</h4><p>Unnecessary Code→Unused code→Remove unused imports</p><h3 id="3-6-添加代码模板"><a href="#3-6-添加代码模板" class="headerlink" title="3.6. 添加代码模板"></a>3.6. 添加代码模板</h3><p>Window→Preferences→Java→Editor→Templates</p><h3 id="3-7-添加本地限定文件"><a href="#3-7-添加本地限定文件" class="headerlink" title="3.7. 添加本地限定文件"></a>3.7. 添加本地限定文件</h3><p>Window→Preferences→XML→XML Catalog→Add…→Catalog Entry</p><p>Location:→File System…</p><p>选择对应的限定文件（dtd/xsd）</p><p>Key type:</p><p>若为dtd文件：选择URI；</p><p>若为xsd文件：选择Schema location</p><p>Key:</p><p>粘贴xml中的限定文件路径</p><h3 id="3-8-设置新建列表"><a href="#3-8-设置新建列表" class="headerlink" title="3.8. 设置新建列表"></a>3.8. 设置新建列表</h3><p>Window→Preferences→Perspective→Customize Perspective…→Shortcuts→Submenus:→New</p><h2 id="4-服务器设置"><a href="#4-服务器设置" class="headerlink" title="4. 服务器设置"></a>4. 服务器设置</h2><h3 id="4-1-Tomcat设置"><a href="#4-1-Tomcat设置" class="headerlink" title="4.1. Tomcat设置"></a>4.1. Tomcat设置</h3><p>Window→Preferences→Tomcat</p><p>Tomcat version：</p><p>选择相应Tomcat版本</p><p>Tomcat home：</p><p>选择相应Tomcat文件目录</p><h3 id="4-2-Server设置"><a href="#4-2-Server设置" class="headerlink" title="4.2 Server设置"></a>4.2 Server设置</h3><p>Window→Preferences→Server→Runtime Environments→Add…→Apache</p><h2 id="5-链式安装插件"><a href="#5-链式安装插件" class="headerlink" title="5. 链式安装插件"></a>5. 链式安装插件</h2><p>1.将插件置于单独文件夹内（tomcat）：</p><p><code>E:\SoftStore\Java\eclipseplugin\tomcat\eclipse\plugins\net.sf.eclipse.tomcat_9.0.1.jar</code></p><p>2.在eclipse\dropins文件夹内新建link文件：</p><p><code>tomcat.link</code></p><p>3.写入插件目录路径：</p><p><code>path=E:/SoftStore/Java/eclipseplugin/tomcat</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Java开发的IDEA常用配置，此教程对应的IDEA版本为 &lt;strong&gt;v 2019.2.1 Ultimate Edition&lt;/strong&gt;。&lt;/p&gt;
+&lt;h2 id=&quot;1-代码自动提示设置&quot;&gt;&lt;a href=&quot;#1-代码自动提示设置&quot; class=&quot;headerli
+      
+    
+    </summary>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/categories/Soft/IDE/"/>
+    
+      <category term="IDEA" scheme="http://www.jianwudao.cn/categories/Soft/IDE/IDEA/"/>
+    
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+    
+      <category term="Java" scheme="http://www.jianwudao.cn/tags/Java/"/>
+    
+      <category term="IDEA" scheme="http://www.jianwudao.cn/tags/IDEA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eclipse常用配置</title>
+    <link href="http://www.jianwudao.cn/Eclipse%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+    <id>http://www.jianwudao.cn/Eclipse常用配置/</id>
+    <published>2018-01-03T06:24:59.000Z</published>
+    <updated>2019-10-28T13:14:15.291Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java开发的Eclipse常用配置，此教程对应的Eclipse版本为 <strong>v Oxygen.1a</strong>。</p><a id="more"></a><h3 id="1-代码自动提示设置"><a href="#1-代码自动提示设置" class="headerlink" title="1. 代码自动提示设置"></a>1. 代码自动提示设置</h3><h4 id="1-1-Java代码自动提示"><a href="#1-1-Java代码自动提示" class="headerlink" title="1.1. Java代码自动提示"></a>1.1. Java代码自动提示</h4><p>Window→Preferences→Java→Editor→Content Assist→Auto Activation→Auto activation triggers for java:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;</code></p><h4 id="1-2-Java代码自动提示-关闭联机提示"><a href="#1-2-Java代码自动提示-关闭联机提示" class="headerlink" title="1.2. Java代码自动提示 关闭联机提示"></a>1.2. Java代码自动提示 关闭联机提示</h4><p>Window→Preferences→Java→Editor→Content Assist→Advanced</p><p>勾选Java Proposals</p><p>取消勾选Java Proposals(Code Recommenders)</p><h4 id="1-3-HTML代码自动提示"><a href="#1-3-HTML代码自动提示" class="headerlink" title="1.3. HTML代码自动提示"></a>1.3. HTML代码自动提示</h4><p>Window→Preferences→Web→Editor→Content Assist→Auto Activation→Prompt when these characters are inserted:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p><h4 id="1-4-JavaScript代码自动提示"><a href="#1-4-JavaScript代码自动提示" class="headerlink" title="1.4. JavaScript代码自动提示"></a>1.4. JavaScript代码自动提示</h4><p>Window→Preferences→JavaScript→Editor→Content Assist→Auto Activation→Auto activation triggers for JavaScript:</p><p>将 <strong>.</strong> 改成以下字符串</p><p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p><h3 id="2-编码设置"><a href="#2-编码设置" class="headerlink" title="2. 编码设置"></a>2. 编码设置</h3><h4 id="2-1-设置workspace编码"><a href="#2-1-设置workspace编码" class="headerlink" title="2.1. 设置workspace编码"></a>2.1. 设置workspace编码</h4><p>Window→Preferences→Workspace→Text file encoding→Other:</p><p>改成UTF-8</p><h4 id="2-2-设置JSP文件编码"><a href="#2-2-设置JSP文件编码" class="headerlink" title="2.2. 设置JSP文件编码"></a>2.2. 设置JSP文件编码</h4><p>Window→Preferences→Web→JSP File→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p><h4 id="2-3-设置Properties文件编码"><a href="#2-3-设置Properties文件编码" class="headerlink" title="2.3. 设置Properties文件编码"></a>2.3. 设置Properties文件编码</h4><p>Window→Preferences→General→Content Types→Content types:→Text→Java Properties File→Default encoding:</p><p>改成UTF-8</p><h4 id="2-4-设置JSON文件编码"><a href="#2-4-设置JSON文件编码" class="headerlink" title="2.4. 设置JSON文件编码"></a>2.4. 设置JSON文件编码</h4><p>Window→Preferences→JSON→JSON Files→Creating files→The following encoding will apply:→Encoding:</p><p>改成UTF-8</p><h3 id="3-基本代码设置"><a href="#3-基本代码设置" class="headerlink" title="3. 基本代码设置"></a>3. 基本代码设置</h3><h4 id="3-1-设置字体样式"><a href="#3-1-设置字体样式" class="headerlink" title="3.1. 设置字体样式"></a>3.1. 设置字体样式</h4><p>Window→Preferences→General→Appearance→Colors and Fonts→Basic→Text Font→Edit:</p><h4 id="3-2-设置编辑窗口背景色"><a href="#3-2-设置编辑窗口背景色" class="headerlink" title="3.2. 设置编辑窗口背景色"></a>3.2. 设置编辑窗口背景色</h4><p>Window→Preferences→General→Editors→Text Editors→Appearance color options:→Background color→Color:</p><h4 id="3-3-设置大括号高亮颜色"><a href="#3-3-设置大括号高亮颜色" class="headerlink" title="3.3. 设置大括号高亮颜色"></a>3.3. 设置大括号高亮颜色</h4><p>Window→Preferences→Java→Editor→Appearance color options:→Matching brackets highlight→Color:</p><h4 id="3-4-设置大括号成对显示"><a href="#3-4-设置大括号成对显示" class="headerlink" title="3.4. 设置大括号成对显示"></a>3.4. 设置大括号成对显示</h4><p>Window→Preferences→Java→Editor→Bracket highlighting→Matching bracket and caret location</p><h4 id="3-5-设置保存时的自动操作"><a href="#3-5-设置保存时的自动操作" class="headerlink" title="3.5. 设置保存时的自动操作"></a>3.5. 设置保存时的自动操作</h4><p>Window→Preferences→Java→Editor→Save Actions→Perform the selected actions on save→Additional actions→Configure…</p><h5 id="3-5-1-清空行尾空格，调整缩进"><a href="#3-5-1-清空行尾空格，调整缩进" class="headerlink" title="3.5.1. 清空行尾空格，调整缩进"></a>3.5.1. 清空行尾空格，调整缩进</h5><p>Code Oraganizing→Formatter:</p><p>Remove trailing whitespace→All lines;</p><p>Correct indentation</p><h5 id="3-5-2-清除未使用的引用"><a href="#3-5-2-清除未使用的引用" class="headerlink" title="3.5.2. 清除未使用的引用"></a>3.5.2. 清除未使用的引用</h5><p>Unnecessary Code→Unused code→Remove unused imports</p><h4 id="3-6-添加代码模板"><a href="#3-6-添加代码模板" class="headerlink" title="3.6. 添加代码模板"></a>3.6. 添加代码模板</h4><p>Window→Preferences→Java→Editor→Templates</p><h4 id="3-7-添加本地限定文件"><a href="#3-7-添加本地限定文件" class="headerlink" title="3.7. 添加本地限定文件"></a>3.7. 添加本地限定文件</h4><p>Window→Preferences→XML→XML Catalog→Add…→Catalog Entry</p><p>Location:→File System…</p><p>选择对应的限定文件（dtd/xsd）</p><p>Key type:</p><p>若为dtd文件：选择URI；</p><p>若为xsd文件：选择Schema location</p><p>Key:</p><p>粘贴xml中的限定文件路径</p><h4 id="3-8-设置新建列表"><a href="#3-8-设置新建列表" class="headerlink" title="3.8. 设置新建列表"></a>3.8. 设置新建列表</h4><p>Window→Preferences→Perspective→Customize Perspective…→Shortcuts→Submenus:→New</p><h3 id="4-服务器设置"><a href="#4-服务器设置" class="headerlink" title="4. 服务器设置"></a>4. 服务器设置</h3><h4 id="4-1-Tomcat设置"><a href="#4-1-Tomcat设置" class="headerlink" title="4.1. Tomcat设置"></a>4.1. Tomcat设置</h4><p>Window→Preferences→Tomcat</p><p>Tomcat version：</p><p>选择相应Tomcat版本</p><p>Tomcat home：</p><p>选择相应Tomcat文件目录</p><h4 id="4-2-Server设置"><a href="#4-2-Server设置" class="headerlink" title="4.2. Server设置"></a>4.2. Server设置</h4><p>Window→Preferences→Server→Runtime Environments→Add…→Apache</p><h3 id="5-链式安装插件"><a href="#5-链式安装插件" class="headerlink" title="5. 链式安装插件"></a>5. 链式安装插件</h3><p>1.将插件置于单独文件夹内（tomcat）：</p><p><code>E:\SoftStore\Java\eclipseplugin\tomcat\eclipse\plugins\net.sf.eclipse.tomcat_9.0.1.jar</code></p><p>2.在eclipse\dropins文件夹内新建link文件：</p><p><code>tomcat.link</code></p><p>3.写入插件目录路径：</p><p><code>path=E:/SoftStore/Java/eclipseplugin/tomcat</code></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Java开发的Eclipse常用配置，此教程对应的Eclipse版本为 &lt;strong&gt;v Oxygen.1a&lt;/strong&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/categories/Soft/IDE/"/>
+    
+      <category term="Eclipse" scheme="http://www.jianwudao.cn/categories/Soft/IDE/Eclipse/"/>
+    
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+    
+      <category term="Eclipse" scheme="http://www.jianwudao.cn/tags/Eclipse/"/>
+    
+      <category term="Java" scheme="http://www.jianwudao.cn/tags/Java/"/>
+    
+  </entry>
+  
+</feed>

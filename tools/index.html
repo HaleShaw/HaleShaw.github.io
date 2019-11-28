@@ -11,6 +11,8 @@
   
 
   
+  <link rel="alternate" href="../atom.xml" title="剑无道">
+  
 
   <meta name="HandheldFriendly" content="True">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -33,6 +35,9 @@
   
     <link rel="stylesheet" href="../style.css">
   
+  
+    <link rel="stylesheet" href="../tools.css">
+  
 
   <script>
     function setLoadingBarProgress(num) {
@@ -48,7 +53,7 @@
   
   
   <div class="cover-wrapper">
-    <cover class='cover page half'>
+    <cover class='cover tools half'>
       
         
   <h1 class='title'>剑无道</h1>
@@ -274,7 +279,7 @@
       <div class='l_main'>
   
 
-  <article id="page" class="post white-box article-type-page" itemscope itemprop="blogPost">
+  <article id="tools" class="post white-box article-type-tools" itemscope itemprop="blogPost">
     
 
 
@@ -364,6 +369,95 @@
       <div class="article-entry" itemprop="articleBody">
         <p>┌─ <a href="/tools/office">1. <i class="far fa-file"></i>办公软件</a><br>│─ <a href="/tools/download">2. <i class="fas fa-cloud-download-alt"></i>下载软件</a><br>│ ├─ <a href="/tools/download/XDown">2.1. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/XDown_32.png" width="20" height="20" alt="XDown">XDown</a><br>│ └─ <a href="/tools/download/PanDownload">2.2. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/PanDownload_32.png" width="20" height="20" alt="PanDownload">PanDownload</a><br>│ └─ <a href="/tools/download/WindowsISODownloader">2.3. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/WindowsISODownloader_32.png" width="20" height="20" alt="Windows-ISO-Downloader">Windows-ISO-Downloader</a><br>│─ <a href="/tools/efficient">3. <i class="far fa-clock"></i>效率工具</a><br>│ ├─ <a href="/tools/efficient/Cmder">3.1. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cmder.net/favicon.ico" width="20" height="20" alt="Cmder">Cmder|ConEmu</a><br>│ ├─ <a href="/tools/efficient/Everything">3.2. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.voidtools.com/favicon.ico" width="20" height="20" alt="Everything">Everything</a><br>│─ <a href="/tools/develop">4. <i class="fas fa-code"></i>开发工具</a><br>│ ├─ <a href="/tools/develop/NotePad++">4.1. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/NotePad++_32.png" width="20" height="20" alt="NotePad++">NotePad++</a><br>│─ <a href="/tools/av">5. <i class="fas fa-photo-video"></i>影音软件</a><br>│ ├─ <a href="/tools/av/Adobe">5.1. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/PhotoShop_32.png" width="20" height="20" alt="PhotoShop">Adobe</a><br>│ ├─ <a href="/tools/av/Paint-net">5.2. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/Paint.net_32.png" width="20" height="20" alt="Paint.net">Paint.net</a><br>│ ├─ <a href="/tools/av/ScreenToGif">5.3. <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/ScreenToGif_32.png" width="20" height="20" alt="ScreenToGif">ScreenToGif</a><br>│─ <a href="/tools/system">6. <i class="fas fa-desktop"></i>系统</a><br>└─ <a href="/tools/other">7. <i class="fas fa-search"></i>其他</a></p>
 
+        
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.tree li:has(ul)').addClass('parent_li'); //.find(' > span').attr('title', 'Collapse this branch');
+        $('.tree li.parent_li > span').on('click', function(e) {
+            var children = $(this).parent('li.parent_li').find(' > ul > li');
+            if (children.is(":visible")) {
+                children.hide('fast');
+                // $(this).attr('title', 'Expand this branch').find(' > i').addClass('icon-plus-sign').removeClass('icon-minus-sign');
+            } else {
+                children.show('fast');
+                // $(this).attr('title', 'Collapse this branch').find(' > i').addClass('icon-minus-sign').removeClass('icon-plus-sign');
+            }
+            e.stopPropagation();
+        });
+    });
+</script>
+<div class="tree">
+    <ul>
+        <li>
+            <span><i class="fas fa-file"></i>1.办公软件</span>
+        </li>
+        <li>
+            <span><i class="fas fa-cloud-download-alt icon"></i>2.下载软件</span>
+            <ul>
+                <li>
+                    <span><a href="/tools/download/XDown" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/XDown_32.png" width = "20" height = "20" alt="XDown">2.1.XDown</a></span>
+                </li>
+                <li>
+                    <span><a href="/tools/download/PanDownload" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/PanDownload_32.png" width = "20" height = "20" alt="PanDownload">2.2.PanDownload</a></span>
+                </li>
+                <li>
+                    <span><a href="/tools/download/WindowsISODownloader" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/WindowsISODownloader_32.png" width = "20" height = "20" alt="Windows-ISO-Downloader">2.3.Windows-ISO-Downloader</a></span>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span><i class="far fa-clock"></i>3.效率工具</span>
+            <ul>
+                <li>
+                    <span><a href="/tools/efficient/Cmder" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cmder.net/favicon.ico" width = "20" height = "20" alt="Cmder">3.1.Cmder|ConEmu</a></span>
+                </li>
+                <li>
+                    <span><a href="/tools/efficient/Everything" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.voidtools.com/favicon.ico" width = "20" height = "20" alt="Everything">3.2.PanDownload</a></span>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span><i class="fas fa-code"></i>4.开发工具</span>
+            <ul>
+                <li>
+                    <span><a href="/tools/develop/NotePad++" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/NotePad++_32.png" width = "20" height = "20" alt="NotePad++">4.1.NotePad++</a></span>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span><i class="fas fa-photo-video"></i>5.影音软件</span>
+            <ul>
+                <li>
+                    <span><a href="/tools/av/Adobe" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/PhotoShop_32.png" width = "20" height = "20" alt="Adobe">5.1.Adobe</a></span>
+                </li>
+                <li>
+                    <span><a href="/tools/av/Paint-net" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/Paint.net_32.png" width = "20" height = "20" alt="Paint.net">5.2.Paint.net</a></span>
+                </li>
+                <li>
+                    <span><a href="/tools/av/ScreenToGif" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/ScreenToGif_32.png" width = "20" height = "20" alt="ScreenToGif">5.3.ScreenToGif</a></span>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span><i class="fas fa-desktop"></i>6.系统</span>
+            <ul>
+                <li>
+                    <span><a href="/tools/develop/NotePad++" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/NotePad++_32.png" width = "20" height = "20" alt="NotePad++">6.1.Other</a></span>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span><i class="fas fa-search"></i>7.其他</span>
+            <ul>
+                <li>
+                    <span><a href="/tools/develop/NotePad++" target="_blank"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/NotePad++_32.png" width = "20" height = "20" alt="NotePad++">7.1.Other</a></span>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+        
       </div>
       
       
