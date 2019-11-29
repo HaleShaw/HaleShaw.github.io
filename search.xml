@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Wox</title>
+      <link href="/tools/efficient/Wox/"/>
+      <url>/tools/efficient/Wox/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.wox.one/images/wox_preview.jpg" alt="wox"></p><h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="http://www.wox.one" target="_blank" rel="noopener">http://www.wox.one</a></p><p><strong>An effective launcher for windows</strong></p><p>A full-featured launcher, access programs and web contents as you type. Be more productive ever since.</p><p>Wox is free for use and open-sourced at Github, Try it now!</p><p><strong>Find Applications &amp; Files</strong></p><p>Quick Start program and local files without leaving your keyboard, automatic sorting based on usage.</p><p><strong>Quick-Search the Web</strong></p><p>Search the web by prefixing your search with keywords like wiki, g.</p><p>Add your own the web searches in Wox’s setting window to make them meet your daily needs.</p><p><strong>Plugin</strong></p><p>Making a plugin for Wox is easy and Wox supports plugins written by CSharp,Python,NodeJS,Golang and so on. Create your own plugin and share with others now.</p><p><strong>Theming</strong></p><p>Match Wox to your desktop. Create your own themes by choosing colours,fonts, sizes and more.<br>Create your own theme by using <a href="http://www.wox.one/#theme/builder" target="_blank" rel="noopener">theme builder</a> now.</p><p><strong>GitHub</strong><br><a href="https://github.com/Wox-launcher/Wox" target="_blank" rel="noopener">https://github.com/Wox-launcher/Wox</a></p><p><strong>下载地址：</strong><br><a href="https://github.com/Wox-launcher/Wox/releases" target="_blank" rel="noopener">https://github.com/Wox-launcher/Wox/releases</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> effcient </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> effcient </tag>
+            
+            <tag> search </tag>
+            
+            <tag> translate </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Everything</title>
       <link href="/tools/efficient/Everything/"/>
       <url>/tools/efficient/Everything/</url>
@@ -374,35 +407,6 @@
     
     
     <entry>
-      <title>XDown</title>
-      <link href="/tools/download/XDown/"/>
-      <url>/tools/download/XDown/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Tools </category>
-          
-          <category> Download </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Soft </tag>
-            
-            <tag> Download </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Win10</title>
       <link href="/tools/system/Win10/"/>
       <url>/tools/system/Win10/</url>
@@ -424,6 +428,35 @@
             <tag> Soft </tag>
             
             <tag> system </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>XDown</title>
+      <link href="/tools/download/XDown/"/>
+      <url>/tools/download/XDown/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> Download </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> Download </tag>
             
         </tags>
       

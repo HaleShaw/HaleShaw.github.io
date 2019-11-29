@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwudao.cn/"/>
-  <updated>2019-11-25T14:53:06.220Z</updated>
+  <updated>2019-11-29T10:01:25.744Z</updated>
   <id>http://www.jianwudao.cn/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Wox</title>
+    <link href="http://www.jianwudao.cn/tools/efficient/Wox/"/>
+    <id>http://www.jianwudao.cn/tools/efficient/Wox/</id>
+    <published>2019-11-29T09:52:41.000Z</published>
+    <updated>2019-11-29T10:01:25.744Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.wox.one/images/wox_preview.jpg" alt="wox"></p><h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="http://www.wox.one" target="_blank" rel="noopener">http://www.wox.one</a></p><p><strong>An effective launcher for windows</strong></p><p>A full-featured launcher, access programs and web contents as you type. Be more productive ever since.</p><p>Wox is free for use and open-sourced at Github, Try it now!</p><p><strong>Find Applications &amp; Files</strong></p><p>Quick Start program and local files without leaving your keyboard, automatic sorting based on usage.</p><p><strong>Quick-Search the Web</strong></p><p>Search the web by prefixing your search with keywords like wiki, g.</p><p>Add your own the web searches in Wox’s setting window to make them meet your daily needs.</p><p><strong>Plugin</strong></p><p>Making a plugin for Wox is easy and Wox supports plugins written by CSharp,Python,NodeJS,Golang and so on. Create your own plugin and share with others now.</p><p><strong>Theming</strong></p><p>Match Wox to your desktop. Create your own themes by choosing colours,fonts, sizes and more.<br>Create your own theme by using <a href="http://www.wox.one/#theme/builder" target="_blank" rel="noopener">theme builder</a> now.</p><p><strong>GitHub</strong><br><a href="https://github.com/Wox-launcher/Wox" target="_blank" rel="noopener">https://github.com/Wox-launcher/Wox</a></p><p><strong>下载地址：</strong><br><a href="https://github.com/Wox-launcher/Wox/releases" target="_blank" rel="noopener">https://github.com/Wox-launcher/Wox/releases</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;http://www.wox.one/images/wox_preview.jpg&quot; alt=&quot;wox&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/categories/Tools/effcient/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/tags/effcient/"/>
+    
+      <category term="search" scheme="http://www.jianwudao.cn/tags/search/"/>
+    
+      <category term="translate" scheme="http://www.jianwudao.cn/tags/translate/"/>
+    
+  </entry>
   
   <entry>
     <title>Everything</title>
@@ -393,36 +426,6 @@
   </entry>
   
   <entry>
-    <title>XDown</title>
-    <link href="http://www.jianwudao.cn/tools/download/XDown/"/>
-    <id>http://www.jianwudao.cn/tools/download/XDown/</id>
-    <published>2019-09-05T08:23:58.000Z</published>
-    <updated>2019-10-28T14:18:56.670Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://xdown.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://xdown.org&lt;/a&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="Download" scheme="http://www.jianwudao.cn/categories/Tools/Download/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="Download" scheme="http://www.jianwudao.cn/tags/Download/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Win10</title>
     <link href="http://www.jianwudao.cn/tools/system/Win10/"/>
     <id>http://www.jianwudao.cn/tools/system/Win10/</id>
@@ -449,6 +452,36 @@
       <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
       <category term="system" scheme="http://www.jianwudao.cn/tags/system/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XDown</title>
+    <link href="http://www.jianwudao.cn/tools/download/XDown/"/>
+    <id>http://www.jianwudao.cn/tools/download/XDown/</id>
+    <published>2019-09-05T08:23:58.000Z</published>
+    <updated>2019-10-28T14:18:56.670Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a href=&quot;https://xdown.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://xdown.org&lt;/a&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/categories/Tools/Download/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="Download" scheme="http://www.jianwudao.cn/tags/Download/"/>
     
   </entry>
   
