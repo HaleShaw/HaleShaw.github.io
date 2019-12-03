@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwudao.cn/"/>
-  <updated>2019-12-03T06:28:48.680Z</updated>
+  <updated>2019-12-03T08:00:29.610Z</updated>
   <id>http://www.jianwudao.cn/</id>
   
   <author>
@@ -15,6 +15,102 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Snipaste</title>
+    <link href="http://www.jianwudao.cn/tools/av/Snipaste/"/>
+    <id>http://www.jianwudao.cn/tools/av/Snipaste/</id>
+    <published>2019-12-03T07:44:16.000Z</published>
+    <updated>2019-12-03T08:00:29.610Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/71Ftp04b.png" alt="Snipaste"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.snipaste.com" target="_blank" rel="noopener">https://www.snipaste.com</a></p><p><strong>下载地址</strong><br><a href="https://www.snipaste.com/download.html" target="_blank" rel="noopener">https://www.snipaste.com/download.html</a></p><p><strong>注意</strong><br>For api-*.dll errors, please install Microsoft Visual C++ Redist 2015: <a href="https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe" target="_blank" rel="noopener">32-bit</a> | <a href="https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x64.exe" target="_blank" rel="noopener">64-bit</a></p><p>Other problems: <a href="https://docs.snipaste.com/troubleshooting" target="_blank" rel="noopener">Troubleshooting</a></p><h3 id="Boost-your-productivity-with-Snipaste"><a href="#Boost-your-productivity-with-Snipaste" class="headerlink" title="Boost your productivity with Snipaste"></a>Boost your productivity with Snipaste</h3><p>Snipaste is a simple but powerful snipping tool, and also allows you to pin the screenshot back onto the screen. Download and start the application, press <code>F1</code> to start snipping, then press <code>F3</code> to paste it as a floating window. That’s it!</p><p>You can also convert text or color info in the clipboard into a floating image window. Such windows can be zoomed, rotated, flipped, made translucent, and even made click-through! If you are a programmer, a designer or whoever works much time before the computer, you will be surprised how it can help you get your work done more efficiently!</p><p>Snipaste is easy and intuitive to use, but there are also many hidden features that can make your life even more efficient. Read the <a href="https://docs.snipaste.com" target="_blank" rel="noopener">manual</a> if you are interested.</p><h4 id="Intuitive-snipping"><a href="#Intuitive-snipping" class="headerlink" title="Intuitive snipping"></a>Intuitive snipping</h4><ul><li>Auto detect UI elements</li><li>Pixel-level control</li><li>Color picker (try <code>F1</code>, <code>C</code>, <code>F3</code>)</li><li><strong>History play back</strong> (<code>,</code>/<code>.</code>)</li><li>Multi-screen support</li><li>HiDPI (retina display) support<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/54QM64O3.png" alt="Snipaste"></li></ul><h4 id="Paste-images-as-topmost-floating-windows"><a href="#Paste-images-as-topmost-floating-windows" class="headerlink" title="Paste images as topmost floating windows"></a>Paste images as topmost floating windows</h4><ul><li>The source (in the clipboard) could be<ul><li>Image</li><li>Plain text</li><li>HTML text</li><li>Color info text</li><li>Image files: PNG, JPG, BMP, TGA, ICO, TIFF and <strong>GIF</strong></li></ul></li><li>Supported operations<ul><li>Zoom (<code>mouse scroll</code> or <code>+</code>/<code>-</code>) or set speed for GIF</li><li>Rotate (<code>1</code>/<code>2</code>) or jump to previous/next frame for GIF</li><li>Flip (<code>3</code>/<code>4</code>)</li><li>Set transparency (<code>Ctrl</code> + <code>mouse scroll</code> or <code>Ctrl</code> + <code>+</code>/<code>-</code>)</li><li>Mouse click-through (<code>X</code>, and use <code>F4</code> to cancel)</li><li>Image editing (<code>Space</code>)</li><li>Thumbnail mode (<code>Shift</code> + <code>Double click</code>)</li><li>Hide (<code>Double click</code>)</li><li>…</li></ul></li><li>Color picker (<code>Alt</code>)</li><li>Drag &amp; drop</li><li><strong>Grouping</strong></li><li><strong>Auto backup &amp; restore</strong><br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/Bar9ulo7.png" alt="Snipaste"></li></ul><h4 id="Easy-image-annotation"><a href="#Easy-image-annotation" class="headerlink" title="Easy image annotation"></a>Easy image annotation</h4><ul><li>Rich shapes<ul><li>Rectangle</li><li>Ellipse</li><li>Linestrip</li><li>Arrow</li><li>Pencil</li><li>Marker pen</li><li>Text</li></ul></li><li>Advanced annotation tools<ul><li>Mosaic</li><li>Gaussian blur</li><li>Eraser</li></ul></li><li>Undo &amp; redo<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/746553IP.png" alt="Snipaste"></li></ul><h4 id="Customization"><a href="#Customization" class="headerlink" title="Customization"></a>Customization</h4><ul><li>Theme color, interface font, tray icon, and more</li><li>Hot keys</li><li>Detailed functionality options</li><li>Want more options? Just <a href="https://github.com/liulex/Snipaste-Feedback/issues" target="_blank" rel="noopener">tell me</a>!<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/5Z3rCk0Z.png" alt="Snipaste"></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://i.v2ex.co/71Ftp04b.png&quot; alt=&quot;Snipaste&quot;&gt;&lt;/p&gt;
+&lt;
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
+    
+      <category term="Snipaste" scheme="http://www.jianwudao.cn/tags/Snipaste/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VSCode</title>
+    <link href="http://www.jianwudao.cn/tools/develop/VSCode/"/>
+    <id>http://www.jianwudao.cn/tools/develop/VSCode/</id>
+    <published>2019-12-03T07:30:15.000Z</published>
+    <updated>2019-12-03T07:34:34.823Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://code.visualstudio.com/assets/home/home-screenshot-win-lg.png" alt="VSCode"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://code.visualstudio.com" target="_blank" rel="noopener">https://code.visualstudio.com</a></p><p><strong>下载地址</strong><br><a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">https://code.visualstudio.com/Download</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://code.visualstudio.com/assets/home/home-screen
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+    
+      <category term="VSCode" scheme="http://www.jianwudao.cn/tags/VSCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SourceTree</title>
+    <link href="http://www.jianwudao.cn/tools/develop/SourceTree/"/>
+    <id>http://www.jianwudao.cn/tools/develop/SourceTree/</id>
+    <published>2019-12-03T07:02:11.000Z</published>
+    <updated>2019-12-03T07:20:42.584Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>Simplicity and power in a beautiful Git GUI</strong><br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.sourcetreeapp.com/dam/jcr:580c367b-c240-453d-aa18-c7ced44324f9/hero-mac-screenshot.png?cdnVersion=698" alt="SourceTree"></p><h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://www.sourcetreeapp.com" target="_blank" rel="noopener">https://www.sourcetreeapp.com</a></p><p><strong>下载地址</strong><br><a href="https://www.sourcetreeapp.com/download-archives" target="_blank" rel="noopener">https://www.sourcetreeapp.com/download-archives</a></p><h4 id="A-free-Git-client-for-Windows-and-Mac"><a href="#A-free-Git-client-for-Windows-and-Mac" class="headerlink" title="A free Git client for Windows and Mac"></a>A free Git client for Windows and Mac</h4><p>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree’s simple Git GUI.</p><p><strong>Simple for beginners</strong><br>Say goodbye to the command line - simplify distributed version control with a Git client and quickly bring everyone up to speed.</p><p><strong>Powerful for experts</strong><br>Perfect for making advanced users even more productive. Review changesets, stash, cherry-pick between branches and more.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.sourcetreeapp.com/dam/jcr:c7337d19-a8c3-4a4b-a810-91ff5c6b035d/left_image.png?cdnVersion=698" alt="SourceTree"></p><p><strong>Visualize your code</strong><br>Seeing really is believing. Get information on any branch or commit with a single click.</p><p><strong>Git and Hg on your desktop</strong><br>A fully-featured GUI that offers an efficient, consistent development process right out of the box. Works with Git and Mercurial.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.sourcetreeapp.com/dam/jcr:b5071c41-aa3e-40ba-ac57-6ef4f5dcea71/center_image.png?cdnVersion=698" alt="SourceTree"></p><h4 id="Commit-with-Confidence"><a href="#Commit-with-Confidence" class="headerlink" title="Commit with Confidence"></a>Commit with Confidence</h4><p>Visualize your work and push with confidence. Stage and discard changes by the file, hunk or line.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.sourcetreeapp.com/dam/jcr:b6ec8a39-5a98-4e28-842b-f9198824fe74/commit_with_confidence.png?cdnVersion=698" alt="SourceTree"></p><h3 id="安装时跳过注册"><a href="#安装时跳过注册" class="headerlink" title="安装时跳过注册"></a>安装时跳过注册</h3><p><strong>For Windows</strong></p><ol><li>下载并运行exe安装包，会进入登录或注册bitbucket的界面。</li><li>进入目录：<code>%LocalAppData%\Atlassian\SourceTree\</code></li><li>创建accounts.json文件，并修改accounts.json内容如下：</li></ol><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">"$id"</span>: <span class="string">"1"</span>,</span><br><span class="line">    <span class="attr">"$type"</span>: <span class="string">"SourceTree.Api.Host.Identity.Model.IdentityAccount, SourceTree.Api.Host.Identity"</span>,</span><br><span class="line">    <span class="attr">"Authenticate"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"HostInstance"</span>: &#123;</span><br><span class="line">      <span class="attr">"$id"</span>: <span class="string">"2"</span>,</span><br><span class="line">      <span class="attr">"$type"</span>: <span class="string">"SourceTree.Host.Atlassianaccount.AtlassianAccountInstance, SourceTree.Host.AtlassianAccount"</span>,</span><br><span class="line">      <span class="attr">"Host"</span>: &#123;</span><br><span class="line">        <span class="attr">"$id"</span>: <span class="string">"3"</span>,</span><br><span class="line">        <span class="attr">"$type"</span>: <span class="string">"SourceTree.Host.Atlassianaccount.AtlassianAccountHost, SourceTree.Host.AtlassianAccount"</span>,</span><br><span class="line">        <span class="attr">"Id"</span>: <span class="string">"atlassian account"</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">"BaseUrl"</span>: <span class="string">"https://id.atlassian.com/"</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"Credentials"</span>: &#123;</span><br><span class="line">      <span class="attr">"$id"</span>: <span class="string">"4"</span>,</span><br><span class="line">      <span class="attr">"$type"</span>: <span class="string">"SourceTree.Model.BasicAuthCredentials, SourceTree.Api.Account"</span>,</span><br><span class="line">      <span class="attr">"Username"</span>: <span class="string">""</span>,</span><br><span class="line">      <span class="attr">"Email"</span>: <span class="literal">null</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"IsDefault"</span>: <span class="literal">false</span></span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure><p>若能（想）登录Google或BitBucket帐号，亦可直接登录帐号，也能顺利完成安装。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;Simplicity and power in a beautiful Git GUI&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+    
+      <category term="Git" scheme="http://www.jianwudao.cn/tags/Git/"/>
+    
+  </entry>
   
   <entry>
     <title>Listary</title>
@@ -134,9 +230,9 @@
       <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
     
     
-      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
-    
       <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
     
       <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
     
@@ -434,9 +530,9 @@
     <link href="http://www.jianwudao.cn/tools/av/ScreenToGif/"/>
     <id>http://www.jianwudao.cn/tools/av/ScreenToGif/</id>
     <published>2019-11-12T13:19:26.000Z</published>
-    <updated>2019-11-12T13:59:17.875Z</updated>
+    <updated>2019-12-03T07:45:25.140Z</updated>
     
-    <content type="html"><![CDATA[<img alt="ScreenToGif" src="https://www.screentogif.com/screenshots/Recorder.png" align="center"><h3 id="官方主页："><a href="#官方主页：" class="headerlink" title="官方主页："></a>官方主页：</h3><p><a href="https://www.screentogif.com/" target="_blank" rel="noopener">https://www.screentogif.com/</a></p><p><strong>GitHub：</strong><br><a href="https://github.com/NickeManarin/ScreenToGif" target="_blank" rel="noopener">https://github.com/NickeManarin/ScreenToGif</a></p><p><strong>下载地址：</strong><br><a href="https://github.com/NickeManarin/ScreenToGif/releases" target="_blank" rel="noopener">https://github.com/NickeManarin/ScreenToGif/releases</a></p><p><strong>注意：</strong><br>It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=49982" target="_blank" rel="noopener">.Net Framework 4.6.1</a> (or above).</p>]]></content>
+    <content type="html"><![CDATA[<img alt="ScreenToGif" src="https://www.screentogif.com/screenshots/Recorder.png" align="center"><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.screentogif.com" target="_blank" rel="noopener">https://www.screentogif.com</a></p><p><strong>GitHub</strong><br><a href="https://github.com/NickeManarin/ScreenToGif" target="_blank" rel="noopener">https://github.com/NickeManarin/ScreenToGif</a></p><p><strong>下载地址</strong><br><a href="https://github.com/NickeManarin/ScreenToGif/releases" target="_blank" rel="noopener">https://github.com/NickeManarin/ScreenToGif/releases</a></p><p><strong>注意</strong><br>It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=49982" target="_blank" rel="noopener">.Net Framework 4.6.1</a> (or above).</p>]]></content>
     
     <summary type="html">
     
@@ -444,7 +540,7 @@
       
         &lt;img alt=&quot;ScreenToGif&quot; src=&quot;https://www.screentogif.com/screenshots/Recorder.png&quot; align=&quot;center&quot;&gt;
 
-&lt;h3 id=&quot;官方主页：&quot;&gt;&lt;a href=&quot;#官方主页：&quot; class=&quot;he
+&lt;h3 id=&quot;官方主页&quot;&gt;&lt;a href=&quot;#官方主页&quot; class=&quot;head
       
     
     </summary>
@@ -547,87 +643,6 @@
       <category term="Command" scheme="http://www.jianwudao.cn/tags/Command/"/>
     
       <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>XDown</title>
-    <link href="http://www.jianwudao.cn/tools/download/XDown/"/>
-    <id>http://www.jianwudao.cn/tools/download/XDown/</id>
-    <published>2019-09-05T08:23:58.000Z</published>
-    <updated>2019-10-28T14:18:56.670Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://xdown.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://xdown.org&lt;/a&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="Download" scheme="http://www.jianwudao.cn/categories/Tools/Download/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="Download" scheme="http://www.jianwudao.cn/tags/Download/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Win10</title>
-    <link href="http://www.jianwudao.cn/tools/system/Win10/"/>
-    <id>http://www.jianwudao.cn/tools/system/Win10/</id>
-    <published>2019-09-05T08:23:58.000Z</published>
-    <updated>2019-10-28T14:34:17.954Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;https://xdown.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://xdown.org&lt;/a&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="system" scheme="http://www.jianwudao.cn/tags/system/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://www.jianwudao.cn/hello-world/"/>
-    <id>http://www.jianwudao.cn/hello-world/</id>
-    <published>2019-08-29T02:09:56.805Z</published>
-    <updated>2019-08-28T01:19:30.691Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
