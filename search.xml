@@ -4,6 +4,74 @@
   
     
     <entry>
+      <title>IDEA</title>
+      <link href="/tools/develop/IDEA/"/>
+      <url>/tools/develop/IDEA/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.jetbrains.com/idea/img/screenshots/idea_overview_5_1.png" alt="IDEA"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.jetbrains.com/idea" target="_blank" rel="noopener">https://www.jetbrains.com/idea</a></p><p><strong>下载地址</strong><br><a href="https://www.jetbrains.com/idea/download" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download</a></p><p><strong>破解教程</strong><br><a href="/IDEA-Crack">IDEA 最新破解方法，支持2019.3，2019-12-02更新</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> develop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDE </tag>
+            
+            <tag> Soft </tag>
+            
+            <tag> develop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IDEA Crack</title>
+      <link href="/IDEA-Crack/"/>
+      <url>/IDEA-Crack/</url>
+      
+        <content type="html"><![CDATA[<p><strong>IDEA 最新破解方法，支持2019.3，2019-12-02更新</strong></p><a id="more"></a><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>请有能力的尽量支持正版！</p><h3 id="1-下载安装"><a href="#1-下载安装" class="headerlink" title="1. 下载安装"></a>1. 下载安装</h3><p>下载地址：<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download/#section=windows</a></p><p>选择适合本机的版本安装。<br>个人喜欢绿色解压版。</p><h3 id="2-破解"><a href="#2-破解" class="headerlink" title="2. 破解"></a>2. 破解</h3><h4 id="2-1-下载JetbrainsCrack-jar"><a href="#2-1-下载JetbrainsCrack-jar" class="headerlink" title="2.1. 下载JetbrainsCrack.jar"></a>2.1. 下载JetbrainsCrack.jar</h4><p>JetbrainsCrack.jar下载地址：</p><p>网盘链接: <a href="https://pan.baidu.com/s/17YMmZW2Cl3f_oRi45OjezQ" target="_blank" rel="noopener">https://pan.baidu.com/s/17YMmZW2Cl3f_oRi45OjezQ</a> 提取码: <code>qr2g</code></p><p>把它放到你认为合适的文件夹内，如：</p><p><code>C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin</code></p><h4 id="2-2-修改vmoptions文件"><a href="#2-2-修改vmoptions文件" class="headerlink" title="2.2. 修改vmoptions文件"></a>2.2. 修改vmoptions文件</h4><p><strong>不能直接在bin目录下直接修改！</strong></p><p>先打开idea试用30天，然后点击你要注册的IDE菜单：</p><p>“Help” -&gt; “Edit Custom VM Options …”，</p><p>如果提示是否要创建文件，请点”是|Yes”。</p><p>在打开的vmoptions编辑窗口末行添加：</p><p><code>-javaagent:JetbrainsCrack.jar文件的绝对路径</code></p><p>如: <code>-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin\JetbrainsCrack.jar</code></p><h4 id="2-3-注册"><a href="#2-3-注册" class="headerlink" title="2.3. 注册"></a>2.3. 注册</h4><p>启动IDEA，注册”Help” -&gt; “Register”，选择License server方式，地址填入：<code>http://jetbrains-license-server</code>（应该会自动填上）</p><p>看到<code>Licensed to &lt;用户名&gt;</code>，即激活成功！</p><h3 id="3-声明"><a href="#3-声明" class="headerlink" title="3. 声明"></a>3. 声明</h3><p>此文章仅用于学习研究使用，如有侵权，请联系我删除该文章。</p><p>原文地址：<a href="https://www.algerfan.cn/articles/2019/03/06/1551868940012.html" target="_blank" rel="noopener">https://www.algerfan.cn/articles/2019/03/06/1551868940012.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Soft </category>
+          
+          <category> IDE </category>
+          
+          <category> IDEA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDE </tag>
+            
+            <tag> IDEA </tag>
+            
+            <tag> Crack </tag>
+            
+            <tag> 破解 </tag>
+            
+            <tag> 注册码 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Wox</title>
       <link href="/tools/efficient/Wox/"/>
       <url>/tools/efficient/Wox/</url>
@@ -281,43 +349,6 @@
     
     
     <entry>
-      <title>IDEA Crack</title>
-      <link href="/IDEA-Crack/"/>
-      <url>/IDEA-Crack/</url>
-      
-        <content type="html"><![CDATA[<p><strong>IDEA 最新破解方法，支持2019.2.4，2019-11-01更新</strong></p><a id="more"></a><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>请有能力的尽量支持正版！</p><h3 id="1-下载安装"><a href="#1-下载安装" class="headerlink" title="1. 下载安装"></a>1. 下载安装</h3><p>下载地址：<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download/#section=windows</a></p><p>选择适合本机的版本安装。<br>个人喜欢绿色解压版。</p><h3 id="2-破解"><a href="#2-破解" class="headerlink" title="2. 破解"></a>2. 破解</h3><h4 id="2-1-下载JetbrainsCrack-jar"><a href="#2-1-下载JetbrainsCrack-jar" class="headerlink" title="2.1. 下载JetbrainsCrack.jar"></a>2.1. 下载JetbrainsCrack.jar</h4><p>JetbrainsCrack.jar下载地址：</p><p>网盘链接: <a href="https://pan.baidu.com/s/17YMmZW2Cl3f_oRi45OjezQ" target="_blank" rel="noopener">https://pan.baidu.com/s/17YMmZW2Cl3f_oRi45OjezQ</a> 提取码: <code>qr2g</code></p><p>把它放到你认为合适的文件夹内，如：</p><p><code>C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin</code></p><h4 id="2-2-修改vmoptions文件"><a href="#2-2-修改vmoptions文件" class="headerlink" title="2.2. 修改vmoptions文件"></a>2.2. 修改vmoptions文件</h4><p><strong>不能直接在bin目录下直接修改！</strong></p><p>先打开idea试用30天，然后点击你要注册的IDE菜单：</p><p>“Help” -&gt; “Edit Custom VM Options …”，</p><p>如果提示是否要创建文件，请点”是|Yes”。</p><p>在打开的vmoptions编辑窗口末行添加：</p><p><code>-javaagent:JetbrainsCrack.jar文件的绝对路径</code></p><p>如: <code>-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin\JetbrainsCrack.jar</code></p><h4 id="2-3-注册"><a href="#2-3-注册" class="headerlink" title="2.3. 注册"></a>2.3. 注册</h4><p>启动IDEA，注册”Help” -&gt; “Register”，选择License server方式，地址填入：<code>http://jetbrains-license-server</code>（应该会自动填上）</p><p>看到<code>Licensed to &lt;用户名&gt;</code>，即激活成功！</p><h3 id="3-声明"><a href="#3-声明" class="headerlink" title="3. 声明"></a>3. 声明</h3><p>此文章仅用于学习研究使用，如有侵权，请联系我删除该文章。</p><p>原文地址：<a href="https://www.algerfan.cn/articles/2019/03/06/1551868940012.html" target="_blank" rel="noopener">https://www.algerfan.cn/articles/2019/03/06/1551868940012.html</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Soft </category>
-          
-          <category> IDE </category>
-          
-          <category> IDEA </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> IDE </tag>
-            
-            <tag> IDEA </tag>
-            
-            <tag> Crack </tag>
-            
-            <tag> 破解 </tag>
-            
-            <tag> 注册码 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>NotePad++</title>
       <link href="/tools/develop/NotePad++/"/>
       <url>/tools/develop/NotePad++/</url>
@@ -407,35 +438,6 @@
     
     
     <entry>
-      <title>Win10</title>
-      <link href="/tools/system/Win10/"/>
-      <url>/tools/system/Win10/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Tools </category>
-          
-          <category> system </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Soft </tag>
-            
-            <tag> system </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>XDown</title>
       <link href="/tools/download/XDown/"/>
       <url>/tools/download/XDown/</url>
@@ -457,6 +459,35 @@
             <tag> Soft </tag>
             
             <tag> Download </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Win10</title>
+      <link href="/tools/system/Win10/"/>
+      <url>/tools/system/Win10/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> system </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> system </tag>
             
         </tags>
       
