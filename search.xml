@@ -4,6 +4,68 @@
   
     
     <entry>
+      <title>Quicker</title>
+      <link href="/tools/efficient/Quicker/"/>
+      <url>/tools/efficient/Quicker/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://getquicker.net/assets/quicker/landing-page.gif" alt="Quicker"></p><h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://getquicker.net" target="_blank" rel="noopener">https://getquicker.net</a></p><p><strong>下载地址</strong></p><p><a href="https://getquicker.net/Download" target="_blank" rel="noopener">https://getquicker.net/Download</a></p><video controls style="width: 400px; max-width: 98%; height: 225px;" preload="none" poster="assets/quicker/quicker_intro_poster.png">    <source src="https://files.getquicker.net/_sitefiles/media/Quicker_Intro.mp4" type="video/mp4"></video><p><em>注：简介视频约7分钟。</em><br><a href="https://www.bilibili.com/video/av59722614" target="_blank" rel="noopener"><i class="fas fa-arrow-right"></i>查看完整视频教程</a></p><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><h4 id="自动加载动作页"><a href="#自动加载动作页" class="headerlink" title="自动加载动作页"></a>自动加载动作页</h4><p>根据你正在使用的软件自动加载对应的动作页。无论做什么，常用的工具总在手边。</p><h4 id="快速打开"><a href="#快速打开" class="headerlink" title="快速打开"></a>快速打开</h4><p>将常用的软件、文件、网址，或者Windows命令加入快捷面板。像其他Launcher一样快速打开或运行它们。</p><h4 id="模拟键盘输入"><a href="#模拟键盘输入" class="headerlink" title="模拟键盘输入"></a>模拟键盘输入</h4><p>调用软件的快捷键或菜单功能，或发送文本内容到聊天窗口。减少键鼠切换，放松你的大脑。</p><h4 id="组合动作"><a href="#组合动作" class="headerlink" title="组合动作"></a>组合动作</h4><p>强大的组合动作，让你发现Windows的新玩法。</p><h4 id="云端存储"><a href="#云端存储" class="headerlink" title="云端存储"></a>云端存储</h4><p>一次配置，随处使用。图标也会自动下载同步~。</p><h4 id="分享动作"><a href="#分享动作" class="headerlink" title="分享动作"></a>分享动作</h4><p>分享你的创作。不断壮大的<a href="https://getquicker.net/share" target="_blank" rel="noopener">动作库</a>，我们一起来玩耍。</p><h3 id="移动客户端-APP"><a href="#移动客户端-APP" class="headerlink" title="移动客户端 APP"></a>移动客户端 APP</h3><ul><li>总是可见的快捷动作面板，随时可以操作；</li><li>减少弹窗对某些应用的影响；<ul><li>截屏</li><li>游戏</li><li>直播等</li></ul></li><li>额外附加的功能；<ul><li>控制电脑音量或直接静音</li><li>识别语音发送到电脑</li><li>拍照上传到电脑等</li></ul></li><li>通过WIFI无线连接</li></ul><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://getquicker.net/assets/quickpad/phone.png" alt="移动客户端"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> effcient </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> effcient </tag>
+            
+            <tag> search </tag>
+            
+            <tag> mouse </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>QTranslate</title>
+      <link href="/tools/office/QTranslate/"/>
+      <url>/tools/office/QTranslate/</url>
+      
+        <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://quest-app.appspot.com" target="_blank" rel="noopener">https://quest-app.appspot.com</a></p><p>QTranslate is a free translator for Windows. With this small utility, you simply select the text you want to translate and then press the hot key ( <code>Ctrl+Q</code> to show translation in the popup window or <code>Double Ctrl</code> click to show the translation in the main window). QTranslate also has the ability to speak text <code>Ctrl+E</code> and perform a dictionary search <code>Ctrl+Shift+Q</code> . Also, you can open the main window and type text manually.</p><p><strong>下载地址</strong><br><a href="https://quest-app.appspot.com/download" target="_blank" rel="noopener">https://quest-app.appspot.com/download</a></p><p><strong>注意</strong><br>QTranslate translates text by using online translation services, so you need an Internet connection.</p><p>The following translation services are supported:</p><ul><li>Babylon</li><li>Baidu</li><li>DeepL</li><li>Google</li><li>Microsoft</li><li>Naver</li><li>Promt</li><li>Yandex</li><li>youdao</li></ul><p>There are three modes of translation by mouse selection:</p><ul><li>Show icon (select text in a program -&gt; QTranslate icon will appear near cursor. Click the icon -&gt; popup window with the translation of selected text will appear)</li><li>Show translation (select text in a program -&gt; popup window with translation of the selected text will appear immediately)</li><li>Show translation and read (the same as previous plus speaking aloud selected text)</li></ul><p>The main features:</p><ul><li>Text translation in any application that supports text selection</li><li>Speech recognition</li><li>Image text recognition (OCR API provided by <a href="https://ocr.space" target="_blank" rel="noopener">OCR.SPACE</a>)</li><li>Text to speech synthesis</li><li>Search in online dictionaries</li><li>Search in offline <a href="https://quest-app.appspot.com/download" target="_blank" rel="noopener">XDXF dictionaries</a></li><li>Spell checking</li><li>Word suggestion/autocomplete</li><li>History of translations</li><li>Virtual keyboard</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> office </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> Translate </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Snipaste</title>
       <link href="/tools/av/Snipaste/"/>
       <url>/tools/av/Snipaste/</url>
@@ -53,9 +115,9 @@
       
         <tags>
             
-            <tag> Soft </tag>
-            
             <tag> IDE </tag>
+            
+            <tag> Soft </tag>
             
             <tag> develop </tag>
             
@@ -212,9 +274,9 @@
       
         <tags>
             
-            <tag> Soft </tag>
-            
             <tag> IDE </tag>
+            
+            <tag> Soft </tag>
             
             <tag> develop </tag>
             

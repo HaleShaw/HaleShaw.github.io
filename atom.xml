@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwudao.cn/"/>
-  <updated>2019-12-03T08:00:29.610Z</updated>
+  <updated>2019-12-06T02:09:01.784Z</updated>
   <id>http://www.jianwudao.cn/</id>
   
   <author>
@@ -15,6 +15,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Quicker</title>
+    <link href="http://www.jianwudao.cn/tools/efficient/Quicker/"/>
+    <id>http://www.jianwudao.cn/tools/efficient/Quicker/</id>
+    <published>2019-12-06T01:46:33.000Z</published>
+    <updated>2019-12-06T02:09:01.784Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://getquicker.net/assets/quicker/landing-page.gif" alt="Quicker"></p><h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://getquicker.net" target="_blank" rel="noopener">https://getquicker.net</a></p><p><strong>下载地址</strong></p><p><a href="https://getquicker.net/Download" target="_blank" rel="noopener">https://getquicker.net/Download</a></p><video controls style="width: 400px; max-width: 98%; height: 225px;" preload="none" poster="assets/quicker/quicker_intro_poster.png">    <source src="https://files.getquicker.net/_sitefiles/media/Quicker_Intro.mp4" type="video/mp4"></video><p><em>注：简介视频约7分钟。</em><br><a href="https://www.bilibili.com/video/av59722614" target="_blank" rel="noopener"><i class="fas fa-arrow-right"></i>查看完整视频教程</a></p><h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><h4 id="自动加载动作页"><a href="#自动加载动作页" class="headerlink" title="自动加载动作页"></a>自动加载动作页</h4><p>根据你正在使用的软件自动加载对应的动作页。无论做什么，常用的工具总在手边。</p><h4 id="快速打开"><a href="#快速打开" class="headerlink" title="快速打开"></a>快速打开</h4><p>将常用的软件、文件、网址，或者Windows命令加入快捷面板。像其他Launcher一样快速打开或运行它们。</p><h4 id="模拟键盘输入"><a href="#模拟键盘输入" class="headerlink" title="模拟键盘输入"></a>模拟键盘输入</h4><p>调用软件的快捷键或菜单功能，或发送文本内容到聊天窗口。减少键鼠切换，放松你的大脑。</p><h4 id="组合动作"><a href="#组合动作" class="headerlink" title="组合动作"></a>组合动作</h4><p>强大的组合动作，让你发现Windows的新玩法。</p><h4 id="云端存储"><a href="#云端存储" class="headerlink" title="云端存储"></a>云端存储</h4><p>一次配置，随处使用。图标也会自动下载同步~。</p><h4 id="分享动作"><a href="#分享动作" class="headerlink" title="分享动作"></a>分享动作</h4><p>分享你的创作。不断壮大的<a href="https://getquicker.net/share" target="_blank" rel="noopener">动作库</a>，我们一起来玩耍。</p><h3 id="移动客户端-APP"><a href="#移动客户端-APP" class="headerlink" title="移动客户端 APP"></a>移动客户端 APP</h3><ul><li>总是可见的快捷动作面板，随时可以操作；</li><li>减少弹窗对某些应用的影响；<ul><li>截屏</li><li>游戏</li><li>直播等</li></ul></li><li>额外附加的功能；<ul><li>控制电脑音量或直接静音</li><li>识别语音发送到电脑</li><li>拍照上传到电脑等</li></ul></li><li>通过WIFI无线连接</li></ul><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://getquicker.net/assets/quickpad/phone.png" alt="移动客户端"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://getquicker.net/assets/quicker/landing-page.gi
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/categories/Tools/effcient/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="effcient" scheme="http://www.jianwudao.cn/tags/effcient/"/>
+    
+      <category term="search" scheme="http://www.jianwudao.cn/tags/search/"/>
+    
+      <category term="mouse" scheme="http://www.jianwudao.cn/tags/mouse/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>QTranslate</title>
+    <link href="http://www.jianwudao.cn/tools/office/QTranslate/"/>
+    <id>http://www.jianwudao.cn/tools/office/QTranslate/</id>
+    <published>2019-12-03T08:28:07.000Z</published>
+    <updated>2019-12-03T08:34:24.847Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://quest-app.appspot.com" target="_blank" rel="noopener">https://quest-app.appspot.com</a></p><p>QTranslate is a free translator for Windows. With this small utility, you simply select the text you want to translate and then press the hot key ( <code>Ctrl+Q</code> to show translation in the popup window or <code>Double Ctrl</code> click to show the translation in the main window). QTranslate also has the ability to speak text <code>Ctrl+E</code> and perform a dictionary search <code>Ctrl+Shift+Q</code> . Also, you can open the main window and type text manually.</p><p><strong>下载地址</strong><br><a href="https://quest-app.appspot.com/download" target="_blank" rel="noopener">https://quest-app.appspot.com/download</a></p><p><strong>注意</strong><br>QTranslate translates text by using online translation services, so you need an Internet connection.</p><p>The following translation services are supported:</p><ul><li>Babylon</li><li>Baidu</li><li>DeepL</li><li>Google</li><li>Microsoft</li><li>Naver</li><li>Promt</li><li>Yandex</li><li>youdao</li></ul><p>There are three modes of translation by mouse selection:</p><ul><li>Show icon (select text in a program -&gt; QTranslate icon will appear near cursor. Click the icon -&gt; popup window with the translation of selected text will appear)</li><li>Show translation (select text in a program -&gt; popup window with translation of the selected text will appear immediately)</li><li>Show translation and read (the same as previous plus speaking aloud selected text)</li></ul><p>The main features:</p><ul><li>Text translation in any application that supports text selection</li><li>Speech recognition</li><li>Image text recognition (OCR API provided by <a href="https://ocr.space" target="_blank" rel="noopener">OCR.SPACE</a>)</li><li>Text to speech synthesis</li><li>Search in online dictionaries</li><li>Search in offline <a href="https://quest-app.appspot.com/download" target="_blank" rel="noopener">XDXF dictionaries</a></li><li>Spell checking</li><li>Word suggestion/autocomplete</li><li>History of translations</li><li>Virtual keyboard</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官方主页&quot;&gt;&lt;a href=&quot;#官方主页&quot; class=&quot;headerlink&quot; title=&quot;官方主页&quot;&gt;&lt;/a&gt;官方主页&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://quest-app.appspot.com&quot; target=&quot;_blank&quot; rel=&quot;n
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="office" scheme="http://www.jianwudao.cn/categories/Tools/office/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="Translate" scheme="http://www.jianwudao.cn/tags/Translate/"/>
+    
+  </entry>
   
   <entry>
     <title>Snipaste</title>
@@ -71,9 +133,9 @@
       <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
       <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
       <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
     
@@ -230,9 +292,9 @@
       <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
       <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
       <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
     
@@ -582,67 +644,6 @@
       <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
       <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PanDownload</title>
-    <link href="http://www.jianwudao.cn/tools/download/PanDownload/"/>
-    <id>http://www.jianwudao.cn/tools/download/PanDownload/</id>
-    <published>2019-10-28T13:05:47.000Z</published>
-    <updated>2019-10-28T14:18:48.225Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://pandownload.com/" target="_blank" rel="noopener">http://pandownload.com/</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a href=&quot;http://pandownload.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://pandownload.com/&lt;/a&gt;&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="Download" scheme="http://www.jianwudao.cn/categories/Tools/Download/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="Download" scheme="http://www.jianwudao.cn/tags/Download/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GitHub常用命令</title>
-    <link href="http://www.jianwudao.cn/GitHub%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>http://www.jianwudao.cn/GitHub常用命令/</id>
-    <published>2019-10-23T12:38:36.000Z</published>
-    <updated>2019-10-23T14:39:03.498Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1. 回滚到某一提交，并删除后续的提交记录"></a>1. 回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure><h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2. 回退到上一次commit的状态"></a>2. 回退到上一次commit的状态</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br></pre></td></tr></table></figure><h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3. 回退到任意版本"></a>3. 回退到任意版本</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard &lt;commitid&gt;</span><br></pre></td></tr></table></figure><h3 id="4-放弃提交，不推送"><a href="#4-放弃提交，不推送" class="headerlink" title="4. 放弃提交，不推送"></a>4. 放弃提交，不推送</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git reset --soft HEAD^</span><br></pre></td></tr></table></figure><p>仅仅是撤回commit操作，写的代码仍然保留</p><p>HEAD^的意思是上一个版本，也可以写成<code>HEAD~1</code><br>撤回2次提交，可以使用<code>HEAD~2</code></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--mixed</span><br></pre></td></tr></table></figure><p>不删除工作空间改动代码，撤销commit，并且撤销git add<br>这个为默认参数，<code>git reset --mixed HEAD^</code> 和 <code>git reset HEAD^</code> 效果是一样的。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--soft</span><br></pre></td></tr></table></figure><p>不删除工作空间改动代码，撤销commit，不撤销git add</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">--hard</span><br></pre></td></tr></table></figure><p>删除工作空间改动代码，撤销commit，撤销git add<br>完成这个操作后，就恢复到了上一次的commit状态。</p><h3 id="5-将分支A的提交，推送到分支B"><a href="#5-将分支A的提交，推送到分支B" class="headerlink" title="5. 将分支A的提交，推送到分支B"></a>5. 将分支A的提交，推送到分支B</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure><p>[如果有冲突，解决冲突之后</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure><p>]</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></table></figure><h3 id="6-合并分支时忽略指定文件"><a href="#6-合并分支时忽略指定文件" class="headerlink" title="6. 合并分支时忽略指定文件"></a>6. 合并分支时忽略指定文件</h3><p>.gitattributes中写入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">"filename merge=ours":</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure><p>在根目录下运行命令行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config merge.ours.driver true</span><br></pre></td></tr></table></figure><p>更新本地分支与远程分支保持一致</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote update origin --prune</span><br></pre></td></tr></table></figure><h3 id="7-合并部分文件"><a href="#7-合并部分文件" class="headerlink" title="7. 合并部分文件"></a>7. 合并部分文件</h3><p>合并分支B中srv目录下的所有文件和view目录下的index.html文件到A分支</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout A</span><br><span class="line">git checkout B srv/** view/index.html</span><br></pre></td></tr></table></figure><p>srv下有多层目录，故不能用<code>srv/*</code></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;1-回滚到某一提交，并删除后续的提交记录&quot;&gt;&lt;a href=&quot;#1-回滚到某一提交，并删除后续的提交记录&quot; class=&quot;headerlink&quot; title=&quot;1. 回滚到某一提交，并删除后续的提交记录&quot;&gt;&lt;/a&gt;1. 回滚到某一提交，并删除后续的提交记录&lt;/h3
-      
-    
-    </summary>
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
-    
-      <category term="GitHub" scheme="http://www.jianwudao.cn/categories/Soft/GitHub/"/>
-    
-    
-      <category term="GitHub" scheme="http://www.jianwudao.cn/tags/GitHub/"/>
-    
-      <category term="Command" scheme="http://www.jianwudao.cn/tags/Command/"/>
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
   </entry>
   
