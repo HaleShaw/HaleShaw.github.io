@@ -4,6 +4,72 @@
   
     
     <entry>
+      <title>Teleport Ultra</title>
+      <link href="/tools/develop/TeleportUltra/"/>
+      <url>/tools/develop/TeleportUltra/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.tenmax.com/img/logo_ultra.gif" alt="TeleportUltra"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.tenmax.com/teleport/ultra/home.htm" target="_blank" rel="noopener">http://www.tenmax.com/teleport/ultra/home.htm</a></p><p>Teleport Pro’s big brother, Teleport Ultra, has Pro’s intuitive interface and easy-to-use project-based design – but it also has the ability to scan up to 260,000 addresses in a single project.  Like Teleport Pro, Teleport Ultra can handle multiple servers in a single project, dramatically improving its throughput.  Its larger database, however, allows it to handle much larger websites and more servers, enabling you to download much more information in a single project.  (And if you need even larger capacity, try Teleport VLX.)</p><p>Teleport Ultra is also an enhanced capability webspider, having exploration, filtering, and rewriting capabilities that Teleport Pro lacks.  Its enhanced abilities allow you to:</p><ul><li>Use regular expressions to specify included as well as excluded areas to crawl</li><li>Specify domain aliases for crawling servers with multiple names</li><li>Borrow the browser’s cookie cache, letting you perform complex authentication with your browser, and then crawl with Teleport</li><li>Inject custom HTTP headers into server requests</li><li>Synchronize your offline copy so that old files and orphans are automatically removed</li><li>Use customizable messages when rewriting links to unretrieved files</li><li>Control HTML markup and inject meta tags with original URL and retrieval date/time stamps</li><li>Can crawl HTTPS (secure) servers</li></ul><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="http://www.tenmax.com/Teleport_Ultra_Installer.exe" target="_blank" rel="noopener">http://www.tenmax.com/Teleport_Ultra_Installer.exe</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> develop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> develop </tag>
+            
+            <tag> Teleport </tag>
+            
+            <tag> 前端 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CMDebug</title>
+      <link href="/tools/develop/CMDebug/"/>
+      <url>/tools/develop/CMDebug/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://jpsoft.com/images/cmdebug.png" alt="CMDebug"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://jpsoft.com/products/cmdebug-ide.html" target="_blank" rel="noopener">https://jpsoft.com/products/cmdebug-ide.html</a></p><p>MDebug : A Compelling Editor / Batch Debugger for CMD &amp; TCC-RT Batch Files<br>CMDebug is a stand-alone version of the Take Command IDE and batch debugger component. CMDebug is intended for developers creating batch files to run in CMD (the Windows default command processor) or TCC-RT (the free runtime version of TCC).</p><p>CMDebug allows you to write and debug your batch scripts with the integrated graphical IDE. CMDebug includes tabbed edit windows and a sophisticated debugger with single stepping, breakpoints, syntax coloring, tooltips, bookmarks, and tabbed variable and watch windows. Windows batch file programming has never been easier or more powerful!</p><p>You can use CMDebug to develop either CMD-compatible batch files (.BAT or .CMD), or TCC-RT-compatible scripts (.BTM). If you select the “TCC Syntax” option, CMDebug supports the full TCC-RT command set. If you select the “CMD Syntax” option, CMDebug will disable TCC-only internal commands, variables, and functions. Some internal CMD / TCC commands will also behave slightly differently or modify their display output in order to match CMD’s behavior more closely.</p><p>Using CMDebug with TCC-RT allows you to create (and encrypt) scripts using the TCC command language, and then distribute them with the free TCC-RT runtime on an unlimited number of target machines.</p><h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><ul><li>Create and debug your batch scripts with the integrated graphical IDE. The IDE includes tabbed edit windows and a sophisticated debugger with single stepping, breakpoints, syntax coloring, tooltips, bookmarks, tabbed variable and watch windows. Windows batch file programming has never been easier or more powerful!</li><li>The TCC-RT scripting language is a massive superset of the Windows CMD shell, with 245+ internal commands, 400+ internal functions, and 300+ system variables. Almost all of the CMD command line commands (e.g. DIR, COPY, DEL, START, etc.) are enhanced with hundreds of additional options. And TCC adds more than 200 new commands. TCC-RT can usually do in one or two lines what requires dozens of CMD commands (if CMD can do it at all).</li><li>The scripting language includes a complete set of extended flow control structures including IF-Then-Else, DO and FOR loops, SWITCH, subroutines, batch libraries, and more.</li><li>When using TCC-RT syntax, most interactive commands (such as COPY, DEL, DIR, MOVE, REN, START, etc.) have command dialogs that allow you to select filenames and options and see your command line before executing it. The most powerful Windows command processor is also the easiest to use!</li><li>Monitor your system’s hardware and software events, and execute commands when an event is triggered. You can monitor directory changes, the clipboard, event logs, Ethernet and WiFi connections, services, processes, and USB and Firewire connections.</li><li>Environment variable substitution is greatly enhanced, including nested variables, delayed expansion, indirect variables, multidimensional array variables, and direct access to the system, user, and volatile variables in the registry.</li><li>Select or exclude files by date, time, size, owner, and extended wildcards or regular expressions for extraordinary flexibility in file management.</li><li>Specify multiple filenames for most file processing commands (i.e., COPY, DEL, DIR, MOVE, etc.), or optionally the name of a file that contains the filename arguments. (COPY even supports multiple targets as well as multiple sources.)</li><li>Multiple types of I/O redirection are available, including redirecting and piping to STDERR, “in-process” pipes, “here-document” and “here-string” redirection, and Tee and Y pipe fittings.</li><li>Send keystrokes to any application (console or GUI).</li><li>TCC-RT includes internal compression and extraction commands for ZIP, 7ZIP, TAR, JAR, GZIP, and BZIP files.</li><li>You can access FTP, TFTP and HTTP (including SSL and SSH) directories and files in all command processor file-handling commands (COPY, DEL, MOVE, etc.).</li><li>Internal support is included for Perl, Lua, REXX, PowerShell, Python, Tcl/tk, and any Windows Active Scripting language. You can even combine multiple languages in your batch scripts.</li></ul><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul><li><p>官网下载：<a href="https://jpsoft.com/downloads/v25/cmdebug.exe" target="_blank" rel="noopener">https://jpsoft.com/downloads/v25/cmdebug.exe</a></p><p><a href="http://www.dayanzai.me/cmdebug.html" target="_blank" rel="noopener">大眼仔原文链接</a></p></li><li><p>城通网盘：<a href="https://t00y.com/file/3965089-415984544" target="_blank" rel="noopener">https://t00y.com/file/3965089-415984544</a></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> develop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> develop </tag>
+            
+            <tag> CMD </tag>
+            
+            <tag> debug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PDF Password Remover</title>
       <link href="/tools/office/PDFPasswordRemover/"/>
       <url>/tools/office/PDFPasswordRemover/</url>
@@ -1137,35 +1203,6 @@
     
     
     <entry>
-      <title>XDown</title>
-      <link href="/tools/office/download/XDown/"/>
-      <url>/tools/office/download/XDown/</url>
-      
-        <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Tools </category>
-          
-          <category> Download </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Soft </tag>
-            
-            <tag> Download </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Win10</title>
       <link href="/tools/system/Win10/"/>
       <url>/tools/system/Win10/</url>
@@ -1187,6 +1224,35 @@
             <tag> Soft </tag>
             
             <tag> system </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>XDown</title>
+      <link href="/tools/office/download/XDown/"/>
+      <url>/tools/office/download/XDown/</url>
+      
+        <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> Download </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> Download </tag>
             
         </tags>
       

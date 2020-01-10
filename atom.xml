@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwudao.cn/"/>
-  <updated>2020-01-02T05:15:39.983Z</updated>
+  <updated>2020-01-10T08:01:10.383Z</updated>
   <id>http://www.jianwudao.cn/</id>
   
   <author>
@@ -15,6 +15,72 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Teleport Ultra</title>
+    <link href="http://www.jianwudao.cn/tools/develop/TeleportUltra/"/>
+    <id>http://www.jianwudao.cn/tools/develop/TeleportUltra/</id>
+    <published>2020-01-10T06:52:21.000Z</published>
+    <updated>2020-01-10T08:01:10.383Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.tenmax.com/img/logo_ultra.gif" alt="TeleportUltra"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.tenmax.com/teleport/ultra/home.htm" target="_blank" rel="noopener">http://www.tenmax.com/teleport/ultra/home.htm</a></p><p>Teleport Pro’s big brother, Teleport Ultra, has Pro’s intuitive interface and easy-to-use project-based design – but it also has the ability to scan up to 260,000 addresses in a single project.  Like Teleport Pro, Teleport Ultra can handle multiple servers in a single project, dramatically improving its throughput.  Its larger database, however, allows it to handle much larger websites and more servers, enabling you to download much more information in a single project.  (And if you need even larger capacity, try Teleport VLX.)</p><p>Teleport Ultra is also an enhanced capability webspider, having exploration, filtering, and rewriting capabilities that Teleport Pro lacks.  Its enhanced abilities allow you to:</p><ul><li>Use regular expressions to specify included as well as excluded areas to crawl</li><li>Specify domain aliases for crawling servers with multiple names</li><li>Borrow the browser’s cookie cache, letting you perform complex authentication with your browser, and then crawl with Teleport</li><li>Inject custom HTTP headers into server requests</li><li>Synchronize your offline copy so that old files and orphans are automatically removed</li><li>Use customizable messages when rewriting links to unretrieved files</li><li>Control HTML markup and inject meta tags with original URL and retrieval date/time stamps</li><li>Can crawl HTTPS (secure) servers</li></ul><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="http://www.tenmax.com/Teleport_Ultra_Installer.exe" target="_blank" rel="noopener">http://www.tenmax.com/Teleport_Ultra_Installer.exe</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;http://www.tenmax.com/img/logo_ultra.gif&quot; alt=&quot;Telepo
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+    
+      <category term="Teleport" scheme="http://www.jianwudao.cn/tags/Teleport/"/>
+    
+      <category term="前端" scheme="http://www.jianwudao.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CMDebug</title>
+    <link href="http://www.jianwudao.cn/tools/develop/CMDebug/"/>
+    <id>http://www.jianwudao.cn/tools/develop/CMDebug/</id>
+    <published>2020-01-10T06:50:39.000Z</published>
+    <updated>2020-01-10T07:55:58.701Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://jpsoft.com/images/cmdebug.png" alt="CMDebug"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://jpsoft.com/products/cmdebug-ide.html" target="_blank" rel="noopener">https://jpsoft.com/products/cmdebug-ide.html</a></p><p>MDebug : A Compelling Editor / Batch Debugger for CMD &amp; TCC-RT Batch Files<br>CMDebug is a stand-alone version of the Take Command IDE and batch debugger component. CMDebug is intended for developers creating batch files to run in CMD (the Windows default command processor) or TCC-RT (the free runtime version of TCC).</p><p>CMDebug allows you to write and debug your batch scripts with the integrated graphical IDE. CMDebug includes tabbed edit windows and a sophisticated debugger with single stepping, breakpoints, syntax coloring, tooltips, bookmarks, and tabbed variable and watch windows. Windows batch file programming has never been easier or more powerful!</p><p>You can use CMDebug to develop either CMD-compatible batch files (.BAT or .CMD), or TCC-RT-compatible scripts (.BTM). If you select the “TCC Syntax” option, CMDebug supports the full TCC-RT command set. If you select the “CMD Syntax” option, CMDebug will disable TCC-only internal commands, variables, and functions. Some internal CMD / TCC commands will also behave slightly differently or modify their display output in order to match CMD’s behavior more closely.</p><p>Using CMDebug with TCC-RT allows you to create (and encrypt) scripts using the TCC command language, and then distribute them with the free TCC-RT runtime on an unlimited number of target machines.</p><h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><ul><li>Create and debug your batch scripts with the integrated graphical IDE. The IDE includes tabbed edit windows and a sophisticated debugger with single stepping, breakpoints, syntax coloring, tooltips, bookmarks, tabbed variable and watch windows. Windows batch file programming has never been easier or more powerful!</li><li>The TCC-RT scripting language is a massive superset of the Windows CMD shell, with 245+ internal commands, 400+ internal functions, and 300+ system variables. Almost all of the CMD command line commands (e.g. DIR, COPY, DEL, START, etc.) are enhanced with hundreds of additional options. And TCC adds more than 200 new commands. TCC-RT can usually do in one or two lines what requires dozens of CMD commands (if CMD can do it at all).</li><li>The scripting language includes a complete set of extended flow control structures including IF-Then-Else, DO and FOR loops, SWITCH, subroutines, batch libraries, and more.</li><li>When using TCC-RT syntax, most interactive commands (such as COPY, DEL, DIR, MOVE, REN, START, etc.) have command dialogs that allow you to select filenames and options and see your command line before executing it. The most powerful Windows command processor is also the easiest to use!</li><li>Monitor your system’s hardware and software events, and execute commands when an event is triggered. You can monitor directory changes, the clipboard, event logs, Ethernet and WiFi connections, services, processes, and USB and Firewire connections.</li><li>Environment variable substitution is greatly enhanced, including nested variables, delayed expansion, indirect variables, multidimensional array variables, and direct access to the system, user, and volatile variables in the registry.</li><li>Select or exclude files by date, time, size, owner, and extended wildcards or regular expressions for extraordinary flexibility in file management.</li><li>Specify multiple filenames for most file processing commands (i.e., COPY, DEL, DIR, MOVE, etc.), or optionally the name of a file that contains the filename arguments. (COPY even supports multiple targets as well as multiple sources.)</li><li>Multiple types of I/O redirection are available, including redirecting and piping to STDERR, “in-process” pipes, “here-document” and “here-string” redirection, and Tee and Y pipe fittings.</li><li>Send keystrokes to any application (console or GUI).</li><li>TCC-RT includes internal compression and extraction commands for ZIP, 7ZIP, TAR, JAR, GZIP, and BZIP files.</li><li>You can access FTP, TFTP and HTTP (including SSL and SSH) directories and files in all command processor file-handling commands (COPY, DEL, MOVE, etc.).</li><li>Internal support is included for Perl, Lua, REXX, PowerShell, Python, Tcl/tk, and any Windows Active Scripting language. You can even combine multiple languages in your batch scripts.</li></ul><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul><li><p>官网下载：<a href="https://jpsoft.com/downloads/v25/cmdebug.exe" target="_blank" rel="noopener">https://jpsoft.com/downloads/v25/cmdebug.exe</a></p><p><a href="http://www.dayanzai.me/cmdebug.html" target="_blank" rel="noopener">大眼仔原文链接</a></p></li><li><p>城通网盘：<a href="https://t00y.com/file/3965089-415984544" target="_blank" rel="noopener">https://t00y.com/file/3965089-415984544</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://jpsoft.com/images/cmdebug.png&quot; alt=&quot;CMDebug&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+    
+      <category term="CMD" scheme="http://www.jianwudao.cn/tags/CMD/"/>
+    
+      <category term="debug" scheme="http://www.jianwudao.cn/tags/debug/"/>
+    
+  </entry>
   
   <entry>
     <title>PDF Password Remover</title>
@@ -559,71 +625,6 @@
       <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
     
       <category term="Translate" scheme="http://www.jianwudao.cn/tags/Translate/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Snipaste</title>
-    <link href="http://www.jianwudao.cn/tools/av/Snipaste/"/>
-    <id>http://www.jianwudao.cn/tools/av/Snipaste/</id>
-    <published>2019-12-03T07:44:16.000Z</published>
-    <updated>2019-12-03T08:00:29.610Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/71Ftp04b.png" alt="Snipaste"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.snipaste.com" target="_blank" rel="noopener">https://www.snipaste.com</a></p><p><strong>下载地址</strong><br><a href="https://www.snipaste.com/download.html" target="_blank" rel="noopener">https://www.snipaste.com/download.html</a></p><p><strong>注意</strong><br>For api-*.dll errors, please install Microsoft Visual C++ Redist 2015: <a href="https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x86.exe" target="_blank" rel="noopener">32-bit</a> | <a href="https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x64.exe" target="_blank" rel="noopener">64-bit</a></p><p>Other problems: <a href="https://docs.snipaste.com/troubleshooting" target="_blank" rel="noopener">Troubleshooting</a></p><h3 id="Boost-your-productivity-with-Snipaste"><a href="#Boost-your-productivity-with-Snipaste" class="headerlink" title="Boost your productivity with Snipaste"></a>Boost your productivity with Snipaste</h3><p>Snipaste is a simple but powerful snipping tool, and also allows you to pin the screenshot back onto the screen. Download and start the application, press <code>F1</code> to start snipping, then press <code>F3</code> to paste it as a floating window. That’s it!</p><p>You can also convert text or color info in the clipboard into a floating image window. Such windows can be zoomed, rotated, flipped, made translucent, and even made click-through! If you are a programmer, a designer or whoever works much time before the computer, you will be surprised how it can help you get your work done more efficiently!</p><p>Snipaste is easy and intuitive to use, but there are also many hidden features that can make your life even more efficient. Read the <a href="https://docs.snipaste.com" target="_blank" rel="noopener">manual</a> if you are interested.</p><h4 id="Intuitive-snipping"><a href="#Intuitive-snipping" class="headerlink" title="Intuitive snipping"></a>Intuitive snipping</h4><ul><li>Auto detect UI elements</li><li>Pixel-level control</li><li>Color picker (try <code>F1</code>, <code>C</code>, <code>F3</code>)</li><li><strong>History play back</strong> (<code>,</code>/<code>.</code>)</li><li>Multi-screen support</li><li>HiDPI (retina display) support<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/54QM64O3.png" alt="Snipaste"></li></ul><h4 id="Paste-images-as-topmost-floating-windows"><a href="#Paste-images-as-topmost-floating-windows" class="headerlink" title="Paste images as topmost floating windows"></a>Paste images as topmost floating windows</h4><ul><li>The source (in the clipboard) could be<ul><li>Image</li><li>Plain text</li><li>HTML text</li><li>Color info text</li><li>Image files: PNG, JPG, BMP, TGA, ICO, TIFF and <strong>GIF</strong></li></ul></li><li>Supported operations<ul><li>Zoom (<code>mouse scroll</code> or <code>+</code>/<code>-</code>) or set speed for GIF</li><li>Rotate (<code>1</code>/<code>2</code>) or jump to previous/next frame for GIF</li><li>Flip (<code>3</code>/<code>4</code>)</li><li>Set transparency (<code>Ctrl</code> + <code>mouse scroll</code> or <code>Ctrl</code> + <code>+</code>/<code>-</code>)</li><li>Mouse click-through (<code>X</code>, and use <code>F4</code> to cancel)</li><li>Image editing (<code>Space</code>)</li><li>Thumbnail mode (<code>Shift</code> + <code>Double click</code>)</li><li>Hide (<code>Double click</code>)</li><li>…</li></ul></li><li>Color picker (<code>Alt</code>)</li><li>Drag &amp; drop</li><li><strong>Grouping</strong></li><li><strong>Auto backup &amp; restore</strong><br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/Bar9ulo7.png" alt="Snipaste"></li></ul><h4 id="Easy-image-annotation"><a href="#Easy-image-annotation" class="headerlink" title="Easy image annotation"></a>Easy image annotation</h4><ul><li>Rich shapes<ul><li>Rectangle</li><li>Ellipse</li><li>Linestrip</li><li>Arrow</li><li>Pencil</li><li>Marker pen</li><li>Text</li></ul></li><li>Advanced annotation tools<ul><li>Mosaic</li><li>Gaussian blur</li><li>Eraser</li></ul></li><li>Undo &amp; redo<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/746553IP.png" alt="Snipaste"></li></ul><h4 id="Customization"><a href="#Customization" class="headerlink" title="Customization"></a>Customization</h4><ul><li>Theme color, interface font, tray icon, and more</li><li>Hot keys</li><li>Detailed functionality options</li><li>Want more options? Just <a href="https://github.com/liulex/Snipaste-Feedback/issues" target="_blank" rel="noopener">tell me</a>!<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://i.v2ex.co/5Z3rCk0Z.png" alt="Snipaste"></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://i.v2ex.co/71Ftp04b.png&quot; alt=&quot;Snipaste&quot;&gt;&lt;/p&gt;
-&lt;
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
-    
-      <category term="Snipaste" scheme="http://www.jianwudao.cn/tags/Snipaste/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>VSCode</title>
-    <link href="http://www.jianwudao.cn/tools/develop/VSCode/"/>
-    <id>http://www.jianwudao.cn/tools/develop/VSCode/</id>
-    <published>2019-12-03T07:30:15.000Z</published>
-    <updated>2019-12-03T07:34:34.823Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://code.visualstudio.com/assets/home/home-screenshot-win-lg.png" alt="VSCode"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://code.visualstudio.com" target="_blank" rel="noopener">https://code.visualstudio.com</a></p><p><strong>下载地址</strong><br><a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">https://code.visualstudio.com/Download</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://code.visualstudio.com/assets/home/home-screen
-      
-    
-    </summary>
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
-    
-    
-      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
-    
-      <category term="VSCode" scheme="http://www.jianwudao.cn/tags/VSCode/"/>
     
   </entry>
   
