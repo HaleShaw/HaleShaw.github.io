@@ -220,13 +220,6 @@
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/tags/develop/</loc>
-        <lastmod>2020-01-10T08:01:10.383Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.jianwudao.cn/tags/Teleport/</loc>
         <lastmod>2020-01-10T08:01:10.383Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -304,13 +297,6 @@
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/tags/Soft/</loc>
-        <lastmod>2020-02-19T07:53:50.789Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.jianwudao.cn/tags/av/</loc>
         <lastmod>2020-02-19T07:53:50.789Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -320,6 +306,41 @@
     <url>
         <loc>http://www.jianwudao.cn/tags/music/</loc>
         <lastmod>2020-02-19T07:53:50.789Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/optimizer/</loc>
+        <lastmod>2020-02-21T09:26:56.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/Soft/</loc>
+        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/develop/</loc>
+        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/shell/</loc>
+        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/ssh/</loc>
+        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

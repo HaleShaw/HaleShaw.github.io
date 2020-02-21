@@ -36,22 +36,8 @@
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/system/</loc>
-        <lastmod>2019-12-20T06:03:38.578Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.jianwudao.cn/categories/Tools/office/</loc>
         <lastmod>2020-01-02T05:15:39.983Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/develop/</loc>
-        <lastmod>2020-01-10T08:01:10.383Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -85,15 +71,29 @@
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/</loc>
+        <loc>http://www.jianwudao.cn/categories/Tools/av/</loc>
         <lastmod>2020-02-19T07:53:50.789Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/av/</loc>
-        <lastmod>2020-02-19T07:53:50.789Z</lastmod>
+        <loc>http://www.jianwudao.cn/categories/Tools/system/</loc>
+        <lastmod>2020-02-21T09:26:56.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/categories/Tools/</loc>
+        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/categories/Tools/develop/</loc>
+        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
