@@ -8,6 +8,30 @@
     </url>
 
     <url>
+        <loc>http://www.jianwudao.cn/tools/office/compress/7z/</loc>
+        <lastmod>2020-02-22T07:05:06.037Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tools/av/Balabolka/</loc>
+        <lastmod>2020-02-22T07:04:25.093Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tools/office/compress/WinRAR/</loc>
+        <lastmod>2020-02-22T06:57:43.516Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://www.jianwudao.cn/tools/develop/XShell/</loc>
         <lastmod>2020-02-21T09:45:59.408Z</lastmod>
         <changefreq>weekly</changefreq>

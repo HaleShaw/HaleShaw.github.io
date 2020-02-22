@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwudao.cn/"/>
-  <updated>2020-02-21T09:45:59.408Z</updated>
+  <updated>2020-02-22T07:05:06.037Z</updated>
   <id>http://www.jianwudao.cn/</id>
   
   <author>
@@ -15,6 +15,98 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>7-Zip</title>
+    <link href="http://www.jianwudao.cn/tools/office/compress/7z/"/>
+    <id>http://www.jianwudao.cn/tools/office/compress/7z/</id>
+    <published>2020-02-22T06:53:21.000Z</published>
+    <updated>2020-02-22T07:05:06.037Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.7-zip.org/7ziplogo.png" alt="7z"></p><h3 id="官方主页">官方主页</h3><p><a href="https://www.7-zip.org" target="_blank" rel="noopener">https://www.7-zip.org</a></p><p><strong>中文主页</strong></p><p><a href="https://sparanoid.com/lab/7z" target="_blank" rel="noopener">https://sparanoid.com/lab/7z</a></p><p><strong>下载地址</strong></p><p><a href="https://www.7-zip.org/download.html" target="_blank" rel="noopener">https://www.7-zip.org/download.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://www.7-zip.org/7ziplogo.png&quot; alt=&quot;7z&quot;&gt;&lt;/p&gt;
+&lt;h3
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="office" scheme="http://www.jianwudao.cn/categories/Tools/office/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="Compress" scheme="http://www.jianwudao.cn/tags/Compress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WinRAR</title>
+    <link href="http://www.jianwudao.cn/tools/office/compress/WinRAR/"/>
+    <id>http://www.jianwudao.cn/tools/office/compress/WinRAR/</id>
+    <published>2020-02-22T06:51:24.000Z</published>
+    <updated>2020-02-22T06:57:43.516Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, open and unpack RAR, ZIP and other files downloaded from Internet, create new archives in RAR and ZIP file format.</p><p><a href="https://www.rarlab.com" target="_blank" rel="noopener">https://www.rarlab.com</a></p><h3 id="下载地址">下载地址</h3><p><a href="https://www.rarlab.com/download.htm" target="_blank" rel="noopener">https://www.rarlab.com/download.htm</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官方主页&quot;&gt;官方主页&lt;/h3&gt;
+&lt;p&gt;WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, open and 
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="office" scheme="http://www.jianwudao.cn/categories/Tools/office/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="Compress" scheme="http://www.jianwudao.cn/tags/Compress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Balabolka</title>
+    <link href="http://www.jianwudao.cn/tools/av/Balabolka/"/>
+    <id>http://www.jianwudao.cn/tools/av/Balabolka/</id>
+    <published>2020-02-22T06:36:03.000Z</published>
+    <updated>2020-02-22T07:04:25.093Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.cross-plus-a.com/data/logo_balabolka.jpg" alt="Balabolka"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.cross-plus-a.com/balabolka.gif" alt="Balabolka"></p><p>Balabolka是一个文本转语音（TTS）的程序。Balabolka可以使用计算机系统上安装的所有语音。屏幕上的文字可以被保存为一个WAV，MP3，OGG或者WMA文件。该软件可以读取剪贴板的内容，可以查看AZW，AZW3，CHM，DjVu，DOC，EML，EPUB，FB2，FB3，LIT，MD，MOBI，ODP，ODS，ODT，PDB，PDF，PPT，PRC，RTF，TCR，WPD，XLS和HTML文件中的文本，可自定义字体和背景颜色，控制从系统托盘阅读或者使用热键。 Balabolka使用微软的语音API（SAPI）的各种版本，它可以改变语音的参数，包括语度和语调。用户可以应用特殊的替代清单，以提高语音的清晰度质量。当你想改变的单词拼写时这个功能就非常有用。纠正发音规则使用VBScript的语法。</p><h3 id="官方主页">官方主页</h3><p><a href="http://www.cross-plus-a.com/cn/balabolka.htm" target="_blank" rel="noopener">http://www.cross-plus-a.com/cn/balabolka.htm</a></p><h3 id="下载地址">下载地址</h3><p><strong>安装版</strong></p><p><a href="http://balabolka.site/balabolka.zip" target="_blank" rel="noopener">http://balabolka.site/balabolka.zip</a></p><p><strong>便携版</strong></p><p><a href="http://balabolka.site/balabolka_portable.zip" target="_blank" rel="noopener">http://balabolka.site/balabolka_portable.zip</a></p><h3 id="语音">语音</h3><ul><li><strong><a href="http://www.eguidedog.net/ekho_cn.php" target="_blank" rel="noopener">Ekho (余音)</a></strong></li></ul><p>免费的 TTS 引擎。<br>它支持粤语，普通话和潮汕客家话</p><ul><li><strong><a href="https://github.com/Olga-Yakovleva/RHVoice/wiki" target="_blank" rel="noopener">RHVoice</a></strong></li></ul><p>免费和开源的语音合成器。<br>它支持英语，世界语，格鲁吉亚语，俄语，乌克兰语，吉尔吉斯语和塔塔尔族语。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;http://www.cross-plus-a.com/data/logo_balabolka.jpg&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+    
+      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
+    
+  </entry>
   
   <entry>
     <title>XShell</title>
@@ -573,101 +665,6 @@ Display a live view of your most important system i
       <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
     
       <category term="FTP" scheme="http://www.jianwudao.cn/tags/FTP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UltraEdit</title>
-    <link href="http://www.jianwudao.cn/tools/develop/UltraEdit/"/>
-    <id>http://www.jianwudao.cn/tools/develop/UltraEdit/</id>
-    <published>2019-12-11T05:50:59.000Z</published>
-    <updated>2019-12-11T05:57:40.386Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p><a href="https://www.ultraedit.com" target="_blank" rel="noopener">https://www.ultraedit.com</a></p><p><strong>Developer / programmer</strong></p><ul><li>Unsurpassed power, performance, startup, &amp; file load</li><li>Customizable, configurable, beautiful themes</li><li>OS integration (command line, shell extension)</li><li>Blazing fast find / replace and find in files / replace in files</li><li>Fully integrated file compare, instant diff operations</li></ul><p><strong>Corporate / enterprise</strong></p><ul><li>Secure, trusted, proven, dependable, stable</li><li>Digitally signed installers and libraries</li><li>Easy / silent deployment with MSI installers</li><li>Professional support and in-house call center</li><li>Multi-platform: Windows, Mac, and Linux</li></ul><p><strong>下载地址</strong><br><a href="https://www.ultraedit.com/downloads/ultraedit-download" target="_blank" rel="noopener">https://www.ultraedit.com/downloads/ultraedit-download</a></p><p>Win x64 Chinese<br><a href="https://downloads.ultraedit.com/main/ue/win/ue_chinese_64.exe" target="_blank" rel="noopener">https://downloads.ultraedit.com/main/ue/win/ue_chinese_64.exe</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;官方主页&quot;&gt;官方主页&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.ultraedit.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.ultraedit.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;D
-      
-    
-    </summary>
-    
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>BeyondCompare</title>
-    <link href="http://www.jianwudao.cn/tools/develop/BeyondCompare/"/>
-    <id>http://www.jianwudao.cn/tools/develop/BeyondCompare/</id>
-    <published>2019-12-11T05:48:06.000Z</published>
-    <updated>2019-12-11T05:50:19.900Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p><a href="http://www.scootersoftware.com" target="_blank" rel="noopener">http://www.scootersoftware.com</a></p><p><strong>下载地址</strong><br><a href="http://www.scootersoftware.com/download.php" target="_blank" rel="noopener">http://www.scootersoftware.com/download.php</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;官方主页&quot;&gt;官方主页&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.scootersoftware.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.scootersoftware.com&lt;/a&gt;&lt;/p&gt;
-&lt;p
-      
-    
-    </summary>
-    
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MKVToolNix</title>
-    <link href="http://www.jianwudao.cn/tools/av/MKVToolNix/"/>
-    <id>http://www.jianwudao.cn/tools/av/MKVToolNix/</id>
-    <published>2019-12-11T05:15:42.000Z</published>
-    <updated>2019-12-11T05:30:15.514Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p><a href="https://sourceforge.net/projects/gmkvextractgui" target="_blank" rel="noopener">https://sourceforge.net/projects/gmkvextractgui</a></p><p><strong>GitLab</strong><br><a href="https://gitlab.com/mbunkus/mkvtoolnix" target="_blank" rel="noopener">https://gitlab.com/mbunkus/mkvtoolnix</a></p><p><strong>下载地址</strong><br><a href="https://mkvtoolnix.download/downloads.html" target="_blank" rel="noopener">https://mkvtoolnix.download/downloads.html</a></p><p>Windows<br><a href="https://www.fosshub.com/MKVToolNix.html" target="_blank" rel="noopener">https://www.fosshub.com/MKVToolNix.html</a></p><h3 id="gMKVExtractGUI">gMKVExtractGUI</h3><p>A GUI for mkvextract utility (part of MKVToolNix) which incorporates most (if not all) functionality of mkvextract and mkvinfo utilities.<br>Written in C# .NET 4.0, in order to attain high compatibility with Windows OS (WinXP and newer Windows), as well as Linux through Mono (v1.6.4 and newer), and perhaps OSX (not tested).</p><p><strong>Features</strong></p><ul><li>Use almost 100% of mkvextract functionality (supports extraction of tracks, attachments, chapters in XML, OGM and CUE, timecodes, tags and CUE sheet)</li><li>Use mkvinfo to analyse mkv elements really really fast</li><li>Automatically detects MKVToolnix installation directory from registry</li><li>It doesn’t require the executable to be placed inside MKVToolnix directory, but it still checks for it if registry search fails</li><li>Uses file extensions for tracks according to CODEC_ID as defined in official mkvextract documentation</li><li>Uses separate thread for invoking mkvextract in order to have a responsive GUI</li><li>It incorporates a job mode for batch extracting (new in v1.6)</li><li>Supports Linux through MONO (new in v1.6.4)</li><li>Supports all MKVToolnix versions from v4.x and newer</li><li>Supports batch extraction of multiple files (new in v2.0.0)</li><li>Supports custom output filename patterns (new in v2.5.0)</li></ul><p><strong>下载地址</strong><br><a href="http://sourceforge.net/projects/gmkvextractgui/files/latest/download" target="_blank" rel="noopener">http://sourceforge.net/projects/gmkvextractgui/files/latest/download</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h3 id=&quot;官方主页&quot;&gt;官方主页&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://sourceforge.net/projects/gmkvextractgui&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://sourceforge.net/
-      
-    
-    </summary>
-    
-    
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
-    
-      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
-    
-      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
     
   </entry>
   

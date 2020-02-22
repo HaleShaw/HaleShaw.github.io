@@ -297,13 +297,6 @@
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/tags/av/</loc>
-        <lastmod>2020-02-19T07:53:50.789Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.jianwudao.cn/tags/music/</loc>
         <lastmod>2020-02-19T07:53:50.789Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -313,13 +306,6 @@
     <url>
         <loc>http://www.jianwudao.cn/tags/optimizer/</loc>
         <lastmod>2020-02-21T09:26:56.449Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.jianwudao.cn/tags/Soft/</loc>
-        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -341,6 +327,27 @@
     <url>
         <loc>http://www.jianwudao.cn/tags/ssh/</loc>
         <lastmod>2020-02-21T09:45:59.408Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/av/</loc>
+        <lastmod>2020-02-22T07:04:25.093Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/Soft/</loc>
+        <lastmod>2020-02-22T07:05:06.037Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/Compress/</loc>
+        <lastmod>2020-02-22T07:05:06.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

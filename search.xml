@@ -4,6 +4,93 @@
   
     
     <entry>
+      <title>7-Zip</title>
+      <link href="/tools/office/compress/7z/"/>
+      <url>/tools/office/compress/7z/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.7-zip.org/7ziplogo.png" alt="7z"></p><h3 id="官方主页">官方主页</h3><p><a href="https://www.7-zip.org" target="_blank" rel="noopener">https://www.7-zip.org</a></p><p><strong>中文主页</strong></p><p><a href="https://sparanoid.com/lab/7z" target="_blank" rel="noopener">https://sparanoid.com/lab/7z</a></p><p><strong>下载地址</strong></p><p><a href="https://www.7-zip.org/download.html" target="_blank" rel="noopener">https://www.7-zip.org/download.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> office </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> Compress </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>WinRAR</title>
+      <link href="/tools/office/compress/WinRAR/"/>
+      <url>/tools/office/compress/WinRAR/</url>
+      
+        <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, open and unpack RAR, ZIP and other files downloaded from Internet, create new archives in RAR and ZIP file format.</p><p><a href="https://www.rarlab.com" target="_blank" rel="noopener">https://www.rarlab.com</a></p><h3 id="下载地址">下载地址</h3><p><a href="https://www.rarlab.com/download.htm" target="_blank" rel="noopener">https://www.rarlab.com/download.htm</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> office </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> Compress </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Balabolka</title>
+      <link href="/tools/av/Balabolka/"/>
+      <url>/tools/av/Balabolka/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.cross-plus-a.com/data/logo_balabolka.jpg" alt="Balabolka"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="http://www.cross-plus-a.com/balabolka.gif" alt="Balabolka"></p><p>Balabolka是一个文本转语音（TTS）的程序。Balabolka可以使用计算机系统上安装的所有语音。屏幕上的文字可以被保存为一个WAV，MP3，OGG或者WMA文件。该软件可以读取剪贴板的内容，可以查看AZW，AZW3，CHM，DjVu，DOC，EML，EPUB，FB2，FB3，LIT，MD，MOBI，ODP，ODS，ODT，PDB，PDF，PPT，PRC，RTF，TCR，WPD，XLS和HTML文件中的文本，可自定义字体和背景颜色，控制从系统托盘阅读或者使用热键。 Balabolka使用微软的语音API（SAPI）的各种版本，它可以改变语音的参数，包括语度和语调。用户可以应用特殊的替代清单，以提高语音的清晰度质量。当你想改变的单词拼写时这个功能就非常有用。纠正发音规则使用VBScript的语法。</p><h3 id="官方主页">官方主页</h3><p><a href="http://www.cross-plus-a.com/cn/balabolka.htm" target="_blank" rel="noopener">http://www.cross-plus-a.com/cn/balabolka.htm</a></p><h3 id="下载地址">下载地址</h3><p><strong>安装版</strong></p><p><a href="http://balabolka.site/balabolka.zip" target="_blank" rel="noopener">http://balabolka.site/balabolka.zip</a></p><p><strong>便携版</strong></p><p><a href="http://balabolka.site/balabolka_portable.zip" target="_blank" rel="noopener">http://balabolka.site/balabolka_portable.zip</a></p><h3 id="语音">语音</h3><ul><li><strong><a href="http://www.eguidedog.net/ekho_cn.php" target="_blank" rel="noopener">Ekho (余音)</a></strong></li></ul><p>免费的 TTS 引擎。<br>它支持粤语，普通话和潮汕客家话</p><ul><li><strong><a href="https://github.com/Olga-Yakovleva/RHVoice/wiki" target="_blank" rel="noopener">RHVoice</a></strong></li></ul><p>免费和开源的语音合成器。<br>它支持英语，世界语，格鲁吉亚语，俄语，乌克兰语，吉尔吉斯语和塔塔尔族语。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> av </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> av </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>XShell</title>
       <link href="/tools/develop/XShell/"/>
       <url>/tools/develop/XShell/</url>
