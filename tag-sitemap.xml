@@ -262,41 +262,6 @@
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/tags/IDE/</loc>
-        <lastmod>2020-02-19T07:15:26.779Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.jianwudao.cn/tags/IDEA/</loc>
-        <lastmod>2020-02-19T07:15:26.779Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.jianwudao.cn/tags/Crack/</loc>
-        <lastmod>2020-02-19T07:15:26.779Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.jianwudao.cn/tags/%25E7%25A0%25B4%25E8%25A7%25A3/</loc>
-        <lastmod>2020-02-19T07:15:26.779Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.jianwudao.cn/tags/%25E6%25B3%25A8%25E5%2586%258C%25E7%25A0%2581/</loc>
-        <lastmod>2020-02-19T07:15:26.779Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.jianwudao.cn/tags/music/</loc>
         <lastmod>2020-02-19T07:53:50.789Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -348,6 +313,41 @@
     <url>
         <loc>http://www.jianwudao.cn/tags/Compress/</loc>
         <lastmod>2020-02-22T07:05:06.037Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/IDE/</loc>
+        <lastmod>2020-02-25T01:34:44.963Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/IDEA/</loc>
+        <lastmod>2020-02-25T01:34:44.963Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/Crack/</loc>
+        <lastmod>2020-02-25T01:34:44.963Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/%25E7%25A0%25B4%25E8%25A7%25A3/</loc>
+        <lastmod>2020-02-25T01:34:44.963Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.cn/tags/%25E6%25B3%25A8%25E5%2586%258C%25E7%25A0%2581/</loc>
+        <lastmod>2020-02-25T01:34:44.963Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
