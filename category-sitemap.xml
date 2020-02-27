@@ -2,97 +2,97 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://www.jianwudao.cn</loc>
+        <loc>http://www.jianwudao.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Soft/IDE/Eclipse/</loc>
+        <loc>http://www.jianwudao.com/categories/Soft/IDE/Eclipse/</loc>
         <lastmod>2019-10-28T13:14:15.291Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Soft/GitHub/</loc>
+        <loc>http://www.jianwudao.com/categories/Soft/GitHub/</loc>
         <lastmod>2019-11-15T08:53:44.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Soft/Chrome/</loc>
+        <loc>http://www.jianwudao.com/categories/Soft/Chrome/</loc>
         <lastmod>2019-11-21T13:44:58.711Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/Download/</loc>
+        <loc>http://www.jianwudao.com/categories/Tools/Download/</loc>
         <lastmod>2019-12-11T05:14:38.594Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/effcient/</loc>
+        <loc>http://www.jianwudao.com/categories/Tools/effcient/</loc>
         <lastmod>2020-02-07T10:49:00.094Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/system/</loc>
+        <loc>http://www.jianwudao.com/categories/Tools/system/</loc>
         <lastmod>2020-02-21T09:26:56.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/develop/</loc>
+        <loc>http://www.jianwudao.com/categories/Tools/develop/</loc>
         <lastmod>2020-02-21T09:45:59.408Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/av/</loc>
+        <loc>http://www.jianwudao.com/categories/Tools/av/</loc>
         <lastmod>2020-02-22T07:04:25.093Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/</loc>
+        <loc>http://www.jianwudao.com/categories/Tools/</loc>
         <lastmod>2020-02-22T07:05:06.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Tools/office/</loc>
+        <loc>http://www.jianwudao.com/categories/Tools/office/</loc>
         <lastmod>2020-02-22T07:05:06.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Soft/</loc>
+        <loc>http://www.jianwudao.com/categories/Soft/</loc>
         <lastmod>2020-02-25T01:34:44.963Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Soft/IDE/</loc>
+        <loc>http://www.jianwudao.com/categories/Soft/IDE/</loc>
         <lastmod>2020-02-25T01:34:44.963Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.jianwudao.cn/categories/Soft/IDE/IDEA/</loc>
+        <loc>http://www.jianwudao.com/categories/Soft/IDE/IDEA/</loc>
         <lastmod>2020-02-25T01:34:44.963Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

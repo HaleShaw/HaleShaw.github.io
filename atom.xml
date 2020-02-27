@@ -5,9 +5,9 @@
   <subtitle>无极之道</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.jianwudao.cn/"/>
+  <link href="http://www.jianwudao.com/"/>
   <updated>2020-02-22T07:05:06.037Z</updated>
-  <id>http://www.jianwudao.cn/</id>
+  <id>http://www.jianwudao.com/</id>
   
   <author>
     <name>Hale</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>7-Zip</title>
-    <link href="http://www.jianwudao.cn/tools/office/compress/7z/"/>
-    <id>http://www.jianwudao.cn/tools/office/compress/7z/</id>
+    <link href="http://www.jianwudao.com/tools/office/compress/7z/"/>
+    <id>http://www.jianwudao.com/tools/office/compress/7z/</id>
     <published>2020-02-22T06:53:21.000Z</published>
     <updated>2020-02-22T07:05:06.037Z</updated>
     
@@ -36,21 +36,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="office" scheme="http://www.jianwudao.cn/categories/Tools/office/"/>
+      <category term="office" scheme="http://www.jianwudao.com/categories/Tools/office/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="Compress" scheme="http://www.jianwudao.cn/tags/Compress/"/>
+      <category term="Compress" scheme="http://www.jianwudao.com/tags/Compress/"/>
     
   </entry>
   
   <entry>
     <title>WinRAR</title>
-    <link href="http://www.jianwudao.cn/tools/office/compress/WinRAR/"/>
-    <id>http://www.jianwudao.cn/tools/office/compress/WinRAR/</id>
+    <link href="http://www.jianwudao.com/tools/office/compress/WinRAR/"/>
+    <id>http://www.jianwudao.com/tools/office/compress/WinRAR/</id>
     <published>2020-02-22T06:51:24.000Z</published>
     <updated>2020-02-22T06:57:43.516Z</updated>
     
@@ -67,21 +67,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="office" scheme="http://www.jianwudao.cn/categories/Tools/office/"/>
+      <category term="office" scheme="http://www.jianwudao.com/categories/Tools/office/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="Compress" scheme="http://www.jianwudao.cn/tags/Compress/"/>
+      <category term="Compress" scheme="http://www.jianwudao.com/tags/Compress/"/>
     
   </entry>
   
   <entry>
     <title>Balabolka</title>
-    <link href="http://www.jianwudao.cn/tools/av/Balabolka/"/>
-    <id>http://www.jianwudao.cn/tools/av/Balabolka/</id>
+    <link href="http://www.jianwudao.com/tools/av/Balabolka/"/>
+    <id>http://www.jianwudao.com/tools/av/Balabolka/</id>
     <published>2020-02-22T06:36:03.000Z</published>
     <updated>2020-02-22T07:04:25.093Z</updated>
     
@@ -97,21 +97,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
+      <category term="av" scheme="http://www.jianwudao.com/categories/Tools/av/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
+      <category term="av" scheme="http://www.jianwudao.com/tags/av/"/>
     
   </entry>
   
   <entry>
     <title>XShell</title>
-    <link href="http://www.jianwudao.cn/tools/develop/XShell/"/>
-    <id>http://www.jianwudao.cn/tools/develop/XShell/</id>
+    <link href="http://www.jianwudao.com/tools/develop/XShell/"/>
+    <id>http://www.jianwudao.com/tools/develop/XShell/</id>
     <published>2020-02-21T09:37:31.000Z</published>
     <updated>2020-02-21T09:45:59.408Z</updated>
     
@@ -130,25 +130,25 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
     
-      <category term="shell" scheme="http://www.jianwudao.cn/tags/shell/"/>
+      <category term="shell" scheme="http://www.jianwudao.com/tags/shell/"/>
     
-      <category term="ssh" scheme="http://www.jianwudao.cn/tags/ssh/"/>
+      <category term="ssh" scheme="http://www.jianwudao.com/tags/ssh/"/>
     
   </entry>
   
   <entry>
     <title>LockHunter</title>
-    <link href="http://www.jianwudao.cn/tools/system/optimizer/LockHunter/"/>
-    <id>http://www.jianwudao.cn/tools/system/optimizer/LockHunter/</id>
+    <link href="http://www.jianwudao.com/tools/system/optimizer/LockHunter/"/>
+    <id>http://www.jianwudao.com/tools/system/optimizer/LockHunter/</id>
     <published>2020-02-21T09:07:45.000Z</published>
     <updated>2020-02-21T09:25:07.726Z</updated>
     
@@ -165,21 +165,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="optimizer" scheme="http://www.jianwudao.cn/tags/optimizer/"/>
+      <category term="optimizer" scheme="http://www.jianwudao.com/tags/optimizer/"/>
     
   </entry>
   
   <entry>
     <title>Unlocker</title>
-    <link href="http://www.jianwudao.cn/tools/system/optimizer/Unlocker/"/>
-    <id>http://www.jianwudao.cn/tools/system/optimizer/Unlocker/</id>
+    <link href="http://www.jianwudao.com/tools/system/optimizer/Unlocker/"/>
+    <id>http://www.jianwudao.com/tools/system/optimizer/Unlocker/</id>
     <published>2020-02-21T09:07:31.000Z</published>
     <updated>2020-02-21T09:26:56.449Z</updated>
     
@@ -196,21 +196,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="optimizer" scheme="http://www.jianwudao.cn/tags/optimizer/"/>
+      <category term="optimizer" scheme="http://www.jianwudao.com/tags/optimizer/"/>
     
   </entry>
   
   <entry>
     <title>Dism++</title>
-    <link href="http://www.jianwudao.cn/tools/system/optimizer/DismPlusPlus/"/>
-    <id>http://www.jianwudao.cn/tools/system/optimizer/DismPlusPlus/</id>
+    <link href="http://www.jianwudao.com/tools/system/optimizer/DismPlusPlus/"/>
+    <id>http://www.jianwudao.com/tools/system/optimizer/DismPlusPlus/</id>
     <published>2020-02-21T08:34:57.000Z</published>
     <updated>2020-02-21T08:44:00.911Z</updated>
     
@@ -229,21 +229,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="optimizer" scheme="http://www.jianwudao.cn/tags/optimizer/"/>
+      <category term="optimizer" scheme="http://www.jianwudao.com/tags/optimizer/"/>
     
   </entry>
   
   <entry>
     <title>Foobar2000</title>
-    <link href="http://www.jianwudao.cn/tools/av/Foobar2000/"/>
-    <id>http://www.jianwudao.cn/tools/av/Foobar2000/</id>
+    <link href="http://www.jianwudao.com/tools/av/Foobar2000/"/>
+    <id>http://www.jianwudao.com/tools/av/Foobar2000/</id>
     <published>2020-02-19T07:08:24.000Z</published>
     <updated>2020-02-19T07:53:50.789Z</updated>
     
@@ -260,23 +260,23 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="av" scheme="http://www.jianwudao.cn/categories/Tools/av/"/>
+      <category term="av" scheme="http://www.jianwudao.com/categories/Tools/av/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="av" scheme="http://www.jianwudao.cn/tags/av/"/>
+      <category term="av" scheme="http://www.jianwudao.com/tags/av/"/>
     
-      <category term="music" scheme="http://www.jianwudao.cn/tags/music/"/>
+      <category term="music" scheme="http://www.jianwudao.com/tags/music/"/>
     
   </entry>
   
   <entry>
     <title>TotalCommander</title>
-    <link href="http://www.jianwudao.cn/tools/efficient/TotalCommander/"/>
-    <id>http://www.jianwudao.cn/tools/efficient/TotalCommander/</id>
+    <link href="http://www.jianwudao.com/tools/efficient/TotalCommander/"/>
+    <id>http://www.jianwudao.com/tools/efficient/TotalCommander/</id>
     <published>2020-02-07T10:46:47.000Z</published>
     <updated>2020-02-07T10:49:00.094Z</updated>
     
@@ -292,25 +292,25 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="effcient" scheme="http://www.jianwudao.cn/categories/Tools/effcient/"/>
+      <category term="effcient" scheme="http://www.jianwudao.com/categories/Tools/effcient/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="effcient" scheme="http://www.jianwudao.cn/tags/effcient/"/>
+      <category term="effcient" scheme="http://www.jianwudao.com/tags/effcient/"/>
     
-      <category term="TC" scheme="http://www.jianwudao.cn/tags/TC/"/>
+      <category term="TC" scheme="http://www.jianwudao.com/tags/TC/"/>
     
-      <category term="资源管理器" scheme="http://www.jianwudao.cn/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8/"/>
+      <category term="资源管理器" scheme="http://www.jianwudao.com/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>IDEA Crack</title>
-    <link href="http://www.jianwudao.cn/IDEA-Crack/"/>
-    <id>http://www.jianwudao.cn/IDEA-Crack/</id>
+    <link href="http://www.jianwudao.com/IDEA-Crack/"/>
+    <id>http://www.jianwudao.com/IDEA-Crack/</id>
     <published>2020-01-31T03:28:21.000Z</published>
     <updated>2020-02-25T01:34:44.963Z</updated>
     
@@ -323,29 +323,29 @@
     </summary>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/categories/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/categories/Soft/"/>
     
-      <category term="IDE" scheme="http://www.jianwudao.cn/categories/Soft/IDE/"/>
+      <category term="IDE" scheme="http://www.jianwudao.com/categories/Soft/IDE/"/>
     
-      <category term="IDEA" scheme="http://www.jianwudao.cn/categories/Soft/IDE/IDEA/"/>
+      <category term="IDEA" scheme="http://www.jianwudao.com/categories/Soft/IDE/IDEA/"/>
     
     
-      <category term="IDE" scheme="http://www.jianwudao.cn/tags/IDE/"/>
+      <category term="IDE" scheme="http://www.jianwudao.com/tags/IDE/"/>
     
-      <category term="IDEA" scheme="http://www.jianwudao.cn/tags/IDEA/"/>
+      <category term="IDEA" scheme="http://www.jianwudao.com/tags/IDEA/"/>
     
-      <category term="Crack" scheme="http://www.jianwudao.cn/tags/Crack/"/>
+      <category term="Crack" scheme="http://www.jianwudao.com/tags/Crack/"/>
     
-      <category term="破解" scheme="http://www.jianwudao.cn/tags/%E7%A0%B4%E8%A7%A3/"/>
+      <category term="破解" scheme="http://www.jianwudao.com/tags/%E7%A0%B4%E8%A7%A3/"/>
     
-      <category term="注册码" scheme="http://www.jianwudao.cn/tags/%E6%B3%A8%E5%86%8C%E7%A0%81/"/>
+      <category term="注册码" scheme="http://www.jianwudao.com/tags/%E6%B3%A8%E5%86%8C%E7%A0%81/"/>
     
   </entry>
   
   <entry>
     <title>Teleport Ultra</title>
-    <link href="http://www.jianwudao.cn/tools/develop/TeleportUltra/"/>
-    <id>http://www.jianwudao.cn/tools/develop/TeleportUltra/</id>
+    <link href="http://www.jianwudao.com/tools/develop/TeleportUltra/"/>
+    <id>http://www.jianwudao.com/tools/develop/TeleportUltra/</id>
     <published>2020-01-10T06:52:21.000Z</published>
     <updated>2020-01-10T08:01:10.383Z</updated>
     
@@ -361,25 +361,25 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
     
-      <category term="Teleport" scheme="http://www.jianwudao.cn/tags/Teleport/"/>
+      <category term="Teleport" scheme="http://www.jianwudao.com/tags/Teleport/"/>
     
-      <category term="前端" scheme="http://www.jianwudao.cn/tags/%E5%89%8D%E7%AB%AF/"/>
+      <category term="前端" scheme="http://www.jianwudao.com/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>CMDebug</title>
-    <link href="http://www.jianwudao.cn/tools/develop/CMDebug/"/>
-    <id>http://www.jianwudao.cn/tools/develop/CMDebug/</id>
+    <link href="http://www.jianwudao.com/tools/develop/CMDebug/"/>
+    <id>http://www.jianwudao.com/tools/develop/CMDebug/</id>
     <published>2020-01-10T06:50:39.000Z</published>
     <updated>2020-01-10T07:55:58.701Z</updated>
     
@@ -395,25 +395,25 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
     
-      <category term="CMD" scheme="http://www.jianwudao.cn/tags/CMD/"/>
+      <category term="CMD" scheme="http://www.jianwudao.com/tags/CMD/"/>
     
-      <category term="debug" scheme="http://www.jianwudao.cn/tags/debug/"/>
+      <category term="debug" scheme="http://www.jianwudao.com/tags/debug/"/>
     
   </entry>
   
   <entry>
     <title>PDF Password Remover</title>
-    <link href="http://www.jianwudao.cn/tools/office/PDFPasswordRemover/"/>
-    <id>http://www.jianwudao.cn/tools/office/PDFPasswordRemover/</id>
+    <link href="http://www.jianwudao.com/tools/office/PDFPasswordRemover/"/>
+    <id>http://www.jianwudao.com/tools/office/PDFPasswordRemover/</id>
     <published>2020-01-02T05:00:00.000Z</published>
     <updated>2020-01-02T05:15:39.983Z</updated>
     
@@ -429,23 +429,23 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="office" scheme="http://www.jianwudao.cn/categories/Tools/office/"/>
+      <category term="office" scheme="http://www.jianwudao.com/categories/Tools/office/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="PDF" scheme="http://www.jianwudao.cn/tags/PDF/"/>
+      <category term="PDF" scheme="http://www.jianwudao.com/tags/PDF/"/>
     
-      <category term="password" scheme="http://www.jianwudao.cn/tags/password/"/>
+      <category term="password" scheme="http://www.jianwudao.com/tags/password/"/>
     
   </entry>
   
   <entry>
     <title>Fences</title>
-    <link href="http://www.jianwudao.cn/tools/efficient/Fences/"/>
-    <id>http://www.jianwudao.cn/tools/efficient/Fences/</id>
+    <link href="http://www.jianwudao.com/tools/efficient/Fences/"/>
+    <id>http://www.jianwudao.com/tools/efficient/Fences/</id>
     <published>2019-12-20T05:27:40.000Z</published>
     <updated>2019-12-20T06:03:28.295Z</updated>
     
@@ -461,23 +461,23 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="effcient" scheme="http://www.jianwudao.cn/categories/Tools/effcient/"/>
+      <category term="effcient" scheme="http://www.jianwudao.com/categories/Tools/effcient/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="effcient" scheme="http://www.jianwudao.cn/tags/effcient/"/>
+      <category term="effcient" scheme="http://www.jianwudao.com/tags/effcient/"/>
     
-      <category term="desktop" scheme="http://www.jianwudao.cn/tags/desktop/"/>
+      <category term="desktop" scheme="http://www.jianwudao.com/tags/desktop/"/>
     
   </entry>
   
   <entry>
     <title>ProcessHacker</title>
-    <link href="http://www.jianwudao.cn/tools/system/monitor/ProcessHacker/"/>
-    <id>http://www.jianwudao.cn/tools/system/monitor/ProcessHacker/</id>
+    <link href="http://www.jianwudao.com/tools/system/monitor/ProcessHacker/"/>
+    <id>http://www.jianwudao.com/tools/system/monitor/ProcessHacker/</id>
     <published>2019-12-20T05:05:04.000Z</published>
     <updated>2019-12-20T05:26:24.886Z</updated>
     
@@ -493,21 +493,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="monitor" scheme="http://www.jianwudao.cn/tags/monitor/"/>
+      <category term="monitor" scheme="http://www.jianwudao.com/tags/monitor/"/>
     
   </entry>
   
   <entry>
     <title>TrafficMonitor</title>
-    <link href="http://www.jianwudao.cn/tools/system/monitor/TrafficMonitor/"/>
-    <id>http://www.jianwudao.cn/tools/system/monitor/TrafficMonitor/</id>
+    <link href="http://www.jianwudao.com/tools/system/monitor/TrafficMonitor/"/>
+    <id>http://www.jianwudao.com/tools/system/monitor/TrafficMonitor/</id>
     <published>2019-12-20T04:22:35.000Z</published>
     <updated>2019-12-20T05:02:26.425Z</updated>
     
@@ -526,21 +526,21 @@
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="monitor" scheme="http://www.jianwudao.cn/tags/monitor/"/>
+      <category term="monitor" scheme="http://www.jianwudao.com/tags/monitor/"/>
     
   </entry>
   
   <entry>
     <title>XMeters</title>
-    <link href="http://www.jianwudao.cn/tools/system/monitor/XMeters/"/>
-    <id>http://www.jianwudao.cn/tools/system/monitor/XMeters/</id>
+    <link href="http://www.jianwudao.com/tools/system/monitor/XMeters/"/>
+    <id>http://www.jianwudao.com/tools/system/monitor/XMeters/</id>
     <published>2019-12-20T04:13:09.000Z</published>
     <updated>2019-12-20T04:17:52.449Z</updated>
     
@@ -558,23 +558,23 @@ Display a live view of your most important system i
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="monitor" scheme="http://www.jianwudao.cn/tags/monitor/"/>
+      <category term="monitor" scheme="http://www.jianwudao.com/tags/monitor/"/>
     
-      <category term="taskbar" scheme="http://www.jianwudao.cn/tags/taskbar/"/>
+      <category term="taskbar" scheme="http://www.jianwudao.com/tags/taskbar/"/>
     
   </entry>
   
   <entry>
     <title>TranslucentTB</title>
-    <link href="http://www.jianwudao.cn/tools/system/monitor/TranslucentTB/"/>
-    <id>http://www.jianwudao.cn/tools/system/monitor/TranslucentTB/</id>
+    <link href="http://www.jianwudao.com/tools/system/monitor/TranslucentTB/"/>
+    <id>http://www.jianwudao.com/tools/system/monitor/TranslucentTB/</id>
     <published>2019-12-18T09:19:31.000Z</published>
     <updated>2019-12-20T06:03:38.578Z</updated>
     
@@ -591,23 +591,23 @@ Display a live view of your most important system i
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="system" scheme="http://www.jianwudao.cn/categories/Tools/system/"/>
+      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="monitor" scheme="http://www.jianwudao.cn/tags/monitor/"/>
+      <category term="monitor" scheme="http://www.jianwudao.com/tags/monitor/"/>
     
-      <category term="taskbar" scheme="http://www.jianwudao.cn/tags/taskbar/"/>
+      <category term="taskbar" scheme="http://www.jianwudao.com/tags/taskbar/"/>
     
   </entry>
   
   <entry>
     <title>GoodSync</title>
-    <link href="http://www.jianwudao.cn/tools/develop/GoodSync/"/>
-    <id>http://www.jianwudao.cn/tools/develop/GoodSync/</id>
+    <link href="http://www.jianwudao.com/tools/develop/GoodSync/"/>
+    <id>http://www.jianwudao.com/tools/develop/GoodSync/</id>
     <published>2019-12-11T06:04:24.000Z</published>
     <updated>2019-12-11T06:11:13.600Z</updated>
     
@@ -623,23 +623,23 @@ Display a live view of your most important system i
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
     
-      <category term="Sync" scheme="http://www.jianwudao.cn/tags/Sync/"/>
+      <category term="Sync" scheme="http://www.jianwudao.com/tags/Sync/"/>
     
   </entry>
   
   <entry>
     <title>WinSCP</title>
-    <link href="http://www.jianwudao.cn/tools/develop/WinSCP/"/>
-    <id>http://www.jianwudao.cn/tools/develop/WinSCP/</id>
+    <link href="http://www.jianwudao.com/tools/develop/WinSCP/"/>
+    <id>http://www.jianwudao.com/tools/develop/WinSCP/</id>
     <published>2019-12-11T05:58:21.000Z</published>
     <updated>2019-12-11T06:08:16.090Z</updated>
     
@@ -655,16 +655,16 @@ Display a live view of your most important system i
     </summary>
     
     
-      <category term="Tools" scheme="http://www.jianwudao.cn/categories/Tools/"/>
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/categories/Tools/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="http://www.jianwudao.cn/tags/Soft/"/>
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
     
-      <category term="develop" scheme="http://www.jianwudao.cn/tags/develop/"/>
+      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
     
-      <category term="FTP" scheme="http://www.jianwudao.cn/tags/FTP/"/>
+      <category term="FTP" scheme="http://www.jianwudao.com/tags/FTP/"/>
     
   </entry>
   
