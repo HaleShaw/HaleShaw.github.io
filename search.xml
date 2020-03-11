@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Eclipse</title>
+      <link href="/tools/develop/Eclipse/"/>
+      <url>/tools/develop/Eclipse/</url>
+      
+        <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p><a href="https://www.eclipse.org" target="_blank" rel="noopener">https://www.eclipse.org</a></p><h4 id="下载地址">下载地址</h4><p><a href="https://www.eclipse.org/downloads/packages" target="_blank" rel="noopener">https://www.eclipse.org/downloads/packages</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> develop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDE </tag>
+            
+            <tag> Soft </tag>
+            
+            <tag> develop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>7-Zip</title>
       <link href="/tools/office/compress/7z/"/>
       <url>/tools/office/compress/7z/</url>
@@ -1048,7 +1079,7 @@
       <link href="/tools/develop/IDEA/"/>
       <url>/tools/develop/IDEA/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.jetbrains.com/idea/img/screenshots/idea_overview_5_1.png" alt="IDEA"></p><h3 id="官方主页">官方主页</h3><p><a href="https://www.jetbrains.com/idea" target="_blank" rel="noopener">https://www.jetbrains.com/idea</a></p><p><strong>下载地址</strong><br><a href="https://www.jetbrains.com/idea/download" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download</a></p><p><strong>破解教程</strong><br><a href="/IDEA-Crack">IDEA 最新破解方法，支持2019.3，2019-12-02更新</a></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.jetbrains.com/idea/img/screenshots/idea_overview_5_1.png" alt="IDEA"></p><h3 id="官方主页">官方主页</h3><p><a href="https://www.jetbrains.com/idea" target="_blank" rel="noopener">https://www.jetbrains.com/idea</a></p><p><strong>下载地址</strong><br><a href="https://www.jetbrains.com/idea/download" target="_blank" rel="noopener">https://www.jetbrains.com/idea/download</a></p><p><strong>破解教程</strong><br><a href="/IDEA-Crack">IDEA 最新破解方法，支持2019.3.3，2020-02-24更新</a></p>]]></content>
       
       
       <categories>

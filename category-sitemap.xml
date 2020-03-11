@@ -50,22 +50,8 @@
     </url>
 
     <url>
-        <loc>http://www.jianwudao.com/categories/Tools/develop/</loc>
-        <lastmod>2020-02-21T09:45:59.408Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://www.jianwudao.com/categories/Tools/av/</loc>
         <lastmod>2020-02-22T07:04:25.093Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.jianwudao.com/categories/Tools/</loc>
-        <lastmod>2020-02-22T07:05:06.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -94,6 +80,20 @@
     <url>
         <loc>http://www.jianwudao.com/categories/Soft/IDE/IDEA/</loc>
         <lastmod>2020-02-25T01:34:44.963Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.com/categories/Tools/</loc>
+        <lastmod>2020-03-11T05:32:31.454Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.jianwudao.com/categories/Tools/develop/</loc>
+        <lastmod>2020-03-11T05:32:31.454Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
