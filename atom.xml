@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwudao.com/"/>
-  <updated>2020-03-11T05:55:07.426Z</updated>
+  <updated>2020-03-11T08:53:42.144Z</updated>
   <id>http://www.jianwudao.com/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Postman</title>
+    <link href="http://www.jianwudao.com/tools/develop/Postman/"/>
+    <id>http://www.jianwudao.com/tools/develop/Postman/</id>
+    <published>2020-03-11T08:44:51.000Z</published>
+    <updated>2020-03-11T08:53:42.144Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>What is Postman?</strong></p><p>Postman is a collaboration platform for API development. Postman’s features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.postman.com/img/screens/postman-windows.jpg" alt="Postman"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.postman.com/img/logos/postman/postman-app.svg" alt="Postman"></p><h3 id="官方主页">官方主页</h3><p><a href="https://www.postman.com" target="_blank" rel="noopener">https://www.postman.com</a></p><h4 id="下载地址">下载地址</h4><ul><li>Windows<ul><li><a href="https://dl.pstmn.io/download/latest/win32" target="_blank" rel="noopener">32-bit</a></li><li><a href="https://dl.pstmn.io/download/latest/win64" target="_blank" rel="noopener">64-bit</a></li></ul></li><li><a href="https://dl.pstmn.io/download/latest/linux64" target="_blank" rel="noopener">Lunix</a></li><li><a href="https://dl.pstmn.io/download/latest/osx" target="_blank" rel="noopener">Mac</a></li></ul><h3 id="Canary">Canary</h3><p>Be the first in line to experience new features!</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.postman.com/img/logos/postman/canary.svg" alt="Canary"></p><h4 id="下载地址-2">下载地址</h4><ul><li>Windows<ul><li><a href="https://dl.pstmn.io/download/channel/canary/windows_32" target="_blank" rel="noopener">32-bit</a></li><li><a href="https://dl.pstmn.io/download/channel/canary/windows_64" target="_blank" rel="noopener">64-bit</a></li></ul></li><li><a href="https://dl.pstmn.io/download/channel/canary/linux_64" target="_blank" rel="noopener">Lunix</a></li><li><a href="https://dl.pstmn.io/download/channel/canary/osx_64" target="_blank" rel="noopener">Mac</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;What is Postman?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Postman is a collaboration platform for API development. Postman’s features simplify each step o
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
+    
+    
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
+    
+  </entry>
   
   <entry>
     <title>Visual Studio</title>
@@ -40,9 +73,9 @@
       <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="IDE" scheme="http://www.jianwudao.com/tags/IDE/"/>
-    
       <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.com/tags/IDE/"/>
     
       <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
     
@@ -74,9 +107,9 @@
       <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="IDE" scheme="http://www.jianwudao.com/tags/IDE/"/>
-    
       <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="IDE" scheme="http://www.jianwudao.com/tags/IDE/"/>
     
       <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
     
@@ -619,39 +652,6 @@
         &lt;p&gt;在任务栏上显示一些系统信息，如：CPU、内存、硬盘、网络。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Real-time System Monitoring&lt;/strong&gt;&lt;br&gt;
 Display a live view of your most important system i
-      
-    
-    </summary>
-    
-    
-      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
-    
-      <category term="system" scheme="http://www.jianwudao.com/categories/Tools/system/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
-    
-      <category term="monitor" scheme="http://www.jianwudao.com/tags/monitor/"/>
-    
-      <category term="taskbar" scheme="http://www.jianwudao.com/tags/taskbar/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TranslucentTB</title>
-    <link href="http://www.jianwudao.com/tools/system/monitor/TranslucentTB/"/>
-    <id>http://www.jianwudao.com/tools/system/monitor/TranslucentTB/</id>
-    <published>2019-12-18T09:19:31.000Z</published>
-    <updated>2019-12-20T06:03:38.578Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>A lightweight utility that makes the Windows taskbar translucent/transparent.</strong></p><h3 id="Tips-and-tricks-for-a-better-looking-taskbar">Tips and tricks for a better looking taskbar</h3><h4 id="Aero-Peek-Button">Aero Peek Button</h4><p>TranslucentTB has an option to hide it, resulting in a better appearance when on the desktop. It also offers a dynamic option, which allows to hide it only when there is no maximised window.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/peek.mp4"></video></p><h4 id="Color">Color</h4><p>TranslucentTB’s color picker offers live preview, so you can try a bunch of color options easily.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/accent_color.mp4"></video><br>If the taskbar elements show up with a different coloring, make sure to turn off the accent color on the taskbar, under “Settings” &gt; “Personalization” &gt; “Colors”.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/taskbar_color.mp4"></video></p><h4 id="Timeline-Task-View-Cortana-Search-and-other-buttons">Timeline, Task View, Cortana, Search and other buttons</h4><p>You can hide them by right-clicking on the taskbar and then unchecking the appropriate option.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/taskbar_buttons.mp4"></video></p><h4 id="Action-Center-IME-volume-battery-and-other-system-icons">Action Center, IME, volume, battery and other system icons</h4><p>You can hide them by going into “Settings” &gt; “Personalization” &gt; “Taskbar” &gt; “Turn system icons on or off”.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/system_icons.mp4"></video></p><h3 id="官方主页">官方主页</h3><p><a href="https://translucenttb.github.io/tips" target="_blank" rel="noopener">https://translucenttb.github.io/tips</a></p><h3 id="GitHub">GitHub</h3><p><a href="https://github.com/TranslucentTB/TranslucentTB" target="_blank" rel="noopener">https://github.com/TranslucentTB/TranslucentTB</a></p><h3 id="下载地址">下载地址</h3><p><a href="https://github.com/TranslucentTB/TranslucentTB/releases" target="_blank" rel="noopener">https://github.com/TranslucentTB/TranslucentTB/releases</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;strong&gt;A lightweight utility that makes the Windows taskbar translucent/transparent.&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Tips-and-tricks-for-a-better-l
       
     
     </summary>

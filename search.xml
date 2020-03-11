@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Postman</title>
+      <link href="/tools/develop/Postman/"/>
+      <url>/tools/develop/Postman/</url>
+      
+        <content type="html"><![CDATA[<p><strong>What is Postman?</strong></p><p>Postman is a collaboration platform for API development. Postman’s features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.postman.com/img/screens/postman-windows.jpg" alt="Postman"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.postman.com/img/logos/postman/postman-app.svg" alt="Postman"></p><h3 id="官方主页">官方主页</h3><p><a href="https://www.postman.com" target="_blank" rel="noopener">https://www.postman.com</a></p><h4 id="下载地址">下载地址</h4><ul><li>Windows<ul><li><a href="https://dl.pstmn.io/download/latest/win32" target="_blank" rel="noopener">32-bit</a></li><li><a href="https://dl.pstmn.io/download/latest/win64" target="_blank" rel="noopener">64-bit</a></li></ul></li><li><a href="https://dl.pstmn.io/download/latest/linux64" target="_blank" rel="noopener">Lunix</a></li><li><a href="https://dl.pstmn.io/download/latest/osx" target="_blank" rel="noopener">Mac</a></li></ul><h3 id="Canary">Canary</h3><p>Be the first in line to experience new features!</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.postman.com/img/logos/postman/canary.svg" alt="Canary"></p><h4 id="下载地址-2">下载地址</h4><ul><li>Windows<ul><li><a href="https://dl.pstmn.io/download/channel/canary/windows_32" target="_blank" rel="noopener">32-bit</a></li><li><a href="https://dl.pstmn.io/download/channel/canary/windows_64" target="_blank" rel="noopener">64-bit</a></li></ul></li><li><a href="https://dl.pstmn.io/download/channel/canary/linux_64" target="_blank" rel="noopener">Lunix</a></li><li><a href="https://dl.pstmn.io/download/channel/canary/osx_64" target="_blank" rel="noopener">Mac</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> develop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> IDE </tag>
+            
+            <tag> develop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Visual Studio</title>
       <link href="/tools/develop/VisualStudio/"/>
       <url>/tools/develop/VisualStudio/</url>
@@ -22,9 +53,9 @@
       
         <tags>
             
-            <tag> IDE </tag>
-            
             <tag> Soft </tag>
+            
+            <tag> IDE </tag>
             
             <tag> develop </tag>
             
@@ -53,9 +84,9 @@
       
         <tags>
             
-            <tag> IDE </tag>
-            
             <tag> Soft </tag>
+            
+            <tag> IDE </tag>
             
             <tag> develop </tag>
             
@@ -998,9 +1029,9 @@
       
         <tags>
             
-            <tag> IDE </tag>
-            
             <tag> Soft </tag>
+            
+            <tag> IDE </tag>
             
             <tag> develop </tag>
             
@@ -1124,9 +1155,9 @@
       
         <tags>
             
-            <tag> IDE </tag>
-            
             <tag> Soft </tag>
+            
+            <tag> IDE </tag>
             
             <tag> develop </tag>
             
@@ -1503,35 +1534,6 @@
     
     
     <entry>
-      <title>XDown</title>
-      <link href="/tools/office/download/XDown/"/>
-      <url>/tools/office/download/XDown/</url>
-      
-        <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Tools </category>
-          
-          <category> Download </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Soft </tag>
-            
-            <tag> Download </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Win10</title>
       <link href="/tools/system/Win10/"/>
       <url>/tools/system/Win10/</url>
@@ -1553,6 +1555,35 @@
             <tag> Soft </tag>
             
             <tag> system </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>XDown</title>
+      <link href="/tools/office/download/XDown/"/>
+      <url>/tools/office/download/XDown/</url>
+      
+        <content type="html"><![CDATA[<h3 id="官方主页">官方主页</h3><p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> Download </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> Download </tag>
             
         </tags>
       
