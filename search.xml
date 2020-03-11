@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>Visual Studio</title>
+      <link href="/tools/develop/VisualStudio/"/>
+      <url>/tools/develop/VisualStudio/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/combined-gif2sl.gif" alt="Visual Studio"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/lightbulb-dark-1200.gif" alt="Visual Studio"></p><h3 id="官方主页">官方主页</h3><p><a href="https://visualstudio.microsoft.com/vs" target="_blank" rel="noopener">https://visualstudio.microsoft.com/vs</a></p><h4 id="下载地址">下载地址</h4><ul><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community&amp;rel=16" target="_blank">Community 2019</a></li><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Professional&amp;rel=16" target="_blank">Professional 2019</a></li><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Enterprise&amp;rel=16" target="_blank">Enterprise 2019</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> develop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDE </tag>
+            
+            <tag> Soft </tag>
+            
+            <tag> develop </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Eclipse</title>
       <link href="/tools/develop/Eclipse/"/>
       <url>/tools/develop/Eclipse/</url>
@@ -949,11 +980,11 @@
     
     
     <entry>
-      <title>VSCode</title>
-      <link href="/tools/develop/VSCode/"/>
-      <url>/tools/develop/VSCode/</url>
+      <title>Visual Studio Code</title>
+      <link href="/tools/develop/VisualStudioCode/"/>
+      <url>/tools/develop/VisualStudioCode/</url>
       
-        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://code.visualstudio.com/assets/home/home-screenshot-win-lg.png" alt="VSCode"></p><h3 id="官方主页">官方主页</h3><p><a href="https://code.visualstudio.com" target="_blank" rel="noopener">https://code.visualstudio.com</a></p><p><strong>下载地址</strong><br><a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">https://code.visualstudio.com/Download</a></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://code.visualstudio.com/assets/home/home-screenshot-win-lg.png" alt="VSCode"></p><h3 id="官方主页">官方主页</h3><p><a href="https://code.visualstudio.com" target="_blank" rel="noopener">https://code.visualstudio.com</a></p><h4 id="下载地址">下载地址</h4><p><a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener">https://code.visualstudio.com/Download</a></p>]]></content>
       
       
       <categories>
@@ -1472,35 +1503,6 @@
     
     
     <entry>
-      <title>Win10</title>
-      <link href="/tools/system/Win10/"/>
-      <url>/tools/system/Win10/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Tools </category>
-          
-          <category> system </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Soft </tag>
-            
-            <tag> system </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>XDown</title>
       <link href="/tools/office/download/XDown/"/>
       <url>/tools/office/download/XDown/</url>
@@ -1522,6 +1524,35 @@
             <tag> Soft </tag>
             
             <tag> Download </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Win10</title>
+      <link href="/tools/system/Win10/"/>
+      <url>/tools/system/Win10/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://xdown.org" target="_blank" rel="noopener">https://xdown.org</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+          <category> system </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Soft </tag>
+            
+            <tag> system </tag>
             
         </tags>
       

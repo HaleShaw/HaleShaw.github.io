@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.jianwudao.com/"/>
-  <updated>2020-03-11T05:32:09.751Z</updated>
+  <updated>2020-03-11T05:55:07.426Z</updated>
   <id>http://www.jianwudao.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Visual Studio</title>
+    <link href="http://www.jianwudao.com/tools/develop/VisualStudio/"/>
+    <id>http://www.jianwudao.com/tools/develop/VisualStudio/</id>
+    <published>2020-03-11T05:43:28.000Z</published>
+    <updated>2020-03-11T05:55:07.426Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/combined-gif2sl.gif" alt="Visual Studio"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/lightbulb-dark-1200.gif" alt="Visual Studio"></p><h3 id="官方主页">官方主页</h3><p><a href="https://visualstudio.microsoft.com/vs" target="_blank" rel="noopener">https://visualstudio.microsoft.com/vs</a></p><h4 id="下载地址">下载地址</h4><ul><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community&amp;rel=16" target="_blank">Community 2019</a></li><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Professional&amp;rel=16" target="_blank">Professional 2019</a></li><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Enterprise&amp;rel=16" target="_blank">Enterprise 2019</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://visualstudio.microsoft.com/wp-content/uploads
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
+    
+    
+      <category term="IDE" scheme="http://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
+    
+  </entry>
   
   <entry>
     <title>Eclipse</title>
@@ -635,38 +667,6 @@ Display a live view of your most important system i
       <category term="monitor" scheme="http://www.jianwudao.com/tags/monitor/"/>
     
       <category term="taskbar" scheme="http://www.jianwudao.com/tags/taskbar/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GoodSync</title>
-    <link href="http://www.jianwudao.com/tools/develop/GoodSync/"/>
-    <id>http://www.jianwudao.com/tools/develop/GoodSync/</id>
-    <published>2019-12-11T06:04:24.000Z</published>
-    <updated>2019-12-11T06:11:13.600Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif" data-original="https://www.goodsync.com/images/backgrounds/hero%20iphone.png" alt="GoodSync"></p><h3 id="官方主页">官方主页</h3><p><a href="https://www.goodsync.com" target="_blank" rel="noopener">https://www.goodsync.com</a></p><p>Easily back up and sync your files with GoodSync. Our simple and secure file backup and synchronization software will ensure that your files are never lost.</p><p><strong>下载地址</strong><br><a href="https://www.goodsync.com/download" target="_blank" rel="noopener">https://www.goodsync.com/download</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.gif&quot; data-original=&quot;https://www.goodsync.com/images/backgrounds/hero%20ip
-      
-    
-    </summary>
-    
-    
-      <category term="Tools" scheme="http://www.jianwudao.com/categories/Tools/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.com/categories/Tools/develop/"/>
-    
-    
-      <category term="Soft" scheme="http://www.jianwudao.com/tags/Soft/"/>
-    
-      <category term="develop" scheme="http://www.jianwudao.com/tags/develop/"/>
-    
-      <category term="Sync" scheme="http://www.jianwudao.com/tags/Sync/"/>
     
   </entry>
   
