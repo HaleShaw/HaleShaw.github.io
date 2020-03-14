@@ -2,48 +2,48 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://www.jianwudao.com</loc>
+        <loc>https://www.jianwudao.com</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     
     <url>
-        <loc>http://www.jianwudao.com/tools/</loc>
+        <loc>https://www.jianwudao.com/tools/</loc>
         <lastmod>2020-03-12T04:38:40.683Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://www.jianwudao.com/404/</loc>
+        <loc>https://www.jianwudao.com/404/</loc>
         <lastmod>2020-02-27T01:39:52.002Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://www.jianwudao.com/links/</loc>
+        <loc>https://www.jianwudao.com/links/</loc>
         <lastmod>2020-02-25T01:26:46.466Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://www.jianwudao.com/about/</loc>
+        <loc>https://www.jianwudao.com/about/</loc>
         <lastmod>2019-09-05T06:31:37.708Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://www.jianwudao.com/tags/</loc>
+        <loc>https://www.jianwudao.com/tags/</loc>
         <lastmod>2019-08-29T01:40:42.179Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://www.jianwudao.com/categories/</loc>
+        <loc>https://www.jianwudao.com/categories/</loc>
         <lastmod>2019-08-29T01:40:09.420Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
