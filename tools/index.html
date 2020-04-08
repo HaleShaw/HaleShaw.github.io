@@ -531,6 +531,7 @@
                             "img": "https://www.ghisler.com/favicon.ico",
                             "opened": false,
                             "href": "/tools/efficient/TotalCommander",
+                            "description": "神器级的资源管理器，可配置性可扩展性超强，插件极多",
                             "children": []
                         },
                         {
@@ -540,6 +541,7 @@
                             "img": "https://cmder.net/favicon.ico",
                             "opened": false,
                             "href": "/tools/efficient/Cmder",
+                            "description": "增强型命令行工具",
                             "children": []
                         },
                         {
@@ -549,6 +551,7 @@
                             "img": "https://www.voidtools.com/favicon.ico",
                             "opened": false,
                             "href": "/tools/efficient/Everything",
+                            "description": "最强文件搜索神器，快到飞起",
                             "children": []
                         },
                         {
@@ -973,8 +976,16 @@
                 itemA.attr("href", item.href);
                 itemA.attr("target", "_blank");
                 itemA.append(currentIndex + " " + item.name);
+
                 itemSpan.append(itemA);
                 element.append(itemSpan);
+
+                if(item.description !== undefined && item.description != null){
+                    let itemDisc = $("<span></span>");
+                    itemDisc.addClass("description");
+                    itemDisc.html(item.description);
+                    element.append(itemDisc);
+                }
             }
         }
 
