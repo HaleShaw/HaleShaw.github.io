@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -272,10 +307,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/VisualStudioCode/">
       Visual Studio Code
@@ -283,13 +319,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -297,61 +333,62 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月3日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://code.visualstudio.com/assets/home/home-screenshot-win-lg.png" alt="VSCode"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://code.visualstudio.com" target="_blank" rel="external nofollow noopener noreferrer">https://code.visualstudio.com</a></p>
-<h4 id="下载地址">下载地址</h4>
-<p><a href="https://code.visualstudio.com/Download" target="_blank" rel="external nofollow noopener noreferrer">https://code.visualstudio.com/Download</a></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://code.visualstudio.com/assets/home/home-screenshot-win-lg.png" alt="VSCode"></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://code.visualstudio.com" target="_blank" rel="external nofollow noopener noreferrer">https://code.visualstudio.com</a></p>
+<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p><a href="https://code.visualstudio.com/Download" target="_blank" rel="external nofollow noopener noreferrer">https://code.visualstudio.com/Download</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -366,10 +403,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/SourceTree/">
       SourceTree
@@ -377,13 +415,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -391,86 +429,77 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月3日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>Simplicity and power in a beautiful Git GUI</strong><br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:580c367b-c240-453d-aa18-c7ced44324f9/hero-mac-screenshot.png?cdnVersion=698" alt="SourceTree"></p>
-<h3 id="官网">官网</h3>
-<p><a href="https://www.sourcetreeapp.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://www.sourcetreeapp.com/download-archives" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com/download-archives</a></p>
-<h4 id="A-free-Git-client-for-Windows-and-Mac">A free Git client for Windows and Mac</h4>
-<p>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree’s simple Git GUI.</p>
-<p><strong>Simple for beginners</strong><br>
-Say goodbye to the command line - simplify distributed version control with a Git client and quickly bring everyone up to speed.</p>
-<p><strong>Powerful for experts</strong><br>
-Perfect for making advanced users even more productive. Review changesets, stash, cherry-pick between branches and more.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:c7337d19-a8c3-4a4b-a810-91ff5c6b035d/left_image.png?cdnVersion=698" alt="SourceTree"></p>
-<p><strong>Visualize your code</strong><br>
-Seeing really is believing. Get information on any branch or commit with a single click.</p>
-<p><strong>Git and Hg on your desktop</strong><br>
-A fully-featured GUI that offers an efficient, consistent development process right out of the box. Works with Git and Mercurial.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b5071c41-aa3e-40ba-ac57-6ef4f5dcea71/center_image.png?cdnVersion=698" alt="SourceTree"></p>
-<h4 id="Commit-with-Confidence">Commit with Confidence</h4>
-<p>Visualize your work and push with confidence. Stage and discard changes by the file, hunk or line.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b6ec8a39-5a98-4e28-842b-f9198824fe74/commit_with_confidence.png?cdnVersion=698" alt="SourceTree"></p>
-<h3 id="安装时跳过注册">安装时跳过注册</h3>
-<p><strong>For Windows</strong></p>
+      
+        <p><strong>Simplicity and power in a beautiful Git GUI</strong><br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:580c367b-c240-453d-aa18-c7ced44324f9/hero-mac-screenshot.png?cdnVersion=698" alt="SourceTree"></p>
+<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://www.sourcetreeapp.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com</a></p>
+<p><strong>下载地址</strong><br><a href="https://www.sourcetreeapp.com/download-archives" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com/download-archives</a></p>
+<h4 id="A-free-Git-client-for-Windows-and-Mac"><a href="#A-free-Git-client-for-Windows-and-Mac" class="headerlink" title="A free Git client for Windows and Mac"></a>A free Git client for Windows and Mac</h4><p>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree’s simple Git GUI.</p>
+<p><strong>Simple for beginners</strong><br>Say goodbye to the command line - simplify distributed version control with a Git client and quickly bring everyone up to speed.</p>
+<p><strong>Powerful for experts</strong><br>Perfect for making advanced users even more productive. Review changesets, stash, cherry-pick between branches and more.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:c7337d19-a8c3-4a4b-a810-91ff5c6b035d/left_image.png?cdnVersion=698" alt="SourceTree"></p>
+<p><strong>Visualize your code</strong><br>Seeing really is believing. Get information on any branch or commit with a single click.</p>
+<p><strong>Git and Hg on your desktop</strong><br>A fully-featured GUI that offers an efficient, consistent development process right out of the box. Works with Git and Mercurial.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b5071c41-aa3e-40ba-ac57-6ef4f5dcea71/center_image.png?cdnVersion=698" alt="SourceTree"></p>
+<h4 id="Commit-with-Confidence"><a href="#Commit-with-Confidence" class="headerlink" title="Commit with Confidence"></a>Commit with Confidence</h4><p>Visualize your work and push with confidence. Stage and discard changes by the file, hunk or line.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b6ec8a39-5a98-4e28-842b-f9198824fe74/commit_with_confidence.png?cdnVersion=698" alt="SourceTree"></p>
+<h3 id="安装时跳过注册"><a href="#安装时跳过注册" class="headerlink" title="安装时跳过注册"></a>安装时跳过注册</h3><p><strong>For Windows</strong></p>
 <ol>
 <li>下载并运行exe安装包，会进入登录或注册bitbucket的界面。</li>
 <li>进入目录：<code>%LocalAppData%\Atlassian\SourceTree\</code></li>
 <li>创建accounts.json文件，并修改accounts.json内容如下：</li>
 </ol>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">"$id"</span>: <span class="string">"1"</span>,</span><br><span class="line">    <span class="attr">"$type"</span>: <span class="string">"SourceTree.Api.Host.Identity.Model.IdentityAccount, SourceTree.Api.Host.Identity"</span>,</span><br><span class="line">    <span class="attr">"Authenticate"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"HostInstance"</span>: &#123;</span><br><span class="line">      <span class="attr">"$id"</span>: <span class="string">"2"</span>,</span><br><span class="line">      <span class="attr">"$type"</span>: <span class="string">"SourceTree.Host.Atlassianaccount.AtlassianAccountInstance, SourceTree.Host.AtlassianAccount"</span>,</span><br><span class="line">      <span class="attr">"Host"</span>: &#123;</span><br><span class="line">        <span class="attr">"$id"</span>: <span class="string">"3"</span>,</span><br><span class="line">        <span class="attr">"$type"</span>: <span class="string">"SourceTree.Host.Atlassianaccount.AtlassianAccountHost, SourceTree.Host.AtlassianAccount"</span>,</span><br><span class="line">        <span class="attr">"Id"</span>: <span class="string">"atlassian account"</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">"BaseUrl"</span>: <span class="string">"https://id.atlassian.com/"</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"Credentials"</span>: &#123;</span><br><span class="line">      <span class="attr">"$id"</span>: <span class="string">"4"</span>,</span><br><span class="line">      <span class="attr">"$type"</span>: <span class="string">"SourceTree.Model.BasicAuthCredentials, SourceTree.Api.Account"</span>,</span><br><span class="line">      <span class="attr">"Username"</span>: <span class="string">""</span>,</span><br><span class="line">      <span class="attr">"Email"</span>: <span class="literal">null</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"IsDefault"</span>: <span class="literal">false</span></span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
 <p>若能（想）登录Google或BitBucket帐号，亦可直接登录帐号，也能顺利完成安装。</p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -485,10 +514,11 @@ A fully-featured GUI that offers an efficient, consistent development process ri
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/IDEA/">
       IDEA
@@ -496,13 +526,13 @@ A fully-featured GUI that offers an efficient, consistent development process ri
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -510,63 +540,63 @@ A fully-featured GUI that offers an efficient, consistent development process ri
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月3日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.jetbrains.com/idea/img/screenshots/idea_overview_5_1.png" alt="IDEA"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.jetbrains.com/idea" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://www.jetbrains.com/idea/download" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea/download</a></p>
-<p><strong>破解教程</strong><br>
-<a href="/IDEA-Crack">IDEA 最新破解方法，支持2019.3.3，2020-02-24更新</a></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.jetbrains.com/idea/img/screenshots/idea_overview_5_1.png" alt="IDEA"></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.jetbrains.com/idea" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea</a></p>
+<p><strong>下载地址</strong><br><a href="https://www.jetbrains.com/idea/download" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea/download</a></p>
+<p><strong>破解教程</strong><br><a href="/IDEA-Crack">IDEA 最新破解方法，支持2019.3.3，2020-02-24更新</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -581,10 +611,11 @@ A fully-featured GUI that offers an efficient, consistent development process ri
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/NotePad++/">
       NotePad++
@@ -592,13 +623,13 @@ A fully-featured GUI that offers an efficient, consistent development process ri
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -606,68 +637,68 @@ A fully-featured GUI that offers an efficient, consistent development process ri
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年10月29日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://notepad-plus-plus.org/images/logo.svg" width="232" height="201" alt="NotePad++" align="center">
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://notepad-plus-plus.org" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://notepad-plus-plus.org/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org/downloads</a></p>
-<p><strong>GitHub</strong><br>
-<a href="https://github.com/notepad-plus-plus/notepad-plus-plus" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/notepad-plus-plus/notepad-plus-plus</a></p>
-<h3 id="What-is-Notepad">What is Notepad++</h3>
-<p>Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="external nofollow noopener noreferrer">GPL</a> License.</p>
+      
+        <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://notepad-plus-plus.org/images/logo.svg" width="232" height="201" alt="NotePad++" align="center">
+
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://notepad-plus-plus.org" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org</a></p>
+<p><strong>下载地址</strong><br><a href="https://notepad-plus-plus.org/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org/downloads</a></p>
+<p><strong>GitHub</strong><br><a href="https://github.com/notepad-plus-plus/notepad-plus-plus" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/notepad-plus-plus/notepad-plus-plus</a></p>
+<h3 id="What-is-Notepad"><a href="#What-is-Notepad" class="headerlink" title="What is Notepad++"></a>What is Notepad++</h3><p>Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="external nofollow noopener noreferrer">GPL</a> License.</p>
 <p>Based on the powerful editing component <a href="https://www.scintilla.org" target="_blank" rel="external nofollow noopener noreferrer">Scintilla</a>, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions. When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://notepad-plus-plus.org/assets/images/notepad4ever.gif" alt="notepad4ever"></p>
 <p>I hope you enjoy Notepad++ as much as I enjoy coding it.</p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1026,11 +1057,11 @@ A fully-featured GUI that offers an efficient, consistent development process ri
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1049,12 +1080,15 @@ A fully-featured GUI that offers an efficient, consistent development process ri
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1069,6 +1103,7 @@ A fully-featured GUI that offers an efficient, consistent development process ri
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1076,12 +1111,12 @@ A fully-featured GUI that offers an efficient, consistent development process ri
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

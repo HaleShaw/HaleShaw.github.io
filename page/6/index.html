@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -37,7 +37,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -66,13 +66,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -89,21 +89,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -114,7 +114,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -191,64 +191,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -271,10 +306,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/office/download/PanDownload/">
       PanDownload
@@ -282,13 +318,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -296,58 +332,60 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/Download/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;Download</p>
+      <p>Tools/Download</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年10月28日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="http://pandownload.com" target="_blank" rel="external nofollow noopener noreferrer">http://pandownload.com</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://pandownload.com" target="_blank" rel="external nofollow noopener noreferrer">http://pandownload.com</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -362,10 +400,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/GitHub%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
       GitHub常用命令
@@ -373,13 +412,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -387,92 +426,99 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Soft/GitHub/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Soft&nbsp;/&nbsp;GitHub</p>
+      <p>Soft/GitHub</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年10月23日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="1-回滚到某一提交，并删除后续的提交记录">1. 回滚到某一提交，并删除后续的提交记录</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
-<h3 id="2-回退到上一次commit的状态">2. 回退到上一次commit的状态</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br></pre></td></tr></table></figure>
-<h3 id="3-回退到任意版本">3. 回退到任意版本</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;commitid&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="4-放弃提交，不推送">4. 放弃提交，不推送</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --soft HEAD^</span><br></pre></td></tr></table></figure>
+      
+        <h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1. 回滚到某一提交，并删除后续的提交记录"></a>1. 回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2. 回退到上一次commit的状态"></a>2. 回退到上一次commit的状态</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3. 回退到任意版本"></a>3. 回退到任意版本</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;commitid&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-放弃提交，不推送"><a href="#4-放弃提交，不推送" class="headerlink" title="4. 放弃提交，不推送"></a>4. 放弃提交，不推送</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --soft HEAD^</span><br></pre></td></tr></table></figure>
+
 <p>仅仅是撤回commit操作，写的代码仍然保留</p>
-<p>HEAD^的意思是上一个版本，也可以写成<code>HEAD~1</code><br>
-撤回2次提交，可以使用<code>HEAD~2</code></p>
+<p>HEAD^的意思是上一个版本，也可以写成<code>HEAD~1</code><br>撤回2次提交，可以使用<code>HEAD~2</code></p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--mixed</span><br></pre></td></tr></table></figure>
-<p>不删除工作空间改动代码，撤销commit，并且撤销git add<br>
-这个为默认参数，<code>git reset --mixed HEAD^</code> 和 <code>git reset HEAD^</code> 效果是一样的。</p>
+
+<p>不删除工作空间改动代码，撤销commit，并且撤销git add<br>这个为默认参数，<code>git reset --mixed HEAD^</code> 和 <code>git reset HEAD^</code> 效果是一样的。</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--soft</span><br></pre></td></tr></table></figure>
+
 <p>不删除工作空间改动代码，撤销commit，不撤销git add</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--hard</span><br></pre></td></tr></table></figure>
-<p>删除工作空间改动代码，撤销commit，撤销git add<br>
-完成这个操作后，就恢复到了上一次的commit状态。</p>
-<h3 id="5-将分支A的提交，推送到分支B">5. 将分支A的提交，推送到分支B</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure>
+
+<p>删除工作空间改动代码，撤销commit，撤销git add<br>完成这个操作后，就恢复到了上一次的commit状态。</p>
+<h3 id="5-将分支A的提交，推送到分支B"><a href="#5-将分支A的提交，推送到分支B" class="headerlink" title="5. 将分支A的提交，推送到分支B"></a>5. 将分支A的提交，推送到分支B</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure>
+
 <p>[如果有冲突，解决冲突之后</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure>
+
 <p>]</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></table></figure>
-<h3 id="6-合并分支时忽略指定文件">6. 合并分支时忽略指定文件</h3>
-<p>.gitattributes中写入</p>
+
+<h3 id="6-合并分支时忽略指定文件"><a href="#6-合并分支时忽略指定文件" class="headerlink" title="6. 合并分支时忽略指定文件"></a>6. 合并分支时忽略指定文件</h3><p>.gitattributes中写入</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">"filename merge=ours":</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure>
+
 <p>在根目录下运行命令行</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config merge.ours.driver true</span><br></pre></td></tr></table></figure>
+
 <p>更新本地分支与远程分支保持一致</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git remote update origin --prune</span><br></pre></td></tr></table></figure>
-<h3 id="7-合并部分文件">7. 合并部分文件</h3>
-<p>合并分支B中srv目录下的所有文件和view目录下的index.html文件到A分支</p>
+
+<h3 id="7-合并部分文件"><a href="#7-合并部分文件" class="headerlink" title="7. 合并部分文件"></a>7. 合并部分文件</h3><p>合并分支B中srv目录下的所有文件和view目录下的index.html文件到A分支</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git checkout A</span><br><span class="line">git checkout B srv/** view/index.html</span><br></pre></td></tr></table></figure>
+
 <p>srv下有多层目录，故不能用<code>srv/*</code></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -487,10 +533,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/Win10/">
       Win10
@@ -498,13 +545,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -512,57 +559,60 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年9月5日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
+      
+        <p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -577,10 +627,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/office/download/XDown/">
       XDown
@@ -588,13 +639,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -602,58 +653,60 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/Download/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;Download</p>
+      <p>Tools/Download</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年9月5日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -668,10 +721,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/hello-world/">
       Hello World
@@ -679,13 +733,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -693,62 +747,64 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年8月29日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external nofollow noopener noreferrer">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external nofollow noopener noreferrer">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external nofollow noopener noreferrer">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external nofollow noopener noreferrer">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external nofollow noopener noreferrer">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external nofollow noopener noreferrer">Deployment</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -763,10 +819,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/IDEA%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/">
       IDEA常用配置
@@ -774,13 +831,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -788,103 +845,85 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Soft/IDE/IDEA/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Soft&nbsp;/&nbsp;IDE&nbsp;/&nbsp;IDEA</p>
+      <p>Soft/IDE/IDEA</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2018年1月3日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>Java开发的IDEA常用配置，此教程对应的IDEA版本为 <strong>v 2019.2.1 Ultimate Edition</strong>。</p>
-<h2 id="1-代码自动提示设置">1. 代码自动提示设置</h2>
-<h3 id="1-1-Java代码自动提示">1.1. Java代码自动提示</h3>
-<p>Window→Preferences→Java→Editor→Content Assist→Auto Activation→Auto activation triggers for java:</p>
+      
+        <p>Java开发的IDEA常用配置，此教程对应的IDEA版本为 <strong>v 2019.2.1 Ultimate Edition</strong>。</p>
+<h2 id="1-代码自动提示设置"><a href="#1-代码自动提示设置" class="headerlink" title="1. 代码自动提示设置"></a>1. 代码自动提示设置</h2><h3 id="1-1-Java代码自动提示"><a href="#1-1-Java代码自动提示" class="headerlink" title="1.1. Java代码自动提示"></a>1.1. Java代码自动提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Auto Activation→Auto activation triggers for java:</p>
 <p>将 <strong>.</strong> 改成以下字符串</p>
-<p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,['&quot;/&lt;</code></p>
-<h3 id="1-2-Java代码自动提示-关闭联机提示">1.2. Java代码自动提示 关闭联机提示</h3>
-<p>Window→Preferences→Java→Editor→Content Assist→Advanced</p>
+<p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;</code></p>
+<h3 id="1-2-Java代码自动提示-关闭联机提示"><a href="#1-2-Java代码自动提示-关闭联机提示" class="headerlink" title="1.2. Java代码自动提示 关闭联机提示"></a>1.2. Java代码自动提示 关闭联机提示</h3><p>Window→Preferences→Java→Editor→Content Assist→Advanced</p>
 <p>勾选Java Proposals</p>
 <p>取消勾选Java Proposals(Code Recommenders)</p>
-<h3 id="1-3-HTML代码自动提示">1.3. HTML代码自动提示</h3>
-<p>Window→Preferences→Web→Editor→Content Assist→Auto Activation→Prompt when these characters are inserted:</p>
+<h3 id="1-3-HTML代码自动提示"><a href="#1-3-HTML代码自动提示" class="headerlink" title="1.3. HTML代码自动提示"></a>1.3. HTML代码自动提示</h3><p>Window→Preferences→Web→Editor→Content Assist→Auto Activation→Prompt when these characters are inserted:</p>
 <p>将 <strong>.</strong> 改成以下字符串</p>
-<p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,['&quot;/&lt;=</code></p>
-<h3 id="1-4-JavaScript代码自动提示">1.4. JavaScript代码自动提示</h3>
-<p>Window→Preferences→JavaScript→Editor→Content Assist→Auto Activation→Auto activation triggers for JavaScript:</p>
+<p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p>
+<h3 id="1-4-JavaScript代码自动提示"><a href="#1-4-JavaScript代码自动提示" class="headerlink" title="1.4. JavaScript代码自动提示"></a>1.4. JavaScript代码自动提示</h3><p>Window→Preferences→JavaScript→Editor→Content Assist→Auto Activation→Auto activation triggers for JavaScript:</p>
 <p>将 <strong>.</strong> 改成以下字符串</p>
-<p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,['&quot;/&lt;=</code></p>
-<h2 id="2-编码设置">2. 编码设置</h2>
-<h3 id="2-1-设置workspace编码">2.1. 设置workspace编码</h3>
-<p>Window→Preferences→Workspace→Text file encoding→Other:</p>
+<p><code>.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ(,[&#39;&quot;/&lt;=</code></p>
+<h2 id="2-编码设置"><a href="#2-编码设置" class="headerlink" title="2. 编码设置"></a>2. 编码设置</h2><h3 id="2-1-设置workspace编码"><a href="#2-1-设置workspace编码" class="headerlink" title="2.1. 设置workspace编码"></a>2.1. 设置workspace编码</h3><p>Window→Preferences→Workspace→Text file encoding→Other:</p>
 <p>改成UTF-8</p>
-<h3 id="2-2-设置JSP文件编码">2.2. 设置JSP文件编码</h3>
-<p>Window→Preferences→Web→JSP File→Creating files→The following encoding will apply:→Encoding:</p>
+<h3 id="2-2-设置JSP文件编码"><a href="#2-2-设置JSP文件编码" class="headerlink" title="2.2. 设置JSP文件编码"></a>2.2. 设置JSP文件编码</h3><p>Window→Preferences→Web→JSP File→Creating files→The following encoding will apply:→Encoding:</p>
 <p>改成UTF-8</p>
-<h3 id="2-3-设置Properties文件编码">2.3. 设置Properties文件编码</h3>
-<p>Window→Preferences→General→Content Types→Content types:→Text→Java Properties File→Default encoding:</p>
+<h3 id="2-3-设置Properties文件编码"><a href="#2-3-设置Properties文件编码" class="headerlink" title="2.3. 设置Properties文件编码"></a>2.3. 设置Properties文件编码</h3><p>Window→Preferences→General→Content Types→Content types:→Text→Java Properties File→Default encoding:</p>
 <p>改成UTF-8</p>
-<h3 id="2-4-设置JSON文件编码">2.4. 设置JSON文件编码</h3>
-<p>Window→Preferences→JSON→JSON Files→Creating files→The following encoding will apply:→Encoding:</p>
+<h3 id="2-4-设置JSON文件编码"><a href="#2-4-设置JSON文件编码" class="headerlink" title="2.4. 设置JSON文件编码"></a>2.4. 设置JSON文件编码</h3><p>Window→Preferences→JSON→JSON Files→Creating files→The following encoding will apply:→Encoding:</p>
 <p>改成UTF-8</p>
-<h2 id="3-基本代码设置">3. 基本代码设置</h2>
-<h3 id="3-1-设置字体样式">3.1. 设置字体样式</h3>
-<p>Window→Preferences→General→Appearance→Colors and Fonts→Basic→Text Font→Edit:</p>
-<h3 id="3-2-设置编辑窗口背景色">3.2. 设置编辑窗口背景色</h3>
-<p>Window→Preferences→General→Editors→Text Editors→Appearance color options:→Background color→Color:</p>
-<h3 id="3-3-设置大括号高亮颜色">3.3. 设置大括号高亮颜色</h3>
-<p>Window→Preferences→Java→Editor→Appearance color options:→Matching brackets highlight→Color:</p>
-<h3 id="3-4-设置大括号成对显示">3.4. 设置大括号成对显示</h3>
-<p>Window→Preferences→Java→Editor→Bracket highlighting→Matching bracket and caret location</p>
-<h3 id="3-5-设置保存时的自动操作">3.5. 设置保存时的自动操作</h3>
-<p>Window→Preferences→Java→Editor→Save Actions→Perform the selected actions on save→Additional actions→Configure…</p>
-<h4 id="3-5-1-清空行尾空格，调整缩进">3.5.1. 清空行尾空格，调整缩进</h4>
-<p>Code Oraganizing→Formatter:</p>
+<h2 id="3-基本代码设置"><a href="#3-基本代码设置" class="headerlink" title="3. 基本代码设置"></a>3. 基本代码设置</h2><h3 id="3-1-设置字体样式"><a href="#3-1-设置字体样式" class="headerlink" title="3.1. 设置字体样式"></a>3.1. 设置字体样式</h3><p>Window→Preferences→General→Appearance→Colors and Fonts→Basic→Text Font→Edit:</p>
+<h3 id="3-2-设置编辑窗口背景色"><a href="#3-2-设置编辑窗口背景色" class="headerlink" title="3.2. 设置编辑窗口背景色"></a>3.2. 设置编辑窗口背景色</h3><p>Window→Preferences→General→Editors→Text Editors→Appearance color options:→Background color→Color:</p>
+<h3 id="3-3-设置大括号高亮颜色"><a href="#3-3-设置大括号高亮颜色" class="headerlink" title="3.3. 设置大括号高亮颜色"></a>3.3. 设置大括号高亮颜色</h3><p>Window→Preferences→Java→Editor→Appearance color options:→Matching brackets highlight→Color:</p>
+<h3 id="3-4-设置大括号成对显示"><a href="#3-4-设置大括号成对显示" class="headerlink" title="3.4. 设置大括号成对显示"></a>3.4. 设置大括号成对显示</h3><p>Window→Preferences→Java→Editor→Bracket highlighting→Matching bracket and caret location</p>
+<h3 id="3-5-设置保存时的自动操作"><a href="#3-5-设置保存时的自动操作" class="headerlink" title="3.5. 设置保存时的自动操作"></a>3.5. 设置保存时的自动操作</h3><p>Window→Preferences→Java→Editor→Save Actions→Perform the selected actions on save→Additional actions→Configure…</p>
+<h4 id="3-5-1-清空行尾空格，调整缩进"><a href="#3-5-1-清空行尾空格，调整缩进" class="headerlink" title="3.5.1. 清空行尾空格，调整缩进"></a>3.5.1. 清空行尾空格，调整缩进</h4><p>Code Oraganizing→Formatter:</p>
 <p>Remove trailing whitespace→All lines;</p>
 <p>Correct indentation</p>
-<h4 id="3-5-2-清除未使用的引用">3.5.2. 清除未使用的引用</h4>
-<p>Unnecessary Code→Unused code→Remove unused imports</p>
-<h3 id="3-6-添加代码模板">3.6. 添加代码模板</h3>
-<p>Window→Preferences→Java→Editor→Templates</p>
-<h3 id="3-7-添加本地限定文件">3.7. 添加本地限定文件</h3>
-<p>Window→Preferences→XML→XML Catalog→Add…→Catalog Entry</p>
+<h4 id="3-5-2-清除未使用的引用"><a href="#3-5-2-清除未使用的引用" class="headerlink" title="3.5.2. 清除未使用的引用"></a>3.5.2. 清除未使用的引用</h4><p>Unnecessary Code→Unused code→Remove unused imports</p>
+<h3 id="3-6-添加代码模板"><a href="#3-6-添加代码模板" class="headerlink" title="3.6. 添加代码模板"></a>3.6. 添加代码模板</h3><p>Window→Preferences→Java→Editor→Templates</p>
+<h3 id="3-7-添加本地限定文件"><a href="#3-7-添加本地限定文件" class="headerlink" title="3.7. 添加本地限定文件"></a>3.7. 添加本地限定文件</h3><p>Window→Preferences→XML→XML Catalog→Add…→Catalog Entry</p>
 <p>Location:→File System…</p>
 <p>选择对应的限定文件（dtd/xsd）</p>
 <p>Key type:</p>
@@ -892,19 +931,14 @@
 <p>若为xsd文件：选择Schema location</p>
 <p>Key:</p>
 <p>粘贴xml中的限定文件路径</p>
-<h3 id="3-8-设置新建列表">3.8. 设置新建列表</h3>
-<p>Window→Preferences→Perspective→Customize Perspective…→Shortcuts→Submenus:→New</p>
-<h2 id="4-服务器设置">4. 服务器设置</h2>
-<h3 id="4-1-Tomcat设置">4.1. Tomcat设置</h3>
-<p>Window→Preferences→Tomcat</p>
+<h3 id="3-8-设置新建列表"><a href="#3-8-设置新建列表" class="headerlink" title="3.8. 设置新建列表"></a>3.8. 设置新建列表</h3><p>Window→Preferences→Perspective→Customize Perspective…→Shortcuts→Submenus:→New</p>
+<h2 id="4-服务器设置"><a href="#4-服务器设置" class="headerlink" title="4. 服务器设置"></a>4. 服务器设置</h2><h3 id="4-1-Tomcat设置"><a href="#4-1-Tomcat设置" class="headerlink" title="4.1. Tomcat设置"></a>4.1. Tomcat设置</h3><p>Window→Preferences→Tomcat</p>
 <p>Tomcat version：</p>
 <p>选择相应Tomcat版本</p>
 <p>Tomcat home：</p>
 <p>选择相应Tomcat文件目录</p>
-<h3 id="4-2-Server设置">4.2 Server设置</h3>
-<p>Window→Preferences→Server→Runtime Environments→Add…→Apache</p>
-<h2 id="5-链式安装插件">5. 链式安装插件</h2>
-<p>1.将插件置于单独文件夹内（tomcat）：</p>
+<h3 id="4-2-Server设置"><a href="#4-2-Server设置" class="headerlink" title="4.2 Server设置"></a>4.2 Server设置</h3><p>Window→Preferences→Server→Runtime Environments→Add…→Apache</p>
+<h2 id="5-链式安装插件"><a href="#5-链式安装插件" class="headerlink" title="5. 链式安装插件"></a>5. 链式安装插件</h2><p>1.将插件置于单独文件夹内（tomcat）：</p>
 <p><code>E:\SoftStore\Java\eclipseplugin\tomcat\eclipse\plugins\net.sf.eclipse.tomcat_9.0.1.jar</code></p>
 <p>2.在eclipse\dropins文件夹内新建link文件：</p>
 <p><code>tomcat.link</code></p>
@@ -912,9 +946,10 @@
 <p><code>path=E:/SoftStore/Java/eclipseplugin/tomcat</code></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -929,10 +964,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/Eclipse%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/">
       Eclipse常用配置
@@ -940,13 +976,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -954,62 +990,65 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Soft/IDE/Eclipse/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Soft&nbsp;/&nbsp;IDE&nbsp;/&nbsp;Eclipse</p>
+      <p>Soft/IDE/Eclipse</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2018年1月3日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>Java开发的Eclipse常用配置，此教程对应的Eclipse版本为 <strong>v Oxygen.1a</strong>。</p>
       
-        
-          <div class="button readmore">
-            <a href="/Eclipse%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/">
-              Read More <i class="fas fa-chevron-right"></i>
-            </a>
-          </div>
-        
+        <p>Java开发的Eclipse常用配置，此教程对应的Eclipse版本为 <strong>v Oxygen.1a</strong>。</p>
       
     </div>
+    
+      
+        <div class="button readmore">
+          <a href="/Eclipse%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/">
+            Read More <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      
+    
   </section>
 </article>
 
@@ -1366,11 +1405,11 @@
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1389,12 +1428,15 @@
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1409,6 +1451,7 @@
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1416,12 +1459,12 @@
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

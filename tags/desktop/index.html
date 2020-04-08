@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -278,10 +313,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/efficient/Fences/">
       Fences
@@ -289,13 +325,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -303,54 +339,55 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/effcient/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;effcient</p>
+      <p>Tools/effcient</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月20日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><a href="https://cdn.stardock.us/web/fences3-side-by-side.jpg" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.stardock.us/web/fences3-side-by-side-t.jpg" alt="Fences Comparison"></a></p>
-<h3 id="Key-Features">Key Features</h3>
-<ul>
+      
+        <p> <a href="https://cdn.stardock.us/web/fences3-side-by-side.jpg" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.stardock.us/web/fences3-side-by-side-t.jpg" alt="Fences Comparison"></a></p>
+<h3 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h3><ul>
 <li><em>NEW!</em> Use fences on modern, high DPI monitors.</li>
 <li>Create shaded areas to organize your desktop.</li>
 <li><em>NEW!</em> Blur the wallpaper behind fences on Windows 10.</li>
@@ -362,37 +399,28 @@
 <li><em>NEW!</em> Navigate the folder structure from within the fence.</li>
 <li><em>NEW!</em> Windows 10 compatibility.</li>
 </ul>
-<h3 id="Features">Features</h3>
-<p>Fences helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called fences. Its many customization features are what make Fences the world’s most popular Windows desktop enhancement.</p>
+<h3 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h3><p>Fences helps you organize your PC by automatically placing your shortcuts and icons into resizable shaded areas on your desktop called fences. Its many customization features are what make Fences the world’s most popular Windows desktop enhancement.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.stardock.us/web/fences3-automatically-organize.png" alt="Files and Docs"></p>
-<p><a href="https://cdn.stardock.us/web/fences3-rolled-down-fence.png" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.stardock.us/web/fences3-rolled-down-fence-t.png" alt="Programs Fence"></a></p>
-<h4 id="Roll-up-Fences">Roll up Fences</h4>
-<p>Eliminate clutter from your desktop - but keep your Fences where it’s easy to find them - with our roll up feature. Double-clicking on a Fence’s title-bar will cause the rest of the Fence to “roll up” into it, saving you valuable space. To reveal your fence, you can move your mouse over the title-bar or double-click it again to view the title and all of its icons as normal.</p>
-<h4 id="Desktop-Pages">Desktop Pages</h4>
-<p>Create multiple pages of fences on your desktop and quickly swipe between them. To change to a different desktop page, just take your mouse cursor to the edge of your screen and click and drag. Then a new page of fences will be displayed. This feature provides greater control over how you can organize favorite programs, documents, websites and more.</p>
-<h4 id="Desktop-Quick-hide">Desktop Quick-hide</h4>
-<p>Instantly clean up your desktop. Double-click any blank space on your desktop and your desktop icons will fade out. Double-click again and they will return. You can even pick icons and individual fences to exclude.</p>
+<p> <a href="https://cdn.stardock.us/web/fences3-rolled-down-fence.png" target="_blank" rel="external nofollow noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.stardock.us/web/fences3-rolled-down-fence-t.png" alt="Programs Fence"></a></p>
+<h4 id="Roll-up-Fences"><a href="#Roll-up-Fences" class="headerlink" title="Roll up Fences"></a>Roll up Fences</h4><p>Eliminate clutter from your desktop - but keep your Fences where it’s easy to find them - with our roll up feature. Double-clicking on a Fence’s title-bar will cause the rest of the Fence to “roll up” into it, saving you valuable space. To reveal your fence, you can move your mouse over the title-bar or double-click it again to view the title and all of its icons as normal.</p>
+<h4 id="Desktop-Pages"><a href="#Desktop-Pages" class="headerlink" title="Desktop Pages"></a>Desktop Pages</h4><p>Create multiple pages of fences on your desktop and quickly swipe between them. To change to a different desktop page, just take your mouse cursor to the edge of your screen and click and drag. Then a new page of fences will be displayed. This feature provides greater control over how you can organize favorite programs, documents, websites and more.</p>
+<h4 id="Desktop-Quick-hide"><a href="#Desktop-Quick-hide" class="headerlink" title="Desktop Quick-hide"></a>Desktop Quick-hide</h4><p>Instantly clean up your desktop. Double-click any blank space on your desktop and your desktop icons will fade out. Double-click again and they will return. You can even pick icons and individual fences to exclude.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.stardock.us/web/fences3-desktop-pages.png" alt="Desktop pages"></p>
-<h4 id="Automatic-desktop-organization">Automatic desktop organization</h4>
-<p>Define rules for how your icons are arranged on your desktop and Fences will automatically sort new icons into the fences you have chosen based on your rules.</p>
+<h4 id="Automatic-desktop-organization"><a href="#Automatic-desktop-organization" class="headerlink" title="Automatic desktop organization"></a>Automatic desktop organization</h4><p>Define rules for how your icons are arranged on your desktop and Fences will automatically sort new icons into the fences you have chosen based on your rules.</p>
 <p><video autoplay="true" muted="true" loop="true" src="https://www.stardock.com/products/fences/video/control2/Fences_Websiteclip_1.mp4"></video></p>
-<h4 id="Folder-portals">Folder portals</h4>
-<p>Fences can act as a portal to any folder on your PC. For example, your documents or pictures folders can be mirrored onto your desktop as a fence enabling quick access to their contents without adding clutter to your desktop.</p>
-<h4 id="Customize-your-Fences">Customize your Fences</h4>
-<p>Quickly personalize the labels, background colors and transparency of your fences from the easy to use configuration menu.</p>
+<h4 id="Folder-portals"><a href="#Folder-portals" class="headerlink" title="Folder portals"></a>Folder portals</h4><p>Fences can act as a portal to any folder on your PC. For example, your documents or pictures folders can be mirrored onto your desktop as a fence enabling quick access to their contents without adding clutter to your desktop.</p>
+<h4 id="Customize-your-Fences"><a href="#Customize-your-Fences" class="headerlink" title="Customize your Fences"></a>Customize your Fences</h4><p>Quickly personalize the labels, background colors and transparency of your fences from the easy to use configuration menu.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.stardock.us/web/fences3-folder-portals-feature.png" alt="Folder Options"></p>
 <hr>
-<p><strong>System Requirements</strong><br>
-Windows 10/8/7</p>
-<h3 id="官网">官网</h3>
-<p><a href="https://www.stardock.com/products/fences" target="_blank" rel="external nofollow noopener noreferrer">https://www.stardock.com/products/fences</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://www.stardock.com/products/fences/download-trial" target="_blank" rel="external nofollow noopener noreferrer">https://www.stardock.com/products/fences/download-trial</a></p>
+<p><strong>System Requirements</strong><br>Windows 10/8/7</p>
+<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://www.stardock.com/products/fences" target="_blank" rel="external nofollow noopener noreferrer">https://www.stardock.com/products/fences</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://www.stardock.com/products/fences/download-trial" target="_blank" rel="external nofollow noopener noreferrer">https://www.stardock.com/products/fences/download-trial</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -736,11 +764,11 @@ Windows 10/8/7</p>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -759,12 +787,15 @@ Windows 10/8/7</p>
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -779,6 +810,7 @@ Windows 10/8/7</p>
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -786,12 +818,12 @@ Windows 10/8/7</p>
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

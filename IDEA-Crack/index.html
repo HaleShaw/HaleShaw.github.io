@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -37,7 +37,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -66,13 +66,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -89,21 +89,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -114,7 +114,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -191,64 +191,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -267,10 +302,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   
     <h1 class="title">
       <a href="/IDEA-Crack/">
@@ -280,13 +316,13 @@
   
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -294,41 +330,42 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Soft/IDE/IDEA/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Soft&nbsp;/&nbsp;IDE&nbsp;/&nbsp;IDEA</p>
+      <p>Soft/IDE/IDEA</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年1月31日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
@@ -337,23 +374,18 @@
           
           <p><strong>IDEA 最新破解方法，支持2019.3.3，2020-02-27更新</strong></p>
 <a id="more"></a>
-<h3 id="前言">前言</h3>
-<p>请有能力的尽量支持正版！</p>
-<h3 id="1-下载安装">1. 下载安装</h3>
-<p>下载地址：<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea/download/#section=windows</a></p>
-<p>选择适合本机的版本安装。<br>
-个人喜欢绿色解压版。</p>
-<h3 id="2-破解">2. 破解</h3>
-<h4 id="2-1-下载JetbrainsCrack-jar">2.1. 下载JetbrainsCrack.jar</h4>
-<p>JetbrainsCrack.jar下载地址：</p>
+
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>请有能力的尽量支持正版！</p>
+<h3 id="1-下载安装"><a href="#1-下载安装" class="headerlink" title="1. 下载安装"></a>1. 下载安装</h3><p>下载地址：<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea/download/#section=windows</a></p>
+<p>选择适合本机的版本安装。<br>个人喜欢绿色解压版。</p>
+<h3 id="2-破解"><a href="#2-破解" class="headerlink" title="2. 破解"></a>2. 破解</h3><h4 id="2-1-下载JetbrainsCrack-jar"><a href="#2-1-下载JetbrainsCrack-jar" class="headerlink" title="2.1. 下载JetbrainsCrack.jar"></a>2.1. 下载JetbrainsCrack.jar</h4><p>JetbrainsCrack.jar下载地址：</p>
 <p>百度网盘:</p>
 <ul>
 <li>AlgerFan: <a href="https://pan.baidu.com/s/1_T_yEX9xLo6tp2fBB3CXAA#x3w5" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1_T_yEX9xLo6tp2fBB3CXAA#x3w5</a> 提取码: <code>x3w5</code> (已失效)</li>
 </ul>
 <hr>
 <ul>
-<li>
-<p>Zhile: <a href="https://pan.baidu.com/s/1FrpavOrzkzLDYShndnqRZQ#2c4t" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1FrpavOrzkzLDYShndnqRZQ#2c4t</a> 提取码: <code>2c4t</code></p>
+<li><p>Zhile: <a href="https://pan.baidu.com/s/1FrpavOrzkzLDYShndnqRZQ#2c4t" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1FrpavOrzkzLDYShndnqRZQ#2c4t</a> 提取码: <code>2c4t</code></p>
 <p>版本：v3.0.3</p>
 <p>支持：</p>
 <ul>
@@ -372,35 +404,39 @@
 </ul>
 <p>把它放到你认为合适的文件夹内，如：</p>
 <p><code>C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin</code></p>
-<h4 id="2-2-修改vmoptions文件">2.2. 修改vmoptions文件</h4>
-<p><strong>不能直接在bin目录下直接修改！</strong></p>
+<h4 id="2-2-修改vmoptions文件"><a href="#2-2-修改vmoptions文件" class="headerlink" title="2.2. 修改vmoptions文件"></a>2.2. 修改vmoptions文件</h4><p><strong>不能直接在bin目录下直接修改！</strong></p>
 <p>先打开idea试用30天，然后点击你要注册的IDE菜单：</p>
 <p>“Help” -&gt; “Edit Custom VM Options …”，</p>
-<p>如果提示是否要创建文件，请点&quot;是|Yes&quot;。</p>
+<p>如果提示是否要创建文件，请点”是|Yes”。</p>
 <p>在打开的vmoptions编辑窗口末行添加：</p>
 <p><code>-javaagent:JetbrainsCrack.jar文件的绝对路径</code></p>
 <p>如: <code>-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin\JetbrainsCrack.jar</code></p>
-<h4 id="2-3-注册">2.3. 注册</h4>
-<p>启动IDEA，注册&quot;Help&quot; -&gt; “Register”，选择License server方式，地址填入：</p>
+<h4 id="2-3-注册"><a href="#2-3-注册" class="headerlink" title="2.3. 注册"></a>2.3. 注册</h4><p>启动IDEA，注册”Help” -&gt; “Register”，选择License server方式，地址填入：</p>
 <ul>
 <li>AlgerFan: <code>http://jetbrains-license-server</code>（应该会自动填上）</li>
 <li>Zhile: <code>http://fls.jetbrains-agent.com</code></li>
 </ul>
 <p>看到<code>Licensed to &lt;用户名&gt;</code>，即激活成功！</p>
-<h3 id="3-声明">3. 声明</h3>
-<p>此文章仅用于学习研究使用，如有侵权，请联系我删除该文章。</p>
+<h3 id="3-声明"><a href="#3-声明" class="headerlink" title="3. 声明"></a>3. 声明</h3><p>此文章仅用于学习研究使用，如有侵权，请联系我删除该文章。</p>
 <p>原文地址：</p>
 <ul>
 <li>AlgerFan: <a href="https://www.algerfan.cn/articles/2019/03/06/1551868940012.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.algerfan.cn/articles/2019/03/06/1551868940012.html</a></li>
 <li>Zhile: <a href="https://zhile.io/2018/08/25/jetbrains-license-server-crack.html" target="_blank" rel="external nofollow noopener noreferrer">https://zhile.io/2018/08/25/jetbrains-license-server-crack.html</a></li>
 </ul>
 
-
-          
-
+	  
           
             <br>
             
+              
+  
+    
+    
+
+
+
+  
+
   
     
     
@@ -449,6 +485,7 @@
   
 
 
+            
           
         </div>
         
@@ -461,7 +498,7 @@
         
           <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-03-23T12:58:53+08:00">
   <a class="notlink">
-    <i class="fas fa-save fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2020年3月23日</p>
   </a>
 </div>
@@ -538,23 +575,18 @@
               <a class="prev" href="/tools/efficient/TotalCommander/">
                 <p class="title"><i class="fas fa-chevron-left" aria-hidden="true"></i>TotalCommander</p>
                 <p class="content">
-官网
-English
-https://www.ghisler.com
-中文
-http://xbeta.info/tc/index.htm
+官网Englishhttps://www.ghisler.com
+中文http://xbeta.info/tc/index.htm
 Features
-
-Two file windows ...</p>
+Two file windows side...</p>
               </a>
             
             
               <a class="next" href="/tools/develop/TeleportUltra/">
                 <p class="title">Teleport Ultra<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                 <p class="content">
-官方主页
-http://www.tenmax.com/teleport/ultra/home.htm
-Teleport Pro’s big brother, Teleport Ultra, h...</p>
+官方主页http://www.tenmax.com/teleport/ultra/home.htm
+Teleport Pro’s big brother, Teleport Ultra, ha...</p>
               </a>
             
           </div>
@@ -920,11 +952,11 @@ Teleport Pro’s big brother, Teleport Ultra, h...</p>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -937,7 +969,7 @@ Teleport Pro’s big brother, Teleport Ultra, h...</p>
 
   
     
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0/js/valine.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4.2/js/valine.js"></script>
 
   
   <script>
@@ -945,8 +977,8 @@ Teleport Pro’s big brother, Teleport Ultra, h...</p>
   var guest_info = 'nick,mail,link'.split(',').filter(function(item){
     return GUEST_INFO.indexOf(item) > -1
   });
-  var notify = 'true' == true;
-  var verify = 'true' == true;
+  var notify = 'true' == 'true';
+  var verify = 'true' == 'true';
   var valine = new Valine();
   valine.init({
     el: '#valine_container',
@@ -973,12 +1005,15 @@ Teleport Pro’s big brother, Teleport Ultra, h...</p>
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -993,6 +1028,7 @@ Teleport Pro’s big brother, Teleport Ultra, h...</p>
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1000,12 +1036,12 @@ Teleport Pro’s big brother, Teleport Ultra, h...</p>
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

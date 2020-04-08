@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -294,10 +329,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/monitor/Percentage/">
       Percentage
@@ -305,13 +341,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -319,74 +355,72 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月23日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>See your battery percentage in the Windows 10 system tray</strong></p>
+      
+        <p><strong>See your battery percentage in the Windows 10 system tray</strong></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://raw.githubusercontent.com/HaleShaw/percentage/master/percentage.png" alt="Percentage"></p>
-<h3 id="Customize-font">Customize font</h3>
-<ul>
-<li>
-<p>The default font is Segoe UI</p>
+<h3 id="Customize-font"><a href="#Customize-font" class="headerlink" title="Customize font"></a>Customize font</h3><ul>
+<li><p>The default font is Segoe UI</p>
 </li>
-<li>
-<p>You can add a parameter to define the font when you run the application. You can add the parameter in the command window or the shortcut of the application.</p>
+<li><p>You can add a parameter to define the font when you run the application. You can add the parameter in the command window or the shortcut of the application.</p>
 <ul>
 <li>ercentage.exe “Arial”</li>
 </ul>
 </li>
 </ul>
-<h3 id="GitHub">GitHub</h3>
-<p><a href="https://github.com/HaleShaw/percentage" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/HaleShaw/percentage</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://github.com/HaleShaw/percentage/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/HaleShaw/percentage/releases</a></p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/HaleShaw/percentage" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/HaleShaw/percentage</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://github.com/HaleShaw/percentage/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/HaleShaw/percentage/releases</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -401,10 +435,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/optimizer/LockHunter/">
       LockHunter
@@ -412,13 +447,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -426,58 +461,58 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>LockHunter is a foolproof file unlocker</strong></p>
+      
+        <p><strong>LockHunter is a foolproof file unlocker</strong></p>
 <p>It is a free tool to delete files blocked by something you do not know. LockHunter is useful for fighting against malware, and other programs that are blocking files without a reason. Unlike other similar tools it deletes files into the recycle bin so you may restore them if deleted by mistake.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://lockhunter.com/assets/screenshots/mainScreenshotFull.png" alt="LockHunter"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://lockhunter.com" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com</a></p>
-<h3 id="Key-Features">Key Features</h3>
-<ul>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://lockhunter.com" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com</a></p>
+<h3 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h3><ul>
 <li>Shows processes locking a file or folder</li>
 <li>Gives you detailed information on the process</li>
 <li>Allows to unlock, delete, copy or rename a locked file</li>
@@ -489,13 +524,13 @@
 <li>It deletes files into the recycle bin, so you may restore them if deleted by mistake</li>
 <li>Supports both 32 and 64 bit Windows</li>
 </ul>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://lockhunter.com/startdownload.htm" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com/startdownload.htm</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://lockhunter.com/startdownload.htm" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com/startdownload.htm</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -510,10 +545,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/optimizer/Unlocker/">
       Unlocker
@@ -521,13 +557,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -535,63 +571,65 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>1.Simply right click the folder or file and select Unlocker</p>
+      
+        <p>1.Simply right click the folder or file and select Unlocker</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.emptyloop.com/unlocker/tutorial1.png" alt="first"></p>
 <p>2.If the folder or file is locked, a window listing of lockers will appear</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.emptyloop.com/unlocker/tutorial1.png" alt="second"></p>
 <p>3.Simply click Unlock All and you are done!</p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="http://www.emptyloop.com/unlocker" target="_blank" rel="external nofollow noopener noreferrer">http://www.emptyloop.com/unlocker</a></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.emptyloop.com/unlocker" target="_blank" rel="external nofollow noopener noreferrer">http://www.emptyloop.com/unlocker</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -606,10 +644,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/optimizer/DismPlusPlus/">
       Dism++
@@ -617,13 +656,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -631,64 +670,63 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>全球第一款基于 CBS 的 Dism GUI 实现</strong></p>
+      
+        <p><strong>全球第一款基于 CBS 的 Dism GUI 实现</strong></p>
 <p>兼容 Windows Vista/7/8/8.1/10</p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.chuyu.me" target="_blank" rel="external nofollow noopener noreferrer">https://www.chuyu.me</a></p>
-<h3 id="Dism-的特点">Dism++的特点</h3>
-<ul>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.chuyu.me" target="_blank" rel="external nofollow noopener noreferrer">https://www.chuyu.me</a></p>
+<h3 id="Dism-的特点"><a href="#Dism-的特点" class="headerlink" title="Dism++的特点"></a>Dism++的特点</h3><ul>
 <li>Dism++无需任何Dism组件，即可兼容高低版本所有系统！而微软Dism则需要3个版本。</li>
 <li>Dism++是Dism的交集，提供完全的图形化操作，几乎支持Dism的所有功能以及大量Dism原本所不支持的功能。管理更新、驱动、功能、Appx、可选功能、服务、Compact/WIMboot、系统修复等……放马过来吧。</li>
 <li>Dism++提供了完整的WIM支持（包括ESD捕获、ESD转ISO、释放分段ESD以及直接ISO支持），值得一提的是，ESD转ISO，Dism++可以直接在内存中解密无需修改硬盘数据。这极大的满足了强迫症患者。</li>
 <li>Dism++提供了开放的清理以及优化功能，用户可以自定义Dism++规则，来打造专属系统工具。</li>
 </ul>
-<h3 id="运行要求">运行要求</h3>
-<p>最小运行平台：NT 6.0或者更高、512MB内存</p>
+<h3 id="运行要求"><a href="#运行要求" class="headerlink" title="运行要求"></a>运行要求</h3><p>最小运行平台：NT 6.0或者更高、512MB内存</p>
 <p>推荐运行平台：NT 6.1或者更高，64位操作系统、8G物理内存+8GB虚拟内存或者更高</p>
 <ul>
 <li>运行平台仅限x86、amd64以及arm64处理器，IA64以及ARM体系仅支持离线模式。</li>
@@ -697,9 +735,10 @@
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -714,10 +753,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/monitor/ProcessHacker/">
       ProcessHacker
@@ -725,13 +765,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -739,100 +779,86 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月20日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>A <strong>free</strong>, powerful, multi-purpose tool that helps you <strong>monitor system resources</strong>, <strong>debug software</strong> and <strong>detect malware</strong>.</p>
+      
+        <p>A <strong>free</strong>, powerful, multi-purpose tool that helps you <strong>monitor system resources</strong>, <strong>debug software</strong> and <strong>detect malware</strong>.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/background2.png" alt="500x500"></p>
-<p><strong>System requirements</strong><br>
-Windows 7 or higher, 32-bit or 64-bit.</p>
-<h3 id="Features">Features</h3>
-<h4 id="Graphs-and-statistics-allow-you-quickly-to-track-down-resource-hogs-and-runaway-processes">Graphs and statistics allow you quickly to track down resource hogs and runaway processes</h4>
-<p>Use Ctrl+I to view system performance information. Move your cursor over a graph to get a tooltip with information about the data point under your cursor. You can double-click the graph to see information about the process at that data point, even if the process is no longer running.</p>
+<p><strong>System requirements</strong><br>Windows 7 or higher, 32-bit or 64-bit.</p>
+<h3 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h3><h4 id="Graphs-and-statistics-allow-you-quickly-to-track-down-resource-hogs-and-runaway-processes"><a href="#Graphs-and-statistics-allow-you-quickly-to-track-down-resource-hogs-and-runaway-processes" class="headerlink" title="Graphs and statistics allow you quickly to track down resource hogs and runaway processes"></a>Graphs and statistics allow you quickly to track down resource hogs and runaway processes</h4><p>Use Ctrl+I to view system performance information. Move your cursor over a graph to get a tooltip with information about the data point under your cursor. You can double-click the graph to see information about the process at that data point, even if the process is no longer running.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/sysinfo_trimmed_1_small.jpg" alt="500x500"></p>
-<h4 id="Can’t-edit-or-delete-a-file-Discover-which-processes-are-using-that-file">Can’t edit or delete a file? Discover which processes are using that file</h4>
-<p>Use Ctrl+F to search for a handle or DLL. If all else fails, you can right-click an entry and close the handle associated with the file. However, this should only be used as a last resort and can lead to data loss and corruption.</p>
+<h4 id="Can’t-edit-or-delete-a-file-Discover-which-processes-are-using-that-file"><a href="#Can’t-edit-or-delete-a-file-Discover-which-processes-are-using-that-file" class="headerlink" title="Can’t edit or delete a file? Discover which processes are using that file"></a>Can’t edit or delete a file? Discover which processes are using that file</h4><p>Use Ctrl+F to search for a handle or DLL. If all else fails, you can right-click an entry and close the handle associated with the file. However, this should only be used as a last resort and can lead to data loss and corruption.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/find_handles.png" alt="500x500"></p>
-<h4 id="See-what-programs-have-active-network-connections-and-close-them-if-necessary">See what programs have active network connections, and close them if necessary</h4>
-<p>Use Ctrl+I to view system performance information. Move your cursor over a graph to get a tooltip with information about the data point under your cursor. You can double-click the graph to see information about the process at that data point, even if the process is no longer running.</p>
+<h4 id="See-what-programs-have-active-network-connections-and-close-them-if-necessary"><a href="#See-what-programs-have-active-network-connections-and-close-them-if-necessary" class="headerlink" title="See what programs have active network connections, and close them if necessary"></a>See what programs have active network connections, and close them if necessary</h4><p>Use Ctrl+I to view system performance information. Move your cursor over a graph to get a tooltip with information about the data point under your cursor. You can double-click the graph to see information about the process at that data point, even if the process is no longer running.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/network.png" alt="screenshot"></p>
-<h4 id="See-a-hightly-detailed-overview-of-system-activity-with-highlighting">See a hightly detailed overview of system activity with highlighting</h4>
-<p>Add extra columns to show even more system activity and information!</p>
+<h4 id="See-a-hightly-detailed-overview-of-system-activity-with-highlighting"><a href="#See-a-hightly-detailed-overview-of-system-activity-with-highlighting" class="headerlink" title="See a hightly detailed overview of system activity with highlighting"></a>See a hightly detailed overview of system activity with highlighting</h4><p>Add extra columns to show even more system activity and information!</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/main_window_small.jpg" alt="screenshot"></p>
-<h4 id="Get-real-time-information-on-disk-access">Get real-time information on disk access</h4>
-<p>This may look very similar to the Disk Activity feature in Resource Monitor, but Process Hacker has a few more features!</p>
+<h4 id="Get-real-time-information-on-disk-access"><a href="#Get-real-time-information-on-disk-access" class="headerlink" title="Get real-time information on disk access"></a>Get real-time information on disk access</h4><p>This may look very similar to the Disk Activity feature in Resource Monitor, but Process Hacker has a few more features!</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/disk_tab.png" alt="screenshot"></p>
-<h4 id="Get-real-time-information-on-disk-usage">Get real-time information on disk usage</h4>
-<p>Enable disk statistics for detailed disk usage information.</p>
+<h4 id="Get-real-time-information-on-disk-usage"><a href="#Get-real-time-information-on-disk-usage" class="headerlink" title="Get real-time information on disk usage"></a>Get real-time information on disk usage</h4><p>Enable disk statistics for detailed disk usage information.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/disk_graph_large.png" alt="screenshot"></p>
-<h4 id="View-detailed-stack-traces-with-kernel-mode-WOW64-and-NET-support">View detailed stack traces with kernel-mode, WOW64 and . NET support</h4>
-<p>Hover your cursor over the first column (with the numbers) to view parameter and line number information when available.</p>
+<h4 id="View-detailed-stack-traces-with-kernel-mode-WOW64-and-NET-support"><a href="#View-detailed-stack-traces-with-kernel-mode-WOW64-and-NET-support" class="headerlink" title="View detailed stack traces with kernel-mode, WOW64 and . NET support"></a>View detailed stack traces with kernel-mode, WOW64 and . NET support</h4><p>Hover your cursor over the first column (with the numbers) to view parameter and line number information when available.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/thread_stack.png" alt="screenshot"></p>
-<h4 id="Get-real-time-information-on-network-usage">Get real-time information on network usage</h4>
-<p>Enable network adapter statistics for detailed information network usage information.</p>
+<h4 id="Get-real-time-information-on-network-usage"><a href="#Get-real-time-information-on-network-usage" class="headerlink" title="Get real-time information on network usage"></a>Get real-time information on network usage</h4><p>Enable network adapter statistics for detailed information network usage information.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/network_graph_large.png" alt="screenshot"></p>
-<h4 id="Go-beyond-services-msc-create-edit-and-control-services">Go beyond services.msc: create, edit and control services</h4>
-<p>By default, Process Hacker shows entries for drivers in addition to normal user-mode services. You can turn this off by checking <strong>View &gt; Hide Driver Services</strong>.</p>
+<h4 id="Go-beyond-services-msc-create-edit-and-control-services"><a href="#Go-beyond-services-msc-create-edit-and-control-services" class="headerlink" title="Go beyond services.msc: create, edit and control services"></a>Go beyond services.msc: create, edit and control services</h4><p>By default, Process Hacker shows entries for drivers in addition to normal user-mode services. You can turn this off by checking <strong>View &gt; Hide Driver Services</strong>.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/services.png" alt="screenshot"></p>
-<h4 id="Get-real-time-information-on-gpu-usage">Get real-time information on gpu usage</h4>
-<p>By default, Process Hacker shows gpu usage for all processes. Hover your cursor over the graph for detailed information when available.</p>
+<h4 id="Get-real-time-information-on-gpu-usage"><a href="#Get-real-time-information-on-gpu-usage" class="headerlink" title="Get real-time information on gpu usage"></a>Get real-time information on gpu usage</h4><p>By default, Process Hacker shows gpu usage for all processes. Hover your cursor over the graph for detailed information when available.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://processhacker.sourceforge.io/include/img/screenshots/gpu_graph_large.png" alt="screenshot"></p>
-<h3 id="Additional-information">Additional information</h3>
-<p>You cannot run the 32-bit version of Process Hacker on a<br>
-64-bit system and expect it to work correctly, unlike other programs.</p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://processhacker.sourceforge.io" target="_blank" rel="external nofollow noopener noreferrer">https://processhacker.sourceforge.io</a></p>
-<h3 id="GitHub">GitHub</h3>
-<p><a href="https://github.com/processhacker/processhacker" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/processhacker/processhacker</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://github.com/processhacker/processhacker/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/processhacker/processhacker/releases</a></p>
+<h3 id="Additional-information"><a href="#Additional-information" class="headerlink" title="Additional information"></a>Additional information</h3><p>You cannot run the 32-bit version of Process Hacker on a<br>64-bit system and expect it to work correctly, unlike other programs.</p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://processhacker.sourceforge.io" target="_blank" rel="external nofollow noopener noreferrer">https://processhacker.sourceforge.io</a></p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/processhacker/processhacker" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/processhacker/processhacker</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://github.com/processhacker/processhacker/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/processhacker/processhacker/releases</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -847,10 +873,11 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/monitor/TrafficMonitor/">
       TrafficMonitor
@@ -858,13 +885,13 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -872,54 +899,55 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月20日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>Traffic Monitor是一款用于Windows平台的网速监控悬浮窗软件，可以显示当前网速、CPU及内存利用率，支持嵌入到任务栏显示，支持更换皮肤、历史流量统计等功能。</p>
-<h3 id="主要特性">主要特性</h3>
-<ul>
+      
+        <p>Traffic Monitor是一款用于Windows平台的网速监控悬浮窗软件，可以显示当前网速、CPU及内存利用率，支持嵌入到任务栏显示，支持更换皮肤、历史流量统计等功能。</p>
+<h3 id="主要特性"><a href="#主要特性" class="headerlink" title="主要特性"></a>主要特性</h3><ul>
 <li>显示当前实现网络传输速率、CPU和内存占用率</li>
 <li>如果电脑有多个网卡，支持自动和手动选择网络连接</li>
 <li>查看网络详细信息</li>
@@ -928,8 +956,7 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
 <li>历史流量统计</li>
 </ul>
 <p>程序启动后在窗口点击鼠标右键可以弹出右键菜单，主要功能都集中在这个菜单中。如果需要让它嵌入到任务栏显示，请勾选“显示任务栏窗口”。要显示CPU和内存利用率，请勾选“显示更多信息”。</p>
-<p><strong>截图</strong><br>
-主悬浮窗：</p>
+<p><strong>截图</strong><br>主悬浮窗：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://github.com/zhongyang219/TrafficMonitor/raw/master/Screenshots/main1.png" alt="main1"></p>
 <p>右键菜单：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://github.com/zhongyang219/TrafficMonitor/raw/master/Screenshots/main.png" alt="main"></p>
@@ -937,15 +964,14 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://github.com/zhongyang219/TrafficMonitor/raw/master/Screenshots/taskbar.PNG" alt="taskbar"></p>
 <p>多彩皮肤：</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://github.com/zhongyang219/TrafficMonitor/raw/master/Screenshots/skins.PNG" alt="skins"></p>
-<h3 id="GitHub">GitHub</h3>
-<p><a href="https://github.com/zhongyang219/TrafficMonitor" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/zhongyang219/TrafficMonitor</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://github.com/zhongyang219/TrafficMonitor/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/zhongyang219/TrafficMonitor/releases</a></p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/zhongyang219/TrafficMonitor" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/zhongyang219/TrafficMonitor</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://github.com/zhongyang219/TrafficMonitor/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/zhongyang219/TrafficMonitor/releases</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -960,10 +986,11 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/monitor/XMeters/">
       XMeters
@@ -971,13 +998,13 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -985,67 +1012,65 @@ Windows 7 or higher, 32-bit or 64-bit.</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月20日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>在任务栏上显示一些系统信息，如：CPU、内存、硬盘、网络。</p>
-<p><strong>Real-time System Monitoring</strong><br>
-Display a live view of your most important system information at all times.</p>
-<p><strong>Completely Customizable</strong><br>
-Change the look of XMeters to match your workspace.</p>
-<p><strong>Designed for Performance</strong><br>
-XMeters is designed to be as lightweight and battery-friendly as possible.</p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://entropy6.com/xmeters" target="_blank" rel="external nofollow noopener noreferrer">https://entropy6.com/xmeters</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://entropy6.com/xmeters/download" target="_blank" rel="external nofollow noopener noreferrer">https://entropy6.com/xmeters/download</a></p>
+      
+        <p>在任务栏上显示一些系统信息，如：CPU、内存、硬盘、网络。</p>
+<p><strong>Real-time System Monitoring</strong><br>Display a live view of your most important system information at all times.</p>
+<p><strong>Completely Customizable</strong><br>Change the look of XMeters to match your workspace.</p>
+<p><strong>Designed for Performance</strong><br>XMeters is designed to be as lightweight and battery-friendly as possible.</p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://entropy6.com/xmeters" target="_blank" rel="external nofollow noopener noreferrer">https://entropy6.com/xmeters</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://entropy6.com/xmeters/download" target="_blank" rel="external nofollow noopener noreferrer">https://entropy6.com/xmeters/download</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1060,10 +1085,11 @@ XMeters is designed to be as lightweight and battery-friendly as possible.</p>
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/monitor/TranslucentTB/">
       TranslucentTB
@@ -1071,13 +1097,13 @@ XMeters is designed to be as lightweight and battery-friendly as possible.</p>
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1085,78 +1111,67 @@ XMeters is designed to be as lightweight and battery-friendly as possible.</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月18日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>A lightweight utility that makes the Windows taskbar translucent/transparent.</strong></p>
-<h3 id="Tips-and-tricks-for-a-better-looking-taskbar">Tips and tricks for a better looking taskbar</h3>
-<h4 id="Aero-Peek-Button">Aero Peek Button</h4>
-<p>TranslucentTB has an option to hide it, resulting in a better appearance when on the desktop. It also offers a dynamic option, which allows to hide it only when there is no maximised window.<br>
-<video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/peek.mp4"></video></p>
-<h4 id="Color">Color</h4>
-<p>TranslucentTB’s color picker offers live preview, so you can try a bunch of color options easily.<br>
-<video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/accent_color.mp4"></video><br>
-If the taskbar elements show up with a different coloring, make sure to turn off the accent color on the taskbar, under “Settings” &gt; “Personalization” &gt; “Colors”.<br>
-<video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/taskbar_color.mp4"></video></p>
-<h4 id="Timeline-Task-View-Cortana-Search-and-other-buttons">Timeline, Task View, Cortana, Search and other buttons</h4>
-<p>You can hide them by right-clicking on the taskbar and then unchecking the appropriate option.<br>
-<video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/taskbar_buttons.mp4"></video></p>
-<h4 id="Action-Center-IME-volume-battery-and-other-system-icons">Action Center, IME, volume, battery and other system icons</h4>
-<p>You can hide them by going into “Settings” &gt; “Personalization” &gt; “Taskbar” &gt; “Turn system icons on or off”.<br>
-<video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/system_icons.mp4"></video></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://translucenttb.github.io/tips" target="_blank" rel="external nofollow noopener noreferrer">https://translucenttb.github.io/tips</a></p>
-<h3 id="GitHub">GitHub</h3>
-<p><a href="https://github.com/TranslucentTB/TranslucentTB" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/TranslucentTB/TranslucentTB</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://github.com/TranslucentTB/TranslucentTB/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/TranslucentTB/TranslucentTB/releases</a></p>
+      
+        <p><strong>A lightweight utility that makes the Windows taskbar translucent/transparent.</strong></p>
+<h3 id="Tips-and-tricks-for-a-better-looking-taskbar"><a href="#Tips-and-tricks-for-a-better-looking-taskbar" class="headerlink" title="Tips and tricks for a better looking taskbar"></a>Tips and tricks for a better looking taskbar</h3><h4 id="Aero-Peek-Button"><a href="#Aero-Peek-Button" class="headerlink" title="Aero Peek Button"></a>Aero Peek Button</h4><p>TranslucentTB has an option to hide it, resulting in a better appearance when on the desktop. It also offers a dynamic option, which allows to hide it only when there is no maximised window.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/peek.mp4"></video></p>
+<h4 id="Color"><a href="#Color" class="headerlink" title="Color"></a>Color</h4><p>TranslucentTB’s color picker offers live preview, so you can try a bunch of color options easily.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/accent_color.mp4"></video><br>If the taskbar elements show up with a different coloring, make sure to turn off the accent color on the taskbar, under “Settings” &gt; “Personalization” &gt; “Colors”.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/taskbar_color.mp4"></video></p>
+<h4 id="Timeline-Task-View-Cortana-Search-and-other-buttons"><a href="#Timeline-Task-View-Cortana-Search-and-other-buttons" class="headerlink" title="Timeline, Task View, Cortana, Search and other buttons"></a>Timeline, Task View, Cortana, Search and other buttons</h4><p>You can hide them by right-clicking on the taskbar and then unchecking the appropriate option.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/taskbar_buttons.mp4"></video></p>
+<h4 id="Action-Center-IME-volume-battery-and-other-system-icons"><a href="#Action-Center-IME-volume-battery-and-other-system-icons" class="headerlink" title="Action Center, IME, volume, battery and other system icons"></a>Action Center, IME, volume, battery and other system icons</h4><p>You can hide them by going into “Settings” &gt; “Personalization” &gt; “Taskbar” &gt; “Turn system icons on or off”.<br><video autoplay="true" muted="true" loop="true" src="https://translucenttb.github.io/assets/tips/system_icons.mp4"></video></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://translucenttb.github.io/tips" target="_blank" rel="external nofollow noopener noreferrer">https://translucenttb.github.io/tips</a></p>
+<h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/TranslucentTB/TranslucentTB" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/TranslucentTB/TranslucentTB</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://github.com/TranslucentTB/TranslucentTB/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/TranslucentTB/TranslucentTB/releases</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1171,10 +1186,11 @@ If the taskbar elements show up with a different coloring, make sure to turn off
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/Win10/">
       Win10
@@ -1182,13 +1198,13 @@ If the taskbar elements show up with a different coloring, make sure to turn off
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1196,57 +1212,60 @@ If the taskbar elements show up with a different coloring, make sure to turn off
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年9月5日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
+      
+        <p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1591,11 +1610,11 @@ If the taskbar elements show up with a different coloring, make sure to turn off
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1614,12 +1633,15 @@ If the taskbar elements show up with a different coloring, make sure to turn off
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1634,6 +1656,7 @@ If the taskbar elements show up with a different coloring, make sure to turn off
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1641,12 +1664,12 @@ If the taskbar elements show up with a different coloring, make sure to turn off
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -265,10 +300,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   
     <h1 class="title">
       <a href="/GitHub-JsDelivr%E6%90%AD%E5%BB%BA%E5%9B%BE%E5%BA%8A/">
@@ -278,13 +314,13 @@
   
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -292,77 +328,74 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Soft/GitHub/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Soft&nbsp;/&nbsp;GitHub</p>
+      <p>Soft/GitHub</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月15日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
       <section class="article typo">
         <div class="article-entry" itemprop="articleBody">
           
-          <h3 id="前言">前言</h3>
-<p>之前因为VPS没续费，域名备案也被注销了，紧跟着七牛云的CDN也被注销了，简直是让人忧伤！<br>
-在网上找了好多图床，想代替掉七牛云。</p>
+          <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>之前因为VPS没续费，域名备案也被注销了，紧跟着七牛云的CDN也被注销了，简直是让人忧伤！<br>在网上找了好多图床，想代替掉七牛云。</p>
 <p>最终选中了<a href="https://imgchr.com/" target="_blank" rel="external nofollow noopener noreferrer">路过图床(imgchr)</a>，上传图片不压缩，图片大小支持也很大，操作也方便，比较满意。</p>
-<p>不过用了几天，发现绝大部分（目前还没发现有支持的）图床，似乎都不支持ico文件。<br>
-后面看到了<a href="https://www.jsdelivr.com/" target="_blank" rel="external nofollow noopener noreferrer">JsDelivr</a>，于是想着不如直接弄个所有文件仓库的CDN了。</p>
-<h3 id="教程">教程</h3>
-<h4 id="新建GitHub仓库">新建GitHub仓库</h4>
-<p>登录/注册<a href="https://github.com/" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>，新建一个仓库。</p>
-<h4 id="生成Token">生成Token</h4>
-<p>点击头像→Settings→Developer settings→Personal access tokens→Generate new token</p>
+<p>不过用了几天，发现绝大部分（目前还没发现有支持的）图床，似乎都不支持ico文件。<br>后面看到了<a href="https://www.jsdelivr.com/" target="_blank" rel="external nofollow noopener noreferrer">JsDelivr</a>，于是想着不如直接弄个所有文件仓库的CDN了。</p>
+<h3 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h3><h4 id="新建GitHub仓库"><a href="#新建GitHub仓库" class="headerlink" title="新建GitHub仓库"></a>新建GitHub仓库</h4><p>登录/注册<a href="https://github.com/" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>，新建一个仓库。</p>
+<h4 id="生成Token"><a href="#生成Token" class="headerlink" title="生成Token"></a>生成Token</h4><p>点击头像→Settings→Developer settings→Personal access tokens→Generate new token</p>
 <p>填写“Note”，勾选“repo”，点击“Generate token”，生成Token。</p>
-<p><strong>注意：</strong><br>
-Token只会显示一次，一定要记录下来，后面会用到。</p>
-<h4 id="配置GipGo">配置GipGo</h4>
-<p>下载<a href="https://github.com/Molunerfinn/picgo/releases" target="_blank" rel="external nofollow noopener noreferrer">PicGo</a>，安装完成后开始配置图床。</p>
-<p>仓库名：<code>用户名/仓库名</code><br>
-分支名：<code>master</code><br>
-Token：<code>之前生成的Token</code><br>
-存储路径：<code>如“img/”，则会在仓库中创建名为img的文件夹，图片会储存在此文件夹中</code><br>
-自定义域名：</p>
+<p><strong>注意：</strong><br>Token只会显示一次，一定要记录下来，后面会用到。</p>
+<h4 id="配置GipGo"><a href="#配置GipGo" class="headerlink" title="配置GipGo"></a>配置GipGo</h4><p>下载<a href="https://github.com/Molunerfinn/picgo/releases" target="_blank" rel="external nofollow noopener noreferrer">PicGo</a>，安装完成后开始配置图床。</p>
+<p>仓库名：<code>用户名/仓库名</code><br>分支名：<code>master</code><br>Token：<code>之前生成的Token</code><br>存储路径：<code>如“img/”，则会在仓库中创建名为img的文件夹，图片会储存在此文件夹中</code><br>自定义域名：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">在图片上传后，PicGo会按照“自定义域名+上传的图片名”的方式生成访问链接，放到粘贴板上。</span><br><span class="line">为了通过JsDelivr给GitHub仓库中的资源做CDN，所以自定义域名可以设置为：“https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;用户名&#x2F;仓库名”</span><br></pre></td></tr></table></figure>
+
 <p>至此，配置完成！</p>
 
-
-          
-
+	  
           
             <br>
             
+              
+  
+    
+    
+
+
+
+  
+
   
     
     
@@ -411,6 +444,7 @@ Token：<code>之前生成的Token</code><br>
   
 
 
+            
           
         </div>
         
@@ -423,7 +457,7 @@ Token：<code>之前生成的Token</code><br>
         
           <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-11-15T16:53:44+08:00">
   <a class="notlink">
-    <i class="fas fa-save fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2019年11月15日</p>
   </a>
 </div>
@@ -500,13 +534,13 @@ Token：<code>之前生成的Token</code><br>
               <a class="prev" href="/tools/av/Adobe/">
                 <p class="title"><i class="fas fa-chevron-left" aria-hidden="true"></i>Adobe赢政天下</p>
                 <p class="content">
-主页
-作者微博
+
+主页作者微博
+
 
 
 https://www.weibo.com/vposy
-百度网盘
-https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q
+百度网盘https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q
 OneDr...</p>
               </a>
             
@@ -515,10 +549,8 @@ OneDr...</p>
                 <p class="title">Windows-ISO-Downloader<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                 <p class="content">
 Microsoft Windows and Office ISO Download Tool
-官方主页
-https://www.heidoc.net/
-下载页面
-https://www.hei...</p>
+官方主页https://www.heidoc.net/
+下载页面https://www.heido...</p>
               </a>
             
           </div>
@@ -884,11 +916,11 @@ https://www.hei...</p>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -901,7 +933,7 @@ https://www.hei...</p>
 
   
     
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0/js/valine.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4.2/js/valine.js"></script>
 
   
   <script>
@@ -909,8 +941,8 @@ https://www.hei...</p>
   var guest_info = 'nick,mail,link'.split(',').filter(function(item){
     return GUEST_INFO.indexOf(item) > -1
   });
-  var notify = 'true' == true;
-  var verify = 'true' == true;
+  var notify = 'true' == 'true';
+  var verify = 'true' == 'true';
   var valine = new Valine();
   valine.init({
     el: '#valine_container',
@@ -937,12 +969,15 @@ https://www.hei...</p>
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -957,6 +992,7 @@ https://www.hei...</p>
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -964,12 +1000,12 @@ https://www.hei...</p>
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

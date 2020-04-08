@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -272,10 +307,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/efficient/Everything/">
       Everything
@@ -283,13 +319,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -297,60 +333,61 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/effcient/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;effcient</p>
+      <p>Tools/effcient</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月25日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官网">官网</h3>
-<p><a href="https://www.voidtools.com/zh-cn" target="_blank" rel="external nofollow noopener noreferrer">https://www.voidtools.com/zh-cn</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://www.voidtools.com/zh-cn/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://www.voidtools.com/zh-cn/downloads</a></p>
+      
+        <h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://www.voidtools.com/zh-cn" target="_blank" rel="external nofollow noopener noreferrer">https://www.voidtools.com/zh-cn</a></p>
+<p><strong>下载地址</strong><br><a href="https://www.voidtools.com/zh-cn/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://www.voidtools.com/zh-cn/downloads</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -365,10 +402,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/efficient/Cmder/">
       Cmder|ConEmu
@@ -376,13 +414,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -390,73 +428,68 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/effcient/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;effcient</p>
+      <p>Tools/effcient</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月25日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>Cmder是基于<a href="https://conemu.github.io" target="_blank" rel="external nofollow noopener noreferrer">ConEmu</a>、<a href="https://mridgers.github.io/clink" target="_blank" rel="external nofollow noopener noreferrer">Clink</a>和<a href="https://gitforwindows.org" target="_blank" rel="external nofollow noopener noreferrer">Git</a>等封装而成。</strong></p>
-<h3 id="Cmder">Cmder</h3>
-<p><span><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cmder.net/favicon.ico" width="64" height="64" alt="Cmder"></span></p>
-<p><strong>官网</strong><br>
-<a href="https://cmder.net" target="_blank" rel="external nofollow noopener noreferrer">https://cmder.net</a></p>
-<p><strong>GitHub</strong><br>
-<a href="https://github.com/cmderdev/cmder" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/cmderdev/cmder</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://github.com/cmderdev/cmder/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/cmderdev/cmder/releases</a></p>
-<h3 id="ConEmu">ConEmu</h3>
-<p><span><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://conemu.github.io/img/logo-114.png" width="64" height="64" alt="ConEmu"></span></p>
-<p><strong>官网</strong><br>
-<a href="https://conemu.github.io" target="_blank" rel="external nofollow noopener noreferrer">https://conemu.github.io</a></p>
-<p><strong>GitHub</strong><br>
-<a href="https://github.com/Maximus5/ConEmu" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Maximus5/ConEmu</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://github.com/Maximus5/ConEmu/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Maximus5/ConEmu/releases</a></p>
+      
+        <p><strong>Cmder是基于<a href="https://conemu.github.io" target="_blank" rel="external nofollow noopener noreferrer">ConEmu</a>、<a href="https://mridgers.github.io/clink" target="_blank" rel="external nofollow noopener noreferrer">Clink</a>和<a href="https://gitforwindows.org" target="_blank" rel="external nofollow noopener noreferrer">Git</a>等封装而成。</strong></p>
+<h3 id="Cmder"><a href="#Cmder" class="headerlink" title="Cmder"></a>Cmder</h3><p><span><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cmder.net/favicon.ico" width="64" height="64" alt="Cmder"></span></p>
+<p><strong>官网</strong><br><a href="https://cmder.net" target="_blank" rel="external nofollow noopener noreferrer">https://cmder.net</a></p>
+<p><strong>GitHub</strong><br><a href="https://github.com/cmderdev/cmder" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/cmderdev/cmder</a></p>
+<p><strong>下载地址</strong><br><a href="https://github.com/cmderdev/cmder/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/cmderdev/cmder/releases</a></p>
+<h3 id="ConEmu"><a href="#ConEmu" class="headerlink" title="ConEmu"></a>ConEmu</h3><p><span><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://conemu.github.io/img/logo-114.png" width="64" height="64" alt="ConEmu"></span></p>
+<p><strong>官网</strong><br><a href="https://conemu.github.io" target="_blank" rel="external nofollow noopener noreferrer">https://conemu.github.io</a></p>
+<p><strong>GitHub</strong><br><a href="https://github.com/Maximus5/ConEmu" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Maximus5/ConEmu</a></p>
+<p><strong>下载地址</strong><br><a href="https://github.com/Maximus5/ConEmu/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Maximus5/ConEmu/releases</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -471,10 +504,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/av/Adobe/">
       Adobe赢政天下
@@ -482,13 +516,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -496,102 +530,75 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/av/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;av</p>
+      <p>Tools/av</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月20日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <img alt="Photoshop" src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.photoshop.com/static/images/apps/photoshop-mobile.svg" width="128" height="128" align="center">
-<h3 id="主页">主页</h3>
-<p>作者微博</p>
+      
+        <img alt="Photoshop" src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.photoshop.com/static/images/apps/photoshop-mobile.svg" width="128" height="128" align="center">
+
+<h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><p>作者微博</p>
 <img alt="Photoshop" src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://tvax3.sinaimg.cn/crop.0.0.100.100.180/42546c69ly8fz2ulipvjrj202s02sjrq.jpg" width="64" height="64" align="left">
 <br>
+
 <p><a href="https://www.weibo.com/vposy" target="_blank" rel="external nofollow noopener noreferrer">https://www.weibo.com/vposy</a></p>
-<p>百度网盘<br>
-<a href="https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q</a></p>
-<p>OneDrive<br>
-<a href="http://t.cn/AiBsGngl" target="_blank" rel="external nofollow noopener noreferrer">http://t.cn/AiBsGngl</a></p>
+<p>百度网盘<br><a href="https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1cYdFbP2g5RSH6mC260U9-Q</a></p>
+<p>OneDrive<br><a href="http://t.cn/AiBsGngl" target="_blank" rel="external nofollow noopener noreferrer">http://t.cn/AiBsGngl</a></p>
 <p>解压密码：<code>@vposy</code></p>
-<h3 id="赢政天下-Adobe-2020-大师版">赢政天下 Adobe 2020 大师版</h3>
-<p><strong>2019.11.9 v10.2#5</strong></p>
-<h4 id="更新日志">更新日志</h4>
-<p>更新 Adobe 2020 全系列<br>
-更新 Adobe Acrobat DC 2019.012.20049<br>
-更新 官方清理工具版本<br>
-更新 主页屏幕修复<br>
-修正2020 全系列离线闪退问题<br>
-大量其他的修正和调整</p>
+<h3 id="赢政天下-Adobe-2020-大师版"><a href="#赢政天下-Adobe-2020-大师版" class="headerlink" title="赢政天下 Adobe 2020 大师版"></a>赢政天下 Adobe 2020 大师版</h3><p><strong>2019.11.9 v10.2#5</strong></p>
+<h4 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h4><p>更新 Adobe 2020 全系列<br>更新 Adobe Acrobat DC 2019.012.20049<br>更新 官方清理工具版本<br>更新 主页屏幕修复<br>修正2020 全系列离线闪退问题<br>大量其他的修正和调整</p>
 <p><strong>注意：</strong> 新版Photoshop 2020，当前尚未修复未登录状态使用主页屏幕，将会在未来版本修正。</p>
-<h4 id="版本语言">版本语言</h4>
-<p>多国语言</p>
-<h4 id="集成的版本">集成的版本</h4>
-<p>Adobe Acrobat DC 2019			2019.012.20049<br>
-Adobe After Effects 2020			17.0.0.557<br>
-Adobe Animate 2020			20.0.0.17400<br>
-Adobe Audition 2020			13.0.0.519<br>
-Adobe Bridge 2020				10.0.0.124<br>
-Adobe Character Animator 2020		3.0.0.276<br>
-Adobe Dimension				3.0.0.1082<br>
-Adobe Dreamweaver 2020			20.0.0.15196<br>
-Adobe Illustrator 2020			24.0.0.330<br>
-Adobe InCopy 2020				15.0.0.155<br>
-Adobe InDesign 2020			15.0.0.155<br>
-Adobe Lightroom Classic			9.0.0.201910151439<br>
-Adobe Media Encoder 2020			14.0.0.556<br>
-Adobe Photoshop 2020			21.0.0.37<br>
-Adobe Prelude 2020				9.0.0.415<br>
-Adobe Premiere Pro 2020			14.0.0.572<br>
-Adobe XD					24.1.22</p>
-<p>Adobe Creative Cloud Core			5.0.0.354<br>
-Adobe CoreSync				4.3.14.8<br>
-Adobe CCX Process				3.3.0.39<br>
-Adobe CC Library				3.6.1.5<br>
-Adobe Camera Raw				12.0.0.68</p>
+<h4 id="版本语言"><a href="#版本语言" class="headerlink" title="版本语言"></a>版本语言</h4><p>多国语言</p>
+<h4 id="集成的版本"><a href="#集成的版本" class="headerlink" title="集成的版本"></a>集成的版本</h4><p>Adobe Acrobat DC 2019            2019.012.20049<br>Adobe After Effects 2020            17.0.0.557<br>Adobe Animate 2020            20.0.0.17400<br>Adobe Audition 2020            13.0.0.519<br>Adobe Bridge 2020                10.0.0.124<br>Adobe Character Animator 2020        3.0.0.276<br>Adobe Dimension                3.0.0.1082<br>Adobe Dreamweaver 2020            20.0.0.15196<br>Adobe Illustrator 2020            24.0.0.330<br>Adobe InCopy 2020                15.0.0.155<br>Adobe InDesign 2020            15.0.0.155<br>Adobe Lightroom Classic            9.0.0.201910151439<br>Adobe Media Encoder 2020            14.0.0.556<br>Adobe Photoshop 2020            21.0.0.37<br>Adobe Prelude 2020                9.0.0.415<br>Adobe Premiere Pro 2020            14.0.0.572<br>Adobe XD                    24.1.22</p>
+<p>Adobe Creative Cloud Core            5.0.0.354<br>Adobe CoreSync                4.3.14.8<br>Adobe CCX Process                3.3.0.39<br>Adobe CC Library                3.6.1.5<br>Adobe Camera Raw                12.0.0.68</p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -606,10 +613,11 @@ Adobe Camera Raw				12.0.0.68</p>
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/office/download/WindowsISODownloader/">
       Windows-ISO-Downloader
@@ -617,13 +625,13 @@ Adobe Camera Raw				12.0.0.68</p>
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -631,66 +639,65 @@ Adobe Camera Raw				12.0.0.68</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/Download/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;Download</p>
+      <p>Tools/Download</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月13日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.heidoc.net/joomla/images/microsoft/win-downloader.png" alt="Windows-ISO-Downloader"></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.heidoc.net/joomla/images/microsoft/win-downloader.png" alt="Windows-ISO-Downloader"></p>
 <p><strong>Microsoft Windows and Office ISO Download Tool</strong></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.heidoc.net/" target="_blank" rel="external nofollow noopener noreferrer">https://www.heidoc.net/</a></p>
-<p><strong>下载页面</strong><br>
-<a href="https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool" target="_blank" rel="external nofollow noopener noreferrer">https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool</a></p>
-<p><strong>下载链接</strong><br>
-<a href="https://www.heidoc.net/php/Windows-ISO-Downloader.exe" target="_blank" rel="external nofollow noopener noreferrer">https://www.heidoc.net/php/Windows-ISO-Downloader.exe</a></p>
-<p><strong>注意</strong><br>
-<strong>Requirements:</strong> Windows 7 or newer, .NET Framework 4.x, Internet Explorer 8 or newer.</p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.heidoc.net/" target="_blank" rel="external nofollow noopener noreferrer">https://www.heidoc.net/</a></p>
+<p><strong>下载页面</strong><br><a href="https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool" target="_blank" rel="external nofollow noopener noreferrer">https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool</a></p>
+<p><strong>下载链接</strong><br><a href="https://www.heidoc.net/php/Windows-ISO-Downloader.exe" target="_blank" rel="external nofollow noopener noreferrer">https://www.heidoc.net/php/Windows-ISO-Downloader.exe</a></p>
+<p><strong>注意</strong><br><strong>Requirements:</strong> Windows 7 or newer, .NET Framework 4.x, Internet Explorer 8 or newer.</p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -705,10 +712,11 @@ Adobe Camera Raw				12.0.0.68</p>
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/av/Paint-net/">
       Paint.net
@@ -716,13 +724,13 @@ Adobe Camera Raw				12.0.0.68</p>
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -730,58 +738,60 @@ Adobe Camera Raw				12.0.0.68</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/av/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;av</p>
+      <p>Tools/av</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月12日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页：">官方主页：</h3>
-<p><a href="https://www.getpaint.net/index.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.getpaint.net/index.html</a></p>
+      
+        <h3 id="官方主页："><a href="#官方主页：" class="headerlink" title="官方主页："></a>官方主页：</h3><p><a href="https://www.getpaint.net/index.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.getpaint.net/index.html</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -796,10 +806,11 @@ Adobe Camera Raw				12.0.0.68</p>
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/av/ScreenToGif/">
       ScreenToGif
@@ -807,13 +818,13 @@ Adobe Camera Raw				12.0.0.68</p>
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -821,65 +832,65 @@ Adobe Camera Raw				12.0.0.68</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/av/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;av</p>
+      <p>Tools/av</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月12日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <img alt="ScreenToGif" src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.screentogif.com/screenshots/Recorder.png" align="center">
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.screentogif.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.screentogif.com</a></p>
-<p><strong>GitHub</strong><br>
-<a href="https://github.com/NickeManarin/ScreenToGif" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/NickeManarin/ScreenToGif</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://github.com/NickeManarin/ScreenToGif/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/NickeManarin/ScreenToGif/releases</a></p>
-<p><strong>注意</strong><br>
-It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=49982" target="_blank" rel="external nofollow noopener noreferrer">.Net Framework 4.6.1</a> (or above).</p>
+      
+        <img alt="ScreenToGif" src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.screentogif.com/screenshots/Recorder.png" align="center">
+
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.screentogif.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.screentogif.com</a></p>
+<p><strong>GitHub</strong><br><a href="https://github.com/NickeManarin/ScreenToGif" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/NickeManarin/ScreenToGif</a></p>
+<p><strong>下载地址</strong><br><a href="https://github.com/NickeManarin/ScreenToGif/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/NickeManarin/ScreenToGif/releases</a></p>
+<p><strong>注意</strong><br>It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=49982" target="_blank" rel="external nofollow noopener noreferrer">.Net Framework 4.6.1</a> (or above).</p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -894,10 +905,11 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/NotePad++/">
       NotePad++
@@ -905,13 +917,13 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -919,68 +931,68 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年10月29日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://notepad-plus-plus.org/images/logo.svg" width="232" height="201" alt="NotePad++" align="center">
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://notepad-plus-plus.org" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://notepad-plus-plus.org/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org/downloads</a></p>
-<p><strong>GitHub</strong><br>
-<a href="https://github.com/notepad-plus-plus/notepad-plus-plus" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/notepad-plus-plus/notepad-plus-plus</a></p>
-<h3 id="What-is-Notepad">What is Notepad++</h3>
-<p>Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="external nofollow noopener noreferrer">GPL</a> License.</p>
+      
+        <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://notepad-plus-plus.org/images/logo.svg" width="232" height="201" alt="NotePad++" align="center">
+
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://notepad-plus-plus.org" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org</a></p>
+<p><strong>下载地址</strong><br><a href="https://notepad-plus-plus.org/downloads" target="_blank" rel="external nofollow noopener noreferrer">https://notepad-plus-plus.org/downloads</a></p>
+<p><strong>GitHub</strong><br><a href="https://github.com/notepad-plus-plus/notepad-plus-plus" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/notepad-plus-plus/notepad-plus-plus</a></p>
+<h3 id="What-is-Notepad"><a href="#What-is-Notepad" class="headerlink" title="What is Notepad++"></a>What is Notepad++</h3><p>Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by <a href="http://www.gnu.org/licenses/gpl-3.0.html" target="_blank" rel="external nofollow noopener noreferrer">GPL</a> License.</p>
 <p>Based on the powerful editing component <a href="https://www.scintilla.org" target="_blank" rel="external nofollow noopener noreferrer">Scintilla</a>, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions. When using less CPU power, the PC can throttle down and reduce power consumption, resulting in a greener environment.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://notepad-plus-plus.org/assets/images/notepad4ever.gif" alt="notepad4ever"></p>
 <p>I hope you enjoy Notepad++ as much as I enjoy coding it.</p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -995,10 +1007,11 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/office/download/PanDownload/">
       PanDownload
@@ -1006,13 +1019,13 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1020,58 +1033,60 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/Download/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;Download</p>
+      <p>Tools/Download</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年10月28日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="http://pandownload.com" target="_blank" rel="external nofollow noopener noreferrer">http://pandownload.com</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://pandownload.com" target="_blank" rel="external nofollow noopener noreferrer">http://pandownload.com</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1086,10 +1101,11 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/GitHub%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
       GitHub常用命令
@@ -1097,13 +1113,13 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1111,92 +1127,99 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Soft/GitHub/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Soft&nbsp;/&nbsp;GitHub</p>
+      <p>Soft/GitHub</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年10月23日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="1-回滚到某一提交，并删除后续的提交记录">1. 回滚到某一提交，并删除后续的提交记录</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
-<h3 id="2-回退到上一次commit的状态">2. 回退到上一次commit的状态</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br></pre></td></tr></table></figure>
-<h3 id="3-回退到任意版本">3. 回退到任意版本</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;commitid&gt;</span><br></pre></td></tr></table></figure>
-<h3 id="4-放弃提交，不推送">4. 放弃提交，不推送</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --soft HEAD^</span><br></pre></td></tr></table></figure>
+      
+        <h3 id="1-回滚到某一提交，并删除后续的提交记录"><a href="#1-回滚到某一提交，并删除后续的提交记录" class="headerlink" title="1. 回滚到某一提交，并删除后续的提交记录"></a>1. 回滚到某一提交，并删除后续的提交记录</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset  --hard cfec6ff</span><br><span class="line">git push origin HEAD --force</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-回退到上一次commit的状态"><a href="#2-回退到上一次commit的状态" class="headerlink" title="2. 回退到上一次commit的状态"></a>2. 回退到上一次commit的状态</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard HEAD^</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-回退到任意版本"><a href="#3-回退到任意版本" class="headerlink" title="3. 回退到任意版本"></a>3. 回退到任意版本</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --hard &lt;commitid&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-放弃提交，不推送"><a href="#4-放弃提交，不推送" class="headerlink" title="4. 放弃提交，不推送"></a>4. 放弃提交，不推送</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git reset --soft HEAD^</span><br></pre></td></tr></table></figure>
+
 <p>仅仅是撤回commit操作，写的代码仍然保留</p>
-<p>HEAD^的意思是上一个版本，也可以写成<code>HEAD~1</code><br>
-撤回2次提交，可以使用<code>HEAD~2</code></p>
+<p>HEAD^的意思是上一个版本，也可以写成<code>HEAD~1</code><br>撤回2次提交，可以使用<code>HEAD~2</code></p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--mixed</span><br></pre></td></tr></table></figure>
-<p>不删除工作空间改动代码，撤销commit，并且撤销git add<br>
-这个为默认参数，<code>git reset --mixed HEAD^</code> 和 <code>git reset HEAD^</code> 效果是一样的。</p>
+
+<p>不删除工作空间改动代码，撤销commit，并且撤销git add<br>这个为默认参数，<code>git reset --mixed HEAD^</code> 和 <code>git reset HEAD^</code> 效果是一样的。</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--soft</span><br></pre></td></tr></table></figure>
+
 <p>不删除工作空间改动代码，撤销commit，不撤销git add</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">--hard</span><br></pre></td></tr></table></figure>
-<p>删除工作空间改动代码，撤销commit，撤销git add<br>
-完成这个操作后，就恢复到了上一次的commit状态。</p>
-<h3 id="5-将分支A的提交，推送到分支B">5. 将分支A的提交，推送到分支B</h3>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure>
+
+<p>删除工作空间改动代码，撤销commit，撤销git add<br>完成这个操作后，就恢复到了上一次的commit状态。</p>
+<h3 id="5-将分支A的提交，推送到分支B"><a href="#5-将分支A的提交，推送到分支B" class="headerlink" title="5. 将分支A的提交，推送到分支B"></a>5. 将分支A的提交，推送到分支B</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">checkout B</span><br><span class="line">git cherry-pick commitId</span><br></pre></td></tr></table></figure>
+
 <p>[如果有冲突，解决冲突之后</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git add</span><br><span class="line">git cherry-pick --continue</span><br></pre></td></tr></table></figure>
+
 <p>]</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git push</span><br></pre></td></tr></table></figure>
-<h3 id="6-合并分支时忽略指定文件">6. 合并分支时忽略指定文件</h3>
-<p>.gitattributes中写入</p>
+
+<h3 id="6-合并分支时忽略指定文件"><a href="#6-合并分支时忽略指定文件" class="headerlink" title="6. 合并分支时忽略指定文件"></a>6. 合并分支时忽略指定文件</h3><p>.gitattributes中写入</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">"filename merge=ours":</span><br><span class="line">config.xml merge=ours</span><br></pre></td></tr></table></figure>
+
 <p>在根目录下运行命令行</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git config merge.ours.driver true</span><br></pre></td></tr></table></figure>
+
 <p>更新本地分支与远程分支保持一致</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git remote update origin --prune</span><br></pre></td></tr></table></figure>
-<h3 id="7-合并部分文件">7. 合并部分文件</h3>
-<p>合并分支B中srv目录下的所有文件和view目录下的index.html文件到A分支</p>
+
+<h3 id="7-合并部分文件"><a href="#7-合并部分文件" class="headerlink" title="7. 合并部分文件"></a>7. 合并部分文件</h3><p>合并分支B中srv目录下的所有文件和view目录下的index.html文件到A分支</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">git checkout A</span><br><span class="line">git checkout B srv/** view/index.html</span><br></pre></td></tr></table></figure>
+
 <p>srv下有多层目录，故不能用<code>srv/*</code></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1211,10 +1234,11 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/Win10/">
       Win10
@@ -1222,13 +1246,13 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1236,57 +1260,60 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年9月5日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
+      
+        <p><a href="https://xdown.org" target="_blank" rel="external nofollow noopener noreferrer">https://xdown.org</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1651,11 +1678,11 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1674,12 +1701,15 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1694,6 +1724,7 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1701,12 +1732,12 @@ It requires <a href="http://www.microsoft.com/en-us/download/details.aspx?id=499
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

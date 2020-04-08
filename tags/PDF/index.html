@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -278,10 +313,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/office/PDFPasswordRemover/">
       PDF Password Remover
@@ -289,13 +325,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -303,56 +339,56 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/office/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;office</p>
+      <p>Tools/office</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年1月2日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.mgosoft.com/images/pdf-pwd-remover/box.jpg" alt="PDF Password Remover"></p>
-<p>Mgosoft PDF Password Remover is a simple, stand-alone application that can be used to remove the security on Adobe Acrobat PDF files. It can help you generate PDF files with no password from the original PDF files which are not permitted to be edited, changed, printed, copied, added annotations, etc. Mgosoft PDF Encrypt does NOT require Adobe Acrobat, or any other Adobe products.<br>
-Please note that PDF Password Remover doesn’t work with documents which have user-level passwords (preventing the files from being opened), if both user and owner passwords are unknown.</p>
-<h3 id="Key-Functions">Key Functions</h3>
-<ul>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.mgosoft.com/images/pdf-pwd-remover/box.jpg" alt="PDF Password Remover"></p>
+<p>Mgosoft PDF Password Remover is a simple, stand-alone application that can be used to remove the security on Adobe Acrobat PDF files. It can help you generate PDF files with no password from the original PDF files which are not permitted to be edited, changed, printed, copied, added annotations, etc. Mgosoft PDF Encrypt does NOT require Adobe Acrobat, or any other Adobe products.<br>Please note that PDF Password Remover doesn’t work with documents which have user-level passwords (preventing the files from being opened), if both user and owner passwords are unknown.</p>
+<h3 id="Key-Functions"><a href="#Key-Functions" class="headerlink" title="Key Functions"></a>Key Functions</h3><ul>
 <li>Standalone program. Does NOT require Adobe Acrobat or Reader.</li>
 <li>Decrypt PDF files protected by owner/master passwords.</li>
 <li>Remove user/open passwords from PDFs file only if you have the user/open passwords of the PDF files.</li>
@@ -370,23 +406,24 @@ Please note that PDF Password Remover doesn’t work with documents which have u
 <li>Use it on all Windows version including the latest builds of Windows 10.</li>
 </ul>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.mgosoft.com/images/pdf-pwd-remover/main.jpg" alt="PDF Password Remover"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="http://www.mgosoft.com/pdf-pwd-remover.html" target="_blank" rel="external nofollow noopener noreferrer">http://www.mgosoft.com/pdf-pwd-remover.html</a></p>
-<h3 id="下载地址">下载地址</h3>
-<ul>
-<li>官网下载：<a href="http://www.mgosoft.com/app/pdf-pwd-remover.exe" target="_blank" rel="external nofollow noopener noreferrer">http://www.mgosoft.com/app/pdf-pwd-remover.exe</a></li>
-</ul>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.mgosoft.com/pdf-pwd-remover.html" target="_blank" rel="external nofollow noopener noreferrer">http://www.mgosoft.com/pdf-pwd-remover.html</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul>
+<li><p>官网下载：<a href="http://www.mgosoft.com/app/pdf-pwd-remover.exe" target="_blank" rel="external nofollow noopener noreferrer">http://www.mgosoft.com/app/pdf-pwd-remover.exe</a></p>
 <p><a href="http://www.dayanzai.me/pdf-password-remover-2.html" target="_blank" rel="external nofollow noopener noreferrer">大眼仔原文链接</a></p>
-<ul>
-<li>城通网盘：<a href="https://t00y.com/file/3965089-415788349" target="_blank" rel="external nofollow noopener noreferrer">https://t00y.com/file/3965089-415788349</a></li>
-<li>百度网盘：<a href="https://pan.baidu.com/s/1k4k9Fpatt-mosns3rSCc4Q#b6cn" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1k4k9Fpatt-mosns3rSCc4Q</a>  提取码：<code>b6cn</code></li>
-<li>百度网盘：<a href="https://pan.baidu.com/s/1DH_dpKucn4Xp4q4zHEwleQ#keie" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1DH_dpKucn4Xp4q4zHEwleQ</a>  提取码：<code>keie</code></li>
+</li>
+<li><p>城通网盘：<a href="https://t00y.com/file/3965089-415788349" target="_blank" rel="external nofollow noopener noreferrer">https://t00y.com/file/3965089-415788349</a></p>
+</li>
+<li><p>百度网盘：<a href="https://pan.baidu.com/s/1k4k9Fpatt-mosns3rSCc4Q#b6cn" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1k4k9Fpatt-mosns3rSCc4Q</a>&nbsp;&nbsp;提取码：<code>b6cn</code></p>
+</li>
+<li><p>百度网盘：<a href="https://pan.baidu.com/s/1DH_dpKucn4Xp4q4zHEwleQ#keie" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1DH_dpKucn4Xp4q4zHEwleQ</a>&nbsp;&nbsp;提取码：<code>keie</code></p>
+</li>
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -730,11 +767,11 @@ Please note that PDF Password Remover doesn’t work with documents which have u
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -753,12 +790,15 @@ Please note that PDF Password Remover doesn’t work with documents which have u
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -773,6 +813,7 @@ Please note that PDF Password Remover doesn’t work with documents which have u
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -780,12 +821,12 @@ Please note that PDF Password Remover doesn’t work with documents which have u
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

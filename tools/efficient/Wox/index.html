@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -265,10 +300,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   
     <h1 class="title">
       <a href="/tools/efficient/Wox/">
@@ -278,13 +314,13 @@
   
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -292,41 +328,42 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/effcient/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;effcient</p>
+      <p>Tools/effcient</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年11月29日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
@@ -334,32 +371,30 @@
         <div class="article-entry" itemprop="articleBody">
           
           <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.wox.one/images/wox_preview.jpg" alt="wox"></p>
-<h3 id="官网">官网</h3>
-<p><a href="http://www.wox.one" target="_blank" rel="external nofollow noopener noreferrer">http://www.wox.one</a></p>
-<p><strong>An effective launcher for windows</strong><br>
-A full-featured launcher, access programs and web contents as you type. Be more productive ever since.</p>
+<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="http://www.wox.one" target="_blank" rel="external nofollow noopener noreferrer">http://www.wox.one</a></p>
+<p><strong>An effective launcher for windows</strong><br>A full-featured launcher, access programs and web contents as you type. Be more productive ever since.</p>
 <p>Wox is free for use and open-sourced at Github, Try it now!</p>
-<p><strong>Find Applications &amp; Files</strong><br>
-Quick Start program and local files without leaving your keyboard, automatic sorting based on usage.</p>
-<p><strong>Quick-Search the Web</strong><br>
-Search the web by prefixing your search with keywords like wiki, g.</p>
+<p><strong>Find Applications &amp; Files</strong><br>Quick Start program and local files without leaving your keyboard, automatic sorting based on usage.</p>
+<p><strong>Quick-Search the Web</strong><br>Search the web by prefixing your search with keywords like wiki, g.</p>
 <p>Add your own the web searches in Wox’s setting window to make them meet your daily needs.</p>
-<p><strong>Plugin</strong><br>
-Making a plugin for Wox is easy and Wox supports plugins written by CSharp,Python,NodeJS,Golang and so on. Create your own plugin and share with others now.</p>
-<p><strong>Theming</strong><br>
-Match Wox to your desktop. Create your own themes by choosing colours,fonts, sizes and more.<br>
-Create your own theme by using <a href="http://www.wox.one/#theme/builder" target="_blank" rel="external nofollow noopener noreferrer">theme builder</a> now.</p>
-<p><strong>GitHub</strong><br>
-<a href="https://github.com/Wox-launcher/Wox" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Wox-launcher/Wox</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://github.com/Wox-launcher/Wox/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Wox-launcher/Wox/releases</a></p>
+<p><strong>Plugin</strong><br>Making a plugin for Wox is easy and Wox supports plugins written by CSharp,Python,NodeJS,Golang and so on. Create your own plugin and share with others now.</p>
+<p><strong>Theming</strong><br>Match Wox to your desktop. Create your own themes by choosing colours,fonts, sizes and more.<br>Create your own theme by using <a href="http://www.wox.one/#theme/builder" target="_blank" rel="external nofollow noopener noreferrer">theme builder</a> now.</p>
+<p><strong>GitHub</strong><br><a href="https://github.com/Wox-launcher/Wox" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Wox-launcher/Wox</a></p>
+<p><strong>下载地址</strong><br><a href="https://github.com/Wox-launcher/Wox/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/Wox-launcher/Wox/releases</a></p>
 
-
-          
-
+	  
           
             <br>
             
+              
+  
+    
+    
+
+
+
+  
+
   
     
     
@@ -408,6 +443,7 @@ Create your own theme by using <a href="http://www.wox.one/#theme/builder" targe
   
 
 
+            
           
         </div>
         
@@ -420,7 +456,7 @@ Create your own theme by using <a href="http://www.wox.one/#theme/builder" targe
         
           <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-12-20T13:27:20+08:00">
   <a class="notlink">
-    <i class="fas fa-save fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2019年12月20日</p>
   </a>
 </div>
@@ -497,21 +533,16 @@ Create your own theme by using <a href="http://www.wox.one/#theme/builder" targe
               <a class="prev" href="/tools/develop/IDEA/">
                 <p class="title"><i class="fas fa-chevron-left" aria-hidden="true"></i>IDEA</p>
                 <p class="content">
-官方主页
-https://www.jetbrains.com/idea
-下载地址
-https://www.jetbrains.com/idea/download
-破解教程
-IDEA 最新破解方...</p>
+官方主页https://www.jetbrains.com/idea
+下载地址https://www.jetbrains.com/idea/download
+破解教程IDEA 最新破解方法，支...</p>
               </a>
             
             
               <a class="next" href="/tools/efficient/Everything/">
                 <p class="title">Everything<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
-                <p class="content">官网
-https://www.voidtools.com/zh-cn
-下载地址
-https://www.voidtools.com/zh-cn/downloads
+                <p class="content">官网https://www.voidtools.com/zh-cn
+下载地址https://www.voidtools.com/zh-cn/downloads
 </p>
               </a>
             
@@ -601,7 +632,7 @@ https://www.voidtools.com/zh-cn/downloads
 
 
     <div class="content">
-      <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Everything\" title="Everything" rel="bookmark">Everything</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Listary\" title="Listary" rel="bookmark">Listary</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Quicker\" title="Quicker" rel="bookmark">Quicker</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Fences\" title="Fences" rel="bookmark">Fences</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\QuickLook\" title="QuickLook" rel="bookmark">QuickLook</a></h3></div></li></ul>
+      <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Everything\" title="Everything" rel="bookmark">Everything</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Listary\" title="Listary" rel="bookmark">Listary</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Quicker\" title="Quicker" rel="bookmark">Quicker</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Cmder\" title="Cmder|ConEmu" rel="bookmark">Cmder|ConEmu</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Fences\" title="Fences" rel="bookmark">Fences</a></h3></div></li></ul>
     </div>
   </section>
 
@@ -878,11 +909,11 @@ https://www.voidtools.com/zh-cn/downloads
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -895,7 +926,7 @@ https://www.voidtools.com/zh-cn/downloads
 
   
     
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0/js/valine.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4.2/js/valine.js"></script>
 
   
   <script>
@@ -903,8 +934,8 @@ https://www.voidtools.com/zh-cn/downloads
   var guest_info = 'nick,mail,link'.split(',').filter(function(item){
     return GUEST_INFO.indexOf(item) > -1
   });
-  var notify = 'true' == true;
-  var verify = 'true' == true;
+  var notify = 'true' == 'true';
+  var verify = 'true' == 'true';
   var valine = new Valine();
   valine.init({
     el: '#valine_container',
@@ -931,12 +962,15 @@ https://www.voidtools.com/zh-cn/downloads
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -951,6 +985,7 @@ https://www.voidtools.com/zh-cn/downloads
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -958,12 +993,12 @@ https://www.voidtools.com/zh-cn/downloads
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

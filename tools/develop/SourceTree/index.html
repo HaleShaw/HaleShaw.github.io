@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -265,10 +300,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   
     <h1 class="title">
       <a href="/tools/develop/SourceTree/">
@@ -278,13 +314,13 @@
   
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -292,84 +328,80 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月3日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
       <section class="article typo">
         <div class="article-entry" itemprop="articleBody">
           
-          <p><strong>Simplicity and power in a beautiful Git GUI</strong><br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:580c367b-c240-453d-aa18-c7ced44324f9/hero-mac-screenshot.png?cdnVersion=698" alt="SourceTree"></p>
-<h3 id="官网">官网</h3>
-<p><a href="https://www.sourcetreeapp.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com</a></p>
-<p><strong>下载地址</strong><br>
-<a href="https://www.sourcetreeapp.com/download-archives" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com/download-archives</a></p>
-<h4 id="A-free-Git-client-for-Windows-and-Mac">A free Git client for Windows and Mac</h4>
-<p>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree’s simple Git GUI.</p>
-<p><strong>Simple for beginners</strong><br>
-Say goodbye to the command line - simplify distributed version control with a Git client and quickly bring everyone up to speed.</p>
-<p><strong>Powerful for experts</strong><br>
-Perfect for making advanced users even more productive. Review changesets, stash, cherry-pick between branches and more.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:c7337d19-a8c3-4a4b-a810-91ff5c6b035d/left_image.png?cdnVersion=698" alt="SourceTree"></p>
-<p><strong>Visualize your code</strong><br>
-Seeing really is believing. Get information on any branch or commit with a single click.</p>
-<p><strong>Git and Hg on your desktop</strong><br>
-A fully-featured GUI that offers an efficient, consistent development process right out of the box. Works with Git and Mercurial.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b5071c41-aa3e-40ba-ac57-6ef4f5dcea71/center_image.png?cdnVersion=698" alt="SourceTree"></p>
-<h4 id="Commit-with-Confidence">Commit with Confidence</h4>
-<p>Visualize your work and push with confidence. Stage and discard changes by the file, hunk or line.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b6ec8a39-5a98-4e28-842b-f9198824fe74/commit_with_confidence.png?cdnVersion=698" alt="SourceTree"></p>
-<h3 id="安装时跳过注册">安装时跳过注册</h3>
-<p><strong>For Windows</strong></p>
+          <p><strong>Simplicity and power in a beautiful Git GUI</strong><br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:580c367b-c240-453d-aa18-c7ced44324f9/hero-mac-screenshot.png?cdnVersion=698" alt="SourceTree"></p>
+<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://www.sourcetreeapp.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com</a></p>
+<p><strong>下载地址</strong><br><a href="https://www.sourcetreeapp.com/download-archives" target="_blank" rel="external nofollow noopener noreferrer">https://www.sourcetreeapp.com/download-archives</a></p>
+<h4 id="A-free-Git-client-for-Windows-and-Mac"><a href="#A-free-Git-client-for-Windows-and-Mac" class="headerlink" title="A free Git client for Windows and Mac"></a>A free Git client for Windows and Mac</h4><p>Sourcetree simplifies how you interact with your Git repositories so you can focus on coding. Visualize and manage your repositories through Sourcetree’s simple Git GUI.</p>
+<p><strong>Simple for beginners</strong><br>Say goodbye to the command line - simplify distributed version control with a Git client and quickly bring everyone up to speed.</p>
+<p><strong>Powerful for experts</strong><br>Perfect for making advanced users even more productive. Review changesets, stash, cherry-pick between branches and more.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:c7337d19-a8c3-4a4b-a810-91ff5c6b035d/left_image.png?cdnVersion=698" alt="SourceTree"></p>
+<p><strong>Visualize your code</strong><br>Seeing really is believing. Get information on any branch or commit with a single click.</p>
+<p><strong>Git and Hg on your desktop</strong><br>A fully-featured GUI that offers an efficient, consistent development process right out of the box. Works with Git and Mercurial.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b5071c41-aa3e-40ba-ac57-6ef4f5dcea71/center_image.png?cdnVersion=698" alt="SourceTree"></p>
+<h4 id="Commit-with-Confidence"><a href="#Commit-with-Confidence" class="headerlink" title="Commit with Confidence"></a>Commit with Confidence</h4><p>Visualize your work and push with confidence. Stage and discard changes by the file, hunk or line.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.sourcetreeapp.com/dam/jcr:b6ec8a39-5a98-4e28-842b-f9198824fe74/commit_with_confidence.png?cdnVersion=698" alt="SourceTree"></p>
+<h3 id="安装时跳过注册"><a href="#安装时跳过注册" class="headerlink" title="安装时跳过注册"></a>安装时跳过注册</h3><p><strong>For Windows</strong></p>
 <ol>
 <li>下载并运行exe安装包，会进入登录或注册bitbucket的界面。</li>
 <li>进入目录：<code>%LocalAppData%\Atlassian\SourceTree\</code></li>
 <li>创建accounts.json文件，并修改accounts.json内容如下：</li>
 </ol>
 <figure class="highlight json"><table><tr><td class="code"><pre><span class="line">[</span><br><span class="line">  &#123;</span><br><span class="line">    <span class="attr">"$id"</span>: <span class="string">"1"</span>,</span><br><span class="line">    <span class="attr">"$type"</span>: <span class="string">"SourceTree.Api.Host.Identity.Model.IdentityAccount, SourceTree.Api.Host.Identity"</span>,</span><br><span class="line">    <span class="attr">"Authenticate"</span>: <span class="literal">true</span>,</span><br><span class="line">    <span class="attr">"HostInstance"</span>: &#123;</span><br><span class="line">      <span class="attr">"$id"</span>: <span class="string">"2"</span>,</span><br><span class="line">      <span class="attr">"$type"</span>: <span class="string">"SourceTree.Host.Atlassianaccount.AtlassianAccountInstance, SourceTree.Host.AtlassianAccount"</span>,</span><br><span class="line">      <span class="attr">"Host"</span>: &#123;</span><br><span class="line">        <span class="attr">"$id"</span>: <span class="string">"3"</span>,</span><br><span class="line">        <span class="attr">"$type"</span>: <span class="string">"SourceTree.Host.Atlassianaccount.AtlassianAccountHost, SourceTree.Host.AtlassianAccount"</span>,</span><br><span class="line">        <span class="attr">"Id"</span>: <span class="string">"atlassian account"</span></span><br><span class="line">      &#125;,</span><br><span class="line">      <span class="attr">"BaseUrl"</span>: <span class="string">"https://id.atlassian.com/"</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"Credentials"</span>: &#123;</span><br><span class="line">      <span class="attr">"$id"</span>: <span class="string">"4"</span>,</span><br><span class="line">      <span class="attr">"$type"</span>: <span class="string">"SourceTree.Model.BasicAuthCredentials, SourceTree.Api.Account"</span>,</span><br><span class="line">      <span class="attr">"Username"</span>: <span class="string">""</span>,</span><br><span class="line">      <span class="attr">"Email"</span>: <span class="literal">null</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">"IsDefault"</span>: <span class="literal">false</span></span><br><span class="line">  &#125;</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
 <p>若能（想）登录Google或BitBucket帐号，亦可直接登录帐号，也能顺利完成安装。</p>
 
-
-          
-
+	  
           
             <br>
             
+              
+  
+    
+    
+
+
+
+  
+
   
     
     
@@ -418,6 +450,7 @@ A fully-featured GUI that offers an efficient, consistent development process ri
   
 
 
+            
           
         </div>
         
@@ -430,7 +463,7 @@ A fully-featured GUI that offers an efficient, consistent development process ri
         
           <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-12-03T15:20:42+08:00">
   <a class="notlink">
-    <i class="fas fa-save fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2019年12月3日</p>
   </a>
 </div>
@@ -507,10 +540,8 @@ A fully-featured GUI that offers an efficient, consistent development process ri
               <a class="prev" href="/tools/develop/VisualStudioCode/">
                 <p class="title"><i class="fas fa-chevron-left" aria-hidden="true"></i>Visual Studio Code</p>
                 <p class="content">
-官方主页
-https://code.visualstudio.com
-下载地址
-https://code.visualstudio.com/Download
+官方主页https://code.visualstudio.com
+下载地址https://code.visualstudio.com/Download
 </p>
               </a>
             
@@ -518,11 +549,10 @@ https://code.visualstudio.com/Download
               <a class="next" href="/tools/efficient/Listary/">
                 <p class="title">Listary<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                 <p class="content">
-官网
-https://www.listary.com
+官网https://www.listary.com
 With just a few clicks you can quickly and easily:
 
-Search the entire...</p>
+Search the entire ...</p>
               </a>
             
           </div>
@@ -611,7 +641,7 @@ Search the entire...</p>
 
 
     <div class="content">
-      <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\CMDebug\" title="CMDebug" rel="bookmark">CMDebug</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\BeyondCompare\" title="BeyondCompare" rel="bookmark">BeyondCompare</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\Eclipse\" title="Eclipse" rel="bookmark">Eclipse</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\GoodSync\" title="GoodSync" rel="bookmark">GoodSync</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\NotePad++\" title="NotePad++" rel="bookmark">NotePad++</a></h3></div></li></ul>
+      <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\BeyondCompare\" title="BeyondCompare" rel="bookmark">BeyondCompare</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\CMDebug\" title="CMDebug" rel="bookmark">CMDebug</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\Eclipse\" title="Eclipse" rel="bookmark">Eclipse</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\GoodSync\" title="GoodSync" rel="bookmark">GoodSync</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\develop\IDEA\" title="IDEA" rel="bookmark">IDEA</a></h3></div></li></ul>
     </div>
   </section>
 
@@ -888,11 +918,11 @@ Search the entire...</p>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -905,7 +935,7 @@ Search the entire...</p>
 
   
     
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0/js/valine.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4.2/js/valine.js"></script>
 
   
   <script>
@@ -913,8 +943,8 @@ Search the entire...</p>
   var guest_info = 'nick,mail,link'.split(',').filter(function(item){
     return GUEST_INFO.indexOf(item) > -1
   });
-  var notify = 'true' == true;
-  var verify = 'true' == true;
+  var notify = 'true' == 'true';
+  var verify = 'true' == 'true';
   var valine = new Valine();
   valine.init({
     el: '#valine_container',
@@ -941,12 +971,15 @@ Search the entire...</p>
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -961,6 +994,7 @@ Search the entire...</p>
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -968,12 +1002,12 @@ Search the entire...</p>
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

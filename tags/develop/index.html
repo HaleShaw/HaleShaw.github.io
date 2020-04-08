@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -296,10 +331,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/Postman/">
       Postman
@@ -307,13 +343,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -321,61 +357,60 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月11日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>What is Postman?</strong></p>
+      
+        <p><strong>What is Postman?</strong></p>
 <p>Postman is a collaboration platform for API development. Postman’s features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.postman.com/img/screens/postman-windows.jpg" alt="Postman"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.postman.com/img/logos/postman/postman-app.svg" alt="Postman"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.postman.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.postman.com</a></p>
-<h4 id="下载地址">下载地址</h4>
-<ul>
-<li>Windows
-<ul>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.postman.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.postman.com</a></p>
+<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><ul>
+<li>Windows<ul>
 <li><a href="https://dl.pstmn.io/download/latest/win32" target="_blank" rel="external nofollow noopener noreferrer">32-bit</a></li>
 <li><a href="https://dl.pstmn.io/download/latest/win64" target="_blank" rel="external nofollow noopener noreferrer">64-bit</a></li>
 </ul>
@@ -383,13 +418,10 @@
 <li><a href="https://dl.pstmn.io/download/latest/linux64" target="_blank" rel="external nofollow noopener noreferrer">Lunix</a></li>
 <li><a href="https://dl.pstmn.io/download/latest/osx" target="_blank" rel="external nofollow noopener noreferrer">Mac</a></li>
 </ul>
-<h3 id="Canary">Canary</h3>
-<p>Be the first in line to experience new features!</p>
+<h3 id="Canary"><a href="#Canary" class="headerlink" title="Canary"></a>Canary</h3><p>Be the first in line to experience new features!</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.postman.com/img/logos/postman/canary.svg" alt="Canary"></p>
-<h4 id="下载地址-2">下载地址</h4>
-<ul>
-<li>Windows
-<ul>
+<h4 id="下载地址-1"><a href="#下载地址-1" class="headerlink" title="下载地址"></a>下载地址</h4><ul>
+<li>Windows<ul>
 <li><a href="https://dl.pstmn.io/download/channel/canary/windows_32" target="_blank" rel="external nofollow noopener noreferrer">32-bit</a></li>
 <li><a href="https://dl.pstmn.io/download/channel/canary/windows_64" target="_blank" rel="external nofollow noopener noreferrer">64-bit</a></li>
 </ul>
@@ -399,9 +431,10 @@
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -416,10 +449,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/VisualStudio/">
       Visual Studio
@@ -427,13 +461,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -441,66 +475,67 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月11日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/combined-gif2sl.gif" alt="Visual Studio"></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/combined-gif2sl.gif" alt="Visual Studio"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/lightbulb-dark-1200.gif" alt="Visual Studio"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://visualstudio.microsoft.com/vs" target="_blank" rel="external nofollow noopener noreferrer">https://visualstudio.microsoft.com/vs</a></p>
-<h4 id="下载地址">下载地址</h4>
-<ul>
-<li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community&amp;rel=16" target="_blank" rel="external nofollow noopener noreferrer">Community 2019</a></li>
-<li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Professional&amp;rel=16" target="_blank" rel="external nofollow noopener noreferrer">Professional 2019</a></li>
-<li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Enterprise&amp;rel=16" target="_blank" rel="external nofollow noopener noreferrer">Enterprise 2019</a></li>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://visualstudio.microsoft.com/vs" target="_blank" rel="external nofollow noopener noreferrer">https://visualstudio.microsoft.com/vs</a></p>
+<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><ul>
+<li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community&rel=16" target="_blank" rel="external nofollow noopener noreferrer">Community 2019</a></li>
+<li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Professional&rel=16" target="_blank" rel="external nofollow noopener noreferrer">Professional 2019</a></li>
+<li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Enterprise&rel=16" target="_blank" rel="external nofollow noopener noreferrer">Enterprise 2019</a></li>
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -515,10 +550,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/Eclipse/">
       Eclipse
@@ -526,13 +562,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -540,60 +576,61 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年3月11日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.eclipse.org" target="_blank" rel="external nofollow noopener noreferrer">https://www.eclipse.org</a></p>
-<h4 id="下载地址">下载地址</h4>
-<p><a href="https://www.eclipse.org/downloads/packages" target="_blank" rel="external nofollow noopener noreferrer">https://www.eclipse.org/downloads/packages</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.eclipse.org" target="_blank" rel="external nofollow noopener noreferrer">https://www.eclipse.org</a></p>
+<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p><a href="https://www.eclipse.org/downloads/packages" target="_blank" rel="external nofollow noopener noreferrer">https://www.eclipse.org/downloads/packages</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -608,10 +645,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/XShell/">
       XShell
@@ -619,13 +657,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -633,53 +671,54 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.xshellcn.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.xshellcn.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com</a></p>
 <ul>
 <li>XShell</li>
 </ul>
@@ -697,13 +736,13 @@
 </ul>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xmanager/qiyeban1.png" alt="Xmanager 6 企业版1"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xmanager/Xmanager6.png" alt="Xmanager 6 企业版2"></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://www.xshellcn.com/xiazai.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com/xiazai.html</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://www.xshellcn.com/xiazai.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com/xiazai.html</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -718,10 +757,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/TeleportUltra/">
       Teleport Ultra
@@ -729,13 +769,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -743,54 +783,55 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年1月10日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.tenmax.com/img/logo_ultra.gif" alt="TeleportUltra"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="http://www.tenmax.com/teleport/ultra/home.htm" target="_blank" rel="external nofollow noopener noreferrer">http://www.tenmax.com/teleport/ultra/home.htm</a></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.tenmax.com/img/logo_ultra.gif" alt="TeleportUltra"></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.tenmax.com/teleport/ultra/home.htm" target="_blank" rel="external nofollow noopener noreferrer">http://www.tenmax.com/teleport/ultra/home.htm</a></p>
 <p>Teleport Pro’s big brother, Teleport Ultra, has Pro’s intuitive interface and easy-to-use project-based design – but it also has the ability to scan up to 260,000 addresses in a single project.  Like Teleport Pro, Teleport Ultra can handle multiple servers in a single project, dramatically improving its throughput.  Its larger database, however, allows it to handle much larger websites and more servers, enabling you to download much more information in a single project.  (And if you need even larger capacity, try Teleport VLX.)</p>
 <p>Teleport Ultra is also an enhanced capability webspider, having exploration, filtering, and rewriting capabilities that Teleport Pro lacks.  Its enhanced abilities allow you to:</p>
 <ul>
@@ -803,13 +844,13 @@
 <li>Control HTML markup and inject meta tags with original URL and retrieval date/time stamps</li>
 <li>Can crawl HTTPS (secure) servers</li>
 </ul>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="http://www.tenmax.com/Teleport_Ultra_Installer.exe" target="_blank" rel="external nofollow noopener noreferrer">http://www.tenmax.com/Teleport_Ultra_Installer.exe</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="http://www.tenmax.com/Teleport_Ultra_Installer.exe" target="_blank" rel="external nofollow noopener noreferrer">http://www.tenmax.com/Teleport_Ultra_Installer.exe</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -824,10 +865,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/CMDebug/">
       CMDebug
@@ -835,13 +877,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -849,61 +891,60 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年1月10日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://jpsoft.com/images/cmdebug.png" alt="CMDebug"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://jpsoft.com/products/cmdebug-ide.html" target="_blank" rel="external nofollow noopener noreferrer">https://jpsoft.com/products/cmdebug-ide.html</a></p>
-<p>MDebug : A Compelling Editor / Batch Debugger for CMD &amp; TCC-RT Batch Files<br>
-CMDebug is a stand-alone version of the Take Command IDE and batch debugger component. CMDebug is intended for developers creating batch files to run in CMD (the Windows default command processor) or TCC-RT (the free runtime version of TCC).</p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://jpsoft.com/images/cmdebug.png" alt="CMDebug"></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://jpsoft.com/products/cmdebug-ide.html" target="_blank" rel="external nofollow noopener noreferrer">https://jpsoft.com/products/cmdebug-ide.html</a></p>
+<p>MDebug : A Compelling Editor / Batch Debugger for CMD &amp; TCC-RT Batch Files<br>CMDebug is a stand-alone version of the Take Command IDE and batch debugger component. CMDebug is intended for developers creating batch files to run in CMD (the Windows default command processor) or TCC-RT (the free runtime version of TCC).</p>
 <p>CMDebug allows you to write and debug your batch scripts with the integrated graphical IDE. CMDebug includes tabbed edit windows and a sophisticated debugger with single stepping, breakpoints, syntax coloring, tooltips, bookmarks, and tabbed variable and watch windows. Windows batch file programming has never been easier or more powerful!</p>
 <p>You can use CMDebug to develop either CMD-compatible batch files (.BAT or .CMD), or TCC-RT-compatible scripts (.BTM). If you select the “TCC Syntax” option, CMDebug supports the full TCC-RT command set. If you select the “CMD Syntax” option, CMDebug will disable TCC-only internal commands, variables, and functions. Some internal CMD / TCC commands will also behave slightly differently or modify their display output in order to match CMD’s behavior more closely.</p>
 <p>Using CMDebug with TCC-RT allows you to create (and encrypt) scripts using the TCC command language, and then distribute them with the free TCC-RT runtime on an unlimited number of target machines.</p>
-<h4 id="Features">Features</h4>
-<ul>
+<h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><ul>
 <li>Create and debug your batch scripts with the integrated graphical IDE. The IDE includes tabbed edit windows and a sophisticated debugger with single stepping, breakpoints, syntax coloring, tooltips, bookmarks, tabbed variable and watch windows. Windows batch file programming has never been easier or more powerful!</li>
 <li>The TCC-RT scripting language is a massive superset of the Windows CMD shell, with 245+ internal commands, 400+ internal functions, and 300+ system variables. Almost all of the CMD command line commands (e.g. DIR, COPY, DEL, START, etc.) are enhanced with hundreds of additional options. And TCC adds more than 200 new commands. TCC-RT can usually do in one or two lines what requires dozens of CMD commands (if CMD can do it at all).</li>
 <li>The scripting language includes a complete set of extended flow control structures including IF-Then-Else, DO and FOR loops, SWITCH, subroutines, batch libraries, and more.</li>
@@ -918,19 +959,19 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 <li>You can access FTP, TFTP and HTTP (including SSL and SSH) directories and files in all command processor file-handling commands (COPY, DEL, MOVE, etc.).</li>
 <li>Internal support is included for Perl, Lua, REXX, PowerShell, Python, Tcl/tk, and any Windows Active Scripting language. You can even combine multiple languages in your batch scripts.</li>
 </ul>
-<h3 id="下载地址">下载地址</h3>
-<ul>
-<li>官网下载：<a href="https://jpsoft.com/downloads/v25/cmdebug.exe" target="_blank" rel="external nofollow noopener noreferrer">https://jpsoft.com/downloads/v25/cmdebug.exe</a></li>
-</ul>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul>
+<li><p>官网下载：<a href="https://jpsoft.com/downloads/v25/cmdebug.exe" target="_blank" rel="external nofollow noopener noreferrer">https://jpsoft.com/downloads/v25/cmdebug.exe</a></p>
 <p><a href="http://www.dayanzai.me/cmdebug.html" target="_blank" rel="external nofollow noopener noreferrer">大眼仔原文链接</a></p>
-<ul>
-<li>城通网盘：<a href="https://t00y.com/file/3965089-415984544" target="_blank" rel="external nofollow noopener noreferrer">https://t00y.com/file/3965089-415984544</a></li>
+</li>
+<li><p>城通网盘：<a href="https://t00y.com/file/3965089-415984544" target="_blank" rel="external nofollow noopener noreferrer">https://t00y.com/file/3965089-415984544</a></p>
+</li>
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -945,10 +986,11 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/GoodSync/">
       GoodSync
@@ -956,13 +998,13 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -970,62 +1012,63 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月11日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.goodsync.com/images/backgrounds/hero%20iphone.png" alt="GoodSync"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.goodsync.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.goodsync.com</a></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.goodsync.com/images/backgrounds/hero%20iphone.png" alt="GoodSync"></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.goodsync.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.goodsync.com</a></p>
 <p>Easily back up and sync your files with GoodSync. Our simple and secure file backup and synchronization software will ensure that your files are never lost.</p>
-<p><strong>下载地址</strong><br>
-<a href="https://www.goodsync.com/download" target="_blank" rel="external nofollow noopener noreferrer">https://www.goodsync.com/download</a></p>
+<p><strong>下载地址</strong><br><a href="https://www.goodsync.com/download" target="_blank" rel="external nofollow noopener noreferrer">https://www.goodsync.com/download</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1040,10 +1083,11 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/WinSCP/">
       WinSCP
@@ -1051,13 +1095,13 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1065,54 +1109,55 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月11日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://winscp-static-746341.c.cdn77.org/assets/images/logos/logo.png" alt="WinSCP"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="http://winscp.net" target="_blank" rel="external nofollow noopener noreferrer">http://winscp.net</a></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://winscp-static-746341.c.cdn77.org/assets/images/logos/logo.png" alt="WinSCP"></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://winscp.net" target="_blank" rel="external nofollow noopener noreferrer">http://winscp.net</a></p>
 <p>WinSCP is a popular SFTP client and FTP client for Microsoft Windows! Copy file between a local computer and remote servers using FTP, FTPS, SCP, SFTP, WebDAV or S3 file transfer protocols.</p>
 <p><strong>Features</strong></p>
 <ul>
@@ -1122,13 +1167,13 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 <li>Scripting and task automation</li>
 <li>Translated into many languages</li>
 </ul>
-<p><strong>下载地址</strong><br>
-<a href="https://winscp.net/eng/download.php" target="_blank" rel="external nofollow noopener noreferrer">https://winscp.net/eng/download.php</a></p>
+<p><strong>下载地址</strong><br><a href="https://winscp.net/eng/download.php" target="_blank" rel="external nofollow noopener noreferrer">https://winscp.net/eng/download.php</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1143,10 +1188,11 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/UltraEdit/">
       UltraEdit
@@ -1154,13 +1200,13 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1168,53 +1214,54 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月11日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.ultraedit.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.ultraedit.com</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.ultraedit.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.ultraedit.com</a></p>
 <p><strong>Developer / programmer</strong></p>
 <ul>
 <li>Unsurpassed power, performance, startup, &amp; file load</li>
@@ -1231,15 +1278,14 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 <li>Professional support and in-house call center</li>
 <li>Multi-platform: Windows, Mac, and Linux</li>
 </ul>
-<p><strong>下载地址</strong><br>
-<a href="https://www.ultraedit.com/downloads/ultraedit-download" target="_blank" rel="external nofollow noopener noreferrer">https://www.ultraedit.com/downloads/ultraedit-download</a></p>
-<p>Win x64 Chinese<br>
-<a href="https://downloads.ultraedit.com/main/ue/win/ue_chinese_64.exe" target="_blank" rel="external nofollow noopener noreferrer">https://downloads.ultraedit.com/main/ue/win/ue_chinese_64.exe</a></p>
+<p><strong>下载地址</strong><br><a href="https://www.ultraedit.com/downloads/ultraedit-download" target="_blank" rel="external nofollow noopener noreferrer">https://www.ultraedit.com/downloads/ultraedit-download</a></p>
+<p>Win x64 Chinese<br><a href="https://downloads.ultraedit.com/main/ue/win/ue_chinese_64.exe" target="_blank" rel="external nofollow noopener noreferrer">https://downloads.ultraedit.com/main/ue/win/ue_chinese_64.exe</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1254,10 +1300,11 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/BeyondCompare/">
       BeyondCompare
@@ -1265,13 +1312,13 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1279,60 +1326,61 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月11日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="http://www.scootersoftware.com" target="_blank" rel="external nofollow noopener noreferrer">http://www.scootersoftware.com</a></p>
-<p><strong>下载地址</strong><br>
-<a href="http://www.scootersoftware.com/download.php" target="_blank" rel="external nofollow noopener noreferrer">http://www.scootersoftware.com/download.php</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.scootersoftware.com" target="_blank" rel="external nofollow noopener noreferrer">http://www.scootersoftware.com</a></p>
+<p><strong>下载地址</strong><br><a href="http://www.scootersoftware.com/download.php" target="_blank" rel="external nofollow noopener noreferrer">http://www.scootersoftware.com/download.php</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1691,11 +1739,11 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1714,12 +1762,15 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1734,6 +1785,7 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1741,12 +1793,12 @@ CMDebug is a stand-alone version of the Take Command IDE and batch debugger comp
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

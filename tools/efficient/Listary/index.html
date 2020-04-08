@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -87,21 +87,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -112,7 +112,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -189,64 +189,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
 
@@ -265,10 +300,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   
     <h1 class="title">
       <a href="/tools/efficient/Listary/">
@@ -278,13 +314,13 @@
   
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -292,41 +328,42 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/effcient/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;effcient</p>
+      <p>Tools/effcient</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2019年12月3日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
@@ -334,8 +371,7 @@
         <div class="article-entry" itemprop="articleBody">
           
           <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/themes/listary5/images/logo.png" alt="Listary"></p>
-<h3 id="官网">官网</h3>
-<p><a href="https://www.listary.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.listary.com</a></p>
+<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://www.listary.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.listary.com</a></p>
 <p><strong>With just a few clicks you can quickly and easily:</strong></p>
 <ul>
 <li>Search the entire disk drive from any window or folder</li>
@@ -349,49 +385,34 @@
 <li>Quickly browse your recent app and file history to continue working where you left off</li>
 <li>Search the web with Listary’s keyword query engine</li>
 </ul>
-<p><strong>下载地址</strong><br>
-<a href="https://www.listary.com/download/Listary.exe" target="_blank" rel="external nofollow noopener noreferrer">https://www.listary.com/download/Listary.exe</a><br>
-<a href="https://www.listary.com/download/ListaryPortable.zip" target="_blank" rel="external nofollow noopener noreferrer">https://www.listary.com/download/ListaryPortable.zip</a></p>
-<h3 id="Most-Popular-Features">Most Popular Features</h3>
-<h4 id="Find-As-You-Type">Find As You Type</h4>
-<p>Noted as one of Listary’s most powerful search functions, simply start typing the name of the file or folder you need, from practically anywhere within the Windows OS environment. The “Find As you Type” function immediately opens a Listary browser window with a list of matching files, folders or apps.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/find-as-you-type-explorer-1.png" alt="Find As You Type"></p>
-<h4 id="Disk-Search">Disk Search</h4>
-<p>Disk Search let’s you quickly find files and folders across every drive on your system. Instead of Window’s default needing to select one drive at a time, simply open an Explorer window or start typing in an existing window, and Disk Search will find exactly what you’re looking for, on any drive attached to your system, at blazing fast speeds.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/disk-search-explorer-1.png" alt="Disk Search"></p>
-<h4 id="Launch-Apps">Launch Apps</h4>
-<p>One of the most powerful and favorite benefits of Listary users is the Launch App feature. With two clicks of the Ctrl key, you can type the name of the program or application you want to open, or use a shortcode, click return, and Listary opens the program.</p>
+<p><strong>下载地址</strong><br><a href="https://www.listary.com/download/Listary.exe" target="_blank" rel="external nofollow noopener noreferrer">https://www.listary.com/download/Listary.exe</a><br><a href="https://www.listary.com/download/ListaryPortable.zip" target="_blank" rel="external nofollow noopener noreferrer">https://www.listary.com/download/ListaryPortable.zip</a></p>
+<h3 id="Most-Popular-Features"><a href="#Most-Popular-Features" class="headerlink" title="Most Popular Features"></a>Most Popular Features</h3><h4 id="Find-As-You-Type"><a href="#Find-As-You-Type" class="headerlink" title="Find As You Type"></a>Find As You Type</h4><p>Noted as one of Listary’s most powerful search functions, simply start typing the name of the file or folder you need, from practically anywhere within the Windows OS environment. The “Find As you Type” function immediately opens a Listary browser window with a list of matching files, folders or apps.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/find-as-you-type-explorer-1.png" alt="Find As You Type"></p>
+<h4 id="Disk-Search"><a href="#Disk-Search" class="headerlink" title="Disk Search"></a>Disk Search</h4><p>Disk Search let’s you quickly find files and folders across every drive on your system. Instead of Window’s default needing to select one drive at a time, simply open an Explorer window or start typing in an existing window, and Disk Search will find exactly what you’re looking for, on any drive attached to your system, at blazing fast speeds.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/disk-search-explorer-1.png" alt="Disk Search"></p>
+<h4 id="Launch-Apps"><a href="#Launch-Apps" class="headerlink" title="Launch Apps"></a>Launch Apps</h4><p>One of the most powerful and favorite benefits of Listary users is the Launch App feature. With two clicks of the Ctrl key, you can type the name of the program or application you want to open, or use a shortcode, click return, and Listary opens the program.</p>
 <p>For example click Ctrl twice, then type ‘Word’ and Listary will open Microsoft Word. Or, type ‘pp’ for PowerPoint, ‘ps’ for Photoshop, and voila! Listary opens the program!</p>
-<p>And it just gets better over time. Listary uses your launch and search history to refine and improve search results automatically, creating an even faster workflow the more you use it.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/launch-apps3.png" alt="Launch Apps"></p>
-<h4 id="Quick-Switch">Quick Switch</h4>
-<p>Are you tired of digging through a slew of open windows to work with files in a program? With Listary’s Quick Switch feature, just click Ctrl+G to instantly jump to the open folder of the file you’re working with.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/quick-switch.png" alt="Quick Switch"></p>
-<h4 id="Actions-Context-Menus">Actions &amp; Context Menus</h4>
-<p>Inside any Listary search menu, all you have to do to manipulate a selected file or folder is simply press the right-arrow key. Immediately you’ll see the file’s context menu pop up. From there all of Listary’s commands are at your fingertips. Fewer clicks means faster workflow!<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/actions-1.png" alt="Actions &amp; Context Menus"></p>
-<h4 id="Favorites-And-History">Favorites And History</h4>
-<p>Something long missing from Windows is the ability to quickly and easily access a selection of your favorite folders and a history of previously opened windows. Now with Listary’s Favorites &amp; History function, you can add folders to a Favorites section and browse window history with the click of a button for easy access. Just like the Bookmark function in your favorite web browser.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/favorite-history-cover.png" alt="Favorites And History"></p>
-<h4 id="Commands">Commands</h4>
-<p>Keep your workflow lighting fast and efficient!<br>
-Using Listary’s Command functions, you can use a set of hot-key commands to quickly complete tasks such as Open Last Folder, Explore Current Folder, Copy Folder Path, Go To Application Folder, Export List to CSV, Show Hidden Files and more. All using a single click or key command.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/commands-cover.png" alt="Commands"></p>
-<h4 id="Web-Search-Website-Launch">Web Search &amp; Website Launch</h4>
-<p>Using the powerful Listary Keyword engine, you can type your search directly in Listary’s command window to launch a browser window for any website or search engine.</p>
+<p>And it just gets better over time. Listary uses your launch and search history to refine and improve search results automatically, creating an even faster workflow the more you use it.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/launch-apps3.png" alt="Launch Apps"></p>
+<h4 id="Quick-Switch"><a href="#Quick-Switch" class="headerlink" title="Quick Switch"></a>Quick Switch</h4><p>Are you tired of digging through a slew of open windows to work with files in a program? With Listary’s Quick Switch feature, just click Ctrl+G to instantly jump to the open folder of the file you’re working with.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/quick-switch.png" alt="Quick Switch"></p>
+<h4 id="Actions-amp-Context-Menus"><a href="#Actions-amp-Context-Menus" class="headerlink" title="Actions &amp; Context Menus"></a>Actions &amp; Context Menus</h4><p>Inside any Listary search menu, all you have to do to manipulate a selected file or folder is simply press the right-arrow key. Immediately you’ll see the file’s context menu pop up. From there all of Listary’s commands are at your fingertips. Fewer clicks means faster workflow!<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/actions-1.png" alt="Actions &amp; Context Menus"></p>
+<h4 id="Favorites-And-History"><a href="#Favorites-And-History" class="headerlink" title="Favorites And History"></a>Favorites And History</h4><p>Something long missing from Windows is the ability to quickly and easily access a selection of your favorite folders and a history of previously opened windows. Now with Listary’s Favorites &amp; History function, you can add folders to a Favorites section and browse window history with the click of a button for easy access. Just like the Bookmark function in your favorite web browser.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/favorite-history-cover.png" alt="Favorites And History"></p>
+<h4 id="Commands"><a href="#Commands" class="headerlink" title="Commands"></a>Commands</h4><p>Keep your workflow lighting fast and efficient!<br>Using Listary’s Command functions, you can use a set of hot-key commands to quickly complete tasks such as Open Last Folder, Explore Current Folder, Copy Folder Path, Go To Application Folder, Export List to CSV, Show Hidden Files and more. All using a single click or key command.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/commands-cover.png" alt="Commands"></p>
+<h4 id="Web-Search-amp-Website-Launch"><a href="#Web-Search-amp-Website-Launch" class="headerlink" title="Web Search &amp; Website Launch"></a>Web Search &amp; Website Launch</h4><p>Using the powerful Listary Keyword engine, you can type your search directly in Listary’s command window to launch a browser window for any website or search engine.</p>
 <p>Instead of clicking or tabbing over to a browser, all you have to do is click Ctrl twice to launch Listary and start typing your Keyword search. For example “gg how to write html” will open Google search results for “How to write html” in your favorite browser.</p>
-<p>Listary includes a plethora of keyword queries for popular sites such as Twitter, Facebook, Wikipedia, Youtube, Bing, Amazon, Google Maps and many more.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/web-search.png" alt="Web Search &amp; Website Launch"></p>
-<h4 id="Mouse">Mouse</h4>
-<p>Like waving a wand to access whatever you need, Listary’s Mouse accessory lets you double-click anywhere in the Windows environment to open a power menu with all of your most frequently accessed files and folders, as well as disk menus. Or simply click the Ctrl key twice to open a Listary search toolbar on-screen.<br>
-<img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/mouse.png" alt="Mouse"></p>
+<p>Listary includes a plethora of keyword queries for popular sites such as Twitter, Facebook, Wikipedia, Youtube, Bing, Amazon, Google Maps and many more.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/web-search.png" alt="Web Search &amp; Website Launch"></p>
+<h4 id="Mouse"><a href="#Mouse" class="headerlink" title="Mouse"></a>Mouse</h4><p>Like waving a wand to access whatever you need, Listary’s Mouse accessory lets you double-click anywhere in the Windows environment to open a power menu with all of your most frequently accessed files and folders, as well as disk menus. Or simply click the Ctrl key twice to open a Listary search toolbar on-screen.<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.listary.com/wp-content/uploads/mouse.png" alt="Mouse"></p>
 
-
-          
-
+	  
           
             <br>
             
+              
+  
+    
+    
+
+
+
+  
+
   
     
     
@@ -440,6 +461,7 @@ Using Listary’s Command functions, you can use a set of hot-key commands to qu
   
 
 
+            
           
         </div>
         
@@ -452,7 +474,7 @@ Using Listary’s Command functions, you can use a set of hot-key commands to qu
         
           <div class="new-meta-item date" itemprop="dateUpdated" datetime="2019-12-03T14:28:48+08:00">
   <a class="notlink">
-    <i class="fas fa-save fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2019年12月3日</p>
   </a>
 </div>
@@ -529,21 +551,17 @@ Using Listary’s Command functions, you can use a set of hot-key commands to qu
               <a class="prev" href="/tools/develop/SourceTree/">
                 <p class="title"><i class="fas fa-chevron-left" aria-hidden="true"></i>SourceTree</p>
                 <p class="content">Simplicity and power in a beautiful Git GUI
-
-官网
-https://www.sourcetreeapp.com
-下载地址
-https://www.so...</p>
+官网https://www.sourcetreeapp.com
+下载地址https://www.sourc...</p>
               </a>
             
             
               <a class="next" href="/tools/efficient/WGestures/">
                 <p class="title">WGestures<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                 <p class="content">
-官网
-http://www.yingdev.com/projects/wgestures
+官网http://www.yingdev.com/projects/wgestures
 WGestures鼠标手势 for Windows.
-一个更简单, 更现代的全局鼠标手势, 支持Win...</p>
+一个更简单, 更现代的全局鼠标手势, 支持Wind...</p>
               </a>
             
           </div>
@@ -610,7 +628,7 @@ WGestures鼠标手势 for Windows.
 
 
     <div class="content">
-      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#官网"><span class="toc-text">官网</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Most-Popular-Features"><span class="toc-text">Most Popular Features</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Find-As-You-Type"><span class="toc-text">Find As You Type</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Disk-Search"><span class="toc-text">Disk Search</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Launch-Apps"><span class="toc-text">Launch Apps</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Quick-Switch"><span class="toc-text">Quick Switch</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Actions-Context-Menus"><span class="toc-text">Actions &amp; Context Menus</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Favorites-And-History"><span class="toc-text">Favorites And History</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Commands"><span class="toc-text">Commands</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Web-Search-Website-Launch"><span class="toc-text">Web Search &amp; Website Launch</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Mouse"><span class="toc-text">Mouse</span></a></li></ol></li></ol>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#官网"><span class="toc-text">官网</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Most-Popular-Features"><span class="toc-text">Most Popular Features</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#Find-As-You-Type"><span class="toc-text">Find As You Type</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Disk-Search"><span class="toc-text">Disk Search</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Launch-Apps"><span class="toc-text">Launch Apps</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Quick-Switch"><span class="toc-text">Quick Switch</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Actions-amp-Context-Menus"><span class="toc-text">Actions &amp; Context Menus</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Favorites-And-History"><span class="toc-text">Favorites And History</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Commands"><span class="toc-text">Commands</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Web-Search-amp-Website-Launch"><span class="toc-text">Web Search &amp; Website Launch</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Mouse"><span class="toc-text">Mouse</span></a></li></ol></li></ol>
     </div>
   </section>
 
@@ -632,7 +650,7 @@ WGestures鼠标手势 for Windows.
 
 
     <div class="content">
-      <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Everything\" title="Everything" rel="bookmark">Everything</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Quicker\" title="Quicker" rel="bookmark">Quicker</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Wox\" title="Wox" rel="bookmark">Wox</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Fences\" title="Fences" rel="bookmark">Fences</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\QuickLook\" title="QuickLook" rel="bookmark">QuickLook</a></h3></div></li></ul>
+      <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Everything\" title="Everything" rel="bookmark">Everything</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Quicker\" title="Quicker" rel="bookmark">Quicker</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Wox\" title="Wox" rel="bookmark">Wox</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Cmder\" title="Cmder|ConEmu" rel="bookmark">Cmder|ConEmu</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="\tools\efficient\Fences\" title="Fences" rel="bookmark">Fences</a></h3></div></li></ul>
     </div>
   </section>
 
@@ -909,11 +927,11 @@ WGestures鼠标手势 for Windows.
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -926,7 +944,7 @@ WGestures鼠标手势 for Windows.
 
   
     
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.0/js/valine.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4.2/js/valine.js"></script>
 
   
   <script>
@@ -934,8 +952,8 @@ WGestures鼠标手势 for Windows.
   var guest_info = 'nick,mail,link'.split(',').filter(function(item){
     return GUEST_INFO.indexOf(item) > -1
   });
-  var notify = 'true' == true;
-  var verify = 'true' == true;
+  var notify = 'true' == 'true';
+  var verify = 'true' == 'true';
   var valine = new Valine();
   valine.init({
     el: '#valine_container',
@@ -962,12 +980,15 @@ WGestures鼠标手势 for Windows.
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -982,6 +1003,7 @@ WGestures鼠标手势 for Windows.
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -989,12 +1011,12 @@ WGestures鼠标手势 for Windows.
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

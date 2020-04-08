@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -104,7 +104,7 @@
       </div>
     
     <div class="menu navigation">
-      <ul class="h-list">
+      <ul class="cover-list-h">
         
           
             <li>
@@ -143,21 +143,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -168,7 +168,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -245,64 +245,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
   </div>
@@ -349,10 +384,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/office/compress/7z/">
       7-Zip
@@ -360,13 +396,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -374,63 +410,65 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/office/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;office</p>
+      <p>Tools/office</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月22日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.7-zip.org/7ziplogo.png" alt="7z"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.7-zip.org" target="_blank" rel="external nofollow noopener noreferrer">https://www.7-zip.org</a></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.7-zip.org/7ziplogo.png" alt="7z"></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.7-zip.org" target="_blank" rel="external nofollow noopener noreferrer">https://www.7-zip.org</a></p>
 <p><strong>中文主页</strong></p>
 <p><a href="https://sparanoid.com/lab/7z" target="_blank" rel="external nofollow noopener noreferrer">https://sparanoid.com/lab/7z</a></p>
 <p><strong>下载地址</strong></p>
 <p><a href="https://www.7-zip.org/download.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.7-zip.org/download.html</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -445,10 +483,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/office/compress/WinRAR/">
       WinRAR
@@ -456,13 +495,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -470,61 +509,62 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/office/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;office</p>
+      <p>Tools/office</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月22日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, open and unpack RAR, ZIP and other files downloaded from Internet, create new archives in RAR and ZIP file format.</p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, open and unpack RAR, ZIP and other files downloaded from Internet, create new archives in RAR and ZIP file format.</p>
 <p><a href="https://www.rarlab.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.rarlab.com</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://www.rarlab.com/download.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.rarlab.com/download.htm</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://www.rarlab.com/download.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.rarlab.com/download.htm</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -539,10 +579,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/av/Balabolka/">
       Balabolka
@@ -550,13 +591,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -564,77 +605,75 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/av/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;av</p>
+      <p>Tools/av</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月22日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.cross-plus-a.com/data/logo_balabolka.jpg" alt="Balabolka"></p>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.cross-plus-a.com/data/logo_balabolka.jpg" alt="Balabolka"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.cross-plus-a.com/balabolka.gif" alt="Balabolka"></p>
 <p>Balabolka是一个文本转语音（TTS）的程序。Balabolka可以使用计算机系统上安装的所有语音。屏幕上的文字可以被保存为一个WAV，MP3，OGG或者WMA文件。该软件可以读取剪贴板的内容，可以查看AZW，AZW3，CHM，DjVu，DOC，EML，EPUB，FB2，FB3，LIT，MD，MOBI，ODP，ODS，ODT，PDB，PDF，PPT，PRC，RTF，TCR，WPD，XLS和HTML文件中的文本，可自定义字体和背景颜色，控制从系统托盘阅读或者使用热键。 Balabolka使用微软的语音API（SAPI）的各种版本，它可以改变语音的参数，包括语度和语调。用户可以应用特殊的替代清单，以提高语音的清晰度质量。当你想改变的单词拼写时这个功能就非常有用。纠正发音规则使用VBScript的语法。</p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="http://www.cross-plus-a.com/cn/balabolka.htm" target="_blank" rel="external nofollow noopener noreferrer">http://www.cross-plus-a.com/cn/balabolka.htm</a></p>
-<h3 id="下载地址">下载地址</h3>
-<p><strong>安装版</strong></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.cross-plus-a.com/cn/balabolka.htm" target="_blank" rel="external nofollow noopener noreferrer">http://www.cross-plus-a.com/cn/balabolka.htm</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><strong>安装版</strong></p>
 <p><a href="http://balabolka.site/balabolka.zip" target="_blank" rel="external nofollow noopener noreferrer">http://balabolka.site/balabolka.zip</a></p>
 <p><strong>便携版</strong></p>
 <p><a href="http://balabolka.site/balabolka_portable.zip" target="_blank" rel="external nofollow noopener noreferrer">http://balabolka.site/balabolka_portable.zip</a></p>
-<h3 id="语音">语音</h3>
-<ul>
+<h3 id="语音"><a href="#语音" class="headerlink" title="语音"></a>语音</h3><ul>
 <li><strong><a href="http://www.eguidedog.net/ekho_cn.php" target="_blank" rel="external nofollow noopener noreferrer">Ekho (余音)</a></strong></li>
 </ul>
-<p>免费的 TTS 引擎。<br>
-它支持粤语，普通话和潮汕客家话</p>
+<p>免费的 TTS 引擎。<br>它支持粤语，普通话和潮汕客家话</p>
 <ul>
 <li><strong><a href="https://github.com/Olga-Yakovleva/RHVoice/wiki" target="_blank" rel="external nofollow noopener noreferrer">RHVoice</a></strong></li>
 </ul>
-<p>免费和开源的语音合成器。<br>
-它支持英语，世界语，格鲁吉亚语，俄语，乌克兰语，吉尔吉斯语和塔塔尔族语。</p>
+<p>免费和开源的语音合成器。<br>它支持英语，世界语，格鲁吉亚语，俄语，乌克兰语，吉尔吉斯语和塔塔尔族语。</p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -649,10 +688,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/develop/XShell/">
       XShell
@@ -660,13 +700,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -674,53 +714,54 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/develop/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;develop</p>
+      <p>Tools/develop</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.xshellcn.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com</a></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.xshellcn.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com</a></p>
 <ul>
 <li>XShell</li>
 </ul>
@@ -738,13 +779,13 @@
 </ul>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xmanager/qiyeban1.png" alt="Xmanager 6 企业版1"></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xmanager/Xmanager6.png" alt="Xmanager 6 企业版2"></p>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://www.xshellcn.com/xiazai.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com/xiazai.html</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://www.xshellcn.com/xiazai.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com/xiazai.html</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -759,10 +800,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/optimizer/LockHunter/">
       LockHunter
@@ -770,13 +812,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -784,58 +826,58 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>LockHunter is a foolproof file unlocker</strong></p>
+      
+        <p><strong>LockHunter is a foolproof file unlocker</strong></p>
 <p>It is a free tool to delete files blocked by something you do not know. LockHunter is useful for fighting against malware, and other programs that are blocking files without a reason. Unlike other similar tools it deletes files into the recycle bin so you may restore them if deleted by mistake.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://lockhunter.com/assets/screenshots/mainScreenshotFull.png" alt="LockHunter"></p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://lockhunter.com" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com</a></p>
-<h3 id="Key-Features">Key Features</h3>
-<ul>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://lockhunter.com" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com</a></p>
+<h3 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h3><ul>
 <li>Shows processes locking a file or folder</li>
 <li>Gives you detailed information on the process</li>
 <li>Allows to unlock, delete, copy or rename a locked file</li>
@@ -847,13 +889,13 @@
 <li>It deletes files into the recycle bin, so you may restore them if deleted by mistake</li>
 <li>Supports both 32 and 64 bit Windows</li>
 </ul>
-<h3 id="下载地址">下载地址</h3>
-<p><a href="https://lockhunter.com/startdownload.htm" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com/startdownload.htm</a></p>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://lockhunter.com/startdownload.htm" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com/startdownload.htm</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -868,10 +910,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/optimizer/Unlocker/">
       Unlocker
@@ -879,13 +922,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -893,63 +936,65 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p>1.Simply right click the folder or file and select Unlocker</p>
+      
+        <p>1.Simply right click the folder or file and select Unlocker</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.emptyloop.com/unlocker/tutorial1.png" alt="first"></p>
 <p>2.If the folder or file is locked, a window listing of lockers will appear</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.emptyloop.com/unlocker/tutorial1.png" alt="second"></p>
 <p>3.Simply click Unlock All and you are done!</p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="http://www.emptyloop.com/unlocker" target="_blank" rel="external nofollow noopener noreferrer">http://www.emptyloop.com/unlocker</a></p>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.emptyloop.com/unlocker" target="_blank" rel="external nofollow noopener noreferrer">http://www.emptyloop.com/unlocker</a></p>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -964,10 +1009,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/system/optimizer/DismPlusPlus/">
       Dism++
@@ -975,13 +1021,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -989,64 +1035,63 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/system/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;system</p>
+      <p>Tools/system</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月21日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><strong>全球第一款基于 CBS 的 Dism GUI 实现</strong></p>
+      
+        <p><strong>全球第一款基于 CBS 的 Dism GUI 实现</strong></p>
 <p>兼容 Windows Vista/7/8/8.1/10</p>
-<h3 id="官方主页">官方主页</h3>
-<p><a href="https://www.chuyu.me" target="_blank" rel="external nofollow noopener noreferrer">https://www.chuyu.me</a></p>
-<h3 id="Dism-的特点">Dism++的特点</h3>
-<ul>
+<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.chuyu.me" target="_blank" rel="external nofollow noopener noreferrer">https://www.chuyu.me</a></p>
+<h3 id="Dism-的特点"><a href="#Dism-的特点" class="headerlink" title="Dism++的特点"></a>Dism++的特点</h3><ul>
 <li>Dism++无需任何Dism组件，即可兼容高低版本所有系统！而微软Dism则需要3个版本。</li>
 <li>Dism++是Dism的交集，提供完全的图形化操作，几乎支持Dism的所有功能以及大量Dism原本所不支持的功能。管理更新、驱动、功能、Appx、可选功能、服务、Compact/WIMboot、系统修复等……放马过来吧。</li>
 <li>Dism++提供了完整的WIM支持（包括ESD捕获、ESD转ISO、释放分段ESD以及直接ISO支持），值得一提的是，ESD转ISO，Dism++可以直接在内存中解密无需修改硬盘数据。这极大的满足了强迫症患者。</li>
 <li>Dism++提供了开放的清理以及优化功能，用户可以自定义Dism++规则，来打造专属系统工具。</li>
 </ul>
-<h3 id="运行要求">运行要求</h3>
-<p>最小运行平台：NT 6.0或者更高、512MB内存</p>
+<h3 id="运行要求"><a href="#运行要求" class="headerlink" title="运行要求"></a>运行要求</h3><p>最小运行平台：NT 6.0或者更高、512MB内存</p>
 <p>推荐运行平台：NT 6.1或者更高，64位操作系统、8G物理内存+8GB虚拟内存或者更高</p>
 <ul>
 <li>运行平台仅限x86、amd64以及arm64处理器，IA64以及ARM体系仅支持离线模式。</li>
@@ -1055,9 +1100,10 @@
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1072,10 +1118,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/av/Foobar2000/">
       Foobar2000
@@ -1083,13 +1130,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1097,101 +1144,94 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/av/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;av</p>
+      <p>Tools/av</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月19日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官方主页">官方主页</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.foobar2000.org/tinyfoobar.png" alt="Foobar2000"></p>
+      
+        <h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.foobar2000.org/tinyfoobar.png" alt="Foobar2000"></p>
 <p><a href="http://www.foobar2000.org" target="_blank" rel="external nofollow noopener noreferrer">http://www.foobar2000.org</a></p>
-<h4 id="中文论坛">中文论坛</h4>
-<p><a href="http://www.foobar2000.com.cn" target="_blank" rel="external nofollow noopener noreferrer">http://www.foobar2000.com.cn</a></p>
-<h4 id="Asion">Asion</h4>
-<p>博客：<a href="http://blog.sina.com.cn/go2spa" target="_blank" rel="external nofollow noopener noreferrer">http://blog.sina.com.cn/go2spa</a></p>
+<h4 id="中文论坛"><a href="#中文论坛" class="headerlink" title="中文论坛"></a>中文论坛</h4><p><a href="http://www.foobar2000.com.cn" target="_blank" rel="external nofollow noopener noreferrer">http://www.foobar2000.com.cn</a></p>
+<h4 id="Asion"><a href="#Asion" class="headerlink" title="Asion"></a>Asion</h4><p>博客：<a href="http://blog.sina.com.cn/go2spa" target="_blank" rel="external nofollow noopener noreferrer">http://blog.sina.com.cn/go2spa</a></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_Asion_1.5.1.jpg" alt="foobar2000 v1.5.1 汉化版"></p>
 <p>Asion汉化版：</p>
 <p>百度网盘：<a href="https://pan.baidu.com/s/1a1byjKHWsyKBXO0J4y-A1A#fb2k" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1a1byjKHWsyKBXO0J4y-A1A#fb2k</a> 提取码: <code>fb2k</code></p>
-<h4 id="Linson">Linson</h4>
-<p>博客：<a href="http://blog.sina.com.cn/linson158" target="_blank" rel="external nofollow noopener noreferrer">http://blog.sina.com.cn/linson158</a></p>
+<h4 id="Linson"><a href="#Linson" class="headerlink" title="Linson"></a>Linson</h4><p>博客：<a href="http://blog.sina.com.cn/linson158" target="_blank" rel="external nofollow noopener noreferrer">http://blog.sina.com.cn/linson158</a></p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_Linson_1.3.12.jpg" alt="Foobar2000 V1.3.12 Linson修改版"></p>
 <p>Linson完美 桌面歌词版：</p>
-<p>百度网盘：<a href="http://pan.baidu.com/s/1ntlyx4H#path=/Foobar%202000" target="_blank" rel="external nofollow noopener noreferrer">http://pan.baidu.com/s/1ntlyx4H#path=/Foobar 2000</a></p>
+<p>百度网盘：<a href="http://pan.baidu.com/s/1ntlyx4H#path=/Foobar%202000" target="_blank" rel="external nofollow noopener noreferrer">http://pan.baidu.com/s/1ntlyx4H#path=/Foobar%202000</a></p>
 <p>tedGo’s DarkOne字体：</p>
 <p>百度网盘：<a href="http://pan.baidu.com/s/1o6iaTh4" target="_blank" rel="external nofollow noopener noreferrer">http://pan.baidu.com/s/1o6iaTh4</a></p>
-<h4 id="松伟庆军">松伟庆军</h4>
-<ul>
-<li>
-<p>MKing</p>
+<h4 id="松伟庆军"><a href="#松伟庆军" class="headerlink" title="松伟庆军"></a>松伟庆军</h4><ul>
+<li><p>MKing</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_MKing5.0.jpg" alt="MKing5.0"></p>
 <p>百度网盘：<a href="https://pan.baidu.com/s/1ntlDyR3" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1ntlDyR3</a></p>
 </li>
-<li>
-<p>Touch</p>
+<li><p>Touch</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_Touch.jpg" alt="Touch"></p>
 <p>百度网盘：<a href="https://pan.baidu.com/s/1YoKsAdAOU1sdB8pG1-TX-g" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1YoKsAdAOU1sdB8pG1-TX-g</a></p>
 </li>
-<li>
-<p>Milk White</p>
+<li><p>Milk White</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_Milk_Whit.jpg" alt="Milk White"></p>
 <p>百度网盘：<a href="https://pan.baidu.com/s/1ntBf6el" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1ntBf6el</a></p>
 </li>
-<li>
-<p>FB2K</p>
+<li><p>FB2K</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_FB2K.jpg" alt="FB2K"></p>
 <p>百度网盘：<a href="https://pan.baidu.com/s/1c0ByjxI" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1c0ByjxI</a></p>
 </li>
-<li>
-<p>foomori</p>
+<li><p>foomori</p>
 <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_foomori.jpg" alt="foomori"></p>
 <p>百度网盘：<a href="https://pan.baidu.com/s/1sjDJvVB" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1sjDJvVB</a></p>
 </li>
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1206,10 +1246,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/efficient/TotalCommander/">
       TotalCommander
@@ -1217,13 +1258,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -1231,59 +1272,57 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/effcient/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;effcient</p>
+      <p>Tools/effcient</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年2月7日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.ghisler.com/images/top.logo.gif" alt="TotalCommander"></p>
-<h3 id="官网">官网</h3>
-<p>English<br>
-<a href="https://www.ghisler.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com</a></p>
-<p>中文<br>
-<a href="http://xbeta.info/tc/index.htm" target="_blank" rel="external nofollow noopener noreferrer">http://xbeta.info/tc/index.htm</a></p>
-<h4 id="Features">Features</h4>
-<ul>
+      
+        <p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.ghisler.com/images/top.logo.gif" alt="TotalCommander"></p>
+<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p>English<br><a href="https://www.ghisler.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com</a></p>
+<p>中文<br><a href="http://xbeta.info/tc/index.htm" target="_blank" rel="external nofollow noopener noreferrer">http://xbeta.info/tc/index.htm</a></p>
+<h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><ul>
 <li>Two file windows side by side</li>
 <li>Multiple language and Unicode support</li>
 <li>Enhanced search function</li>
@@ -1298,33 +1337,28 @@
 <li>Unicode names almost everywhere, long names (&gt;259 characters), password manager for ftp and plugins, synchronize empty dirs, 64 bit context menu, quick file filter (Ctrl+S)</li>
 <li>USB port connection via special direct transfer cable, partial branch view (Ctrl+Shift+B), and many improvements to ftp, synchronizing and other functions</li>
 </ul>
-<h4 id="下载地址">下载地址</h4>
-<p>English<br>
-<a href="https://www.ghisler.com/download.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com/download.htm</a></p>
-<p>中文<br>
-<a href="http://xbeta.info/tc/download.htm" target="_blank" rel="external nofollow noopener noreferrer">http://xbeta.info/tc/download.htm</a></p>
-<p><strong>语言包</strong><br>
-<a href="https://www.ghisler.com/languages.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com/languages.htm</a></p>
-<h3 id="飞扬时空版">飞扬时空版</h3>
-<p><a href="http://flyonzone.ys168.com" target="_blank" rel="external nofollow noopener noreferrer">http://flyonzone.ys168.com</a></p>
+<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p>English<br><a href="https://www.ghisler.com/download.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com/download.htm</a></p>
+<p>中文<br><a href="http://xbeta.info/tc/download.htm" target="_blank" rel="external nofollow noopener noreferrer">http://xbeta.info/tc/download.htm</a></p>
+<p><strong>语言包</strong><br><a href="https://www.ghisler.com/languages.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com/languages.htm</a></p>
+<h3 id="飞扬时空版"><a href="#飞扬时空版" class="headerlink" title="飞扬时空版"></a>飞扬时空版</h3><p><a href="http://flyonzone.ys168.com" target="_blank" rel="external nofollow noopener noreferrer">http://flyonzone.ys168.com</a></p>
 <ul>
 <li>百度网盘：<a href="https://yun.baidu.com/s/1cp9zuY" target="_blank" rel="external nofollow noopener noreferrer">https://yun.baidu.com/s/1cp9zuY</a></li>
 <li>蓝奏云盘：<a href="https://www.lanzous.com/b405514" target="_blank" rel="external nofollow noopener noreferrer">https://www.lanzous.com/b405514</a></li>
 </ul>
-<h3 id="Total-Commander-Ultima-Prime">Total Commander Ultima Prime</h3>
-<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://tcup.pl/templates/tcup/images/logo.png" alt="Total Commander Ultima Prime"></p>
+<h3 id="Total-Commander-Ultima-Prime"><a href="#Total-Commander-Ultima-Prime" class="headerlink" title="Total Commander Ultima Prime"></a>Total Commander Ultima Prime</h3><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://tcup.pl/templates/tcup/images/logo.png" alt="Total Commander Ultima Prime"></p>
 <p><a href="http://tcup.pl" target="_blank" rel="external nofollow noopener noreferrer">http://tcup.pl</a></p>
 <p><a href="http://www.dayanzai.me/total-commander-ultima-prime.html" target="_blank" rel="external nofollow noopener noreferrer">大眼仔原文链接</a></p>
 <ul>
-<li>百度网盘：<a href="https://pan.baidu.com/s/1dxWeO4ByD8tcop-4w8yciA#yqyb" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1dxWeO4ByD8tcop-4w8yciA</a>  提取码：<code>yqyb</code></li>
-<li>百度网盘：<a href="https://pan.baidu.com/s/1mPl29iZ2QUFey1wRt7iT4A#6ttk" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1mPl29iZ2QUFey1wRt7iT4A</a>  提取码：<code>6ttk</code></li>
+<li>百度网盘：<a href="https://pan.baidu.com/s/1dxWeO4ByD8tcop-4w8yciA#yqyb" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1dxWeO4ByD8tcop-4w8yciA</a>&nbsp;&nbsp;提取码：<code>yqyb</code></li>
+<li>百度网盘：<a href="https://pan.baidu.com/s/1mPl29iZ2QUFey1wRt7iT4A#6ttk" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1mPl29iZ2QUFey1wRt7iT4A</a>&nbsp;&nbsp;提取码：<code>6ttk</code></li>
 <li>城通网盘：<a href="https://t00y.com/file/3965089-416866125" target="_blank" rel="external nofollow noopener noreferrer">https://t00y.com/file/3965089-416866125</a></li>
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -1675,11 +1709,11 @@
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -1698,12 +1732,15 @@
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -1718,6 +1755,7 @@
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -1725,12 +1763,12 @@
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();

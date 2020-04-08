@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.2.0">
+<head hexo-theme="https://volantis.js.org/#2.5.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -35,7 +35,7 @@
   
 
   <!-- link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
   
     
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
@@ -64,13 +64,13 @@
   
 
   
+  
     
 <link rel="stylesheet" href="/css/style.css">
 
   
 
   
-
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
@@ -104,7 +104,7 @@
       </div>
     
     <div class="menu navigation">
-      <ul class="h-list">
+      <ul class="cover-list-h">
         
           
             <li>
@@ -143,21 +143,21 @@
   <div id="loading-bar"></div>
 </div>
 <header class="l_header shadow blur">
-
+  <div class="container">
   <div class="wrapper">
-    <div class="nav-sub container--flex">
-      <a class="logo flat-box"></a>
-      <ul class="switcher h-list">
-        <li><a class="s-comment flat-btn fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
-          <li><a class="s-toc flat-btn fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
         
       </ul>
     </div>
-		<div class="nav-main container container--flex">
+		<div class="nav-main">
       
         
-        <a class="logo flat-box" target="_self" href="/">
+        <a class="title flat-box" target="_self" href="/">
           
           
           
@@ -168,7 +168,7 @@
       
 
 			<div class="menu navigation">
-				<ul class="h-list">
+				<ul class="nav-list-h">
           
           
           
@@ -245,64 +245,99 @@
 				</ul>
 			</div>
 
-      
-        <div class="m_search">
-          <form name="searchform" class="form u-search-form">
-            <i class="icon fas fa-search fa-fw"></i>
-            <input type="text" class="input u-search-input" placeholder="搜索">
-          </form>
-        </div>
-      
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="Search...">
+        </form>
+      </div>
 
-			<ul class="switcher h-list">
+			<ul class="switcher nav-list-h">
 				
-					<li><a class="s-search flat-btn fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
 				
-				<li><a class="s-menu flat-btn fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  
+                    <i class="fas fa-home fa-fw"></i>
+                  
+                  首页
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tools/" id="tools">
+                  
+                    <i class="fas fa-tools fa-fw"></i>
+                  
+                  软件
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories/" id="categories">
+                  
+                    <i class="fas fa-folder-open fa-fw"></i>
+                  
+                  分类
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives/" id="archives">
+                  
+                    <i class="fas fa-archive fa-fw"></i>
+                  
+                  归档
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/about/" id="about">
+                  
+                    <i class="fas fa-info-circle fa-fw"></i>
+                  
+                  关于
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
 			</ul>
 		</div>
 	</div>
+  </div>
 </header>
-<ul class="menu-phone navigation white-box">
-  
-  
-    <li>
-      <a class="flat-box" href="/" id="home">
-        
-          <i class="fas fa-clock fa-fw"></i>
-        
-        博文
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/archives/" id="archives">
-        
-          <i class="fas fa-archive fa-fw"></i>
-        
-        归档
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/links/" id="links">
-        
-          <i class="fas fa-link fa-fw"></i>
-        
-        友链
-      </a>
-    </li>
-  
-    <li>
-      <a class="flat-box" href="/about/" id="about">
-        
-          <i class="fas fa-info-circle fa-fw"></i>
-        
-        关于
-      </a>
-    </li>
-  
-</ul>
+
 <script>setLoadingBarProgress(40);</script>
 
   </div>
@@ -333,10 +368,11 @@
 
   <section class="meta">
     
-    
-    <div class="meta" id="header-meta">
       
+      
+      <div class="meta" id="header-meta">
         
+          
   <h2 class="title">
     <a href="/tools/efficient/QuickLook/">
       QuickLook
@@ -344,13 +380,13 @@
   </h2>
 
 
-      
-      <div class="new-meta-box">
         
-          
-        
+        <div class="new-meta-box">
           
             
+          
+            
+              
 <div class="new-meta-item author">
   <a href="https://jianwudao.com" target="_blank" rel="external nofollow noopener noreferrer">
     <img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/log/16/avatar.png">
@@ -358,55 +394,55 @@
   </a>
 </div>
 
-          
-        
+            
           
             
+              
   
   <div class="new-meta-item category">
     <a href="/categories/Tools/effcient/" rel="nofollow">
       <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
-      <p>Tools&nbsp;/&nbsp;effcient</p>
+      <p>Tools/effcient</p>
     </a>
   </div>
 
 
+            
           
-        
-          
-            <div class="new-meta-item date">
+            
+              <div class="new-meta-item date">
   <a class="notlink">
-    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
     <p>发布于：2020年4月6日</p>
   </a>
 </div>
 
-          
-        
+            
           
             
+              
 
-          
-        
+            
           
             
+              
 
+            
           
+        </div>
+        
+          <hr>
         
       </div>
-      
-        <hr>
-      
-    </div>
+    
   </section>
 
 
   <section class="article typo">
     <div class="article-entry" itemprop="articleBody">
-      <h3 id="官网">官网</h3>
-<p><a href="https://pooi.moe/QuickLook" target="_blank" rel="external nofollow noopener noreferrer">https://pooi.moe/QuickLook</a></p>
-<h3 id="Highlights">Highlights</h3>
-<ul>
+      
+        <h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://pooi.moe/QuickLook" target="_blank" rel="external nofollow noopener noreferrer">https://pooi.moe/QuickLook</a></p>
+<h3 id="Highlights"><a href="#Highlights" class="headerlink" title="Highlights"></a>Highlights</h3><ul>
 <li><a href="#Supported-File-Types">Tons of supported file types</a></li>
 <li>Fluent design (new in version 0.3)</li>
 <li>Touchscreen friendly</li>
@@ -416,8 +452,7 @@
 <li>Easy extended by plugins</li>
 <li>Strict GPL license to keep it free forever</li>
 </ul>
-<h3 id="Supported-File-Types">Supported File Types</h3>
-<ul>
+<h3 id="Supported-File-Types"><a href="#Supported-File-Types" class="headerlink" title="Supported File Types"></a>Supported File Types</h3><ul>
 <li>Almost all image formats: .png, .apng, .jpg, .bmp, .gif, * .psd, Camera RAW, …</li>
 <li>Compressed archives: .zip, .rar, .tar.gz, .7z, etc.</li>
 <li>.pdf and .ai file</li>
@@ -429,9 +464,7 @@
 <li>All kinds of text files (determined by file content)</li>
 <li>…and even more with the help of installable plugins</li>
 </ul>
-<h3 id="Available-Plugins">Available Plugins</h3>
-<h4 id="List-of-plugins">List of plugins</h4>
-<table>
+<h3 id="Available-Plugins"><a href="#Available-Plugins" class="headerlink" title="Available Plugins"></a>Available Plugins</h3><h4 id="List-of-plugins"><a href="#List-of-plugins" class="headerlink" title="List of plugins"></a>List of plugins</h4><table>
 <thead>
 <tr>
 <th>Plugin</th>
@@ -440,8 +473,7 @@
 <th>Description</th>
 </tr>
 </thead>
-<tbody>
-<tr>
+<tbody><tr>
 <td><a href="https://github.com/QL-Win/QuickLook.Plugin.EpubViewer" target="_blank" rel="external nofollow noopener noreferrer">EpubViewer</a> v1</td>
 <td>2018-09-02</td>
 <td><a href="https://github.com/QL-Win/QuickLook.Plugin.EpubViewer/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td>
@@ -477,29 +509,23 @@
 <td><a href="https://github.com/birderyu/QuickLook.Plugin.ShapefileViewer/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td>
 <td>Preview ESRI <code>.shp</code> Shapefiles</td>
 </tr>
-</tbody>
-</table>
-<h4 id="How-to-install-or-upgrade-a-plugin">How to install or upgrade a plugin</h4>
-<ol>
+</tbody></table>
+<h4 id="How-to-install-or-upgrade-a-plugin"><a href="#How-to-install-or-upgrade-a-plugin" class="headerlink" title="How to install or upgrade a plugin"></a>How to install or upgrade a plugin</h4><ol>
 <li>Download the plugin in .qlplugin format.</li>
 <li>Ensure QuickLook is currently running, select the file and press Spacebar.</li>
 <li>Click on the Install button, then restart QuickLook.</li>
 </ol>
 <p><em>Note:</em> Upgrading is the same procedure as installing</p>
-<h4 id="How-to-remove-a-plugin">How to remove a plugin</h4>
-<ol>
+<h4 id="How-to-remove-a-plugin"><a href="#How-to-remove-a-plugin" class="headerlink" title="How to remove a plugin"></a>How to remove a plugin</h4><ol>
 <li>Quit QuickLook.</li>
-<li>Navigate to
-<ul>
+<li>Navigate to<ul>
 <li>(For <code>.msi</code> and <code>.zip</code> version) <code>%APPDATA%\pooi.moe\QuickLook\QuickLook.Plugin</code> folder.</li>
 <li>(For Windows Store version) <code>%LOCALAPPDATA%\Packages\21090PaddyXu.QuickLook_egxr34yet59cg\LocalCache\Roaming\pooi.moe\QuickLook\QuickLook.Plugin</code> folder.</li>
 </ul>
 </li>
 <li>You should find several folders. Remove the one you do not want to use.</li>
 </ol>
-<h3 id="File-Managers">File Managers</h3>
-<h4 id="Out-of-box-support">Out-of-box support</h4>
-<ul>
+<h3 id="File-Managers"><a href="#File-Managers" class="headerlink" title="File Managers"></a>File Managers</h3><h4 id="Out-of-box-support"><a href="#Out-of-box-support" class="headerlink" title="Out-of-box support"></a>Out-of-box support</h4><ul>
 <li>Your Desktop</li>
 <li>File Explorer windows</li>
 <li>Open and Save File dialogues</li>
@@ -508,30 +534,26 @@
 <li>fman (Just choose the path to it on first f3 click)</li>
 <li>Files UWP</li>
 </ul>
-<h4 id="Notes">Notes</h4>
-<ul>
+<h4 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h4><ul>
 <li>Because of the limitation of Windows Sandbox, the following two notes are not applicable to the Store version of QuickLook. In this case, you have to use a small tool to invoke QuickLook. <a href="#Integrating-with-File-Managers">Notes here</a>.</li>
 <li><strong>Total Commander</strong> and <strong>fman</strong> employ the Spacebar for selecting items, so QuickLook does not override it. However, it is possible to set the F3 preview application to QuickLook. <a href="#Integrating-with-File-Managers">Notes here</a>.</li>
 <li><strong>XYplorer</strong> treats the Spacebar as a part of search keywords, so QuickLook does not override it. However, it is possible to set a custom hotkey to invoke QuickLook. <a href="#Integrating-with-File-Managers">Notes here</a>.</li>
 </ul>
-<h3 id="Integrating-with-File-Managers">Integrating with File Managers</h3>
-<h4 id="From-the-command-line-MSI-and-ZIP-versions">From the command line (MSI and ZIP versions)</h4>
-<p>Assign a custom hotkey that fires event <code>QuickLook.exe &quot;c:\a\path\here&quot;</code>.</p>
-<h4 id="From-the-command-line-MSI-ZIP-and-Windows-Store-versions">From the command line (MSI, ZIP, and Windows Store versions)</h4>
-<ol>
+<h3 id="Integrating-with-File-Managers"><a href="#Integrating-with-File-Managers" class="headerlink" title="Integrating with File Managers"></a>Integrating with File Managers</h3><h4 id="From-the-command-line-MSI-and-ZIP-versions"><a href="#From-the-command-line-MSI-and-ZIP-versions" class="headerlink" title="From the command line (MSI and ZIP versions)"></a>From the command line (MSI and ZIP versions)</h4><p>Assign a custom hotkey that fires event <code>QuickLook.exe &quot;c:\a\path\here&quot;</code>.</p>
+<h4 id="From-the-command-line-MSI-ZIP-and-Windows-Store-versions"><a href="#From-the-command-line-MSI-ZIP-and-Windows-Store-versions" class="headerlink" title="From the command line (MSI, ZIP, and Windows Store versions)"></a>From the command line (MSI, ZIP, and Windows Store versions)</h4><ol>
 <li>Download the helper: Bridge.zip (complied EXE &amp; source code).</li>
 <li>Assign a custom hotkey that calls <code>Bridge.exe &quot;c:\a\path\here&quot;</code>.</li>
 </ol>
-<h3 id="下载地址">下载地址</h3>
-<ul>
+<h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul>
 <li><a href="https://github.com/QL-Win/QuickLook/releases" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a></li>
 <li><a href="https://www.microsoft.com/store/apps/9nv4bs3l1h4s?ocid=badge" target="_blank" rel="external nofollow noopener noreferrer">Microsoft Store</a></li>
 </ul>
 
       
-        
-      
     </div>
+    
+      
+    
   </section>
 </article>
 
@@ -882,11 +904,11 @@
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
 
   
     
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2.0/dist/Meting.min.js"></script>
 
   
 
@@ -905,12 +927,15 @@
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.1/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
 
 
 
   
 <script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
 
 
 
@@ -925,6 +950,7 @@
       copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
       copyHtml += '</button>';
       $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
       var clipboard = new ClipboardJS('.btn-copy', {
         target: function(trigger) {
           return trigger.nextElementSibling;
@@ -932,12 +958,12 @@
       });
       clipboard.on('success', function(e) {
         let $btn = $(e.trigger);
-        $btn.addClass('copyed');
+        $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
         $icon.addClass('fa-clipboard-check');
         let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPYED';
+        $span[0].innerText = 'COPIED';
       });
       clipboard.on('error', function(e) {
         e.clearSelection();
