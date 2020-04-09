@@ -106,9 +106,9 @@
       <category term="develop" scheme="https://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
-    
       <category term="IDE" scheme="https://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
     
       <category term="develop" scheme="https://www.jianwudao.com/tags/develop/"/>
     
@@ -138,9 +138,9 @@
       <category term="develop" scheme="https://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
-    
       <category term="IDE" scheme="https://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
     
       <category term="develop" scheme="https://www.jianwudao.com/tags/develop/"/>
     
@@ -170,9 +170,9 @@
       <category term="develop" scheme="https://www.jianwudao.com/categories/Tools/develop/"/>
     
     
-      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
-    
       <category term="IDE" scheme="https://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
     
       <category term="develop" scheme="https://www.jianwudao.com/tags/develop/"/>
     
@@ -464,17 +464,17 @@
   </entry>
   
   <entry>
-    <title>IDEA Crack</title>
-    <link href="https://www.jianwudao.com/IDEA-Crack/"/>
-    <id>https://www.jianwudao.com/IDEA-Crack/</id>
+    <title>Jetbrains Crack</title>
+    <link href="https://www.jianwudao.com/Jetbrains-Crack/"/>
+    <id>https://www.jianwudao.com/Jetbrains-Crack/</id>
     <published>2020-01-31T03:28:21.000Z</published>
-    <updated>2020-03-23T04:58:53.480Z</updated>
+    <updated>2020-04-09T12:17:45.953Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>IDEA 最新破解方法，支持2019.3.3，2020-02-27更新</strong></p><a id="more"></a><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>请有能力的尽量支持正版！</p><h3 id="1-下载安装"><a href="#1-下载安装" class="headerlink" title="1. 下载安装"></a>1. 下载安装</h3><p>下载地址：<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea/download/#section=windows</a></p><p>选择适合本机的版本安装。<br>个人喜欢绿色解压版。</p><h3 id="2-破解"><a href="#2-破解" class="headerlink" title="2. 破解"></a>2. 破解</h3><h4 id="2-1-下载JetbrainsCrack-jar"><a href="#2-1-下载JetbrainsCrack-jar" class="headerlink" title="2.1. 下载JetbrainsCrack.jar"></a>2.1. 下载JetbrainsCrack.jar</h4><p>JetbrainsCrack.jar下载地址：</p><p>百度网盘:</p><ul><li>AlgerFan: <a href="https://pan.baidu.com/s/1_T_yEX9xLo6tp2fBB3CXAA#x3w5" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1_T_yEX9xLo6tp2fBB3CXAA#x3w5</a> 提取码: <code>x3w5</code> (已失效)</li></ul><hr><ul><li><p>Zhile: <a href="https://pan.baidu.com/s/1FrpavOrzkzLDYShndnqRZQ#2c4t" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1FrpavOrzkzLDYShndnqRZQ#2c4t</a> 提取码: <code>2c4t</code></p><p>版本：v3.0.3</p><p>支持：</p><ul><li>IntelliJ IDEA <code>2019.3.3及以下</code></li><li>AppCode <code>2019.3.5及以下</code></li><li>CLion <code>2019.3.4及以下</code></li><li>DataGrip <code>2019.3.3及以下</code></li><li>GoLand <code>2019.3.2及以下</code></li><li>PhpStorm <code>2019.3.3及以下</code></li><li>PyCharm <code>2019.3.3及以下</code></li><li>Rider <code>2019.3.3及以下</code></li><li>RubyMine <code>2019.3.3及以下</code></li><li>WebStorm <code>2019.3.3及以下</code></li></ul></li></ul><p>把它放到你认为合适的文件夹内，如：</p><p><code>C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin</code></p><h4 id="2-2-修改vmoptions文件"><a href="#2-2-修改vmoptions文件" class="headerlink" title="2.2. 修改vmoptions文件"></a>2.2. 修改vmoptions文件</h4><p><strong>不能直接在bin目录下直接修改！</strong></p><p>先打开idea试用30天，然后点击你要注册的IDE菜单：</p><p>“Help” -&gt; “Edit Custom VM Options …”，</p><p>如果提示是否要创建文件，请点”是|Yes”。</p><p>在打开的vmoptions编辑窗口末行添加：</p><p><code>-javaagent:JetbrainsCrack.jar文件的绝对路径</code></p><p>如: <code>-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin\JetbrainsCrack.jar</code></p><h4 id="2-3-注册"><a href="#2-3-注册" class="headerlink" title="2.3. 注册"></a>2.3. 注册</h4><p>启动IDEA，注册”Help” -&gt; “Register”，选择License server方式，地址填入：</p><ul><li>AlgerFan: <code>http://jetbrains-license-server</code>（应该会自动填上）</li><li>Zhile: <code>http://fls.jetbrains-agent.com</code></li></ul><p>看到<code>Licensed to &lt;用户名&gt;</code>，即激活成功！</p><h3 id="3-声明"><a href="#3-声明" class="headerlink" title="3. 声明"></a>3. 声明</h3><p>此文章仅用于学习研究使用，如有侵权，请联系我删除该文章。</p><p>原文地址：</p><ul><li>AlgerFan: <a href="https://www.algerfan.cn/articles/2019/03/06/1551868940012.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.algerfan.cn/articles/2019/03/06/1551868940012.html</a></li><li>Zhile: <a href="https://zhile.io/2018/08/25/jetbrains-license-server-crack.html" target="_blank" rel="external nofollow noopener noreferrer">https://zhile.io/2018/08/25/jetbrains-license-server-crack.html</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p><strong>Jetbrains 最新破解方法，支持2020.1，2020-04-04更新</strong></p><a id="more"></a><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>请有能力的尽量支持正版！</p><h3 id="1-下载安装"><a href="#1-下载安装" class="headerlink" title="1. 下载安装"></a>1. 下载安装</h3><p>下载地址：<a href="https://www.jetbrains.com/idea/download/#section=windows" target="_blank" rel="external nofollow noopener noreferrer">https://www.jetbrains.com/idea/download/#section=windows</a></p><p>选择适合本机的版本安装。<br>个人喜欢绿色解压版。</p><h3 id="2-破解"><a href="#2-破解" class="headerlink" title="2. 破解"></a>2. 破解</h3><h4 id="2-1-下载破解文件"><a href="#2-1-下载破解文件" class="headerlink" title="2.1. 下载破解文件"></a>2.1. 下载破解文件</h4><p>下载地址：</p><p>百度网盘：<a href="https://pan.baidu.com/s/1po4vu2KoLJ7fT2B8VY3Okw" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1po4vu2KoLJ7fT2B8VY3Okw</a> 提取码: <code>6j62</code></p><p>版本：v3.1.3</p><p>支持：</p><ul><li>IntelliJ IDEA <code>2019.3.4及以下</code></li><li>AppCode <code>2019.3.7及以下</code></li><li>CLion <code>2019.3.5及以下</code></li><li>DataGrip <code>2020.1及以下</code></li><li>GoLand <code>2019.3.4及以下</code></li><li>PhpStorm <code>2019.3.4及以下</code></li><li>PyCharm <code>2020.1及以下</code></li><li>Rider <code>2019.3.4及以下</code></li><li>RubyMine <code>2019.3.4及以下</code></li><li>WebStorm <code>2020.1及以下</code></li></ul><h4 id="2-2-自动破解"><a href="#2-2-自动破解" class="headerlink" title="2.2 自动破解"></a>2.2 自动破解</h4><p>直接把jetbrains-agent-latest.zip拖进IDE就行了</p><h4 id="2-3-手动破解"><a href="#2-3-手动破解" class="headerlink" title="2.3 手动破解"></a>2.3 手动破解</h4><h4 id="2-3-1-修改vmoptions文件"><a href="#2-3-1-修改vmoptions文件" class="headerlink" title="2.3.1 修改vmoptions文件"></a>2.3.1 修改vmoptions文件</h4><p>把<code>JetbrainsCrack.jar</code>放到你认为合适的文件夹内，如：</p><p><code>C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin</code></p><p><strong>不能直接在bin目录下直接修改！</strong></p><p>先打开idea试用30天，然后点击你要注册的IDE菜单：</p><p>“Help” -&gt; “Edit Custom VM Options …”，</p><p>如果提示是否要创建文件，请点”是|Yes”。</p><p>在打开的vmoptions编辑窗口末行添加：</p><p><code>-javaagent:JetbrainsCrack.jar文件的绝对路径</code></p><p>如: <code>-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.3\bin\JetbrainsCrack.jar</code></p><h4 id="2-3-2-注册"><a href="#2-3-2-注册" class="headerlink" title="2.3.2 注册"></a>2.3.2 注册</h4><p>启动IDEA，注册”Help” -&gt; “Register”，选择License server方式，地址填入：<br><code>http://fls.jetbrains-agent.com</code></p><p>看到<code>Licensed to &lt;用户名&gt;</code>，即激活成功！</p><h3 id="3-声明"><a href="#3-声明" class="headerlink" title="3. 声明"></a>3. 声明</h3><p>此文章仅用于学习研究使用，如有侵权，请联系我删除该文章。</p><p>原文地址：<a href="https://zhile.io/2018/08/25/jetbrains-license-server-crack.html" target="_blank" rel="external nofollow noopener noreferrer">https://zhile.io/2018/08/25/jetbrains-license-server-crack.html</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;strong&gt;IDEA 最新破解方法，支持2019.3.3，2020-02-27更新&lt;/strong&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;Jetbrains 最新破解方法，支持2020.1，2020-04-04更新&lt;/strong&gt;&lt;/p&gt;
     
     </summary>
     
@@ -491,6 +491,8 @@
       <category term="IDEA" scheme="https://www.jianwudao.com/tags/IDEA/"/>
     
       <category term="Crack" scheme="https://www.jianwudao.com/tags/Crack/"/>
+    
+      <category term="Jetbrains" scheme="https://www.jianwudao.com/tags/Jetbrains/"/>
     
       <category term="破解" scheme="https://www.jianwudao.com/tags/%E7%A0%B4%E8%A7%A3/"/>
     
