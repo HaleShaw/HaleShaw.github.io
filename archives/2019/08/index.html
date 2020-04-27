@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme="https://volantis.js.org/#2.5.0">
+<head hexo-theme="https://volantis.js.org/#2.6.4">
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -109,25 +109,25 @@
           
             <li>
               <a class="nav home" href="/" id="home">
-                <i class="fas fa-file-alt fa-fw"></i>&nbsp;博文
+                <i class="fas fa-file-alt fa-fw"></i>博文
               </a>
             </li>
           
             <li>
               <a class="nav home" href="/tools/" id="tools">
-                <i class="fas fa-tools fa-fw"></i>&nbsp;软件
+                <i class="fas fa-tools fa-fw"></i>软件
               </a>
             </li>
           
             <li>
               <a class="nav home" href="/links/" id="links">
-                <i class="fas fa-link fa-fw"></i>&nbsp;友链
+                <i class="fas fa-link fa-fw"></i>友链
               </a>
             </li>
           
             <li>
               <a class="nav home" href="/about/" id="about">
-                <i class="fas fa-info-circle fa-fw"></i>&nbsp;关于
+                <i class="fas fa-info-circle fa-fw"></i>关于
               </a>
             </li>
           
@@ -176,10 +176,7 @@
             
               <li>
                 <a class="flat-box" href="/" id="home">
-                  
-                    <i class="fas fa-home fa-fw"></i>
-                  
-                  首页
+                  <i class="fas fa-home fa-fw"></i>首页
                 </a>
                 
               </li>
@@ -190,10 +187,7 @@
             
               <li>
                 <a class="flat-box" href="/tools/" id="tools">
-                  
-                    <i class="fas fa-tools fa-fw"></i>
-                  
-                  软件
+                  <i class="fas fa-tools fa-fw"></i>软件
                 </a>
                 
               </li>
@@ -204,10 +198,7 @@
             
               <li>
                 <a class="flat-box" href="/categories/" id="categories">
-                  
-                    <i class="fas fa-folder-open fa-fw"></i>
-                  
-                  分类
+                  <i class="fas fa-folder-open fa-fw"></i>分类
                 </a>
                 
               </li>
@@ -218,10 +209,7 @@
             
               <li>
                 <a class="flat-box" href="/archives/" id="archives">
-                  
-                    <i class="fas fa-archive fa-fw"></i>
-                  
-                  归档
+                  <i class="fas fa-archive fa-fw"></i>归档
                 </a>
                 
               </li>
@@ -232,10 +220,7 @@
             
               <li>
                 <a class="flat-box" href="/about/" id="about">
-                  
-                    <i class="fas fa-info-circle fa-fw"></i>
-                  
-                  关于
+                  <i class="fas fa-info-circle fa-fw"></i>关于
                 </a>
                 
               </li>
@@ -264,10 +249,7 @@
             
               <li>
                 <a class="flat-box" href="/" id="home">
-                  
-                    <i class="fas fa-home fa-fw"></i>
-                  
-                  首页
+                  <i class="fas fa-home fa-fw"></i>首页
                 </a>
                 
               </li>
@@ -278,10 +260,7 @@
             
               <li>
                 <a class="flat-box" href="/tools/" id="tools">
-                  
-                    <i class="fas fa-tools fa-fw"></i>
-                  
-                  软件
+                  <i class="fas fa-tools fa-fw"></i>软件
                 </a>
                 
               </li>
@@ -292,10 +271,7 @@
             
               <li>
                 <a class="flat-box" href="/categories/" id="categories">
-                  
-                    <i class="fas fa-folder-open fa-fw"></i>
-                  
-                  分类
+                  <i class="fas fa-folder-open fa-fw"></i>分类
                 </a>
                 
               </li>
@@ -306,10 +282,7 @@
             
               <li>
                 <a class="flat-box" href="/archives/" id="archives">
-                  
-                    <i class="fas fa-archive fa-fw"></i>
-                  
-                  归档
+                  <i class="fas fa-archive fa-fw"></i>归档
                 </a>
                 
               </li>
@@ -320,10 +293,7 @@
             
               <li>
                 <a class="flat-box" href="/about/" id="about">
-                  
-                    <i class="fas fa-info-circle fa-fw"></i>
-                  
-                  关于
+                  <i class="fas fa-info-circle fa-fw"></i>关于
                 </a>
                 
               </li>
@@ -477,12 +447,14 @@
     
     
 
-<section class="widget blogger shadow desktop">
+<section class="widget blogger shadow desktop mobile">
   <div class="content">
     
-      <div class="avatar">
-        <img class="avatar" src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/avatar_450.jpg">
-      </div>
+      
+        <a class="avatar flat-box" href="/about/">
+          <img no-lazy src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/avatar_450.jpg">
+        </a>
+      
     
     
       <div class="text">
@@ -579,7 +551,7 @@
     
   
 
-  <section class="widget tagcloud shadow desktop">
+  <section class="widget tagcloud shadow desktop mobile">
     
   <header>
     
@@ -736,6 +708,18 @@
   <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      ScrollReveal().reveal('.l_main .reveal', {
+        distance: '8px',
+        duration: '800',
+        interval: '100',
+        scale: '1'
+      });
+    });
+  </script>
+
 
   
 <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
@@ -819,13 +803,15 @@
 
 
 
+
+
   
 <script src="/js/app.js"></script>
 
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.6.4/js/search.js"></script>
 
 
 
@@ -841,6 +827,10 @@
 
   <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
 <script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
   !function (e, t, a) {
     var initCopyCode = function(){
       var copyHtml = '';
@@ -859,9 +849,15 @@
         $btn.addClass('copied');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
-        $icon.addClass('fa-clipboard-check');
+        $icon.addClass('fa-check-circle');
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('fa-check-circle');
+          $icon.addClass('fa-copy');
+          $span[0].innerText = 'COPY';
+        }, 2000);
       });
       clipboard.on('error', function(e) {
         e.clearSelection();
@@ -869,9 +865,15 @@
         $btn.addClass('copy-failed');
         let $icon = $($btn.find('i'));
         $icon.removeClass('fa-copy');
-        $icon.addClass('fa-exclamation-triangle');
+        $icon.addClass('fa-times-circle');
         let $span = $($btn.find('span'));
         $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('fa-times-circle');
+          $icon.addClass('fa-copy');
+          $span[0].innerText = 'COPY';
+        }, 2000);
       });
     }
     initCopyCode();
