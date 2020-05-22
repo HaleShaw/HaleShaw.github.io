@@ -79,7 +79,6 @@
   text-align: center;
 }
 .jTree li>span img {
-  height: auto;
   max-width: 100% !important;
   vertical-align: middle;
   border: 0;
