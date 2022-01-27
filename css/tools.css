@@ -1,0 +1,91 @@
+.jTree span,
+.jTree a {
+  font-size: 14px !important;
+}
+.jTree a {
+  color: #1bc3fb;
+  text-decoration: none;
+}
+.jTree ul {
+  font-size: 14px !important;
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+.jTree>ul>li ul {
+  margin-left: 50px;
+  -moz-padding-start: 40px !important;
+       padding-inline-start: 40px !important;
+}
+.jTree li {
+  list-style-type: none !important;
+  margin: 0;
+  padding: 10px 5px 0 5px;
+  position: relative;
+  line-height: 20px !important;
+  text-align: -webkit-match-parent;
+}
+.jTree li::before,
+.jTree li::after {
+  content: '';
+  left: -20px;
+  position: absolute;
+  right: auto;
+}
+.jTree li::before {
+  border-left: 1px solid #999;
+  bottom: 50px;
+  height: 100%;
+  top: 0;
+  width: 1px;
+}
+.jTree li::after {
+  border-top: 1px solid #999;
+  height: 20px;
+  top: 25px;
+  width: 25px;
+}
+.jTree li span {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 3px 8px;
+  text-decoration: none;
+}
+.jTree li.parentLi>span {
+  cursor: pointer;
+}
+.jTree>ul>li::before,
+.jTree>ul>li::after {
+  border: 0;
+}
+.jTree li:last-child::before {
+  height: 25px;
+}
+.jTree li.parentLi>span:hover,
+.jTree li.parentLi>span:hover+ul li span {
+  background: #eee;
+  border: 1px solid #94a0b4;
+  color: #000;
+}
+.jTree li>span i {
+  margin-right: 2px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+.jTree li>span img {
+  max-width: 100% !important;
+  vertical-align: middle;
+  border: 0;
+  margin-right: 4px !important;
+  border-radius: 0 !important;
+}
+.jTree li .description {
+  color: #777;
+  border: none;
+  font-size: 0.825rem !important;
+}

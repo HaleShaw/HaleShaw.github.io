@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>剑无道</title>
+  
+  <subtitle>无极之道</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.jianwudao.com/"/>
+  <updated>2021-12-22T12:29:35.664Z</updated>
+  <id>https://www.jianwudao.com/</id>
+  
+  <author>
+    <name>Hale</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.jianwudao.com/hello-world/"/>
+    <id>https://www.jianwudao.com/hello-world/</id>
+    <published>2021-12-22T12:29:35.664Z</published>
+    <updated>2021-12-22T12:29:35.664Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external nofollow noopener noreferrer">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external nofollow noopener noreferrer">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external nofollow noopener noreferrer">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external nofollow noopener noreferrer">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external nofollow noopener noreferrer">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external nofollow noopener noreferrer">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;Hexo&lt;/a&gt;! This is your very first post.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PictureCleaner</title>
+    <link href="https://www.jianwudao.com/tools/av/PictureCleaner/"/>
+    <id>https://www.jianwudao.com/tools/av/PictureCleaner/</id>
+    <published>2021-03-17T05:43:03.000Z</published>
+    <updated>2021-12-22T12:29:35.666Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://img2020.cnblogs.com/blog/479852/202103/479852-20210308102239257-2003427541.png" alt="PictureCleaner"></p><p>免费的图片校正及漂白专业工具，专业去除文档图片黑底麻点杂色，规格化A4、B5尺寸输出，还你一个清晰的文本。</p><p><strong>本软件原名PicGrayRemover，从1.0版开始，正式更名为PictureCleaner。</strong></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p>软件并无官网，只有作者的博客。</p><p><a href="https://www.cnblogs.com/Charltsing/p/PictureCleaner.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.cnblogs.com/Charltsing/p/PictureCleaner.html</a></p><h3 id="独家功能"><a href="#独家功能" class="headerlink" title="独家功能"></a>独家功能</h3><ol><li>傻瓜式一键操作（批量漂白、图片处理一条龙），简便易用。</li><li>两种漂白方式（黑白、彩色）。</li><li>三种漂白算法（实时、快速）。</li><li>两种输出格式（原图格式、规格化格式）。</li><li>两种橡皮筋控件（四角校正、裁切）。</li><li>七种图片预处理功能。</li><li>两种单位标尺（像素、毫米）</li><li>透明保存和背景换色。</li><li>滚轮缩放和拖拽平移浏览图片。</li></ol><h3 id="软件功能"><a href="#软件功能" class="headerlink" title="软件功能"></a>软件功能</h3><ol><li>拖拽图片文件或目录到左侧窗口，可以快速检索图片文件。</li><li>支持一键操作（批量、单张）。设置输出输入目录，勾选自动保存。选择目录名并回车执行批量漂白。点击图片名即可执行预处理、四角检测、变形校正、漂白处理、规格化输出、图像保存一条龙，操作至简。</li><li>支持七种图片预处理功能（左旋、右旋、对比度调整、自动量化、伽马调整、锐化、反转）。</li><li>支持三种漂白算法，两种漂白方式。漂白速度在几十毫秒~几秒之间。支持保留色彩，可以保留公章或试卷红/蓝笔颜色。</li><li>提供强度、深度两个滑块调整功能，适应各种深浅不一、光照不均匀或者阴影严重的图片。</li><li>支持校正橡皮筋四点调整，方便进行变形校正（倾斜、透视变形），按下预处理自动量化和伽马调整可以提高四角检测准确率。</li><li>支持四角检测后自动校正，校正后图片可以规格化尺寸及方向输出（A4、B5，300DPI）。</li><li>支持裁切橡皮筋八点调整，支持切除和留白两种方式，方便易用。</li><li>支持两种单位标尺（像素和毫米），可直观看到图片像素大小和打印尺寸。</li><li>支持通过色彩灯调整保留彩色的阈值设置。</li><li>支持两种输出格式（按照原图信息输出，尺寸、DPI、Exif信息不变；校正后的图片规格化A4、B5输出）。</li><li>支持保存成透明图。</li><li>支持漂白后的图片背景换色。</li><li>原图和结果图支持滚轮缩放和拖拽平移，可以轻松查看图片细节。</li><li>未来版本中，可扩展支持上百种图像格式和PDF文档图片。</li></ol><p>自动四角检测、图像校正、规格化输出<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://img2020.cnblogs.com/blog/479852/202103/479852-20210308102249980-142216272.png" alt="PictureCleaner"></p><p>背景换色、滚轮缩放和拖拽平移<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://img2020.cnblogs.com/blog/479852/202103/479852-20210313162106944-585795442.png" alt="PictureCleaner"></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p>v1.1.0.1</p><p>蓝奏云：<a href="https://charltsing.lanzous.com/i4UR2mwpaqf" target="_blank" rel="external nofollow noopener noreferrer">https://charltsing.lanzous.com/i4UR2mwpaqf</a></p><h3 id="运行环境"><a href="#运行环境" class="headerlink" title="运行环境"></a>运行环境</h3><p>需要 <strong>.net 4.0 Framework</strong> 运行库或更高版本和 <strong>VC2015</strong> 运行库。</p><p>如果你是XP或者Windows7的电脑，请自行下载安装。</p><ul><li><p>Microsoft .NET Framework 4（独立安装程序），仅XP系统安装</p><p><a href="https://www.microsoft.com/zh-cn/download/details.aspx?id=17718" target="_blank" rel="external nofollow noopener noreferrer">https://www.microsoft.com/zh-cn/download/details.aspx?id=17718</a></p></li><li><p>Microsoft .NET Framework 4.6.1（独立安装程序），Windows7安装（如果已经安装了更高版本则无需安装）</p><p><a href="https://www.microsoft.com/zh-CN/download/details.aspx?id=49982" target="_blank" rel="external nofollow noopener noreferrer">https://www.microsoft.com/zh-CN/download/details.aspx?id=49982</a></p></li><li><p>Microsoft Visual C++ 2015 运行库 ，x86和x64，根据操作系统位数选择安装</p><p><a href="https://support.microsoft.com/zh-cn/topic/%E6%9C%80%E6%96%B0%E6%94%AF%E6%8C%81%E7%9A%84-visual-c-%E4%B8%8B%E8%BD%BD-2647da03-1eea-4433-9aff-95f26a218cc0" target="_blank" rel="external nofollow noopener noreferrer">https://support.microsoft.com/zh-cn/topic/%E6%9C%80%E6%96%B0%E6%94%AF%E6%8C%81%E7%9A%84-visual-c-%E4%B8%8B%E8%BD%BD-2647da03-1eea-4433-9aff-95f26a218cc0</a></p></li></ul><h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>作者QQ：564955427<br>QQ群：733073174</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;https://img2020.cnblogs.com/blog/479852/202103/479852
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="av" scheme="https://www.jianwudao.com/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="av" scheme="https://www.jianwudao.com/tags/av/"/>
+    
+      <category term="picture" scheme="https://www.jianwudao.com/tags/picture/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mem Reduct</title>
+    <link href="https://www.jianwudao.com/tools/system/monitor/MemReduct/"/>
+    <id>https://www.jianwudao.com/tools/system/monitor/MemReduct/</id>
+    <published>2021-03-17T05:25:50.000Z</published>
+    <updated>2021-12-22T12:29:35.677Z</updated>
+    
+    <content type="html"><![CDATA[<p>Author: Henry++</p><p>First release: 27 October 2011</p><p>License: GPL v3</p><p>Language: C</p><p>Platform architecture: 32-bit/64-bit</p><p>Supported OS: Windows XP (SP 3), Vista, 7, 8, 8.1, 10</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.henrypp.org/images/memreduct.png" alt="Mem Reduct"></p><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><p><a href="https://www.henrypp.org/product/memreduct" target="_blank" rel="external nofollow noopener noreferrer">https://www.henrypp.org/product/memreduct</a></p><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p>轻量级的实时内存管理应用程序，可以监控和清理系统内存。</p><p>Lightweight real-time memory management application to monitor and clean system memory on your computer.</p><p>The program used undocumented internal system features (Native API) to clear system cache (system working set, working set, standby page lists, modified page lists) with variable result ~10-50%. Application it is compatible with Windows XP SP3 and higher operating systems, but some general features available only since Windows Vista.</p><p>You can download either the installer or portable version. For correct working, need administrator rights.</p><h3 id="便捷模式"><a href="#便捷模式" class="headerlink" title="便捷模式"></a>便捷模式</h3><p>To activate portable mode, create <code>memreduct.ini</code> in application folder, or move it from <code>%APPDATA%\Henry++\Mem Reduct</code>.</p><h3 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h3><p>将<code>memreduct.lng</code>文件放入软件目录并重启软件。</p><p>Put <code>memreduct.lng</code> file into application directory and restart the program.</p><p><a href="https://github.com/henrypp/memreduct/raw/master/bin/memreduct.lng" target="_blank" rel="external nofollow noopener noreferrer">下载语言</a></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://github.com/henrypp/memreduct/releases/latest" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/henrypp/memreduct/releases/latest</a></p><h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/henrypp/memreduct" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/henrypp/memreduct</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Author: Henry++&lt;/p&gt;
+&lt;p&gt;First release: 27 October 2011&lt;/p&gt;
+&lt;p&gt;License: GPL v3&lt;/p&gt;
+&lt;p&gt;Language: C&lt;/p&gt;
+&lt;p&gt;Platform architecture: 32-bit/64-b
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="system" scheme="https://www.jianwudao.com/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="Memory" scheme="https://www.jianwudao.com/tags/Memory/"/>
+    
+      <category term="Taskbar" scheme="https://www.jianwudao.com/tags/Taskbar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Fliqlo</title>
+    <link href="https://www.jianwudao.com/tools/system/monitor/Fliqlo/"/>
+    <id>https://www.jianwudao.com/tools/system/monitor/Fliqlo/</id>
+    <published>2021-03-17T05:04:28.000Z</published>
+    <updated>2021-12-22T12:29:35.677Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="极简时钟屏保"><a href="#极简时钟屏保" class="headerlink" title="极简时钟屏保"></a>极简时钟屏保</h2><p>Fliqlo for Mac/Windows is a clock screensaver that allows you to make your desktop/laptop device screen look like a flip clock. It displays the time with flip animation in large white numerals against a black background. Thanks to its visibility, you can read the time even from a distance.</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://fliqlo.com/images/main.png" alt="Fliqlo"></p><a id="more"></a><hr><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://fliqlo.com/images/screensaver.jpg" alt="Fliqlo"></p><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><p><a href="https://fliqlo.com" target="_blank" rel="external nofollow noopener noreferrer">https://fliqlo.com</a></p><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p><strong>Turn Your Mac/Windows Device Into a Flip Clock</strong></p><p>Fliqlo for Mac/Windows is a clock screensaver that allows you to make your desktop/laptop device screen look like a flip clock. It displays the time with flip animation in large white numerals against a black background. Thanks to its visibility, you can read the time even from a distance.</p><h3 id="软件功能"><a href="#软件功能" class="headerlink" title="软件功能"></a>软件功能</h3><ul><li>Enlarge/reduce to any size</li><li>Switch between 12/24-hour clock</li><li>Switch between landscape/portrait screen orientation</li><li>Brightness control inside the screensaver</li><li>Option to show/hide background</li><li>Option to show the clock on a single primary display / multiple displays (*available on Mac)</li></ul><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul><li>Windows: <a href="https://fliqlo.com/download/FliqloScr.zip" target="_blank" rel="external nofollow noopener noreferrer">https://fliqlo.com/download/FliqloScr.zip</a></li><li>Mac: <a href="https://fliqlo.com/download/Fliqlo%201.8.3.dmg" target="_blank" rel="external nofollow noopener noreferrer">https://fliqlo.com/download/Fliqlo%201.8.3.dmg</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;极简时钟屏保&quot;&gt;&lt;a href=&quot;#极简时钟屏保&quot; class=&quot;headerlink&quot; title=&quot;极简时钟屏保&quot;&gt;&lt;/a&gt;极简时钟屏保&lt;/h2&gt;&lt;p&gt;Fliqlo for Mac/Windows is a clock screensaver that allows you to make your desktop/laptop device screen look like a flip clock. It displays the time with flip animation in large white numerals against a black background. Thanks to its visibility, you can read the time even from a distance.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;https://fliqlo.com/images/main.png&quot; alt=&quot;Fliqlo&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="system" scheme="https://www.jianwudao.com/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="Screensaver" scheme="https://www.jianwudao.com/tags/Screensaver/"/>
+    
+      <category term="Time" scheme="https://www.jianwudao.com/tags/Time/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows Terminal</title>
+    <link href="https://www.jianwudao.com/tools/efficient/WindowsTerminal/"/>
+    <id>https://www.jianwudao.com/tools/efficient/WindowsTerminal/</id>
+    <published>2020-05-22T04:32:58.000Z</published>
+    <updated>2021-12-22T12:29:35.673Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个面向命令行工具和 shell（如命令提示符、PowerShell 和适用于 Linux 的 Windows 子系统 (WSL)）用户的新式终端应用程序。 它的主要功能包括多个选项卡、窗格、Unicode 和 UTF-8 字符支持、GPU 加速文本呈现引擎，还可以用于创建你自己的主题并自定义文本、颜色、背景和快捷键绑定。</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/WindowsTerminal.png" alt="Windows Terminal"></p><a id="more"></a><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://docs.microsoft.com/zh-cn/windows/terminal/images/overview.png" alt="Windows Terminal"></p><h3 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h3><h4 id="支持多种命令行应用程序的多个配置文件"><a href="#支持多种命令行应用程序的多个配置文件" class="headerlink" title="支持多种命令行应用程序的多个配置文件"></a>支持多种命令行应用程序的多个配置文件</h4><p>任何具有命令行接口的应用程序都可以在 Windows 终端中运行。 这包括从 PowerShell 和命令提示符到 Azure Cloud Shell 和任何 WSL 分发（如 Ubuntu 或 Oh-My-Zsh）的所有应用程序。</p><h4 id="自定义方案和配置"><a href="#自定义方案和配置" class="headerlink" title="自定义方案和配置"></a>自定义方案和配置</h4><p>可以将 Windows 终端配置为具有多种配色方案和设置。 若要了解如何创建自己的配色方案，请访问<a href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/color-schemes" target="_blank" rel="external nofollow noopener noreferrer">配色方案页面</a>。 还可以在<a href="https://docs.microsoft.com/zh-cn/windows/terminal/custom-terminal-gallery/powerline-in-powershell" target="_blank" rel="external nofollow noopener noreferrer">自定义终端库</a>中查找自定义终端配置。</p><h4 id="自定义键绑定"><a href="#自定义键绑定" class="headerlink" title="自定义键绑定"></a>自定义键绑定</h4><p>可以在 Windows 终端中使用多种自定义组合键，获得更加自然的体验。 如果不喜欢特定的键盘快捷方式，可以将其更改为你喜欢的方式。<br>例如，绑定为复制命令行中文本的默认快捷键是 <code>ctrl+shift+c</code>。 你可以将其更改为 <code>ctrl+1</code> 或你喜欢的其他方式。 要打开新的选项卡，默认快捷方式是 <code>ctrl+t</code>，但你可能想要将其更改为 <code>ctrl+2</code>。 用于在打开的选项卡之间进行切换的默认快捷方式是 <code>ctrl+tab</code>，可以将这个快捷方式更改为 <code>ctrl+-</code>并改为用于创建新选项卡。<br>可以在<a href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/key-bindings" target="_blank" rel="external nofollow noopener noreferrer">键绑定页</a>了解有关自定义键绑定的信息。</p><h4 id="Unicode-和-UTF-8-字符支持"><a href="#Unicode-和-UTF-8-字符支持" class="headerlink" title="Unicode 和 UTF-8 字符支持"></a>Unicode 和 UTF-8 字符支持</h4><p>Windows 终端可以显示 Unicode 和 UTF-8 字符，如各种语言的表情符号和字符。</p><h4 id="GPU-加速文本呈现"><a href="#GPU-加速文本呈现" class="headerlink" title="GPU 加速文本呈现"></a>GPU 加速文本呈现</h4><p>Windows 终端使用 GPU 来呈现其文本，从而提供比默认 Windows 命令行体验更好的性能。</p><h4 id="背景图像支持"><a href="#背景图像支持" class="headerlink" title="背景图像支持"></a>背景图像支持</h4><p>可以在 Windows 终端窗口中显示背景图像和 gif。 有关如何向配置文件添加背景图像的信息，请参阅<a href="https://docs.microsoft.com/zh-cn/windows/terminal/customize-settings/profile-settings#background-image-settings" target="_blank" rel="external nofollow noopener noreferrer">配置文件设置页</a>。</p><h4 id="命令行参数"><a href="#命令行参数" class="headerlink" title="命令行参数"></a>命令行参数</h4><p>可以使用命令行参数将 Windows 终端设置为在特定配置中启动。 可以指定要在新选项卡中打开哪个配置文件、应选择哪个文件夹目录，指定使用拆分窗口窗格打开终端，并指定选择应专注于哪个选项卡。<br>例如，若要使用三个窗格从 PowerShell 打开 Windows 终端（左窗格运行命令提示符配置文件，右窗格拆分为两个，一个用于 PowerShell，另一个用于运行 WSL 的默认配置文件），请输入：</p><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wt -p <span class="string">"Command Prompt"</span> `; split-pane -p <span class="string">"Windows PowerShell"</span> `; split-pane -H wsl.exe</span><br></pre></td></tr></table></figure><h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/microsoft/terminal" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/microsoft/terminal</a></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul><li><p><a href="https://aka.ms/windowsterminal" target="_blank" rel="external nofollow noopener noreferrer">Microsoft Store</a> [Recommended]</p><p>This allows you to always be on the latest version when we release new builds with automatic upgrades.</p></li><li><p><a href="https://github.com/microsoft/terminal/releases>" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a></p></li></ul><p><strong>Note:</strong><br>Windows Terminal requires Windows 10 1903 (build 18362) or later.</p><h3 id="Documentation"><a href="#Documentation" class="headerlink" title="Documentation"></a>Documentation</h3><p><a href="https://docs.microsoft.com/zh-cn/windows/terminal" target="_blank" rel="external nofollow noopener noreferrer">https://docs.microsoft.com/zh-cn/windows/terminal</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个面向命令行工具和 shell（如命令提示符、PowerShell 和适用于 Linux 的 Windows 子系统 (WSL)）用户的新式终端应用程序。 它的主要功能包括多个选项卡、窗格、Unicode 和 UTF-8 字符支持、GPU 加速文本呈现引擎，还可以用于创建你自己的主题并自定义文本、颜色、背景和快捷键绑定。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/WindowsTerminal.png&quot; alt=&quot;Windows Terminal&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="effcient" scheme="https://www.jianwudao.com/categories/Tools/effcient/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="effcient" scheme="https://www.jianwudao.com/tags/effcient/"/>
+    
+      <category term="cmd" scheme="https://www.jianwudao.com/tags/cmd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>优效日历</title>
+    <link href="https://www.jianwudao.com/tools/system/monitor/YXCalendar/"/>
+    <id>https://www.jianwudao.com/tools/system/monitor/YXCalendar/</id>
+    <published>2020-04-10T03:04:28.000Z</published>
+    <updated>2021-12-22T12:29:35.679Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>完美无缝替代Windows系统日历，原生纯净无广告</strong><br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.youxiao.cn/wp-content/uploads/2019/11/%E4%B8%BB%E7%95%8C%E9%9D%A2-%E4%BE%A7%E8%BE%B9%E6%A0%8F.png" alt="YXCalendar"></p><p><a href="https://www.youxiao.cn/yxcalendar/link?user_id=15747" target="_blank" rel="external nofollow noopener noreferrer">直接下载</a></p><a id="more"></a><hr><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/YXCalendar.png" alt="YXCalendarDesktop"></p><h3 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h3><p><a href="http://www.youxiao.cn" target="_blank" rel="external nofollow noopener noreferrer">http://www.youxiao.cn</a></p><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p>优效日历是一款具有 Win10 风格的桌面日历软件，在 Win10 系统自带的日历之上做出了改良和创新，保留了它界面简洁，显示全面的特点，另外新增了超过 20 余种实用功能。</p><p><strong>优效日历不仅是一个日历，更是一款优秀的时间管理工具。</strong></p><h3 id="软件特色"><a href="#软件特色" class="headerlink" title="软件特色"></a>软件特色</h3><h4 id="完美无缝替代-Windows-系统日历"><a href="#完美无缝替代-Windows-系统日历" class="headerlink" title="完美无缝替代 Windows 系统日历"></a>完美无缝替代 Windows 系统日历</h4><ul><li>与系统时间任务栏无缝整合，不占用桌面空间</li><li>采用 Win10 原生风格日历主界面，使用无违和感</li><li>完美适配高清屏、多屏幕、任意方向任务栏的使用</li><li>Windows 全平台支持 (Windows XP/Vista/7/8/8.1/10 32位/64位)</li></ul><h4 id="增强版的万年历功能"><a href="#增强版的万年历功能" class="headerlink" title="增强版的万年历功能"></a>增强版的万年历功能</h4><ul><li>农历、黄历、节气、节假日的信息展示</li><li>法定节假日加班/调休/抢票的信息显示</li><li>内置排班助手，可自定义加班调休日期</li><li>支持年视图，一览全年日历</li></ul><h4 id="内置强大的时间管理效率工具"><a href="#内置强大的时间管理效率工具" class="headerlink" title="内置强大的时间管理效率工具"></a>内置强大的时间管理效率工具</h4><ul><li>日程提醒：让你更好规划和掌控自己的时间，支持建立公历/农历的日程提醒，并可选择多种提醒/重复方式</li><li>待办清单：让你高效地完成最重要的事情，支持采用列表视图/四象限视图查看待办清单，并可针对每一个待办事项启动* 番茄时钟</li><li>纪念管家：让你不会错过每一个值得纪念的日子，例如结婚/入职/升学/恋爱等</li><li>打卡记录：用数据记录过去，用图表进行总结</li><li>生日管家：家人、朋友生日不再错过</li><li>日历订阅：一键订阅 CalDAV 协议的公共日历或 iCloud、Outlook、Google Calendar 等其他账号的日历</li><li>移动平台：优效日历微信小程序已正式上架，移动端加持更优效。</li><li>数据同步：所有数据可在云端保存，多台设备间可进行实时同步。</li></ul><h4 id="内置强大的时间实用工具"><a href="#内置强大的时间实用工具" class="headerlink" title="内置强大的时间实用工具"></a>内置强大的时间实用工具</h4><ul><li>时间进度：通过不同维度（今天、本周、本月、今年、人生）的时间进度展示，时刻提醒自己好好珍惜时间</li><li>计时秒表：毫秒级的专业计时秒表，在计时过程中可进行标记/暂停</li><li>定时任务：支持六大定时任务（定时闹钟、定时运行程序、定时退出程序、定时关闭电脑、定时重启电脑、定时休眠电脑），提供了多种定时模式（倒计时、指定时间、单次任务、每天任务）。</li><li>日期计算：提供了日期间隔和日期推算两种计算方式</li><li>良辰吉日：一键挑出日期范围内的好日子，例如嫁娶、入宅等</li><li>整点报时：真人整点语音报时，可自定义报时时段</li></ul><h4 id="内置强大的系统实用工具"><a href="#内置强大的系统实用工具" class="headerlink" title="内置强大的系统实用工具"></a>内置强大的系统实用工具</h4><ul><li>时间校对：网络时间同步，从此告别系统时间走时不准</li><li>屏幕截图：实用屏幕截图小工具</li><li>桌面插件：支持六大桌面插件（桌面日历、桌面时钟、桌面天气、桌面日程、桌面待办、时间进度）以及无限制的桌面提醒日，一键固定在桌面，与桌面融为一体</li><li>天气预报：提供了未来 3 天的天气预报</li></ul><h4 id="绿色软件，体积小巧"><a href="#绿色软件，体积小巧" class="headerlink" title="绿色软件，体积小巧"></a>绿色软件，体积小巧</h4><ul><li>绿色软件：无需安装（绿色版）即可使用</li><li>体积小巧：体积小巧、性能卓越、不会对系统性能有任何影响</li><li>三无软件：无广告、无弹窗、无推送</li><li>无需联网：无需联网即可使用核心功能</li></ul><h3 id="软件截图"><a href="#软件截图" class="headerlink" title="软件截图"></a>软件截图</h3><ul><li>自定义任务栏时钟<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.youxiao.cn/wp-content/uploads/2019/11/%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BB%BB%E5%8A%A1%E6%A0%8F%E6%97%B6%E9%92%9F.png" alt="自定义任务栏时钟"></li><li>桌面插件<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.youxiao.cn/wp-content/uploads/2019/11/%E6%A1%8C%E9%9D%A2%E6%8F%92%E4%BB%B6%E9%9B%86%E5%90%88.png" alt="桌面插件"></li><li>自定义界面<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.youxiao.cn/wp-content/uploads/2019/11/%E7%95%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE.png" alt="自定义界面"></li><li>创建待办<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.youxiao.cn/wp-content/uploads/2019/11/%E6%96%B0%E5%BB%BA%E5%BE%85%E5%8A%9E.png" alt="创建待办"></li><li>订阅日历<br><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.youxiao.cn/wp-content/uploads/2019/11/%E6%96%B0%E5%BB%BA%E8%AE%A2%E9%98%85.png" alt="订阅日历"></li></ul><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul><li><p><a href="https://www.youxiao.cn/yxcalendar/link?user_id=15747" target="_blank" rel="external nofollow noopener noreferrer">本地下载</a>（<em>推荐</em>）</p></li><li><p>蓝奏网盘：<a href="https://www.lanzous.com/b015braxi" target="_blank" rel="external nofollow noopener noreferrer">https://www.lanzous.com/b015braxi</a> 提取码: <code>340j</code></p></li><li><p>百度网盘：<a href="https://pan.baidu.com/s/1zoay5XTLt1o60xaovxk2Jw#s5gr" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1zoay5XTLt1o60xaovxk2Jw#s5gr</a> 提取码: <code>s5gr</code></p></li><li><p>分流下载：</p><ul><li>PC6下载站：<a href="http://www.pc6.com/softview/SoftView_588829.html" target="_blank" rel="external nofollow noopener noreferrer">http://www.pc6.com/softview/SoftView_588829.html</a></li><li>太平洋电脑网：<a href="https://dl.pconline.com.cn/download/1814596.html" target="_blank" rel="external nofollow noopener noreferrer">https://dl.pconline.com.cn/download/1814596.html</a></li><li>华军软件园：<a href="http://www.onlinedown.net/soft/1223461.htm" target="_blank" rel="external nofollow noopener noreferrer">http://www.onlinedown.net/soft/1223461.htm</a></li><li>非凡软件站：<a href="https://www.crsky.com/soft/139814.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.crsky.com/soft/139814.html</a></li></ul><p><em>（请选择普通下载方式，不要选择高速下载，高速下载可能会有其他软件捆绑）</em></p></li></ul><h3 id="联系方式"><a href="#联系方式" class="headerlink" title="联系方式"></a>联系方式</h3><p>作者QQ：87122508<br>QQ群：560377628</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;完美无缝替代Windows系统日历，原生纯净无广告&lt;/strong&gt;&lt;br&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;http://www.youxiao.cn/wp-content/uploads/2019/11/%E4%B8%BB%E7%95%8C%E9%9D%A2-%E4%BE%A7%E8%BE%B9%E6%A0%8F.png&quot; alt=&quot;YXCalendar&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youxiao.cn/yxcalendar/link?user_id=15747&quot; target=&quot;_blank&quot; rel=&quot;external nofollow noopener noreferrer&quot;&gt;直接下载&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="system" scheme="https://www.jianwudao.com/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="Time" scheme="https://www.jianwudao.com/tags/Time/"/>
+    
+      <category term="Taskbar" scheme="https://www.jianwudao.com/tags/Taskbar/"/>
+    
+      <category term="Calendar" scheme="https://www.jianwudao.com/tags/Calendar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>QuickLook</title>
+    <link href="https://www.jianwudao.com/tools/efficient/QuickLook/"/>
+    <id>https://www.jianwudao.com/tools/efficient/QuickLook/</id>
+    <published>2020-04-06T04:08:39.000Z</published>
+    <updated>2021-12-22T12:29:35.672Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p><a href="https://pooi.moe/QuickLook" target="_blank" rel="external nofollow noopener noreferrer">https://pooi.moe/QuickLook</a></p><h3 id="Highlights"><a href="#Highlights" class="headerlink" title="Highlights"></a>Highlights</h3><ul><li><a href="#Supported-File-Types">Tons of supported file types</a></li><li>Fluent design (new in version 0.3)</li><li>Touchscreen friendly</li><li>HiDPI support</li><li>Preview from Open and Save File Dialog</li><li>Preview from 3rd-party file managers (see a list <a href="#File-Managers">here</a>)</li><li>Easy extended by plugins</li><li>Strict GPL license to keep it free forever</li></ul><h3 id="Supported-File-Types"><a href="#Supported-File-Types" class="headerlink" title="Supported File Types"></a>Supported File Types</h3><ul><li>Almost all image formats: .png, .apng, .jpg, .bmp, .gif, * .psd, Camera RAW, …</li><li>Compressed archives: .zip, .rar, .tar.gz, .7z, etc.</li><li>.pdf and .ai file</li><li>Almost all audio and video formats: .mp4, .mkv, .m2ts, .* ogg, .mp3, .m4a, etc.</li><li>Comma-separated values file (.csv)</li><li>Email and Outlook Email files (.eml and .msg)</li><li>HTML files (.htm, .html)</li><li>Markdown file (.md, .markdown)</li><li>All kinds of text files (determined by file content)</li><li>…and even more with the help of installable plugins</li></ul><h3 id="Available-Plugins"><a href="#Available-Plugins" class="headerlink" title="Available Plugins"></a>Available Plugins</h3><h4 id="List-of-plugins"><a href="#List-of-plugins" class="headerlink" title="List of plugins"></a>List of plugins</h4><table><thead><tr><th>Plugin</th><th>Last Update</th><th>DL</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/QL-Win/QuickLook.Plugin.EpubViewer" target="_blank" rel="external nofollow noopener noreferrer">EpubViewer</a> v1</td><td>2018-09-02</td><td><a href="https://github.com/QL-Win/QuickLook.Plugin.EpubViewer/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td><td>View <code>.epub</code> ebooks</td></tr><tr><td><a href="https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer" target="_blank" rel="external nofollow noopener noreferrer">OfficeViewer</a> v3</td><td>2019-04-04</td><td><a href="https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td><td>View Office formats <strong>without installing MS Office</strong></td></tr><tr><td><a href="https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer-Native" target="_blank" rel="external nofollow noopener noreferrer">OfficeViewer-Native</a> v1</td><td>2019-03-30</td><td><a href="https://github.com/QL-Win/QuickLook.Plugin.OfficeViewer-Native/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td><td>View Office formats <strong>when you have MS Office/WPS Office installed</strong></td></tr><tr><td><a href="https://github.com/jeremyhart/QuickLook.Plugin.HelixViewer" target="_blank" rel="external nofollow noopener noreferrer">HelixViewer</a> v1.0.1-beta</td><td>2018-10-24</td><td><a href="https://github.com/jeremyhart/QuickLook.Plugin.HelixViewer/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td><td>A plugin for viewing 3D models</td></tr><tr><td><a href="https://github.com/jeremyhart/QuickLook.Plugin.FontViewer" target="_blank" rel="external nofollow noopener noreferrer">FontViewer</a> v1.0.0</td><td>2018-10-23</td><td><a href="https://github.com/jeremyhart/QuickLook.Plugin.FontViewer/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td><td>A plugin for viewing font files, supports <code>.otf</code> &amp; <code>.ttf</code></td></tr><tr><td><a href="https://github.com/birderyu/QuickLook.Plugin.ShapefileViewer" target="_blank" rel="external nofollow noopener noreferrer">ShapefileViewer</a> v1.0.1</td><td>2019-01-12</td><td><a href="https://github.com/birderyu/QuickLook.Plugin.ShapefileViewer/releases" target="_blank" rel="external nofollow noopener noreferrer">Link</a></td><td>Preview ESRI <code>.shp</code> Shapefiles</td></tr></tbody></table><h4 id="How-to-install-or-upgrade-a-plugin"><a href="#How-to-install-or-upgrade-a-plugin" class="headerlink" title="How to install or upgrade a plugin"></a>How to install or upgrade a plugin</h4><ol><li>Download the plugin in .qlplugin format.</li><li>Ensure QuickLook is currently running, select the file and press Spacebar.</li><li>Click on the Install button, then restart QuickLook.</li></ol><p><em>Note:</em> Upgrading is the same procedure as installing</p><h4 id="How-to-remove-a-plugin"><a href="#How-to-remove-a-plugin" class="headerlink" title="How to remove a plugin"></a>How to remove a plugin</h4><ol><li>Quit QuickLook.</li><li>Navigate to<ul><li>(For <code>.msi</code> and <code>.zip</code> version) <code>%APPDATA%\pooi.moe\QuickLook\QuickLook.Plugin</code> folder.</li><li>(For Windows Store version) <code>%LOCALAPPDATA%\Packages\21090PaddyXu.QuickLook_egxr34yet59cg\LocalCache\Roaming\pooi.moe\QuickLook\QuickLook.Plugin</code> folder.</li></ul></li><li>You should find several folders. Remove the one you do not want to use.</li></ol><h3 id="File-Managers"><a href="#File-Managers" class="headerlink" title="File Managers"></a>File Managers</h3><h4 id="Out-of-box-support"><a href="#Out-of-box-support" class="headerlink" title="Out-of-box support"></a>Out-of-box support</h4><ul><li>Your Desktop</li><li>File Explorer windows</li><li>Open and Save File dialogues</li><li>Everything (since v0.2.1)</li><li>Directory Opus (since v0.2.1)</li><li>fman (Just choose the path to it on first f3 click)</li><li>Files UWP</li></ul><h4 id="Notes"><a href="#Notes" class="headerlink" title="Notes"></a>Notes</h4><ul><li>Because of the limitation of Windows Sandbox, the following two notes are not applicable to the Store version of QuickLook. In this case, you have to use a small tool to invoke QuickLook. <a href="#Integrating-with-File-Managers">Notes here</a>.</li><li><strong>Total Commander</strong> and <strong>fman</strong> employ the Spacebar for selecting items, so QuickLook does not override it. However, it is possible to set the F3 preview application to QuickLook. <a href="#Integrating-with-File-Managers">Notes here</a>.</li><li><strong>XYplorer</strong> treats the Spacebar as a part of search keywords, so QuickLook does not override it. However, it is possible to set a custom hotkey to invoke QuickLook. <a href="#Integrating-with-File-Managers">Notes here</a>.</li></ul><h3 id="Integrating-with-File-Managers"><a href="#Integrating-with-File-Managers" class="headerlink" title="Integrating with File Managers"></a>Integrating with File Managers</h3><h4 id="From-the-command-line-MSI-and-ZIP-versions"><a href="#From-the-command-line-MSI-and-ZIP-versions" class="headerlink" title="From the command line (MSI and ZIP versions)"></a>From the command line (MSI and ZIP versions)</h4><p>Assign a custom hotkey that fires event <code>QuickLook.exe &quot;c:\a\path\here&quot;</code>.</p><h4 id="From-the-command-line-MSI-ZIP-and-Windows-Store-versions"><a href="#From-the-command-line-MSI-ZIP-and-Windows-Store-versions" class="headerlink" title="From the command line (MSI, ZIP, and Windows Store versions)"></a>From the command line (MSI, ZIP, and Windows Store versions)</h4><ol><li>Download the helper: Bridge.zip (complied EXE &amp; source code).</li><li>Assign a custom hotkey that calls <code>Bridge.exe &quot;c:\a\path\here&quot;</code>.</li></ol><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><ul><li><a href="https://github.com/QL-Win/QuickLook/releases" target="_blank" rel="external nofollow noopener noreferrer">GitHub</a></li><li><a href="https://www.microsoft.com/store/apps/9nv4bs3l1h4s?ocid=badge" target="_blank" rel="external nofollow noopener noreferrer">Microsoft Store</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官网&quot;&gt;&lt;a href=&quot;#官网&quot; class=&quot;headerlink&quot; title=&quot;官网&quot;&gt;&lt;/a&gt;官网&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://pooi.moe/QuickLook&quot; target=&quot;_blank&quot; rel=&quot;external nof
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="effcient" scheme="https://www.jianwudao.com/categories/Tools/effcient/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="effcient" scheme="https://www.jianwudao.com/tags/effcient/"/>
+    
+      <category term="view" scheme="https://www.jianwudao.com/tags/view/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Percentage</title>
+    <link href="https://www.jianwudao.com/tools/system/monitor/Percentage/"/>
+    <id>https://www.jianwudao.com/tools/system/monitor/Percentage/</id>
+    <published>2020-03-23T04:47:00.000Z</published>
+    <updated>2021-12-22T12:29:35.678Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>See your battery percentage in the Windows 10 system tray</strong></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://raw.githubusercontent.com/HaleShaw/percentage/master/percentage.png" alt="Percentage"></p><h3 id="Customize-font"><a href="#Customize-font" class="headerlink" title="Customize font"></a>Customize font</h3><ul><li><p>The default font is Segoe UI</p></li><li><p>You can add a parameter to define the font when you run the application. You can add the parameter in the command window or the shortcut of the application.</p><ul><li>ercentage.exe “Arial”</li></ul></li></ul><h3 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h3><p><a href="https://github.com/HaleShaw/percentage" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/HaleShaw/percentage</a></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://github.com/HaleShaw/percentage/releases" target="_blank" rel="external nofollow noopener noreferrer">https://github.com/HaleShaw/percentage/releases</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;See your battery percentage in the Windows 10 system tray&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="system" scheme="https://www.jianwudao.com/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="monitor" scheme="https://www.jianwudao.com/tags/monitor/"/>
+    
+      <category term="Battery" scheme="https://www.jianwudao.com/tags/Battery/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Postman</title>
+    <link href="https://www.jianwudao.com/tools/develop/Postman/"/>
+    <id>https://www.jianwudao.com/tools/develop/Postman/</id>
+    <published>2020-03-11T08:44:51.000Z</published>
+    <updated>2021-12-22T12:29:35.669Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>What is Postman?</strong></p><p>Postman is a collaboration platform for API development. Postman’s features simplify each step of building an API and streamline collaboration so you can create better APIs—faster.</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.postman.com/img/screens/postman-windows.jpg" alt="Postman"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.postman.com/img/logos/postman/postman-app.svg" alt="Postman"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.postman.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.postman.com</a></p><h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><ul><li>Windows<ul><li><a href="https://dl.pstmn.io/download/latest/win32" target="_blank" rel="external nofollow noopener noreferrer">32-bit</a></li><li><a href="https://dl.pstmn.io/download/latest/win64" target="_blank" rel="external nofollow noopener noreferrer">64-bit</a></li></ul></li><li><a href="https://dl.pstmn.io/download/latest/linux64" target="_blank" rel="external nofollow noopener noreferrer">Lunix</a></li><li><a href="https://dl.pstmn.io/download/latest/osx" target="_blank" rel="external nofollow noopener noreferrer">Mac</a></li></ul><h3 id="Canary"><a href="#Canary" class="headerlink" title="Canary"></a>Canary</h3><p>Be the first in line to experience new features!</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.postman.com/img/logos/postman/canary.svg" alt="Canary"></p><h4 id="下载地址-1"><a href="#下载地址-1" class="headerlink" title="下载地址"></a>下载地址</h4><ul><li>Windows<ul><li><a href="https://dl.pstmn.io/download/channel/canary/windows_32" target="_blank" rel="external nofollow noopener noreferrer">32-bit</a></li><li><a href="https://dl.pstmn.io/download/channel/canary/windows_64" target="_blank" rel="external nofollow noopener noreferrer">64-bit</a></li></ul></li><li><a href="https://dl.pstmn.io/download/channel/canary/linux_64" target="_blank" rel="external nofollow noopener noreferrer">Lunix</a></li><li><a href="https://dl.pstmn.io/download/channel/canary/osx_64" target="_blank" rel="external nofollow noopener noreferrer">Mac</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;What is Postman?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Postman is a collaboration platform for API development. Postman’s features simplify each step o
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/categories/Tools/develop/"/>
+    
+    
+      <category term="IDE" scheme="https://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/tags/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Visual Studio</title>
+    <link href="https://www.jianwudao.com/tools/develop/VisualStudio/"/>
+    <id>https://www.jianwudao.com/tools/develop/VisualStudio/</id>
+    <published>2020-03-11T05:43:28.000Z</published>
+    <updated>2021-12-22T12:29:35.670Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/06/combined-gif2sl.gif" alt="Visual Studio"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://visualstudio.microsoft.com/wp-content/uploads/2019/03/lightbulb-dark-1200.gif" alt="Visual Studio"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://visualstudio.microsoft.com/vs" target="_blank" rel="external nofollow noopener noreferrer">https://visualstudio.microsoft.com/vs</a></p><h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><ul><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Community&rel=16" target="_blank" rel="external nofollow noopener noreferrer">Community 2019</a></li><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Professional&rel=16" target="_blank" rel="external nofollow noopener noreferrer">Professional 2019</a></li><li><a href="https://visualstudio.microsoft.com/zh-hans/thank-you-downloading-visual-studio/?sku=Enterprise&rel=16" target="_blank" rel="external nofollow noopener noreferrer">Enterprise 2019</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;https://visualstudio.microsoft.com/wp-content/uploads
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/categories/Tools/develop/"/>
+    
+    
+      <category term="IDE" scheme="https://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/tags/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Eclipse</title>
+    <link href="https://www.jianwudao.com/tools/develop/Eclipse/"/>
+    <id>https://www.jianwudao.com/tools/develop/Eclipse/</id>
+    <published>2020-03-11T05:30:38.000Z</published>
+    <updated>2021-12-22T12:29:35.667Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.eclipse.org" target="_blank" rel="external nofollow noopener noreferrer">https://www.eclipse.org</a></p><h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p><a href="https://www.eclipse.org/downloads/packages" target="_blank" rel="external nofollow noopener noreferrer">https://www.eclipse.org/downloads/packages</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官方主页&quot;&gt;&lt;a href=&quot;#官方主页&quot; class=&quot;headerlink&quot; title=&quot;官方主页&quot;&gt;&lt;/a&gt;官方主页&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.eclipse.org&quot; target=&quot;_blank&quot; rel=&quot;externa
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/categories/Tools/develop/"/>
+    
+    
+      <category term="IDE" scheme="https://www.jianwudao.com/tags/IDE/"/>
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/tags/develop/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7-Zip</title>
+    <link href="https://www.jianwudao.com/tools/office/compress/7z/"/>
+    <id>https://www.jianwudao.com/tools/office/compress/7z/</id>
+    <published>2020-02-22T06:53:21.000Z</published>
+    <updated>2021-12-22T12:29:35.675Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.7-zip.org/7ziplogo.png" alt="7z"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.7-zip.org" target="_blank" rel="external nofollow noopener noreferrer">https://www.7-zip.org</a></p><p><strong>中文主页</strong></p><p><a href="https://sparanoid.com/lab/7z" target="_blank" rel="external nofollow noopener noreferrer">https://sparanoid.com/lab/7z</a></p><p><strong>下载地址</strong></p><p><a href="https://www.7-zip.org/download.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.7-zip.org/download.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;https://www.7-zip.org/7ziplogo.png&quot; alt=&quot;7z&quot;&gt;&lt;/p&gt;
+&lt;h3
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="office" scheme="https://www.jianwudao.com/categories/Tools/office/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="Compress" scheme="https://www.jianwudao.com/tags/Compress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WinRAR</title>
+    <link href="https://www.jianwudao.com/tools/office/compress/WinRAR/"/>
+    <id>https://www.jianwudao.com/tools/office/compress/WinRAR/</id>
+    <published>2020-02-22T06:51:24.000Z</published>
+    <updated>2021-12-22T12:29:35.675Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p>WinRAR is a powerful archive manager. It can backup your data and reduce the size of email attachments, open and unpack RAR, ZIP and other files downloaded from Internet, create new archives in RAR and ZIP file format.</p><p><a href="https://www.rarlab.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.rarlab.com</a></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://www.rarlab.com/download.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.rarlab.com/download.htm</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官方主页&quot;&gt;&lt;a href=&quot;#官方主页&quot; class=&quot;headerlink&quot; title=&quot;官方主页&quot;&gt;&lt;/a&gt;官方主页&lt;/h3&gt;&lt;p&gt;WinRAR is a powerful archive manager. It can backup your data 
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="office" scheme="https://www.jianwudao.com/categories/Tools/office/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="Compress" scheme="https://www.jianwudao.com/tags/Compress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Balabolka</title>
+    <link href="https://www.jianwudao.com/tools/av/Balabolka/"/>
+    <id>https://www.jianwudao.com/tools/av/Balabolka/</id>
+    <published>2020-02-22T06:36:03.000Z</published>
+    <updated>2021-12-22T12:29:35.665Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.cross-plus-a.com/data/logo_balabolka.jpg" alt="Balabolka"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.cross-plus-a.com/balabolka.gif" alt="Balabolka"></p><p>Balabolka是一个文本转语音（TTS）的程序。Balabolka可以使用计算机系统上安装的所有语音。屏幕上的文字可以被保存为一个WAV，MP3，OGG或者WMA文件。该软件可以读取剪贴板的内容，可以查看AZW，AZW3，CHM，DjVu，DOC，EML，EPUB，FB2，FB3，LIT，MD，MOBI，ODP，ODS，ODT，PDB，PDF，PPT，PRC，RTF，TCR，WPD，XLS和HTML文件中的文本，可自定义字体和背景颜色，控制从系统托盘阅读或者使用热键。 Balabolka使用微软的语音API（SAPI）的各种版本，它可以改变语音的参数，包括语度和语调。用户可以应用特殊的替代清单，以提高语音的清晰度质量。当你想改变的单词拼写时这个功能就非常有用。纠正发音规则使用VBScript的语法。</p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.cross-plus-a.com/cn/balabolka.htm" target="_blank" rel="external nofollow noopener noreferrer">http://www.cross-plus-a.com/cn/balabolka.htm</a></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><strong>安装版</strong></p><p><a href="http://balabolka.site/balabolka.zip" target="_blank" rel="external nofollow noopener noreferrer">http://balabolka.site/balabolka.zip</a></p><p><strong>便携版</strong></p><p><a href="http://balabolka.site/balabolka_portable.zip" target="_blank" rel="external nofollow noopener noreferrer">http://balabolka.site/balabolka_portable.zip</a></p><h3 id="语音"><a href="#语音" class="headerlink" title="语音"></a>语音</h3><ul><li><strong><a href="http://www.eguidedog.net/ekho_cn.php" target="_blank" rel="external nofollow noopener noreferrer">Ekho (余音)</a></strong></li></ul><p>免费的 TTS 引擎。<br>它支持粤语，普通话和潮汕客家话</p><ul><li><strong><a href="https://github.com/Olga-Yakovleva/RHVoice/wiki" target="_blank" rel="external nofollow noopener noreferrer">RHVoice</a></strong></li></ul><p>免费和开源的语音合成器。<br>它支持英语，世界语，格鲁吉亚语，俄语，乌克兰语，吉尔吉斯语和塔塔尔族语。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;http://www.cross-plus-a.com/data/logo_balabolka.jpg&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="av" scheme="https://www.jianwudao.com/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="av" scheme="https://www.jianwudao.com/tags/av/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>XShell</title>
+    <link href="https://www.jianwudao.com/tools/develop/XShell/"/>
+    <id>https://www.jianwudao.com/tools/develop/XShell/</id>
+    <published>2020-02-21T09:37:31.000Z</published>
+    <updated>2021-12-22T12:29:35.670Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.xshellcn.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com</a></p><ul><li>XShell</li></ul><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xshell/jm11-1.png" alt="XShell"></p><ul><li>XFtp</li></ul><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xftp/xftp6-jiemian.png" alt="XFtp"></p><ul><li>XManager</li></ul><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xmanager/Xmanager6.png" alt="XManager"></p><ul><li>Xmanager 6 企业版</li></ul><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xmanager/qiyeban1.png" alt="Xmanager 6 企业版1"></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://pic.mairuan.com/WebSource/xshell/news/old/uploads/images/xmanager/Xmanager6.png" alt="Xmanager 6 企业版2"></p><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://www.xshellcn.com/xiazai.html" target="_blank" rel="external nofollow noopener noreferrer">https://www.xshellcn.com/xiazai.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官方主页&quot;&gt;&lt;a href=&quot;#官方主页&quot; class=&quot;headerlink&quot; title=&quot;官方主页&quot;&gt;&lt;/a&gt;官方主页&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://www.xshellcn.com&quot; target=&quot;_blank&quot; rel=&quot;extern
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/categories/Tools/develop/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="develop" scheme="https://www.jianwudao.com/tags/develop/"/>
+    
+      <category term="shell" scheme="https://www.jianwudao.com/tags/shell/"/>
+    
+      <category term="ssh" scheme="https://www.jianwudao.com/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LockHunter</title>
+    <link href="https://www.jianwudao.com/tools/system/optimizer/LockHunter/"/>
+    <id>https://www.jianwudao.com/tools/system/optimizer/LockHunter/</id>
+    <published>2020-02-21T09:07:45.000Z</published>
+    <updated>2021-12-22T12:29:35.679Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>LockHunter is a foolproof file unlocker</strong></p><p>It is a free tool to delete files blocked by something you do not know. LockHunter is useful for fighting against malware, and other programs that are blocking files without a reason. Unlike other similar tools it deletes files into the recycle bin so you may restore them if deleted by mistake.</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://lockhunter.com/assets/screenshots/mainScreenshotFull.png" alt="LockHunter"></p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://lockhunter.com" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com</a></p><h3 id="Key-Features"><a href="#Key-Features" class="headerlink" title="Key Features"></a>Key Features</h3><ul><li>Shows processes locking a file or folder</li><li>Gives you detailed information on the process</li><li>Allows to unlock, delete, copy or rename a locked file</li><li>Can delete a file at next OS restart</li><li>Allows to kill locking process</li><li>Allows to remove locking processes from hard drive</li><li>Can unload DLLs from processes</li><li>Integrates in to Explorer menu</li><li>It deletes files into the recycle bin, so you may restore them if deleted by mistake</li><li>Supports both 32 and 64 bit Windows</li></ul><h3 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h3><p><a href="https://lockhunter.com/startdownload.htm" target="_blank" rel="external nofollow noopener noreferrer">https://lockhunter.com/startdownload.htm</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;LockHunter is a foolproof file unlocker&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It is a free tool to delete files blocked by something you do not know. L
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="system" scheme="https://www.jianwudao.com/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="optimizer" scheme="https://www.jianwudao.com/tags/optimizer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Unlocker</title>
+    <link href="https://www.jianwudao.com/tools/system/optimizer/Unlocker/"/>
+    <id>https://www.jianwudao.com/tools/system/optimizer/Unlocker/</id>
+    <published>2020-02-21T09:07:31.000Z</published>
+    <updated>2021-12-22T12:29:35.679Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.Simply right click the folder or file and select Unlocker</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.emptyloop.com/unlocker/tutorial1.png" alt="first"></p><p>2.If the folder or file is locked, a window listing of lockers will appear</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.emptyloop.com/unlocker/tutorial1.png" alt="second"></p><p>3.Simply click Unlock All and you are done!</p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="http://www.emptyloop.com/unlocker" target="_blank" rel="external nofollow noopener noreferrer">http://www.emptyloop.com/unlocker</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.Simply right click the folder or file and select Unlocker&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; d
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="system" scheme="https://www.jianwudao.com/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="optimizer" scheme="https://www.jianwudao.com/tags/optimizer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Dism++</title>
+    <link href="https://www.jianwudao.com/tools/system/optimizer/DismPlusPlus/"/>
+    <id>https://www.jianwudao.com/tools/system/optimizer/DismPlusPlus/</id>
+    <published>2020-02-21T08:34:57.000Z</published>
+    <updated>2021-12-22T12:29:35.679Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>全球第一款基于 CBS 的 Dism GUI 实现</strong></p><p>兼容 Windows Vista/7/8/8.1/10</p><h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><a href="https://www.chuyu.me" target="_blank" rel="external nofollow noopener noreferrer">https://www.chuyu.me</a></p><h3 id="Dism-的特点"><a href="#Dism-的特点" class="headerlink" title="Dism++的特点"></a>Dism++的特点</h3><ul><li>Dism++无需任何Dism组件，即可兼容高低版本所有系统！而微软Dism则需要3个版本。</li><li>Dism++是Dism的交集，提供完全的图形化操作，几乎支持Dism的所有功能以及大量Dism原本所不支持的功能。管理更新、驱动、功能、Appx、可选功能、服务、Compact/WIMboot、系统修复等……放马过来吧。</li><li>Dism++提供了完整的WIM支持（包括ESD捕获、ESD转ISO、释放分段ESD以及直接ISO支持），值得一提的是，ESD转ISO，Dism++可以直接在内存中解密无需修改硬盘数据。这极大的满足了强迫症患者。</li><li>Dism++提供了开放的清理以及优化功能，用户可以自定义Dism++规则，来打造专属系统工具。</li></ul><h3 id="运行要求"><a href="#运行要求" class="headerlink" title="运行要求"></a>运行要求</h3><p>最小运行平台：NT 6.0或者更高、512MB内存</p><p>推荐运行平台：NT 6.1或者更高，64位操作系统、8G物理内存+8GB虚拟内存或者更高</p><ul><li>运行平台仅限x86、amd64以及arm64处理器，IA64以及ARM体系仅支持离线模式。</li><li>在没有WOW64支持的环境中（比如纯64 PE），将导致Dism++无法离线处理32位系统。</li><li>如果运行平台为Windows Vista或者Windows 2008时某些功能将无法使用，比如CompactOS、WIMBoot。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;全球第一款基于 CBS 的 Dism GUI 实现&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;兼容 Windows Vista/7/8/8.1/10&lt;/p&gt;
+&lt;h3 id=&quot;官方主页&quot;&gt;&lt;a href=&quot;#官方主页&quot; class=&quot;headerlink&quot; title=
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="system" scheme="https://www.jianwudao.com/categories/Tools/system/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="optimizer" scheme="https://www.jianwudao.com/tags/optimizer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Foobar2000</title>
+    <link href="https://www.jianwudao.com/tools/av/Foobar2000/"/>
+    <id>https://www.jianwudao.com/tools/av/Foobar2000/</id>
+    <published>2020-02-19T07:08:24.000Z</published>
+    <updated>2021-12-22T12:29:35.665Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="官方主页"><a href="#官方主页" class="headerlink" title="官方主页"></a>官方主页</h3><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://www.foobar2000.org/tinyfoobar.png" alt="Foobar2000"></p><p><a href="http://www.foobar2000.org" target="_blank" rel="external nofollow noopener noreferrer">http://www.foobar2000.org</a></p><h4 id="中文论坛"><a href="#中文论坛" class="headerlink" title="中文论坛"></a>中文论坛</h4><p><a href="http://www.foobar2000.com.cn" target="_blank" rel="external nofollow noopener noreferrer">http://www.foobar2000.com.cn</a></p><h4 id="Asion"><a href="#Asion" class="headerlink" title="Asion"></a>Asion</h4><p>博客：<a href="http://blog.sina.com.cn/go2spa" target="_blank" rel="external nofollow noopener noreferrer">http://blog.sina.com.cn/go2spa</a></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_Asion_1.5.1.jpg" alt="foobar2000 v1.5.1 汉化版"></p><p>Asion汉化版：</p><p>百度网盘：<a href="https://pan.baidu.com/s/1a1byjKHWsyKBXO0J4y-A1A#fb2k" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1a1byjKHWsyKBXO0J4y-A1A#fb2k</a> 提取码: <code>fb2k</code></p><h4 id="Linson"><a href="#Linson" class="headerlink" title="Linson"></a>Linson</h4><p>博客：<a href="http://blog.sina.com.cn/linson158" target="_blank" rel="external nofollow noopener noreferrer">http://blog.sina.com.cn/linson158</a></p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_Linson_1.3.12.jpg" alt="Foobar2000 V1.3.12 Linson修改版"></p><p>Linson完美 桌面歌词版：</p><p>百度网盘：<a href="http://pan.baidu.com/s/1ntlyx4H#path=/Foobar%202000" target="_blank" rel="external nofollow noopener noreferrer">http://pan.baidu.com/s/1ntlyx4H#path=/Foobar%202000</a></p><p>tedGo’s DarkOne字体：</p><p>百度网盘：<a href="http://pan.baidu.com/s/1o6iaTh4" target="_blank" rel="external nofollow noopener noreferrer">http://pan.baidu.com/s/1o6iaTh4</a></p><h4 id="松伟庆军"><a href="#松伟庆军" class="headerlink" title="松伟庆军"></a>松伟庆军</h4><ul><li><p>MKing</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_MKing5.0.jpg" alt="MKing5.0"></p><p>百度网盘：<a href="https://pan.baidu.com/s/1ntlDyR3" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1ntlDyR3</a></p></li><li><p>Touch</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_Touch.jpg" alt="Touch"></p><p>百度网盘：<a href="https://pan.baidu.com/s/1YoKsAdAOU1sdB8pG1-TX-g" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1YoKsAdAOU1sdB8pG1-TX-g</a></p></li><li><p>Milk White</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_Milk_Whit.jpg" alt="Milk White"></p><p>百度网盘：<a href="https://pan.baidu.com/s/1ntBf6el" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1ntBf6el</a></p></li><li><p>FB2K</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_FB2K.jpg" alt="FB2K"></p><p>百度网盘：<a href="https://pan.baidu.com/s/1c0ByjxI" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1c0ByjxI</a></p></li><li><p>foomori</p><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/FB2K_DreamaWake_foomori.jpg" alt="foomori"></p><p>百度网盘：<a href="https://pan.baidu.com/s/1sjDJvVB" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1sjDJvVB</a></p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;官方主页&quot;&gt;&lt;a href=&quot;#官方主页&quot; class=&quot;headerlink&quot; title=&quot;官方主页&quot;&gt;&lt;/a&gt;官方主页&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoa
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="av" scheme="https://www.jianwudao.com/categories/Tools/av/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="av" scheme="https://www.jianwudao.com/tags/av/"/>
+    
+      <category term="music" scheme="https://www.jianwudao.com/tags/music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TotalCommander</title>
+    <link href="https://www.jianwudao.com/tools/efficient/TotalCommander/"/>
+    <id>https://www.jianwudao.com/tools/efficient/TotalCommander/</id>
+    <published>2020-02-07T10:46:47.000Z</published>
+    <updated>2021-12-22T12:29:35.672Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="https://www.ghisler.com/images/top.logo.gif" alt="TotalCommander"></p><h3 id="官网"><a href="#官网" class="headerlink" title="官网"></a>官网</h3><p>English<br><a href="https://www.ghisler.com" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com</a></p><p>中文<br><a href="http://xbeta.info/tc/index.htm" target="_blank" rel="external nofollow noopener noreferrer">http://xbeta.info/tc/index.htm</a></p><h4 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h4><ul><li>Two file windows side by side</li><li>Multiple language and Unicode support</li><li>Enhanced search function</li><li>Compare files (now with editor) / synchronize directories</li><li>Quick View panel with bitmap display</li><li>ZIP, 7ZIP, ARJ, LZH, RAR, UC2, TAR, GZ, CAB, ACE archive handling + plugins</li><li>Built-in FTP client with FXP (server to server) and HTTP proxy support</li><li>Parallel port link, multi-rename tool</li><li>Tabbed interface, regular expressions, history+favorites buttons</li><li>Thumbnails view, custom columns, enhanced search</li><li>Compare editor, cursor in lister, separate trees, logging, enhanced overwrite dialog etc.</li><li>Unicode names almost everywhere, long names (&gt;259 characters), password manager for ftp and plugins, synchronize empty dirs, 64 bit context menu, quick file filter (Ctrl+S)</li><li>USB port connection via special direct transfer cable, partial branch view (Ctrl+Shift+B), and many improvements to ftp, synchronizing and other functions</li></ul><h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p>English<br><a href="https://www.ghisler.com/download.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com/download.htm</a></p><p>中文<br><a href="http://xbeta.info/tc/download.htm" target="_blank" rel="external nofollow noopener noreferrer">http://xbeta.info/tc/download.htm</a></p><p><strong>语言包</strong><br><a href="https://www.ghisler.com/languages.htm" target="_blank" rel="external nofollow noopener noreferrer">https://www.ghisler.com/languages.htm</a></p><h3 id="飞扬时空版"><a href="#飞扬时空版" class="headerlink" title="飞扬时空版"></a>飞扬时空版</h3><p><a href="http://flyonzone.ys168.com" target="_blank" rel="external nofollow noopener noreferrer">http://flyonzone.ys168.com</a></p><ul><li>百度网盘：<a href="https://yun.baidu.com/s/1cp9zuY" target="_blank" rel="external nofollow noopener noreferrer">https://yun.baidu.com/s/1cp9zuY</a></li><li>蓝奏云盘：<a href="https://www.lanzous.com/b405514" target="_blank" rel="external nofollow noopener noreferrer">https://www.lanzous.com/b405514</a></li></ul><h3 id="Total-Commander-Ultima-Prime"><a href="#Total-Commander-Ultima-Prime" class="headerlink" title="Total Commander Ultima Prime"></a>Total Commander Ultima Prime</h3><p><img src="https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg" data-original="http://tcup.pl/templates/tcup/images/logo.png" alt="Total Commander Ultima Prime"></p><p><a href="http://tcup.pl" target="_blank" rel="external nofollow noopener noreferrer">http://tcup.pl</a></p><p><a href="http://www.dayanzai.me/total-commander-ultima-prime.html" target="_blank" rel="external nofollow noopener noreferrer">大眼仔原文链接</a></p><ul><li>百度网盘：<a href="https://pan.baidu.com/s/1dxWeO4ByD8tcop-4w8yciA#yqyb" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1dxWeO4ByD8tcop-4w8yciA</a>&nbsp;&nbsp;提取码：<code>yqyb</code></li><li>百度网盘：<a href="https://pan.baidu.com/s/1mPl29iZ2QUFey1wRt7iT4A#6ttk" target="_blank" rel="external nofollow noopener noreferrer">https://pan.baidu.com/s/1mPl29iZ2QUFey1wRt7iT4A</a>&nbsp;&nbsp;提取码：<code>6ttk</code></li><li>城通网盘：<a href="https://t00y.com/file/3965089-416866125" target="_blank" rel="external nofollow noopener noreferrer">https://t00y.com/file/3965089-416866125</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://cdn.jsdelivr.net/gh/HaleShaw/cdn/img/lazyLoad.svg&quot; data-original=&quot;https://www.ghisler.com/images/top.logo.gif&quot; alt=&quot;Tot
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://www.jianwudao.com/categories/Tools/"/>
+    
+      <category term="effcient" scheme="https://www.jianwudao.com/categories/Tools/effcient/"/>
+    
+    
+      <category term="Soft" scheme="https://www.jianwudao.com/tags/Soft/"/>
+    
+      <category term="effcient" scheme="https://www.jianwudao.com/tags/effcient/"/>
+    
+      <category term="TC" scheme="https://www.jianwudao.com/tags/TC/"/>
+    
+      <category term="资源管理器" scheme="https://www.jianwudao.com/tags/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%99%A8/"/>
+    
+  </entry>
+  
+</feed>
