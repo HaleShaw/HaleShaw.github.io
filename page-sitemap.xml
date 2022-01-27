@@ -8,14 +8,14 @@
     </url>
     
     <url>
-        <loc>https://www.jianwudao.com/tags/</loc>
+        <loc>https://www.jianwudao.com/links/</loc>
         <lastmod>2021-12-22T12:29:35.681Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://www.jianwudao.com/links/</loc>
+        <loc>https://www.jianwudao.com/tags/</loc>
         <lastmod>2021-12-22T12:29:35.681Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -29,14 +29,14 @@
     </url>
     
     <url>
-        <loc>https://www.jianwudao.com/about/</loc>
+        <loc>https://www.jianwudao.com/categories/</loc>
         <lastmod>2021-12-22T12:29:35.680Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>https://www.jianwudao.com/categories/</loc>
+        <loc>https://www.jianwudao.com/about/</loc>
         <lastmod>2021-12-22T12:29:35.680Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
